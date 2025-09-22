@@ -1,0 +1,36 @@
+# 忽略Python缓存文件和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 忽略conda虚拟环境（根据你的环境名称调整）
+.conda/
+
+# 忽略IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略数据文件（如果有大型数据文件）
+*.tdms
+*.npy
+*.pkl
+*.h5
+
+# 忽略结果目录（可选，如果你不想跟踪生成的结果）
+results/
+
+# SSH keys
+/.ssh/
+~/.ssh/
+*.pem
+*.key
+id_*

@@ -1,0 +1,6 @@
+# config/paths.yaml
+raw_data_dir: "D:/Lab/test/2025.7.22"
+tdms_reader_time_output_dir: "D:/Lab/results/data/time"
+tdms_reader_frequency_output_dir: "D:/Lab/results/data/frequency"
+tdms_reader_frequency_one_output_dir: "D:/Lab/results/data/frequency_one"
+time_output_dir: "D:/Lab/results/time"
