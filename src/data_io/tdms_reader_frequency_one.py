@@ -25,29 +25,19 @@ import yaml
 import logging
 import re
 import gc
-import glob
+import globq
 from tqdm import tqdm  # 添加进度条
 
-# 设置日志
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('data_process')
 
 def load_config():
-    """加载YAML配置文件"""
-    try:
-        # 获取项目根目录
-        project_root = Path(__file__).resolve().parent.parent.parent
-        config_path = project_root / "config" / "paths.yaml"
-        
-        logger.info(f"尝试加载配置文件: {config_path}")
-        
-        with open(config_path, 'r', encoding='utf-8') as file:
-            config = yaml.safe_load(file)
-        
-        logger.info(f"配置文件加载成功: {config}")
-        return config
-    except Exception as e:
-        logger.error(f"加载配置文件时出错: {str(e)}")
-        return None
+    project_root = Path(__file__).resolve().parent.parent.parent
+    config_path = project_root / "config" / "paths.yaml"
+    with open(config_path, 'r', encoding='utf-8') as file:
+        config = yaml.safe_load(file)
+    logger.info(f"配置文件加载成功: {config_path}")
+    return config
+
 
 def perform_fft_analysis(data, sampling_rate=500000):
     """
@@ -115,10 +105,8 @@ def combine_folder_data(folder_path):
     
     # 确定通道列
     channel_columns = [col for col in all_dfs[0].columns if col.startswith('channel')]
-    
     # 合并数据
     combined_df = pd.concat(all_dfs, ignore_index=True)
-    
     # 只保留通道列（减少内存使用）
     combined_df = combined_df[channel_columns]
     
@@ -205,24 +193,12 @@ def process_folder(folder_path, output_base_dir, input_base_dir):
         logger.error(traceback.format_exc())
 
 def main():
-    """主函数"""
-    # 设置日志级别
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    
-    # 加载配置文件
     config = load_config()
-    
     if not config:
-        logger.warning("无法加载配置文件，使用默认路径")
-        config = {
-            "tdms_reader_time_output_dir": "D:/Lab/results/data/time",
-            "tdms_reader_frequency_one_output_dir": "D:/Lab/results/data/frequency"
-        }
+        logger.error("无法加载配置文件")
     
-    # 设置输入数据文件夹路径和输出文件夹路径
     input_folder = config["tdms_reader_time_output_dir"]
     output_base_dir = config["tdms_reader_frequency_one_output_dir"]
-    
     logger.info(f"输入数据目录: {input_folder}")
     logger.info(f"输出目录: {output_base_dir}")
     

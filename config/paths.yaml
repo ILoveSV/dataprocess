@@ -1,6 +1,8 @@
-# config/paths.yaml
-raw_data_dir: "D:/Lab/test/2025.7.22"
-tdms_reader_time_output_dir: "D:/Lab/results/data/time"
-tdms_reader_frequency_output_dir: "D:/Lab/results/data/frequency"
-tdms_reader_frequency_one_output_dir: "D:/Lab/results/data/frequency_one"
-time_output_dir: "D:/Lab/results/time"
+date: "2025.6.20"
+work_dir: "D:/Lab"
+
+raw_data_dir: "D:/Lab/raw/2025.6.20"
+tdms_reader_time_output_dir: "D:/Lab/process/2025.6.20/time"
+tdms_reader_frequency_output_dir: "D:/Lab/process/2025.6.20/frequency"
+tdms_reader_frequency_average_output_dir: "D:/Lab/process/2025.6.20/frequency_ave"
+database_path: "D:/Lab/database/lab_data.db"

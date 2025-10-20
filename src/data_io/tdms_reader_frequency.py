@@ -1,23 +1,3 @@
-#====================================================================
-# File Name:tdms_reader_frequency.py
-# Project Name:dataprocess
-# Description:
-# 1、读取时域CSV文件：遍历主文件夹下的子文件夹
-# 2、对每个通道的数据进行FFT分析，得到频率、幅度和相位信息
-# 3、生成csv文件，文件名格式为FFT_原文件名
-# 4、csv文件结构：
-#  列名	       数据类型	                   描述	                         示例
-#  frequency	  数值 (float)	        频率值，单位Hz	                 1000.0
-#  amplitude1	数值 (float)	    通道1的幅度数据	                0.12345
-#  phase1	    数值 (float)	     通道1的相位数据，单位弧度	        -1.23456
-#  amplitude2	数值 (float)	    通道2的幅度数据	                0.23456
-#  phase2	    数值 (float)	     通道2的相位数据，单位弧度	         0.34567
-#  ...	        ...	                       ...	                          ...
-#  amplitudeN	数值 (float)	通道N的幅度数据，N最大为16	          2.34567
-#  phaseN	    数值 (float)	 通道N的相位数据，单位弧度	          -0.45678
-# 5、采样率：500kHz
-#====================================================================
-
 import numpy as np
 import pandas as pd
 import os
@@ -26,35 +6,27 @@ import yaml
 import logging
 import re
 import gc  # 垃圾回收
+from concurrent.futures import ProcessPoolExecutor
+import multiprocessing
+import json
 
-# 设置日志
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('data_process')
 
 def load_config():
-    """加载YAML配置文件"""
-    try:
-        # 获取项目根目录
-        project_root = Path(__file__).resolve().parent.parent.parent
-        config_path = project_root / "config" / "paths.yaml"
-        
-        logger.info(f"尝试加载配置文件: {config_path}")
-        
-        with open(config_path, 'r', encoding='utf-8') as file:
-            config = yaml.safe_load(file)
-        
-        logger.info(f"配置文件加载成功: {config}")
-        return config
-    except Exception as e:
-        logger.error(f"加载配置文件时出错: {str(e)}")
-        return None
+    project_root = Path(__file__).resolve().parent.parent.parent
+    config_path = project_root / "config" / "paths.yaml"
+    with open(config_path, 'r', encoding='utf-8') as file:
+        config = yaml.safe_load(file)
+    logger.info(f"配置文件加载成功: {config_path}")
+    return config
 
-def perform_fft_analysis(data, sampling_rate=500000):
+def perform_fft_analysis(data, sampling_rate=200000):  # 修改为正确的200kHz采样率
     """
     对数据进行FFT分析，返回频率、幅度和相位
     
     参数:
     data: 输入数据数组
-    sampling_rate: 采样率，默认为500kHz
+    sampling_rate: 采样率，默认为200kHz
     
     返回:
     freqs: 频率数组
@@ -82,7 +54,18 @@ def process_csv_file(csv_path, output_base_dir, input_base_dir):
     try:
         logger.info(f"开始处理文件: {csv_path}")
         
-        # 读取整个CSV文件（不再分块）
+        # 读取对应的元数据文件获取真实采样率
+        metadata_path = csv_path.replace('.csv', '_metadata.json')
+        if os.path.exists(metadata_path):
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            sampling_rate = metadata['sampling_rate_hz']  # 从元数据获取真实采样率
+            logger.info(f"使用元数据采样率: {sampling_rate} Hz")
+        else:
+            logger.warning(f"未找到元数据文件 {metadata_path}，使用默认采样率200kHz")
+            sampling_rate = 200000  # 默认采样率
+        
+        # 读取整个CSV文件
         df = pd.read_csv(csv_path)
         logger.info(f"成功读取文件: {os.path.basename(csv_path)}, 数据长度: {len(df)}")
         
@@ -107,7 +90,7 @@ def process_csv_file(csv_path, output_base_dir, input_base_dir):
             channel_data = df[channel].values
             
             # 执行FFT分析
-            freqs, amplitude, phase = perform_fft_analysis(channel_data)
+            freqs, amplitude, phase = perform_fft_analysis(channel_data, sampling_rate)
             
             # 如果是第一个通道，保存频率数组
             if not output_data:
@@ -155,33 +138,31 @@ def process_csv_file(csv_path, output_base_dir, input_base_dir):
         import traceback
         logger.error(traceback.format_exc())
 
+def process_csv_file_wrapper(args):
+    """包装函数，用于多进程调用"""
+    csv_path, output_base_dir, input_base_dir = args
+    # 在子进程中重新配置日志
+    from src.utils.logging_utils import setup_logging
+    import os
+    project_root = Path(__file__).resolve().parent.parent.parent
+    log_config_path = project_root / "config" / "logging.yaml"
+    if os.path.exists(log_config_path):
+        setup_logging(log_config_path)
+    return process_csv_file(csv_path, output_base_dir, input_base_dir)
+
 def process_csv_files_parallel(csv_files, output_base_dir, input_base_dir):
-    """处理CSV文件（可选择并行或串行）"""
-    # 根据文件大小决定处理方式
-    large_file_threshold = 500 * 1024 * 1024  # 500MB
-    
-    for csv_file in csv_files:
-        file_size = os.path.getsize(csv_file)
-        
-        if file_size > large_file_threshold:
-            logger.warning(f"文件 {os.path.basename(csv_file)} 过大 ({file_size/1024/1024:.2f}MB), 可能需要较长时间处理")
-        
-        process_csv_file(csv_file, output_base_dir, input_base_dir)
+    """并行处理CSV文件"""
+    max_workers = multiprocessing.cpu_count()
+    params = [(csv_file, output_base_dir, input_base_dir) for csv_file in csv_files]
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
+        list(executor.map(process_csv_file_wrapper, params))
 
 def main():
-    """主函数"""
-    # 设置日志级别
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    
-    # 加载配置文件
     config = load_config()
     
     if not config:
-        logger.warning("无法加载配置文件，使用默认路径")
-        config = {
-            "tdms_reader_time_output_dir": "D:/Lab/results/data/time",
-            "tdms_reader_frequency_output_dir": "D:/Lab/results/data/frequency"
-        }
+        logger.error("无法加载配置文件")
+        return
     
     # 设置输入数据文件夹路径和输出文件夹路径
     input_folder = config["tdms_reader_time_output_dir"]
@@ -204,7 +185,7 @@ def main():
     logger.info(f"找到 {len(csv_files)} 个CSV文件")
     
     # 处理文件
-    logger.info("开始处理文件...")
+    logger.info("开始并行处理文件...")
     process_csv_files_parallel(csv_files, output_base_dir, input_folder)
     
     logger.info("所有文件处理完成")

@@ -13,19 +13,10 @@ import os
 from datetime import datetime
 
 def setup_logging(default_path='config/logging.yaml', default_level=logging.INFO):
-    """
-    设置日志配置
-    
-    Args:
-        default_path: 日志配置文件路径
-        default_level: 默认日志级别
-    """
-    # 确保日志目录存在
     log_dir = 'logs'
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     
-    # 尝试从YAML文件加载日志配置
     config_path = default_path
     if os.path.exists(config_path):
         try:
@@ -37,7 +28,7 @@ def setup_logging(default_path='config/logging.yaml', default_level=logging.INFO
                 if 'filename' in handler_config:
                     # 在文件名中插入日期
                     base, ext = os.path.splitext(handler_config['filename'])
-                    dated_filename = f"{base}_{datetime.now().strftime('%Y%m%d')}{ext}"
+                    dated_filename = f"{base}_{datetime.now().strftime('%Y-%m-%d_%H')}{ext}"
                     handler_config['filename'] = os.path.join(log_dir, dated_filename)
             
             logging.config.dictConfig(config)
@@ -45,7 +36,7 @@ def setup_logging(default_path='config/logging.yaml', default_level=logging.INFO
             print(f"加载日志配置文件失败: {e}")
             logging.basicConfig(level=default_level)
     else:
-        # 使用默认配置
+        print(f"使用默认配置")
         logging.basicConfig(
             level=default_level,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -55,4 +46,4 @@ def setup_logging(default_path='config/logging.yaml', default_level=logging.INFO
             ]
         )
     
-    return logging.getLogger(__name__)
+    return logging.getLogger('data_process')
