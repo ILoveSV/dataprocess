@@ -12,7 +12,7 @@ python -m src.main load(此处为输入的argument)
 配置地址文件
 rawpath.yaml将日期改为相应的文件名，如2025.11.11采集数据保存在2025.11.11文件夹下，即可读取该文件夹的内容
 
-## 目录
+## 目录结构
 
 project_root/
 │
@@ -23,46 +23,23 @@ project_root/
 │   └── parameters.yaml    # 分析参数配置
 │
 ├── src/                   # 源代码目录
-│   ├── core/              # 核心功能模块                （暂不使用）
-│   │   ├── data_manager.py   # 统一数据管理接口
-│   │   ├── database.py       # 数据库操作封装
-│   │   └── experiment.py     # 实验管理
-│   │
 │   ├── data_io/           # 数据输入输出模块
-│   │   ├── sql_tdms_reader.py                  # 不使用，sql存储
 │   │   ├── tdms_reader_time.py                 # 1.生成时间-电压CSV文件
-│   │   ├── tdms_reader_frequency_average.py    # 2.将每个CSV文件进行FFT变换
-│   │   ├── tdms_reader_frequency_one.py        # 不使用
-│   │   └── tdms_reader_frequency.py            # 3.平均所有数据输出一个FFT文件
-│   │
-│   ├── preprocessing/     # 数据预处理模块               （暂不使用）
-│   │   ├── background_subtraction.py
-│   │   ├── signal_filtering.py
-│   │   └── dc_removal.py
-│   │
-│   ├── analysis/          # 分析模块                     （暂不使用）
-│   │   ├── time_domain.py
-│   │   ├── frequency_domain.py
-│   │   ├── feature_extraction.py
-│   │   └── peak_detection.py
+│   │   ├── tdms_reader_frequency.py            # 2.将每个CSV文件进行FFT变换
+│   │   └── tdms_reader_frequency_average.py    # 3.平均所有数据输出一个FFT文件
 │   │
 │   ├── visualization/     # 可视化模块
-│   │   ├── time_series_plots.py
-│   │   ├── frequency_plots.py
-│   │   ├── dft_images.py
-│   │   └── summary_plots.py
+│   │   ├── time_series_plots.py                # 时域分析可视化
+│   │   └── frequency_plots.py                  # 频域分析可视化
 │   │
 │   ├── utils/             # 工具模块
-│   │   ├── file_utils.py                        # 路径配置文件生成
-│   │   └── logging_utils.py                     # 启动日志模块
+│   │   ├── file_utils.py                       # 路径配置文件生成
+│   │   └── logging_utils.py                    # 启动日志模块
 │   │
-│   └── main.py           # 主程序入口
+│   └── main.py            # 主程序入口
 │
-├── data/                 # 数据目录（新增）
-│   ├── raw/              # 原始数据
-│   ├── processed/        # 处理后的数据
-│   └── models/           # 训练好的模型
+├── logs/                  # 日志存放文件夹
 │
-├── logs/                 # 日志存放文件夹
+├── REQUIREMENTS.md        # 需求文档和历史记录
 │
-└── requirements.txt      # 项目依赖
+└── requirements.txt       # 项目依赖
