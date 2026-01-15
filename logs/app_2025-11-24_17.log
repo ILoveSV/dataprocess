@@ -1,0 +1,1192 @@
+2025-11-24 17:00:05-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162903.533095.csv
+2025-11-24 17:00:05-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162906.736537.csv
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162909.933040.csv
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162913.134751.csv
+2025-11-24 17:00:06-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:07-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162916.334492.csv
+2025-11-24 17:00:07-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162919.534518.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162922.737775.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162925.935060.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162929.135450.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162932.334040.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162935.537338.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162938.734941.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162941.936832.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162945.132579.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162948.333959.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162951.535988.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162954.733310.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111162957.934569.csv
+2025-11-24 17:00:08-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.11/time\GROUP2\20251111163001.136524.csv
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111163001.136524.csv, 数据长度: 100000
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111163001.136524.csv, 通道数: 8
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162903.533095.csv, 数据长度: 1600000
+2025-11-24 17:00:09-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162903.533095.csv, 通道数: 8
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162909.933040.csv, 数据长度: 1600000
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162909.933040.csv, 通道数: 8
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162906.736537.csv, 数据长度: 1600000
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162906.736537.csv, 通道数: 8
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162913.134751.csv, 数据长度: 1600000
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162913.134751.csv, 通道数: 8
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162916.334492.csv, 数据长度: 1600000
+2025-11-24 17:00:10-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162916.334492.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:147]-  已写入 49999/49999 行FFT数据
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111163001.136524.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111163001.136524.csv
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162925.935060.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162925.935060.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162932.334040.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162932.334040.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162922.737775.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162922.737775.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162919.534518.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162941.936832.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162919.534518.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162938.734941.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162938.734941.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162935.537338.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162929.135450.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162935.537338.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162929.135450.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162957.934569.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162945.132579.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162957.934569.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162945.132579.csv, 通道数: 8
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162951.535988.csv, 数据长度: 1600000
+2025-11-24 17:00:11-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162951.535988.csv, 通道数: 8
+2025-11-24 17:00:12-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162954.733310.csv, 数据长度: 1600000
+2025-11-24 17:00:12-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162954.733310.csv, 通道数: 8
+2025-11-24 17:00:12-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251111162948.333959.csv, 数据长度: 1600000
+2025-11-24 17:00:12-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251111162948.333959.csv, 通道数: 8
+2025-11-24 17:00:15-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:15-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:15-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:16-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:16-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:20-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:21-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:22-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:22-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:22-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:23-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:23-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:23-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:24-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:25-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:25-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:29-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:30-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:31-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:32-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:33-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:34-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:34-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:35-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:36-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:37-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:38-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:39-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162903.533095.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162903.533095.csv
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162909.933040.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162909.933040.csv
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162913.134751.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162913.134751.csv
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:40-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162906.736537.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162906.736537.csv
+2025-11-24 17:00:41-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:41-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162916.334492.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162916.334492.csv
+2025-11-24 17:00:41-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:41-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162925.935060.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162925.935060.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162932.334040.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162932.334040.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162922.737775.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162922.737775.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162941.936832.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162941.936832.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162951.535988.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162951.535988.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162929.135450.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162929.135450.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162935.537338.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162935.537338.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162919.534518.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162919.534518.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162938.734941.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162938.734941.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162957.934569.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162957.934569.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162954.733310.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162954.733310.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162948.333959.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162948.333959.csv
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:00:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251111162945.132579.csv -> D:/Lab/process/2025.11.11/frequency\GROUP2\FFT_20251111162945.132579.csv
+2025-11-24 17:00:48-INFO-[tdms_reader_frequency_average.py:178]-开始处理文件夹 GROUP2, 共 49 个文件
+2025-11-24 17:00:48-INFO-[tdms_reader_frequency_average.py:178]-开始处理文件夹 GROUP1, 共 31 个文件
+2025-11-24 17:01:31-WARNING-[tdms_reader_frequency_average.py:99]-文件 FFT_20251111161810.932971.csv 结构不匹配，跳过
+2025-11-24 17:01:42-INFO-[tdms_reader_frequency_average.py:159]-已保存平均FFT数据: D:/Lab/process/2025.11.11/frequency_ave\GROUP1\average_fft_GROUP1_30files.csv
+2025-11-24 17:01:54-WARNING-[tdms_reader_frequency_average.py:99]-文件 FFT_20251111163001.136524.csv 结构不匹配，跳过
+2025-11-24 17:02:03-INFO-[tdms_reader_frequency_average.py:159]-已保存平均FFT数据: D:/Lab/process/2025.11.11/frequency_ave\GROUP2\average_fft_GROUP2_48files.csv
+2025-11-24 17:07:03-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-24 17:07:03-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:17:32-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-24 17:17:32-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:17:32-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:17:32-INFO-[frequency_plots.py:796]-FFT输入目录: D:/Lab/process/2025.11.11/frequency_ave
+2025-11-24 17:17:32-INFO-[frequency_plots.py:797]-FFT输出目录: D:/Lab/results/2025.11.11/frequency
+2025-11-24 17:17:32-INFO-[frequency_plots.py:809]-找到 2 个平均FFT CSV文件
+2025-11-24 17:17:32-INFO-[frequency_plots.py:819]-找到 2 个FFT组: ['GROUP1', 'GROUP2']
+2025-11-24 17:17:32-INFO-[frequency_plots.py:827]-分析FFT组 GROUP1, 包含 1 个文件
+2025-11-24 17:17:32-INFO-[frequency_plots.py:719]-开始分析FFT组，包含 1 个文件
+2025-11-24 17:17:32-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.11\frequency_ave\GROUP1\average_fft_GROUP1_30files.csv
+2025-11-24 17:17:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-24 17:17:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-24 17:17:34-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-24 17:17:36-INFO-[frequency_plots.py:230]-组幅度谱对比图已保存: D:\Lab\results\2025.11.11\frequency\GROUP1\group_amplitude_spectrum.png
+2025-11-24 17:17:36-INFO-[frequency_plots.py:240]-开始绘制组相位分析图
+2025-11-24 17:17:43-INFO-[frequency_plots.py:298]-组相位分析图已保存: D:\Lab\results\2025.11.11\frequency\GROUP1\group_phase_analysis.png
+2025-11-24 17:17:43-INFO-[frequency_plots.py:308]-开始绘制组主导频率分布图
+2025-11-24 17:17:44-INFO-[frequency_plots.py:366]-组主导频率分布图已保存: D:\Lab\results\2025.11.11\frequency\GROUP1\group_dominant_frequencies.png
+2025-11-24 17:17:44-INFO-[frequency_plots.py:379]-开始绘制组频率稳定性分析图
+2025-11-24 17:17:44-WARNING-[frequency_plots.py:382]-需要至少2个文件进行稳定性分析
+2025-11-24 17:17:44-INFO-[frequency_plots.py:472]-开始绘制组特征频率提取图
+2025-11-24 17:17:45-INFO-[frequency_plots.py:524]-组特征频率提取图已保存: D:\Lab\results\2025.11.11\frequency\GROUP1\group_feature_frequencies.png
+2025-11-24 17:17:45-INFO-[frequency_plots.py:584]-开始生成组分析报告
+2025-11-24 17:17:45-INFO-[frequency_plots.py:706]-组分析报告已保存: D:\Lab\results\2025.11.11\frequency\GROUP1\group_analysis_report.json
+2025-11-24 17:17:45-INFO-[frequency_plots.py:767]-FFT组分析完成: GROUP1
+2025-11-24 17:17:45-INFO-[frequency_plots.py:827]-分析FFT组 GROUP2, 包含 1 个文件
+2025-11-24 17:17:45-INFO-[frequency_plots.py:719]-开始分析FFT组，包含 1 个文件
+2025-11-24 17:17:45-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.11\frequency_ave\GROUP2\average_fft_GROUP2_48files.csv
+2025-11-24 17:17:47-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-24 17:17:47-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-24 17:17:47-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-24 17:17:49-INFO-[frequency_plots.py:230]-组幅度谱对比图已保存: D:\Lab\results\2025.11.11\frequency\GROUP2\group_amplitude_spectrum.png
+2025-11-24 17:17:49-INFO-[frequency_plots.py:240]-开始绘制组相位分析图
+2025-11-24 17:17:55-INFO-[frequency_plots.py:298]-组相位分析图已保存: D:\Lab\results\2025.11.11\frequency\GROUP2\group_phase_analysis.png
+2025-11-24 17:17:55-INFO-[frequency_plots.py:308]-开始绘制组主导频率分布图
+2025-11-24 17:17:56-INFO-[frequency_plots.py:366]-组主导频率分布图已保存: D:\Lab\results\2025.11.11\frequency\GROUP2\group_dominant_frequencies.png
+2025-11-24 17:17:56-INFO-[frequency_plots.py:379]-开始绘制组频率稳定性分析图
+2025-11-24 17:17:56-WARNING-[frequency_plots.py:382]-需要至少2个文件进行稳定性分析
+2025-11-24 17:17:56-INFO-[frequency_plots.py:472]-开始绘制组特征频率提取图
+2025-11-24 17:17:57-INFO-[frequency_plots.py:524]-组特征频率提取图已保存: D:\Lab\results\2025.11.11\frequency\GROUP2\group_feature_frequencies.png
+2025-11-24 17:17:58-INFO-[frequency_plots.py:584]-开始生成组分析报告
+2025-11-24 17:17:58-INFO-[frequency_plots.py:706]-组分析报告已保存: D:\Lab\results\2025.11.11\frequency\GROUP2\group_analysis_report.json
+2025-11-24 17:17:58-INFO-[frequency_plots.py:767]-FFT组分析完成: GROUP2
+2025-11-24 17:17:58-INFO-[frequency_plots.py:857]-FFT分析完成! 成功分析 2 个组
+2025-11-24 17:17:58-INFO-[frequency_plots.py:858]-总体报告: D:\Lab\results\2025.11.11\frequency\fft_analysis_summary.json
+2025-11-24 17:17:58-INFO-[main.py:60]------------------------------执行完成-----------------------------
+2025-11-24 17:22:15-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-24 17:22:15-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:22:15-INFO-[tdms_reader_frequency.py:41]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:22:15-INFO-[tdms_reader_frequency.py:188]-输入数据目录: D:/Lab/process/2025.11.21/time
+2025-11-24 17:22:15-INFO-[tdms_reader_frequency.py:189]-输出目录: D:/Lab/process/2025.11.21/frequency
+2025-11-24 17:22:15-INFO-[tdms_reader_frequency.py:202]-找到 20 个CSV文件
+2025-11-24 17:22:15-INFO-[tdms_reader_frequency.py:205]-开始并行处理文件...
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154856.015181.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154859.213977.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154902.414584.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154905.615133.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154908.815700.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154912.017282.csv
+2025-11-24 17:22:19-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154915.217811.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154918.416524.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154921.615828.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154924.816766.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154928.019051.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154931.218087.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154934.417224.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154937.619380.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154944.019139.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154950.419948.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154947.221591.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154940.817556.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154953.617356.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.21/time\plasma-discharge\20251121154956.816886.csv
+2025-11-24 17:22:20-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154856.015181.csv, 数据长度: 1600000
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154856.015181.csv, 通道数: 8
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154859.213977.csv, 数据长度: 1600000
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154859.213977.csv, 通道数: 8
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154902.414584.csv, 数据长度: 1600000
+2025-11-24 17:22:21-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154902.414584.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154905.615133.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154905.615133.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154956.816886.csv, 数据长度: 1300000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154956.816886.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154912.017282.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154912.017282.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154908.815700.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154908.815700.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154918.416524.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154918.416524.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154915.217811.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154915.217811.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154924.816766.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154924.816766.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154921.615828.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154921.615828.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154928.019051.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154928.019051.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154934.417224.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154934.417224.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154931.218087.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154931.218087.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154944.019139.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154944.019139.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154940.817556.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154940.817556.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154937.619380.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154937.619380.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154947.221591.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154947.221591.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154950.419948.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154950.419948.csv, 通道数: 8
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251121154953.617356.csv, 数据长度: 1600000
+2025-11-24 17:22:22-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251121154953.617356.csv, 通道数: 8
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/649999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:28-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:22:30-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:30-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:30-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:30-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/649999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:31-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/649999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:33-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:22:35-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:35-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:35-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:35-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/649999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:36-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/649999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:22:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/649999 行FFT数据
+2025-11-24 17:22:41-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:22:42-INFO-[tdms_reader_frequency.py:147]-  已写入 649999/649999 行FFT数据
+2025-11-24 17:22:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154956.816886.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154956.816886.csv
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:43-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154856.015181.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154856.015181.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154859.213977.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154859.213977.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154902.414584.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154902.414584.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154905.615133.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154905.615133.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154912.017282.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154912.017282.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154918.416524.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154918.416524.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154908.815700.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154908.815700.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154921.615828.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154921.615828.csv
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:45-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154924.816766.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154924.816766.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154950.419948.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154950.419948.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154940.817556.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154940.817556.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154928.019051.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154928.019051.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154915.217811.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154915.217811.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154934.417224.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154934.417224.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154947.221591.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154947.221591.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154937.619380.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154937.619380.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154931.218087.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154931.218087.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154944.019139.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154944.019139.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:149]-已处理: 20251121154953.617356.csv -> D:/Lab/process/2025.11.21/frequency\plasma-discharge\FFT_20251121154953.617356.csv
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency.py:208]-所有文件处理完成
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:42]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:196]-FFT数据输入目录: D:/Lab/process/2025.11.21/frequency
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:197]-平均FFT输出目录: D:/Lab/process/2025.11.21/frequency_ave
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:210]-找到 20 个FFT CSV文件
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:63]-按文件夹分组完成，找到 1 个文件夹组
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:65]-  文件夹 plasma-discharge: 20 个文件
+2025-11-24 17:22:46-INFO-[tdms_reader_frequency_average.py:225]-使用 1 个进程并行处理
+2025-11-24 17:22:48-INFO-[tdms_reader_frequency_average.py:178]-开始处理文件夹 plasma-discharge, 共 20 个文件
+2025-11-24 17:23:13-WARNING-[tdms_reader_frequency_average.py:99]-文件 FFT_20251121154956.816886.csv 结构不匹配，跳过
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:159]-已保存平均FFT数据: D:/Lab/process/2025.11.21/frequency_ave\plasma-discharge\average_fft_plasma-discharge_19files.csv
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:234]-处理完成: 成功 1/1 个文件夹组
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:240]-========================FFT数据平均处理汇总报告===========================
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:241]-处理时间: 2025-11-24 17:23:22
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:242]-成功处理的文件数量: 1
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:243]-处理文件列表:
+2025-11-24 17:23:22-INFO-[tdms_reader_frequency_average.py:246]- 1. average_fft_plasma-discharge_19files.csv
+2025-11-24 17:23:22-INFO-[time_series_plots.py:36]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:23:22-INFO-[time_series_plots.py:662]-输入目录: D:/Lab/process/2025.11.21/time
+2025-11-24 17:23:22-INFO-[time_series_plots.py:663]-输出目录: D:/Lab/results/2025.11.21/time
+2025-11-24 17:23:22-INFO-[time_series_plots.py:675]-找到 20 个CSV文件
+2025-11-24 17:23:22-INFO-[time_series_plots.py:685]-找到 1 个组: ['plasma-discharge']
+2025-11-24 17:23:22-INFO-[time_series_plots.py:690]-分析组 plasma-discharge, 包含 20 个文件
+2025-11-24 17:23:22-INFO-[time_series_plots.py:588]-开始分析组，包含 20 个文件
+2025-11-24 17:23:22-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154856.015181.csv
+2025-11-24 17:23:23-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:25-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154859.213977.csv
+2025-11-24 17:23:25-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:27-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154902.414584.csv
+2025-11-24 17:23:28-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:29-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154905.615133.csv
+2025-11-24 17:23:30-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:32-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154908.815700.csv
+2025-11-24 17:23:33-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:34-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154912.017282.csv
+2025-11-24 17:23:35-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:36-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154915.217811.csv
+2025-11-24 17:23:37-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:39-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154918.416524.csv
+2025-11-24 17:23:40-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:41-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154921.615828.csv
+2025-11-24 17:23:42-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:43-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154924.816766.csv
+2025-11-24 17:23:44-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:46-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154928.019051.csv
+2025-11-24 17:23:47-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:48-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154931.218087.csv
+2025-11-24 17:23:49-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:51-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154934.417224.csv
+2025-11-24 17:23:52-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:53-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154937.619380.csv
+2025-11-24 17:23:54-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:56-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154940.817556.csv
+2025-11-24 17:23:56-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:23:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154944.019139.csv
+2025-11-24 17:23:59-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:24:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154947.221591.csv
+2025-11-24 17:24:01-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:24:03-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154950.419948.csv
+2025-11-24 17:24:04-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:24:05-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154953.617356.csv
+2025-11-24 17:24:06-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:24:08-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.21\time\plasma-discharge\20251121154956.816886.csv
+2025-11-24 17:24:08-INFO-[time_series_plots.py:78]-成功读取数据: 1300000 行, 8 个通道
+2025-11-24 17:24:10-INFO-[time_series_plots.py:178]-开始绘制组时序图
+2025-11-24 17:24:12-INFO-[time_series_plots.py:251]-组时序图已保存: D:\Lab\results\2025.11.21\time\plasma-discharge\group_time_series.png
+2025-11-24 17:24:12-INFO-[time_series_plots.py:261]-开始绘制组统计量对比图
+2025-11-24 17:24:14-INFO-[time_series_plots.py:342]-组统计量对比图已保存: D:\Lab\results\2025.11.21\time\plasma-discharge\group_statistics_comparison.png
+2025-11-24 17:24:14-INFO-[time_series_plots.py:352]-开始绘制组稳定性分析图
+2025-11-24 17:24:15-INFO-[time_series_plots.py:448]-组稳定性分析图已保存: D:\Lab\results\2025.11.21\time\plasma-discharge\group_stability_analysis.png
+2025-11-24 17:24:15-INFO-[time_series_plots.py:458]-开始生成组分析报告
+2025-11-24 17:24:15-INFO-[time_series_plots.py:575]-组分析报告已保存: D:\Lab\results\2025.11.21\time\plasma-discharge\group_analysis_report.json
+2025-11-24 17:24:15-INFO-[time_series_plots.py:636]-组分析完成: plasma-discharge
+2025-11-24 17:24:15-INFO-[time_series_plots.py:719]-时域分析完成! 成功分析 1 个组
+2025-11-24 17:24:15-INFO-[time_series_plots.py:720]-总体报告: D:\Lab\results\2025.11.21\time\analysis_summary.json
+2025-11-24 17:24:15-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:24:15-INFO-[frequency_plots.py:796]-FFT输入目录: D:/Lab/process/2025.11.21/frequency_ave
+2025-11-24 17:24:15-INFO-[frequency_plots.py:797]-FFT输出目录: D:/Lab/results/2025.11.21/frequency
+2025-11-24 17:24:15-INFO-[frequency_plots.py:809]-找到 1 个平均FFT CSV文件
+2025-11-24 17:24:15-INFO-[frequency_plots.py:819]-找到 1 个FFT组: ['plasma-discharge']
+2025-11-24 17:24:15-INFO-[frequency_plots.py:827]-分析FFT组 plasma-discharge, 包含 1 个文件
+2025-11-24 17:24:15-INFO-[frequency_plots.py:719]-开始分析FFT组，包含 1 个文件
+2025-11-24 17:24:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.21\frequency_ave\plasma-discharge\average_fft_plasma-discharge_19files.csv
+2025-11-24 17:24:16-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-24 17:24:16-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-24 17:24:16-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-24 17:24:19-INFO-[frequency_plots.py:230]-组幅度谱对比图已保存: D:\Lab\results\2025.11.21\frequency\plasma-discharge\group_amplitude_spectrum.png
+2025-11-24 17:24:19-INFO-[frequency_plots.py:240]-开始绘制组相位分析图
+2025-11-24 17:24:24-INFO-[frequency_plots.py:298]-组相位分析图已保存: D:\Lab\results\2025.11.21\frequency\plasma-discharge\group_phase_analysis.png
+2025-11-24 17:24:24-INFO-[frequency_plots.py:308]-开始绘制组主导频率分布图
+2025-11-24 17:24:25-INFO-[frequency_plots.py:366]-组主导频率分布图已保存: D:\Lab\results\2025.11.21\frequency\plasma-discharge\group_dominant_frequencies.png
+2025-11-24 17:24:25-INFO-[frequency_plots.py:379]-开始绘制组频率稳定性分析图
+2025-11-24 17:24:25-WARNING-[frequency_plots.py:382]-需要至少2个文件进行稳定性分析
+2025-11-24 17:24:25-INFO-[frequency_plots.py:472]-开始绘制组特征频率提取图
+2025-11-24 17:24:26-INFO-[frequency_plots.py:524]-组特征频率提取图已保存: D:\Lab\results\2025.11.21\frequency\plasma-discharge\group_feature_frequencies.png
+2025-11-24 17:24:26-INFO-[frequency_plots.py:584]-开始生成组分析报告
+2025-11-24 17:24:26-INFO-[frequency_plots.py:706]-组分析报告已保存: D:\Lab\results\2025.11.21\frequency\plasma-discharge\group_analysis_report.json
+2025-11-24 17:24:26-INFO-[frequency_plots.py:767]-FFT组分析完成: plasma-discharge
+2025-11-24 17:24:26-INFO-[frequency_plots.py:857]-FFT分析完成! 成功分析 1 个组
+2025-11-24 17:24:26-INFO-[frequency_plots.py:858]-总体报告: D:\Lab\results\2025.11.21\frequency\fft_analysis_summary.json
+2025-11-24 17:24:26-INFO-[main.py:60]------------------------------执行完成-----------------------------
+2025-11-24 17:24:52-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-24 17:24:52-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:24:52-INFO-[tdms_reader_frequency.py:41]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:24:52-INFO-[tdms_reader_frequency.py:188]-输入数据目录: D:/Lab/process/2025.11.24/time
+2025-11-24 17:24:52-INFO-[tdms_reader_frequency.py:189]-输出目录: D:/Lab/process/2025.11.24/frequency
+2025-11-24 17:24:52-INFO-[tdms_reader_frequency.py:202]-找到 31 个CSV文件
+2025-11-24 17:24:52-INFO-[tdms_reader_frequency.py:205]-开始并行处理文件...
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155425.109285.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155428.308953.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155431.509039.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155434.708630.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155437.909330.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155441.108611.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155444.307134.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155447.506790.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155450.708379.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155453.907783.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155457.108864.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155500.309022.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155503.508866.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155506.709558.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155509.908605.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155513.109141.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155516.310143.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155519.510852.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155522.712351.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155525.909389.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155529.111850.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155532.310142.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155535.510158.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155538.714568.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155545.113352.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155541.912428.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155551.514500.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155548.314151.csv
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:24:57-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155425.109285.csv, 数据长度: 1600000
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155425.109285.csv, 通道数: 8
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155428.308953.csv, 数据长度: 1600000
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155428.308953.csv, 通道数: 8
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155437.909330.csv, 数据长度: 1600000
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155437.909330.csv, 通道数: 8
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155434.708630.csv, 数据长度: 1600000
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155434.708630.csv, 通道数: 8
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155431.509039.csv, 数据长度: 1600000
+2025-11-24 17:25:00-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155431.509039.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155444.307134.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155444.307134.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155441.108611.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155441.108611.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155450.708379.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155450.708379.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155447.506790.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155447.506790.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155457.108864.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155457.108864.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155500.309022.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155516.310143.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155500.309022.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155516.310143.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155453.907783.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155503.508866.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155506.709558.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155506.709558.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155503.508866.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155453.907783.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155509.908605.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155509.908605.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155522.712351.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155522.712351.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155535.510158.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155535.510158.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155513.109141.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155513.109141.csv, 通道数: 8
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155529.111850.csv, 数据长度: 1600000
+2025-11-24 17:25:01-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155529.111850.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155545.113352.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155519.510852.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155551.514500.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155545.113352.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155525.909389.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155551.514500.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155519.510852.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155525.909389.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155548.314151.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155538.714568.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155541.912428.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155538.714568.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155532.310142.csv, 数据长度: 1600000
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155532.310142.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155541.912428.csv, 通道数: 8
+2025-11-24 17:25:02-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155548.314151.csv, 通道数: 8
+2025-11-24 17:25:07-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:07-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:08-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:09-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:10-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:11-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:11-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:11-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:12-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:13-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:14-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:14-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:14-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:15-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:16-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:17-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:17-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:17-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:18-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:19-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:20-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:20-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:20-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:21-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:21-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:21-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:21-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:22-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:23-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:23-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:23-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:24-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:24-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:24-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:24-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:24-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:25-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:26-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:26-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:26-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:26-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:27-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:27-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:27-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:27-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:27-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:28-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155428.308953.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155554.712441.csv
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155425.109285.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155557.915932.csv
+2025-11-24 17:25:29-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155441.108611.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:76]-开始处理文件: D:/Lab/process/2025.11.24/time\cross-phase-transition\20251124155601.114768.csv
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:84]-使用元数据采样率: 50000 Hz
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155437.909330.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155431.509039.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155444.307134.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:30-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155434.708630.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155516.310143.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155525.909389.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155535.510158.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155447.506790.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155457.108864.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155522.712351.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155500.309022.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155509.908605.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155551.514500.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155529.111850.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155503.508866.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155532.310142.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155538.714568.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155541.912428.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155513.109141.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155450.708379.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155453.907783.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155554.712441.csv, 数据长度: 1600000
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155554.712441.csv, 通道数: 8
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155506.709558.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155548.314151.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155519.510852.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155557.915932.csv, 数据长度: 1600000
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155557.915932.csv, 通道数: 8
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155545.113352.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:91]-成功读取文件: 20251124155601.114768.csv, 数据长度: 1450000
+2025-11-24 17:25:31-INFO-[tdms_reader_frequency.py:101]-处理文件: 20251124155601.114768.csv, 通道数: 8
+2025-11-24 17:25:33-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:34-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/799999 行FFT数据
+2025-11-24 17:25:34-INFO-[tdms_reader_frequency.py:147]-  已写入 100000/724999 行FFT数据
+2025-11-24 17:25:35-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:35-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/799999 行FFT数据
+2025-11-24 17:25:35-INFO-[tdms_reader_frequency.py:147]-  已写入 200000/724999 行FFT数据
+2025-11-24 17:25:36-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:36-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/799999 行FFT数据
+2025-11-24 17:25:36-INFO-[tdms_reader_frequency.py:147]-  已写入 300000/724999 行FFT数据
+2025-11-24 17:25:37-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:38-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/799999 行FFT数据
+2025-11-24 17:25:38-INFO-[tdms_reader_frequency.py:147]-  已写入 400000/724999 行FFT数据
+2025-11-24 17:25:38-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:39-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/799999 行FFT数据
+2025-11-24 17:25:39-INFO-[tdms_reader_frequency.py:147]-  已写入 500000/724999 行FFT数据
+2025-11-24 17:25:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/799999 行FFT数据
+2025-11-24 17:25:40-INFO-[tdms_reader_frequency.py:147]-  已写入 600000/724999 行FFT数据
+2025-11-24 17:25:41-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:41-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/799999 行FFT数据
+2025-11-24 17:25:41-INFO-[tdms_reader_frequency.py:147]-  已写入 700000/724999 行FFT数据
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:147]-  已写入 724999/724999 行FFT数据
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155601.114768.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155554.712441.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:147]-  已写入 799999/799999 行FFT数据
+2025-11-24 17:25:42-INFO-[tdms_reader_frequency.py:149]-已处理: 20251124155557.915932.csv -> D:/Lab/process/2025.11.24/frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency.py:208]-所有文件处理完成
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:42]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:196]-FFT数据输入目录: D:/Lab/process/2025.11.24/frequency
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:197]-平均FFT输出目录: D:/Lab/process/2025.11.24/frequency_ave
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:210]-找到 31 个FFT CSV文件
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:63]-按文件夹分组完成，找到 1 个文件夹组
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:65]-  文件夹 cross-phase-transition: 31 个文件
+2025-11-24 17:25:43-INFO-[tdms_reader_frequency_average.py:225]-使用 1 个进程并行处理
+2025-11-24 17:25:45-INFO-[tdms_reader_frequency_average.py:178]-开始处理文件夹 cross-phase-transition, 共 31 个文件
+2025-11-24 17:26:22-WARNING-[tdms_reader_frequency_average.py:99]-文件 FFT_20251124155601.114768.csv 结构不匹配，跳过
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:159]-已保存平均FFT数据: D:/Lab/process/2025.11.24/frequency_ave\cross-phase-transition\average_fft_cross-phase-transition_30files.csv
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:234]-处理完成: 成功 1/1 个文件夹组
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:240]-========================FFT数据平均处理汇总报告===========================
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:241]-处理时间: 2025-11-24 17:26:31
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:242]-成功处理的文件数量: 1
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:243]-处理文件列表:
+2025-11-24 17:26:31-INFO-[tdms_reader_frequency_average.py:246]- 1. average_fft_cross-phase-transition_30files.csv
+2025-11-24 17:26:31-INFO-[time_series_plots.py:36]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:26:31-INFO-[time_series_plots.py:662]-输入目录: D:/Lab/process/2025.11.24/time
+2025-11-24 17:26:31-INFO-[time_series_plots.py:663]-输出目录: D:/Lab/results/2025.11.24/time
+2025-11-24 17:26:31-INFO-[time_series_plots.py:675]-找到 31 个CSV文件
+2025-11-24 17:26:31-INFO-[time_series_plots.py:685]-找到 1 个组: ['cross-phase-transition']
+2025-11-24 17:26:31-INFO-[time_series_plots.py:690]-分析组 cross-phase-transition, 包含 31 个文件
+2025-11-24 17:26:31-INFO-[time_series_plots.py:588]-开始分析组，包含 31 个文件
+2025-11-24 17:26:31-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155425.109285.csv
+2025-11-24 17:26:32-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:34-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155428.308953.csv
+2025-11-24 17:26:34-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:36-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155431.509039.csv
+2025-11-24 17:26:37-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:38-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155434.708630.csv
+2025-11-24 17:26:39-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:41-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155437.909330.csv
+2025-11-24 17:26:42-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:43-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155441.108611.csv
+2025-11-24 17:26:44-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:46-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155444.307134.csv
+2025-11-24 17:26:46-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:48-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155447.506790.csv
+2025-11-24 17:26:49-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:50-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155450.708379.csv
+2025-11-24 17:26:51-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:53-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155453.907783.csv
+2025-11-24 17:26:54-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:55-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155457.108864.csv
+2025-11-24 17:26:56-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:26:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155500.309022.csv
+2025-11-24 17:26:58-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155503.508866.csv
+2025-11-24 17:27:01-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:02-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155506.709558.csv
+2025-11-24 17:27:03-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:05-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155509.908605.csv
+2025-11-24 17:27:05-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:07-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155513.109141.csv
+2025-11-24 17:27:08-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:09-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155516.310143.csv
+2025-11-24 17:27:10-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:12-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155519.510852.csv
+2025-11-24 17:27:12-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:14-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155522.712351.csv
+2025-11-24 17:27:15-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:16-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155525.909389.csv
+2025-11-24 17:27:17-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:19-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155529.111850.csv
+2025-11-24 17:27:20-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:22-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155532.310142.csv
+2025-11-24 17:27:23-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:24-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155535.510158.csv
+2025-11-24 17:27:25-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:27-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155538.714568.csv
+2025-11-24 17:27:28-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:29-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155541.912428.csv
+2025-11-24 17:27:30-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:32-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155545.113352.csv
+2025-11-24 17:27:33-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:35-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155548.314151.csv
+2025-11-24 17:27:36-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:37-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155551.514500.csv
+2025-11-24 17:27:38-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:40-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155554.712441.csv
+2025-11-24 17:27:41-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:43-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155557.915932.csv
+2025-11-24 17:27:44-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 17:27:46-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.24\time\cross-phase-transition\20251124155601.114768.csv
+2025-11-24 17:27:46-INFO-[time_series_plots.py:78]-成功读取数据: 1450000 行, 8 个通道
+2025-11-24 17:27:48-INFO-[time_series_plots.py:178]-开始绘制组时序图
+2025-11-24 17:27:51-INFO-[time_series_plots.py:251]-组时序图已保存: D:\Lab\results\2025.11.24\time\cross-phase-transition\group_time_series.png
+2025-11-24 17:27:51-INFO-[time_series_plots.py:261]-开始绘制组统计量对比图
+2025-11-24 17:27:52-INFO-[time_series_plots.py:342]-组统计量对比图已保存: D:\Lab\results\2025.11.24\time\cross-phase-transition\group_statistics_comparison.png
+2025-11-24 17:27:52-INFO-[time_series_plots.py:352]-开始绘制组稳定性分析图
+2025-11-24 17:27:54-INFO-[time_series_plots.py:448]-组稳定性分析图已保存: D:\Lab\results\2025.11.24\time\cross-phase-transition\group_stability_analysis.png
+2025-11-24 17:27:54-INFO-[time_series_plots.py:458]-开始生成组分析报告
+2025-11-24 17:27:54-INFO-[time_series_plots.py:575]-组分析报告已保存: D:\Lab\results\2025.11.24\time\cross-phase-transition\group_analysis_report.json
+2025-11-24 17:27:54-INFO-[time_series_plots.py:636]-组分析完成: cross-phase-transition
+2025-11-24 17:27:54-INFO-[time_series_plots.py:719]-时域分析完成! 成功分析 1 个组
+2025-11-24 17:27:54-INFO-[time_series_plots.py:720]-总体报告: D:\Lab\results\2025.11.24\time\analysis_summary.json
+2025-11-24 17:27:54-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 17:27:54-INFO-[frequency_plots.py:796]-FFT输入目录: D:/Lab/process/2025.11.24/frequency_ave
+2025-11-24 17:27:54-INFO-[frequency_plots.py:797]-FFT输出目录: D:/Lab/results/2025.11.24/frequency
+2025-11-24 17:27:54-INFO-[frequency_plots.py:809]-找到 1 个平均FFT CSV文件
+2025-11-24 17:27:54-INFO-[frequency_plots.py:819]-找到 1 个FFT组: ['cross-phase-transition']
+2025-11-24 17:27:54-INFO-[frequency_plots.py:827]-分析FFT组 cross-phase-transition, 包含 1 个文件
+2025-11-24 17:27:54-INFO-[frequency_plots.py:719]-开始分析FFT组，包含 1 个文件
+2025-11-24 17:27:54-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency_ave\cross-phase-transition\average_fft_cross-phase-transition_30files.csv
+2025-11-24 17:27:55-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-24 17:27:55-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-24 17:27:56-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-24 17:27:58-INFO-[frequency_plots.py:230]-组幅度谱对比图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum.png
+2025-11-24 17:27:58-INFO-[frequency_plots.py:240]-开始绘制组相位分析图
+2025-11-24 17:28:05-INFO-[frequency_plots.py:298]-组相位分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_phase_analysis.png
+2025-11-24 17:28:05-INFO-[frequency_plots.py:308]-开始绘制组主导频率分布图
+2025-11-24 17:28:06-INFO-[frequency_plots.py:366]-组主导频率分布图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_dominant_frequencies.png
+2025-11-24 17:28:06-INFO-[frequency_plots.py:379]-开始绘制组频率稳定性分析图
+2025-11-24 17:28:06-WARNING-[frequency_plots.py:382]-需要至少2个文件进行稳定性分析
+2025-11-24 17:28:06-INFO-[frequency_plots.py:472]-开始绘制组特征频率提取图
+2025-11-24 17:28:07-INFO-[frequency_plots.py:524]-组特征频率提取图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_feature_frequencies.png
+2025-11-24 17:28:07-INFO-[frequency_plots.py:584]-开始生成组分析报告
+2025-11-24 17:28:07-INFO-[frequency_plots.py:706]-组分析报告已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_analysis_report.json
+2025-11-24 17:28:07-INFO-[frequency_plots.py:767]-FFT组分析完成: cross-phase-transition
+2025-11-24 17:28:07-INFO-[frequency_plots.py:857]-FFT分析完成! 成功分析 1 个组
+2025-11-24 17:28:07-INFO-[frequency_plots.py:858]-总体报告: D:\Lab\results\2025.11.24\frequency\fft_analysis_summary.json
+2025-11-24 17:28:07-INFO-[main.py:60]------------------------------执行完成-----------------------------

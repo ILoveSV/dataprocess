@@ -1,0 +1,192 @@
+2025-11-24 15:22:55-INFO-[main.py:33]--------------------------启动数据分析系统-------------------------
+2025-11-24 15:22:55-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 15:22:55-INFO-[time_series_plots.py:36]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-24 15:22:55-INFO-[time_series_plots.py:662]-输入目录: D:/Lab/process/2025.11.11/time
+2025-11-24 15:22:55-INFO-[time_series_plots.py:663]-输出目录: D:/Lab/results/2025.11.11/time
+2025-11-24 15:22:55-INFO-[time_series_plots.py:675]-找到 80 个CSV文件
+2025-11-24 15:22:55-INFO-[time_series_plots.py:685]-找到 2 个组: ['GROUP1', 'GROUP2']
+2025-11-24 15:22:55-INFO-[time_series_plots.py:690]-分析组 GROUP1, 包含 31 个文件
+2025-11-24 15:22:55-INFO-[time_series_plots.py:588]-开始分析组，包含 31 个文件
+2025-11-24 15:22:55-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161634.934035.csv
+2025-11-24 15:22:56-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:22:57-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161638.134949.csv
+2025-11-24 15:22:58-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161641.335227.csv
+2025-11-24 15:23:01-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:02-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161644.534299.csv
+2025-11-24 15:23:04-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:06-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161647.733148.csv
+2025-11-24 15:23:08-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:10-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161650.936288.csv
+2025-11-24 15:23:11-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:14-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161654.133815.csv
+2025-11-24 15:23:15-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:18-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161657.332589.csv
+2025-11-24 15:23:19-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:22-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161700.535144.csv
+2025-11-24 15:23:23-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:26-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161703.736152.csv
+2025-11-24 15:23:27-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:30-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161706.936906.csv
+2025-11-24 15:23:32-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:34-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161710.134401.csv
+2025-11-24 15:23:36-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:39-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161713.334197.csv
+2025-11-24 15:23:40-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:44-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161716.534160.csv
+2025-11-24 15:23:45-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:48-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161719.736773.csv
+2025-11-24 15:23:50-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:53-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161722.937210.csv
+2025-11-24 15:23:55-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:23:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161726.134814.csv
+2025-11-24 15:23:59-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:03-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161729.334125.csv
+2025-11-24 15:24:04-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:08-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161732.536553.csv
+2025-11-24 15:24:09-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:13-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161735.737496.csv
+2025-11-24 15:24:14-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:18-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161738.935403.csv
+2025-11-24 15:24:19-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:23-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161742.134913.csv
+2025-11-24 15:24:24-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:28-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161745.334812.csv
+2025-11-24 15:24:29-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:33-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161748.533627.csv
+2025-11-24 15:24:34-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:35-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161751.736184.csv
+2025-11-24 15:24:36-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:38-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161754.935566.csv
+2025-11-24 15:24:39-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:41-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161758.134829.csv
+2025-11-24 15:24:42-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:44-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161801.333804.csv
+2025-11-24 15:24:45-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:47-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161804.535129.csv
+2025-11-24 15:24:47-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:49-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161807.734294.csv
+2025-11-24 15:24:50-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:24:52-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP1\20251111161810.932971.csv
+2025-11-24 15:24:52-INFO-[time_series_plots.py:78]-成功读取数据: 500000 行, 8 个通道
+2025-11-24 15:24:53-INFO-[time_series_plots.py:178]-开始绘制组时序图
+2025-11-24 15:24:55-INFO-[time_series_plots.py:251]-组时序图已保存: D:\Lab\results\2025.11.11\time\GROUP1\group_time_series.png
+2025-11-24 15:24:55-INFO-[time_series_plots.py:261]-开始绘制组统计量对比图
+2025-11-24 15:24:56-INFO-[time_series_plots.py:342]-组统计量对比图已保存: D:\Lab\results\2025.11.11\time\GROUP1\group_statistics_comparison.png
+2025-11-24 15:24:56-INFO-[time_series_plots.py:352]-开始绘制组稳定性分析图
+2025-11-24 15:24:58-INFO-[time_series_plots.py:448]-组稳定性分析图已保存: D:\Lab\results\2025.11.11\time\GROUP1\group_stability_analysis.png
+2025-11-24 15:24:58-INFO-[time_series_plots.py:458]-开始生成组分析报告
+2025-11-24 15:24:58-INFO-[time_series_plots.py:575]-组分析报告已保存: D:\Lab\results\2025.11.11\time\GROUP1\group_analysis_report.json
+2025-11-24 15:24:58-INFO-[time_series_plots.py:636]-组分析完成: GROUP1
+2025-11-24 15:24:58-INFO-[time_series_plots.py:690]-分析组 GROUP2, 包含 49 个文件
+2025-11-24 15:24:58-INFO-[time_series_plots.py:588]-开始分析组，包含 49 个文件
+2025-11-24 15:24:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162727.536629.csv
+2025-11-24 15:24:59-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162730.736447.csv
+2025-11-24 15:25:01-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:03-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162733.934607.csv
+2025-11-24 15:25:03-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:05-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162737.136395.csv
+2025-11-24 15:25:06-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:07-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162740.336186.csv
+2025-11-24 15:25:08-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:10-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162743.537230.csv
+2025-11-24 15:25:11-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:12-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162746.733035.csv
+2025-11-24 15:25:13-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:14-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162749.933710.csv
+2025-11-24 15:25:15-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:17-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162753.132526.csv
+2025-11-24 15:25:18-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:19-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162756.337381.csv
+2025-11-24 15:25:20-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:21-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162759.532624.csv
+2025-11-24 15:25:22-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:24-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162802.737400.csv
+2025-11-24 15:25:25-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:26-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162805.935394.csv
+2025-11-24 15:25:27-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:28-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162809.135176.csv
+2025-11-24 15:25:29-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:31-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162812.336424.csv
+2025-11-24 15:25:32-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:34-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162815.532723.csv
+2025-11-24 15:25:34-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:36-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162818.736491.csv
+2025-11-24 15:25:37-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:39-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162821.935331.csv
+2025-11-24 15:25:40-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:42-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162825.134459.csv
+2025-11-24 15:25:42-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:44-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162828.335829.csv
+2025-11-24 15:25:45-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:47-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162831.533051.csv
+2025-11-24 15:25:48-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:50-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162834.736376.csv
+2025-11-24 15:25:51-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:52-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162837.934603.csv
+2025-11-24 15:25:53-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:55-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162841.136283.csv
+2025-11-24 15:25:56-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:25:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162844.334724.csv
+2025-11-24 15:25:59-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162847.534959.csv
+2025-11-24 15:26:01-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:03-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162850.736415.csv
+2025-11-24 15:26:04-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:05-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162853.933152.csv
+2025-11-24 15:26:06-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:08-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162857.133858.csv
+2025-11-24 15:26:09-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:11-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162900.335079.csv
+2025-11-24 15:26:11-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:13-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162903.533095.csv
+2025-11-24 15:26:14-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:16-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162906.736537.csv
+2025-11-24 15:26:17-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:18-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162909.933040.csv
+2025-11-24 15:26:19-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:21-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162913.134751.csv
+2025-11-24 15:26:22-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:24-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162916.334492.csv
+2025-11-24 15:26:25-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:26-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162919.534518.csv
+2025-11-24 15:26:27-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:29-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162922.737775.csv
+2025-11-24 15:26:30-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:32-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162925.935060.csv
+2025-11-24 15:26:33-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:35-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162929.135450.csv
+2025-11-24 15:26:35-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:37-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162932.334040.csv
+2025-11-24 15:26:38-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:40-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162935.537338.csv
+2025-11-24 15:26:40-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:42-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162938.734941.csv
+2025-11-24 15:26:43-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:45-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162941.936832.csv
+2025-11-24 15:26:46-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:47-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162945.132579.csv
+2025-11-24 15:26:48-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:50-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162948.333959.csv
+2025-11-24 15:26:51-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:52-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162951.535988.csv
+2025-11-24 15:26:53-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:55-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162954.733310.csv
+2025-11-24 15:26:56-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:26:58-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111162957.934569.csv
+2025-11-24 15:26:59-INFO-[time_series_plots.py:78]-成功读取数据: 1600000 行, 8 个通道
+2025-11-24 15:27:00-INFO-[time_series_plots.py:42]-正在读取CSV文件: D:\Lab\process\2025.11.11\time\GROUP2\20251111163001.136524.csv
+2025-11-24 15:27:00-INFO-[time_series_plots.py:78]-成功读取数据: 100000 行, 8 个通道
+2025-11-24 15:27:01-INFO-[time_series_plots.py:178]-开始绘制组时序图
+2025-11-24 15:27:03-INFO-[time_series_plots.py:251]-组时序图已保存: D:\Lab\results\2025.11.11\time\GROUP2\group_time_series.png
+2025-11-24 15:27:04-INFO-[time_series_plots.py:261]-开始绘制组统计量对比图
+2025-11-24 15:27:05-INFO-[time_series_plots.py:342]-组统计量对比图已保存: D:\Lab\results\2025.11.11\time\GROUP2\group_statistics_comparison.png
+2025-11-24 15:27:05-INFO-[time_series_plots.py:352]-开始绘制组稳定性分析图
+2025-11-24 15:27:06-INFO-[time_series_plots.py:448]-组稳定性分析图已保存: D:\Lab\results\2025.11.11\time\GROUP2\group_stability_analysis.png
+2025-11-24 15:27:06-INFO-[time_series_plots.py:458]-开始生成组分析报告
+2025-11-24 15:27:06-INFO-[time_series_plots.py:575]-组分析报告已保存: D:\Lab\results\2025.11.11\time\GROUP2\group_analysis_report.json
+2025-11-24 15:27:06-INFO-[time_series_plots.py:636]-组分析完成: GROUP2
+2025-11-24 15:27:07-INFO-[time_series_plots.py:719]-时域分析完成! 成功分析 2 个组
+2025-11-24 15:27:07-INFO-[time_series_plots.py:720]-总体报告: D:\Lab\results\2025.11.11\time\analysis_summary.json
+2025-11-24 15:27:07-INFO-[main.py:54]------------------------------执行完成-----------------------------

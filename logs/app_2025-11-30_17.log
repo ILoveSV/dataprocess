@@ -1,0 +1,910 @@
+2025-11-30 17:02:11-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-30 17:02:11-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:02:11-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:02:11-INFO-[frequency_plots.py:857]-FFT输入目录: D:/Lab/process/2025.11.24/frequency
+2025-11-30 17:02:11-INFO-[frequency_plots.py:858]-FFT输出目录: D:/Lab/results/2025.11.24/frequency
+2025-11-30 17:02:11-INFO-[frequency_plots.py:870]-找到 31 个平均FFT CSV文件
+2025-11-30 17:02:11-INFO-[frequency_plots.py:880]-找到 1 个FFT组: ['cross-phase-transition']
+2025-11-30 17:02:11-INFO-[frequency_plots.py:888]-分析FFT组 cross-phase-transition, 包含 31 个文件
+2025-11-30 17:02:11-INFO-[frequency_plots.py:780]-开始分析FFT组，包含 31 个文件
+2025-11-30 17:02:11-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:02:12-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:12-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:13-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:02:14-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:14-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:02:16-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:16-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:16-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:02:17-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:17-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:18-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:02:19-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:19-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:02:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:21-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:02:22-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:22-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:23-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:02:24-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:24-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:02:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:26-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:02:27-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:27-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:02:29-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:29-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:30-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:02:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:31-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:02:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:02:34-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:34-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:02:36-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:36-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:37-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:02:38-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:38-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:38-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:02:39-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:39-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:40-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:02:41-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:41-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:42-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:02:43-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:43-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:44-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:02:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:45-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:02:46-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:46-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:47-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:02:48-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:48-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:02:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:51-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:02:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:52-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:02:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:54-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:02:55-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:55-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:56-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:02:57-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:57-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:02:59-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:02:59-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:02:59-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:03:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:03:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:03:01-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:03:02-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:03:02-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:03:03-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:03:04-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:03:04-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:03:04-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-30 17:03:46-INFO-[frequency_plots.py:233]-组幅度谱对比图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum.png
+2025-11-30 17:03:47-INFO-[frequency_plots.py:243]-开始绘制组相位分析图
+2025-11-30 17:04:11-INFO-[frequency_plots.py:301]-组相位分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_phase_analysis.png
+2025-11-30 17:04:11-INFO-[frequency_plots.py:311]-开始绘制组主导频率分布图
+2025-11-30 17:04:12-INFO-[frequency_plots.py:369]-组主导频率分布图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_dominant_frequencies.png
+2025-11-30 17:04:12-INFO-[frequency_plots.py:382]-开始绘制组频率稳定性分析图
+2025-11-30 17:04:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:04:14-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:14-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:14-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:04:17-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:17-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:04:19-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:19-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:19-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:04:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:21-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:04:24-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:24-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:24-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:04:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:26-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:04:28-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:28-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:04:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:31-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:04:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:04:35-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:35-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:04:38-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:38-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:38-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:04:41-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:41-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:41-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:04:43-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:43-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:04:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:45-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:04:47-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:47-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:47-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:04:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:50-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:04:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:52-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:04:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:04:54-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:54-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:54-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:04:55-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:55-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:55-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:04:56-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:56-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:56-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:04:57-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:57-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:57-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:04:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:04:59-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:04:59-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:04:59-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:05:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:05:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:01-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:05:03-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:03-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:03-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:05:04-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:04-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:04-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:05:07-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:07-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:07-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:05:10-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:10-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:10-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:05:12-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:12-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:05:14-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:05:14-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:05:14-ERROR-[frequency_plots.py:467]-绘制组频率稳定性分析图失败: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (31,) + inhomogeneous part.
+2025-11-30 17:05:14-ERROR-[frequency_plots.py:469]-Traceback (most recent call last):
+  File "C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\src\visualization\frequency_plots.py", line 415, in plot_group_stability_analysis
+    all_amplitudes = np.array(all_amplitudes)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (31,) + inhomogeneous part.
+
+2025-11-30 17:05:14-INFO-[frequency_plots.py:475]-开始绘制组特征频率提取图
+2025-11-30 17:05:16-INFO-[frequency_plots.py:527]-组特征频率提取图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_feature_frequencies.png
+2025-11-30 17:05:16-INFO-[frequency_plots.py:587]-开始生成组分析报告
+2025-11-30 17:05:16-INFO-[frequency_plots.py:713]-组分析报告已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\frequency_plots_report.json
+2025-11-30 17:05:16-INFO-[frequency_plots.py:828]-FFT组分析完成: cross-phase-transition
+2025-11-30 17:05:17-INFO-[frequency_plots.py:918]-FFT分析完成! 成功分析 1 个组
+2025-11-30 17:05:17-INFO-[frequency_plots.py:919]-总体报告: D:\Lab\results\2025.11.24\frequency\fft_analysis_summary.json
+2025-11-30 17:05:17-INFO-[main.py:60]------------------------------执行完成-----------------------------
+2025-11-30 17:21:39-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-30 17:21:39-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:21:39-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:21:39-INFO-[frequency_plots.py:869]-FFT输入目录: D:/Lab/process/2025.11.24/frequency
+2025-11-30 17:21:39-INFO-[frequency_plots.py:870]-FFT输出目录: D:/Lab/results/2025.11.24/frequency
+2025-11-30 17:21:39-INFO-[frequency_plots.py:882]-找到 31 个平均FFT CSV文件
+2025-11-30 17:21:39-INFO-[frequency_plots.py:892]-找到 1 个FFT组: ['cross-phase-transition']
+2025-11-30 17:21:39-INFO-[frequency_plots.py:900]-分析FFT组 cross-phase-transition, 包含 31 个文件
+2025-11-30 17:21:39-INFO-[frequency_plots.py:792]-开始分析FFT组，包含 31 个文件
+2025-11-30 17:21:39-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:21:40-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:40-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:41-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:21:42-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:42-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:21:44-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:44-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:44-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:21:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:46-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:21:47-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:47-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:48-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:21:49-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:49-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:21:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:51-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:21:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:21:54-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:54-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:55-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:21:56-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:56-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:56-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:21:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:21:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:21:59-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:21:59-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:22:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:02-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:22:03-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:03-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:03-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:22:04-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:04-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:05-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:22:06-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:06-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:07-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:22:08-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:08-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:08-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:22:09-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:09-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:10-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:22:11-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:11-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:22:13-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:13-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:13-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:22:14-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:14-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:22:16-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:16-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:22:18-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:18-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:18-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:22:19-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:19-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:22:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:22-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:22:23-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:23-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:23-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:22:25-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:25-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:22:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:27-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:22:28-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:28-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:22:30-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:30-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:30-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:22:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:22:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:22:32-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-30 17:22:49-ERROR-[frequency_plots.py:248]-绘制组幅度谱对比图失败: replace() takes 2 positional arguments but 3 were given
+2025-11-30 17:22:49-ERROR-[frequency_plots.py:250]-Traceback (most recent call last):
+  File "C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\src\visualization\frequency_plots.py", line 228, in plot_group_amplitude_spectrum
+    output_path_1 = output_path.replace('.png', '_1.png')
+TypeError: replace() takes 2 positional arguments but 3 were given
+
+2025-11-30 17:22:51-INFO-[frequency_plots.py:255]-开始绘制组相位分析图
+2025-11-30 17:23:16-INFO-[frequency_plots.py:313]-组相位分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_phase_analysis.png
+2025-11-30 17:23:16-INFO-[frequency_plots.py:323]-开始绘制组主导频率分布图
+2025-11-30 17:23:16-INFO-[frequency_plots.py:381]-组主导频率分布图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_dominant_frequencies.png
+2025-11-30 17:23:16-INFO-[frequency_plots.py:394]-开始绘制组频率稳定性分析图
+2025-11-30 17:23:16-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:23:17-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:17-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:23:18-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:18-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:18-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:23:20-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:20-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:23:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:21-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:23:22-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:22-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:22-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:23:23-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:23-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:23-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:23:24-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:24-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:24-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:23:25-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:25-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:23:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:26-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:23:27-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:27-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:27-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:23:28-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:28-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:23:29-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:29-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:29-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:23:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:31-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:23:32-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:32-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:32-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:23:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:23:34-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:34-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:34-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:23:35-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:35-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:23:37-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:37-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:37-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:23:39-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:39-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:39-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:23:41-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:41-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:41-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:23:43-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:43-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:23:46-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:46-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:46-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:23:48-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:48-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:48-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:23:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:50-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:23:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:23:55-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:55-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:55-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:23:57-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:57-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:57-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:23:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:23:59-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:23:59-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:23:59-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:24:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:24:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:24:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:24:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:24:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:24:01-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:24:02-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:24:02-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:24:02-ERROR-[frequency_plots.py:479]-绘制组频率稳定性分析图失败: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (31,) + inhomogeneous part.
+2025-11-30 17:24:02-ERROR-[frequency_plots.py:481]-Traceback (most recent call last):
+  File "C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\src\visualization\frequency_plots.py", line 427, in plot_group_stability_analysis
+    all_amplitudes = np.array(all_amplitudes)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (31,) + inhomogeneous part.
+
+2025-11-30 17:24:02-INFO-[frequency_plots.py:487]-开始绘制组特征频率提取图
+2025-11-30 17:24:04-INFO-[frequency_plots.py:539]-组特征频率提取图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_feature_frequencies.png
+2025-11-30 17:24:04-INFO-[frequency_plots.py:599]-开始生成组分析报告
+2025-11-30 17:24:04-INFO-[frequency_plots.py:725]-组分析报告已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\frequency_plots_report.json
+2025-11-30 17:24:04-INFO-[frequency_plots.py:840]-FFT组分析完成: cross-phase-transition
+2025-11-30 17:24:04-INFO-[frequency_plots.py:930]-FFT分析完成! 成功分析 1 个组
+2025-11-30 17:24:04-INFO-[frequency_plots.py:931]-总体报告: D:\Lab\results\2025.11.24\frequency\fft_analysis_summary.json
+2025-11-30 17:24:04-INFO-[main.py:60]------------------------------执行完成-----------------------------
+2025-11-30 17:26:10-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-30 17:26:10-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:26:10-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:26:10-INFO-[frequency_plots.py:879]-FFT输入目录: D:/Lab/process/2025.11.24/frequency
+2025-11-30 17:26:10-INFO-[frequency_plots.py:880]-FFT输出目录: D:/Lab/results/2025.11.24/frequency
+2025-11-30 17:26:10-INFO-[frequency_plots.py:892]-找到 31 个平均FFT CSV文件
+2025-11-30 17:26:10-INFO-[frequency_plots.py:902]-找到 1 个FFT组: ['cross-phase-transition']
+2025-11-30 17:26:10-INFO-[frequency_plots.py:910]-分析FFT组 cross-phase-transition, 包含 31 个文件
+2025-11-30 17:26:10-INFO-[frequency_plots.py:802]-开始分析FFT组，包含 31 个文件
+2025-11-30 17:26:10-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:26:11-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:11-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:26:13-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:13-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:13-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:26:15-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:15-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:26:16-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:16-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:26:18-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:18-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:18-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:26:20-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:20-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:26:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:22-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:26:23-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:23-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:23-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:26:25-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:25-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:26:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:27-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:26:28-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:28-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:26:30-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:30-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:30-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:26:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:32-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:26:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:26:35-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:35-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:26:36-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:36-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:37-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:26:38-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:38-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:38-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:26:40-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:40-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:40-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:26:41-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:41-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:42-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:26:43-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:43-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:44-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:26:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:45-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:26:46-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:46-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:47-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:26:48-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:48-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:26:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:50-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:26:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:52-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:26:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:54-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:26:55-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:55-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:55-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:26:57-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:57-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:57-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:26:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:26:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:26:59-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:27:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:27:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:27:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:27:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:27:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:27:02-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-30 17:27:42-INFO-[frequency_plots.py:230]-组幅度谱对比图1已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum_1.png
+2025-11-30 17:28:55-INFO-[frequency_plots.py:247]-组幅度谱对比图2已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum_2.png
+2025-11-30 17:28:57-INFO-[frequency_plots.py:257]-开始绘制组相位分析图
+2025-11-30 17:29:18-INFO-[frequency_plots.py:315]-组相位分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_phase_analysis.png
+2025-11-30 17:29:18-INFO-[frequency_plots.py:325]-开始绘制组主导频率分布图
+2025-11-30 17:29:19-INFO-[frequency_plots.py:383]-组主导频率分布图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_dominant_frequencies.png
+2025-11-30 17:29:19-INFO-[frequency_plots.py:396]-开始绘制组频率稳定性分析图
+2025-11-30 17:29:19-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:29:20-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:20-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:29:21-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:21-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:21-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:21-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:29:22-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:22-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:22-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:22-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:29:23-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:23-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:23-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:23-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:29:24-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:24-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:24-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:24-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:29:25-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:25-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:25-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:29:27-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:27-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:27-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:27-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:29:28-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:28-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:28-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:28-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:29:29-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:29-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:29-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:29-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:29:30-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:30-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:30-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:30-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:29:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:31-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:31-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:29:32-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:32-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:32-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:32-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:29:33-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:33-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:33-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:29:34-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:34-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:34-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:34-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:29:35-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:35-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:35-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:29:37-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:37-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:37-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:37-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:29:38-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:38-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:38-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:38-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:29:39-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:39-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:39-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:39-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:29:40-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:40-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:40-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:40-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:29:41-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:41-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:41-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:41-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:29:42-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:42-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:42-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:42-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:29:43-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:43-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:43-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:29:44-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:44-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:44-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:44-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:29:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:45-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:45-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:29:46-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:46-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:46-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:46-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:29:48-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:48-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:48-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:48-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:29:49-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:49-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:49-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:29:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:50-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:50-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:29:51-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:51-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:51-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:51-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:29:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:52-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:52-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:29:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:53-WARNING-[frequency_plots.py:429]-读取文件 D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv 失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:29:54-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:29:54-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:29:54-WARNING-[frequency_plots.py:424]-跳过文件 FFT_20251124155601.114768.csv: 数据长度不一致 (724999 vs 799999)
+2025-11-30 17:29:54-ERROR-[frequency_plots.py:489]-绘制组频率稳定性分析图失败: local variable 'all_amplitudes' referenced before assignment
+2025-11-30 17:29:54-ERROR-[frequency_plots.py:491]-Traceback (most recent call last):
+  File "C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\src\visualization\frequency_plots.py", line 432, in plot_group_stability_analysis
+    if len(all_amplitudes) < 2:
+UnboundLocalError: local variable 'all_amplitudes' referenced before assignment
+
+2025-11-30 17:29:54-INFO-[frequency_plots.py:497]-开始绘制组特征频率提取图
+2025-11-30 17:29:55-INFO-[frequency_plots.py:549]-组特征频率提取图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_feature_frequencies.png
+2025-11-30 17:29:55-INFO-[frequency_plots.py:609]-开始生成组分析报告
+2025-11-30 17:29:55-INFO-[frequency_plots.py:735]-组分析报告已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\frequency_plots_report.json
+2025-11-30 17:29:55-INFO-[frequency_plots.py:850]-FFT组分析完成: cross-phase-transition
+2025-11-30 17:29:55-INFO-[frequency_plots.py:940]-FFT分析完成! 成功分析 1 个组
+2025-11-30 17:29:55-INFO-[frequency_plots.py:941]-总体报告: D:\Lab\results\2025.11.24\frequency\fft_analysis_summary.json
+2025-11-30 17:29:55-INFO-[main.py:60]------------------------------执行完成-----------------------------
+2025-11-30 17:31:29-INFO-[main.py:34]--------------------------启动数据分析系统-------------------------
+2025-11-30 17:31:30-INFO-[file_utils.py:39]-paths.yaml 生成成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:31:30-INFO-[frequency_plots.py:43]-配置文件加载成功: C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\config\paths.yaml
+2025-11-30 17:31:30-INFO-[frequency_plots.py:879]-FFT输入目录: D:/Lab/process/2025.11.24/frequency
+2025-11-30 17:31:30-INFO-[frequency_plots.py:880]-FFT输出目录: D:/Lab/results/2025.11.24/frequency
+2025-11-30 17:31:30-INFO-[frequency_plots.py:892]-找到 31 个平均FFT CSV文件
+2025-11-30 17:31:30-INFO-[frequency_plots.py:902]-找到 1 个FFT组: ['cross-phase-transition']
+2025-11-30 17:31:30-INFO-[frequency_plots.py:910]-分析FFT组 cross-phase-transition, 包含 31 个文件
+2025-11-30 17:31:30-INFO-[frequency_plots.py:802]-开始分析FFT组，包含 31 个文件
+2025-11-30 17:31:30-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:31:31-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:31-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:31-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:31:32-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:32-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:33-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:31:34-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:34-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:35-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:31:36-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:36-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:37-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:31:39-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:39-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:40-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:31:42-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:42-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:31:45-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:45-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:46-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:31:47-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:47-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:48-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:31:49-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:49-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:31:51-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:51-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:51-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:31:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:31:54-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:54-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:55-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:31:56-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:56-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:57-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:31:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:31:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:31:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:32:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:32:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:02-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:32:03-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:03-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:04-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:32:05-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:05-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:05-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:32:06-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:06-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:07-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:32:08-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:08-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:09-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:32:10-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:10-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:10-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:32:11-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:11-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:32:13-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:13-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:14-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:32:15-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:15-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:32:17-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:17-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:32:18-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:18-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:19-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:32:20-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:20-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:20-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:32:22-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:22-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:22-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:32:23-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:23-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:24-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:32:25-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:25-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:25-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:32:26-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:32:26-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:32:27-INFO-[frequency_plots.py:168]-开始绘制组幅度谱对比图
+2025-11-30 17:33:07-INFO-[frequency_plots.py:230]-组幅度谱对比图1已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum_1.png
+2025-11-30 17:34:21-INFO-[frequency_plots.py:247]-组幅度谱对比图2已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_amplitude_spectrum_2.png
+2025-11-30 17:34:22-INFO-[frequency_plots.py:257]-开始绘制组相位分析图
+2025-11-30 17:34:43-INFO-[frequency_plots.py:315]-组相位分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_phase_analysis.png
+2025-11-30 17:34:43-INFO-[frequency_plots.py:325]-开始绘制组主导频率分布图
+2025-11-30 17:34:43-INFO-[frequency_plots.py:383]-组主导频率分布图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_dominant_frequencies.png
+2025-11-30 17:34:43-INFO-[frequency_plots.py:396]-开始绘制组频率稳定性分析图
+2025-11-30 17:34:43-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:34:44-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:44-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:44-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155425.109285.csv
+2025-11-30 17:34:46-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:46-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:46-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155428.308953.csv
+2025-11-30 17:34:47-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:47-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:47-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155431.509039.csv
+2025-11-30 17:34:48-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:48-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:48-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155434.708630.csv
+2025-11-30 17:34:49-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:49-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:49-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155437.909330.csv
+2025-11-30 17:34:50-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:50-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:50-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155441.108611.csv
+2025-11-30 17:34:51-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:51-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:51-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155444.307134.csv
+2025-11-30 17:34:52-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:52-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:52-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155447.506790.csv
+2025-11-30 17:34:53-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:53-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:53-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155450.708379.csv
+2025-11-30 17:34:54-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:54-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:54-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155453.907783.csv
+2025-11-30 17:34:56-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:56-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:56-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155457.108864.csv
+2025-11-30 17:34:57-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:57-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:57-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155500.309022.csv
+2025-11-30 17:34:58-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:58-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:58-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155503.508866.csv
+2025-11-30 17:34:59-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:34:59-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:34:59-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155506.709558.csv
+2025-11-30 17:35:00-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:00-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:00-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155509.908605.csv
+2025-11-30 17:35:01-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:01-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:01-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155513.109141.csv
+2025-11-30 17:35:02-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:02-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:02-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155516.310143.csv
+2025-11-30 17:35:03-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:03-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:03-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155519.510852.csv
+2025-11-30 17:35:04-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:04-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:04-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155522.712351.csv
+2025-11-30 17:35:06-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:06-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:06-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155525.909389.csv
+2025-11-30 17:35:07-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:07-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:07-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155529.111850.csv
+2025-11-30 17:35:08-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:08-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:08-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155532.310142.csv
+2025-11-30 17:35:09-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:09-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:09-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155535.510158.csv
+2025-11-30 17:35:10-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:10-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:10-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155538.714568.csv
+2025-11-30 17:35:11-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:11-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:11-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155541.912428.csv
+2025-11-30 17:35:12-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:12-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:12-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155545.113352.csv
+2025-11-30 17:35:13-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:13-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:13-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155548.314151.csv
+2025-11-30 17:35:14-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:14-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:14-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155551.514500.csv
+2025-11-30 17:35:15-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:15-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:15-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155554.712441.csv
+2025-11-30 17:35:16-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:16-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:16-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155557.915932.csv
+2025-11-30 17:35:17-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:17-INFO-[frequency_plots.py:60]-成功读取FFT数据: 799999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:17-INFO-[frequency_plots.py:49]-正在读取FFT CSV文件: D:\Lab\process\2025.11.24\frequency\cross-phase-transition\FFT_20251124155601.114768.csv
+2025-11-30 17:35:18-INFO-[frequency_plots.py:87]-识别到 8 个通道
+2025-11-30 17:35:18-INFO-[frequency_plots.py:60]-成功读取FFT数据: 724999 行, 8 个幅度通道, 8 个相位通道
+2025-11-30 17:35:18-WARNING-[frequency_plots.py:424]-跳过文件 FFT_20251124155601.114768.csv: 数据长度不一致 (724999 vs 799999)
+2025-11-30 17:35:20-INFO-[frequency_plots.py:475]-组频率稳定性分析图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_stability_analysis.png
+2025-11-30 17:35:20-INFO-[frequency_plots.py:497]-开始绘制组特征频率提取图
+2025-11-30 17:35:22-INFO-[frequency_plots.py:549]-组特征频率提取图已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\group_feature_frequencies.png
+2025-11-30 17:35:22-INFO-[frequency_plots.py:609]-开始生成组分析报告
+2025-11-30 17:35:22-INFO-[frequency_plots.py:735]-组分析报告已保存: D:\Lab\results\2025.11.24\frequency\cross-phase-transition\frequency_plots_report.json
+2025-11-30 17:35:22-INFO-[frequency_plots.py:850]-FFT组分析完成: cross-phase-transition
+2025-11-30 17:35:22-INFO-[frequency_plots.py:940]-FFT分析完成! 成功分析 1 个组
+2025-11-30 17:35:22-INFO-[frequency_plots.py:941]-总体报告: D:\Lab\results\2025.11.24\frequency\fft_analysis_summary.json
+2025-11-30 17:35:22-INFO-[main.py:60]------------------------------执行完成-----------------------------

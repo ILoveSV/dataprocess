@@ -1,5 +1,5 @@
 #====================================================================
-# File Name: fft_average_processor.py
+# File Name: tdms_reader_frequency_average.py
 # Project Name: dataprocess
 # Description:
 # 1、读取FFT CSV文件：遍历频率数据目录下的所有子文件夹

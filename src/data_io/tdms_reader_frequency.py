@@ -1,3 +1,24 @@
+#====================================================================
+# File Name: tdms_reader_frequency.py
+# Project Name: dataprocess
+# Description:
+# 1、读取时域CSV文件：遍历tdms_reader_time输出的所有CSV文件
+# 2、执行FFT分析：对每个通道的时域数据进行快速傅里叶变换
+# 3、生成频域CSV文件：
+#   列名         数据类型                   描述
+#   frequency    数值 (float)    频率轴，只包含正频率部分(Hz)
+#   amplitude1   数值 (float)    通道1的幅度谱(归一化)
+#   phase1       数值 (float)    通道1的相位谱(弧度)
+#   amplitude2   数值 (float)    通道2的幅度谱(归一化)
+#   phase2       数值 (float)    通道2的相位谱(弧度)
+#   ...          ...             ...
+#   amplitude16  数值 (float)    通道16的幅度谱(归一化)
+#   phase16      数值 (float)    通道16的相位谱(弧度)
+# 4、自动读取元数据JSON文件获取真实采样率，确保频率精度
+# 5、支持多通道并行FFT计算，保留完整的频域信息
+# 6、支持多进程并行处理，提高大文件处理效率
+# 7、分块写入CSV文件，避免内存溢出问题
+#====================================================================
 import numpy as np
 import pandas as pd
 import os
@@ -20,7 +41,7 @@ def load_config():
     logger.info(f"配置文件加载成功: {config_path}")
     return config
 
-def perform_fft_analysis(data, sampling_rate=200000):  # 修改为正确的200kHz采样率
+def perform_fft_analysis(data, sampling_rate=50000):
     """
     对数据进行FFT分析，返回频率、幅度和相位
     
@@ -159,10 +180,6 @@ def process_csv_files_parallel(csv_files, output_base_dir, input_base_dir):
 
 def main():
     config = load_config()
-    
-    if not config:
-        logger.error("无法加载配置文件")
-        return
     
     # 设置输入数据文件夹路径和输出文件夹路径
     input_folder = config["tdms_reader_time_output_dir"]

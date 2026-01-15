@@ -1,8 +1,10 @@
-date: "2025.6.20"
+date: "2025.11.24"
 work_dir: "D:/Lab"
 
 raw_data_dir: "${work_dir}/raw/${date}"
 tdms_reader_time_output_dir: "${work_dir}/process/${date}/time"
 tdms_reader_frequency_output_dir: "${work_dir}/process/${date}/frequency"
 tdms_reader_frequency_average_output_dir: "${work_dir}/process/${date}/frequency_ave"
+time_series_results_dir: "${work_dir}/results/${date}/time"
+frequency_results_dir: "${work_dir}/results/${date}/frequency"
 database_path: "${work_dir}/database/lab_data.db"

@@ -68,13 +68,14 @@ def process_tdms_file(tdms_path, output_base_dir, raw_data_dir):
         
         # 获取实际的采样间隔（秒）
         if hasattr(first_channel, 'properties') and 'wf_increment' in first_channel.properties:
-            sampling_interval = first_channel.properties['wf_increment']  # 0.000005秒
+            sampling_interval = 2e-6  # 2微秒
+#            sampling_interval = first_channel.properties['wf_increment']  # 0.000005秒
             wf_samples        = first_channel.properties['wf_samples']
 #            logger.info(f"使用实际采样间隔: {sampling_interval} 秒")
         else:
             # 回退到默认值
-            sampling_interval = 5e-6  # 5微秒
-#            logger.warning("未找到wf_increment属性，使用默认采样间隔5微秒")
+            sampling_interval = 2e-6  # 2微秒
+            logger.warning("未找到wf_increment属性，使用默认采样间隔5微秒")
         
         # 确定起始时间（用于元数据）
         if hasattr(first_channel, 'properties') and 'wf_start_time' in first_channel.properties:
@@ -129,7 +130,7 @@ def process_tdms_file(tdms_path, output_base_dir, raw_data_dir):
             'sampling_interval_seconds': sampling_interval,
             'sampling_rate_hz': wf_samples,
             'data_length': data_length,
-            'total_duration_seconds': data_length * sampling_interval,
+            'total_duration_seconds': round(data_length * sampling_interval, 10),
             'num_channels': num_channels,
             'time_reference': 'relative_seconds_from_zero',
             'time_unit': 'seconds'

@@ -1,10 +1,10 @@
 #====================================================================
-# File Name:tdms_reader_frequency_one.py
+# File Name:tdms_reader_frequency_add.py
 # Project Name:dataprocess
 # Description:
 # 1、读取时域CSV文件：遍历主文件夹下的子文件夹
-# 2、对每个通道的数据进行FFT分析，得到频率、幅度和相位信息
-# 3、生成csv文件，文件名格式为FFT_原文件名
+# 2、对每个通道的数据进行累加FFT分析（依次使用1、2、3...个时域文件进行FFT）
+# 3、生成csv文件，文件名格式为FFT_n（n为使用几个文件）
 # 4、csv文件结构：
 #  列名	       数据类型	                   描述	                         示例
 #  frequency	  数值 (float)	        频率值，单位Hz	                 1000.0
@@ -25,7 +25,7 @@ import yaml
 import logging
 import re
 import gc
-import globq
+import glob
 from tqdm import tqdm  # 添加进度条
 
 logger = logging.getLogger('data_process')
