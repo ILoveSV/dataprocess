@@ -31,6 +31,7 @@ import logging
 import json 
 
 logger = logging.getLogger('data_process')
+DEFAULT_SAMPLING_INTERVAL = 2e-6  # 2 us
 
 def load_config():
     project_root = Path(__file__).resolve().parent.parent.parent
@@ -68,14 +69,20 @@ def process_tdms_file(tdms_path, output_base_dir, raw_data_dir):
         
         # 获取实际的采样间隔（秒）
         if hasattr(first_channel, 'properties') and 'wf_increment' in first_channel.properties:
-            sampling_interval = 2e-6  # 2微秒
-#            sampling_interval = first_channel.properties['wf_increment']  # 0.000005秒
-            wf_samples        = first_channel.properties['wf_samples']
-#            logger.info(f"使用实际采样间隔: {sampling_interval} 秒")
+            try:
+                sampling_interval = float(first_channel.properties['wf_increment'])
+            except (TypeError, ValueError):
+                sampling_interval = DEFAULT_SAMPLING_INTERVAL
+                logger.warning("wf_increment parse failed, fallback to default 2e-6 s")
         else:
-            # 回退到默认值
-            sampling_interval = 2e-6  # 2微秒
-            logger.warning("未找到wf_increment属性，使用默认采样间隔5微秒")
+            sampling_interval = DEFAULT_SAMPLING_INTERVAL
+            logger.warning("wf_increment not found, fallback to default 2e-6 s")
+
+        if sampling_interval <= 0:
+            sampling_interval = DEFAULT_SAMPLING_INTERVAL
+            logger.warning("invalid sampling interval, fallback to default 2e-6 s")
+
+        sampling_rate_hz = int(round(1.0 / sampling_interval))
         
         # 确定起始时间（用于元数据）
         if hasattr(first_channel, 'properties') and 'wf_start_time' in first_channel.properties:
@@ -128,7 +135,7 @@ def process_tdms_file(tdms_path, output_base_dir, raw_data_dir):
             'start_time': start_time_absolute.isoformat() if hasattr(start_time_absolute, 'isoformat') else str(start_time_absolute),
             'filename_time': start_time_from_filename.isoformat(),
             'sampling_interval_seconds': sampling_interval,
-            'sampling_rate_hz': wf_samples,
+            'sampling_rate_hz': sampling_rate_hz,
             'data_length': data_length,
             'total_duration_seconds': round(data_length * sampling_interval, 10),
             'num_channels': num_channels,

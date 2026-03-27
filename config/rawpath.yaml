@@ -1,4 +1,4 @@
-date: "2025.11.24"
+date: "26.3.9"
 work_dir: "D:/Lab"
 
 raw_data_dir: "${work_dir}/raw/${date}"

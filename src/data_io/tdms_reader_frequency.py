@@ -41,6 +41,29 @@ def load_config():
     logger.info(f"配置文件加载成功: {config_path}")
     return config
 
+def normalize_sampling_rate(metadata, default_rate=500000):
+    """Parse sampling rate from metadata and return a positive integer Hz."""
+    if metadata:
+        raw_interval = metadata.get('sampling_interval_seconds')
+        if raw_interval is not None:
+            try:
+                interval = float(raw_interval)
+                if interval > 0:
+                    return int(round(1.0 / interval))
+            except (TypeError, ValueError):
+                pass
+
+        raw_rate = metadata.get('sampling_rate_hz')
+        if raw_rate is not None:
+            try:
+                rate = int(round(float(raw_rate)))
+                if rate > 0:
+                    return rate
+            except (TypeError, ValueError):
+                pass
+
+    return int(default_rate)
+
 def perform_fft_analysis(data, sampling_rate=50000):
     """
     对数据进行FFT分析，返回频率、幅度和相位
@@ -60,6 +83,10 @@ def perform_fft_analysis(data, sampling_rate=50000):
     fft_result = np.fft.fft(data)
     
     # 计算频率轴
+    sampling_rate = int(round(float(sampling_rate)))
+    if sampling_rate <= 0:
+        raise ValueError('Invalid sampling_rate: {}'.format(sampling_rate))
+
     freqs = np.fft.fftfreq(n, 1/sampling_rate)
     
     # 计算幅度和相位
@@ -80,11 +107,11 @@ def process_csv_file(csv_path, output_base_dir, input_base_dir):
         if os.path.exists(metadata_path):
             with open(metadata_path, 'r', encoding='utf-8') as f:
                 metadata = json.load(f)
-            sampling_rate = metadata['sampling_rate_hz']  # 从元数据获取真实采样率
+            sampling_rate = normalize_sampling_rate(metadata)  # 从元数据获取真实采样率
             logger.info(f"使用元数据采样率: {sampling_rate} Hz")
         else:
             logger.warning(f"未找到元数据文件 {metadata_path}，使用默认采样率200kHz")
-            sampling_rate = 200000  # 默认采样率
+            sampling_rate = 500000  # 默认采样率
         
         # 读取整个CSV文件
         df = pd.read_csv(csv_path)

@@ -13,7 +13,6 @@ from src.utils.file_utils import generate_paths_config as generate_paths_config
 from src.data_io.tdms_reader_time import main as time_main
 from src.data_io.tdms_reader_frequency import main as frequency_main
 from src.data_io.tdms_reader_frequency_average import main as frequency_average_main
-from src.data_io.sql_tdms_reader import main as sql_tdms_reader_main
 
 from src.visualization.time_series_plots import main as time_plots_main
 from src.visualization.frequency_plots import main as freq_plots_main
@@ -48,6 +47,15 @@ def main():
             time_plots_main()
         
     elif args.module == 'freqplots':
+            freq_plots_main()
+
+    elif args.module == 'visualize':
+            time_plots_main()
+            freq_plots_main()
+
+    elif args.module == 'report':
+            # 当前报告由可视化模块一并生成
+            time_plots_main()
             freq_plots_main()
 
     elif args.module == 'all':

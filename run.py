@@ -25,19 +25,19 @@ PRESETS = {
     
     # 仅数据加载和预处理
     "preprocess": {
-        "module": "preprocess",
+        "module": "timedata",
         "config": "config/parameters.yaml"
     },
     
     # 仅时域分析
     "time": {
-        "module": "time",
+        "module": "timeplots",
         "config": "config/parameters.yaml"
     },
     
     # 仅频域分析
     "freq": {
-        "module": "freq",
+        "module": "freqplots",
         "config": "config/parameters.yaml"
     },
     
@@ -55,8 +55,8 @@ PRESETS = {
     
     # 添加你的自定义预设...
      "load": {
-         "module": "load",
-         "config": "path/to/your/config.yaml"
+         "module": "timedata",
+         "config": "config/parameters.yaml"
      }
 }
 

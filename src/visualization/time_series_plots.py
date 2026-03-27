@@ -51,7 +51,7 @@ def read_csv_data(csv_file_path):
         
         if time_column not in df.columns:
           raise ValueError("CSV文件中缺少'time'列")
-        if channel_columns not in df.colunms:
+        if not channel_columns:
           raise ValueError("CSV文件中缺少以'channel'开头的列")
 
         logger.info(f"成功读取数据: {len(df)} 行, {len(channel_columns)} 个通道")

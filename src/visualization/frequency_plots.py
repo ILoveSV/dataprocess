@@ -34,6 +34,181 @@ plt.switch_backend('Agg')
 
 logger = logging.getLogger('data_process')
 
+def _robust_ylim(values, default=(0.0, 1.0), low_q=1.0, high_q=99.5, pad_ratio=0.15):
+    arr = np.asarray(values, dtype=float)
+    arr = arr[np.isfinite(arr)]
+    if arr.size == 0:
+        return list(default)
+
+    lo = np.percentile(arr, low_q)
+    hi = np.percentile(arr, high_q)
+    if not np.isfinite(lo) or not np.isfinite(hi):
+        return list(default)
+    if hi <= lo:
+        hi = lo + 1.0
+
+    pad = (hi - lo) * pad_ratio
+    y0 = max(0.0, lo - pad)
+    y1 = hi + pad
+    if y1 <= y0:
+        y1 = y0 + 1.0
+    return [float(y0), float(y1)]
+
+
+def _safe_positive(values, eps=1e-12):
+    arr = np.asarray(values, dtype=float)
+    arr = np.where(np.isfinite(arr), arr, np.nan)
+    return np.maximum(arr, eps)
+
+
+def _collect_channel_matrix(group_data, channel_name):
+    matrices = []
+    frequency = None
+    expected_length = None
+    for file_data in group_data:
+        df = file_data['df']
+        if channel_name not in df.columns:
+            continue
+        current_frequency = df['frequency'].to_numpy(dtype=float)
+        current_values = df[channel_name].to_numpy(dtype=float)
+
+        if frequency is None:
+            frequency = current_frequency
+            expected_length = len(current_values)
+            matrices.append(current_values)
+            continue
+
+        if len(current_values) != expected_length or len(current_frequency) != len(frequency):
+            logger.warning(
+                f"Skipping {Path(file_data['file_path']).name} for {channel_name}: "
+                f"inconsistent spectrum length ({len(current_values)} vs {expected_length})"
+            )
+            continue
+
+        if not np.allclose(current_frequency, frequency):
+            logger.warning(
+                f"Skipping {Path(file_data['file_path']).name} for {channel_name}: inconsistent frequency axis"
+            )
+            continue
+
+        matrices.append(current_values)
+
+    if not matrices or frequency is None:
+        return None, None
+    return frequency, np.vstack(matrices)
+
+
+def _plot_spectrum_band(group_data, output_path, band, title_suffix):
+    fig, axes = plt.subplots(4, 4, figsize=(22, 18))
+    axes = axes.flatten()
+
+    sample_file = group_data[0]
+    amplitude_channels = sample_file['channel_info']['amplitude_channels']
+    group_name = Path(group_data[0]['file_path']).parent.name
+    freq_min, freq_max = band
+
+    for i, channel in enumerate(amplitude_channels):
+        if i >= len(axes):
+            break
+
+        ax = axes[i]
+        frequency, amplitude_matrix = _collect_channel_matrix(group_data, channel)
+        if frequency is None or amplitude_matrix is None:
+            ax.set_visible(False)
+            continue
+
+        mask = (frequency >= freq_min) & (frequency <= freq_max)
+        if not np.any(mask):
+            ax.set_visible(False)
+            continue
+
+        freq_slice = frequency[mask]
+        amp_slice = amplitude_matrix[:, mask]
+        mean_spectrum = np.mean(amp_slice, axis=0)
+        std_spectrum = np.std(amp_slice, axis=0)
+        lower = np.maximum(mean_spectrum - std_spectrum, 1e-12)
+        upper = np.maximum(mean_spectrum + std_spectrum, lower * 1.001)
+
+        ax.fill_between(freq_slice, lower, upper, color='#9ecae1', alpha=0.45, label='Mean +/- 1 Std')
+        ax.plot(freq_slice, _safe_positive(mean_spectrum), color='#08519c', linewidth=1.8, label='Mean Spectrum')
+        ax.set_yscale('log')
+        ax.set_title(channel.upper(), fontsize=12, fontweight='bold')
+        ax.set_xlabel('Frequency (Hz)')
+        ax.set_ylabel('Amplitude (log)')
+        ax.set_xlim(freq_slice.min(), freq_slice.max())
+        ax.grid(True, alpha=0.3, which='both')
+
+        if i == 0:
+            ax.legend(loc='upper right', fontsize=8)
+
+    for i in range(len(amplitude_channels), len(axes)):
+        axes[i].set_visible(False)
+
+    plt.suptitle(f'Group {group_name} - {title_suffix}', fontsize=16, fontweight='bold')
+    plt.tight_layout(rect=[0, 0, 1, 0.97])
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    logger.info(f"Amplitude band figure saved: {output_path}")
+
+
+def _plot_channel_peak_windows(group_data, output_path):
+    fig, axes = plt.subplots(4, 4, figsize=(22, 18))
+    axes = axes.flatten()
+
+    sample_file = group_data[0]
+    amplitude_channels = sample_file['channel_info']['amplitude_channels']
+    group_name = Path(group_data[0]['file_path']).parent.name
+
+    for i, channel in enumerate(amplitude_channels):
+        if i >= len(axes):
+            break
+
+        ax = axes[i]
+        frequency, amplitude_matrix = _collect_channel_matrix(group_data, channel)
+        if frequency is None or amplitude_matrix is None:
+            ax.set_visible(False)
+            continue
+
+        mean_spectrum = np.mean(amplitude_matrix, axis=0)
+        valid_mask = (frequency >= 1000) & (frequency <= 50000)
+        if not np.any(valid_mask):
+            ax.set_visible(False)
+            continue
+
+        valid_indices = np.where(valid_mask)[0]
+        peak_rel_idx = np.argmax(mean_spectrum[valid_mask])
+        peak_idx = valid_indices[peak_rel_idx]
+        peak_frequency = frequency[peak_idx]
+        window_half_width = max(500.0, peak_frequency * 0.1)
+        mask = (frequency >= peak_frequency - window_half_width) & (frequency <= peak_frequency + window_half_width)
+
+        freq_slice = frequency[mask]
+        amp_slice = amplitude_matrix[:, mask]
+        mean_slice = np.mean(amp_slice, axis=0)
+        std_slice = np.std(amp_slice, axis=0)
+        lower = np.maximum(mean_slice - std_slice, 1e-12)
+        upper = np.maximum(mean_slice + std_slice, lower * 1.001)
+
+        ax.fill_between(freq_slice, lower, upper, color='#fdd0a2', alpha=0.45)
+        ax.plot(freq_slice, _safe_positive(mean_slice), color='#d94801', linewidth=1.8)
+        ax.axvline(peak_frequency, color='#7f2704', linestyle='--', linewidth=1)
+        ax.set_yscale('log')
+        ax.set_title(f"{channel.upper()} @ {peak_frequency:.1f} Hz", fontsize=11, fontweight='bold')
+        ax.set_xlabel('Frequency (Hz)')
+        ax.set_ylabel('Amplitude (log)')
+        ax.set_xlim(freq_slice.min(), freq_slice.max())
+        ax.grid(True, alpha=0.3, which='both')
+
+    for i in range(len(amplitude_channels), len(axes)):
+        axes[i].set_visible(False)
+
+    plt.suptitle(f'Group {group_name} - Channel Peak Windows', fontsize=16, fontweight='bold')
+    plt.tight_layout(rect=[0, 0, 1, 0.97])
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    logger.info(f"Channel peak window figure saved: {output_path}")
+
+
 def load_config():
     """加载配置文件"""
     project_root = Path(__file__).resolve().parent.parent.parent
@@ -163,185 +338,107 @@ def analyze_phase_relationships(df, channel_info):
     return phase_analysis
 
 def plot_group_amplitude_spectrum(group_data, output_path):
-    """绘制组内所有文件的幅度谱对比图"""
+    """Plot grouped amplitude spectra using log-scale information bands."""
     try:
-        logger.info("开始绘制组幅度谱对比图")
-        
-        # 创建4x4的子图布局
-        fig, axes = plt.subplots(4, 4, figsize=(20, 16))
-        axes = axes.flatten()
-        
-        # 获取所有幅度通道名称（假设所有文件通道相同）
-        sample_file = group_data[0]
-        amplitude_channels = sample_file['channel_info']['amplitude_channels']
-        
-        # 设置统一的y轴范围
-        all_data = []
-        for file_data in group_data:
-            for channel in amplitude_channels:
-                all_data.extend(file_data['df'][channel].values)
-        
-        if all_data:
-            y_min = 0
-            y_max = np.percentile(all_data, 99.9)
-            y_range = y_max - y_min
-            y_lim = [y_min, y_max + 0.1 * y_range]  # 从0开始，上方留10%空白
-        else:
-            y_lim = [0, 1]  # 默认范围
-        
-        # 为每个通道绘制所有文件的幅度谱
-        for i, channel in enumerate(amplitude_channels):
-            if i < len(axes):
-                ax = axes[i]
-                
-                # 为每个文件绘制一条线（使用不同颜色）
-                colors = plt.cm.tab10(np.linspace(0, 1, len(group_data)))
-                for j, file_data in enumerate(group_data):
-                    df = file_data['df']
-                    frequency = df['frequency']
-                    amplitude = df[channel]
-                    
-                    ax.plot(frequency, amplitude, color=colors[j], alpha=0.7, linewidth=1,
-                           label=f"File {j+1}")
-                
-                ax.set_title(f'{channel.upper()}', fontsize=12, fontweight='bold')
-                ax.set_xlabel('Frequency (Hz)')
-                ax.set_ylabel('Amplitude')
-                ax.set_ylim(y_lim)
-                ax.set_xlim(0, min(1000, frequency.max()))  # 限制频率范围
-                ax.grid(True, alpha=0.3)
-                
-                # 只在第一个子图显示图例
-                if i == 0 and len(group_data) <= 10:  # 避免图例太多
-                    ax.legend(loc='upper right', fontsize=6)
-        
-        # 隐藏多余的子图
-        for i in range(len(amplitude_channels), len(axes)):
-            axes[i].set_visible(False)
-        
-        group_name = Path(group_data[0]['file_path']).parent.name
-        plt.suptitle(f'Group {group_name} - Amplitude Spectrum Comparison (0-1000Hz)', fontsize=16, fontweight='bold')
-        plt.tight_layout()
-        plt.subplots_adjust(top=0.95)
-        
-        # 保存第一个图（0-1000Hz）
+        logger.info("Generating log-scale spectrum bands")
         output_path_1 = str(output_path).replace('.png', '_1.png')
-        plt.savefig(output_path_1, dpi=300, bbox_inches='tight')
-        logger.info(f"组幅度谱对比图1已保存: {output_path_1}")
-        
-        # 生成第二个图（0-6000Hz）
-        for i, channel in enumerate(amplitude_channels):
-            if i < len(axes):
-                ax = axes[i]
-                ax.set_xlim(0, min(6000, frequency.max()))  # 修改横坐标范围为0-6000Hz
-        
-        plt.suptitle(f'Group {group_name} - Amplitude Spectrum Comparison (0-6000Hz)', fontsize=16, fontweight='bold')
-        
-        # 保存第二个图
-
+        _plot_spectrum_band(group_data, output_path_1, (0, 200), 'Low-Frequency Background (0-200 Hz, log scale)')
         output_path_2 = str(output_path).replace('.png', '_2.png')
-        plt.savefig(output_path_2, dpi=300, bbox_inches='tight')
-        logger.info(f"组幅度谱对比图2已保存: {output_path_2}")
-        
-        # 生成第二个图（0-50000Hz）
-        for i, channel in enumerate(amplitude_channels):
-            if i < len(axes):
-                ax = axes[i]
-                ax.set_xlim(0, min(50000, frequency.max()))  # 修改横坐标范围为0-50000Hz
-        
-        plt.suptitle(f'Group {group_name} - Amplitude Spectrum Comparison (0-50000Hz)', fontsize=16, fontweight='bold')
-        
-        # 保存第三个图
-
+        _plot_spectrum_band(group_data, output_path_2, (1000, 10000), 'Primary Feature Band (1-10 kHz, log scale)')
         output_path_3 = str(output_path).replace('.png', '_3.png')
-        plt.savefig(output_path_3, dpi=300, bbox_inches='tight')
-        plt.close()
-        
-        logger.info(f"组幅度谱对比图3已保存: {output_path_3}")
+        _plot_spectrum_band(group_data, output_path_3, (10000, 50000), 'High-Frequency Harmonics (10-50 kHz, log scale)')
+        peak_windows_output = str(output_path).replace('.png', '_peak_windows.png')
+        _plot_channel_peak_windows(group_data, peak_windows_output)
 
     except Exception as e:
-        logger.error(f"绘制组幅度谱对比图失败: {str(e)}")
+        logger.error(f"Failed to plot amplitude spectra: {str(e)}")
         import traceback
         logger.error(traceback.format_exc())
 
+
 def plot_group_phase_analysis(group_data, output_path):
-    """绘制组相位分析图"""
+    """????????"""
     try:
-        logger.info("开始绘制组相位分析图")
-        
+        logger.info("??????????")
+
         if not group_data:
-            logger.warning("没有可用的数据")
+            logger.warning("???????")
             return
-        
-        # 使用第一个文件的数据
+
         sample_data = group_data[0]
         df = sample_data['df']
         channel_info = sample_data['channel_info']
         phase_channels = channel_info['phase_channels']
-        
+
         if len(phase_channels) < 2:
-            logger.warning("相位通道数量不足，无法进行相位分析")
+            logger.warning("?????????????????")
             return
-        
-        # 创建子图
+
         fig, axes = plt.subplots(2, 1, figsize=(15, 12))
-        
-        # 1. 相位谱图
+
+        max_freq = min(1000, df['frequency'].max())
+        phase_mask = df['frequency'] <= max_freq
+        phase_freq = df.loc[phase_mask, 'frequency']
+        step = max(1, len(phase_freq) // 3000)
+        phase_freq = phase_freq.iloc[::step]
+
         ax1 = axes[0]
         for channel in phase_channels:
-            frequency = df['frequency']
-            phase = df[channel]
-            ax1.plot(frequency, phase, label=channel, alpha=0.7, linewidth=1)
-        
+            phase = df.loc[phase_mask, channel].iloc[::step]
+            ax1.plot(phase_freq, phase, label=channel, alpha=0.65, linewidth=0.9)
+
         ax1.set_title('Phase Spectrum of All Channels', fontsize=14, fontweight='bold')
         ax1.set_xlabel('Frequency (Hz)')
         ax1.set_ylabel('Phase (rad)')
         ax1.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
         ax1.grid(True, alpha=0.3)
-        ax1.set_xlim(0, min(1000, frequency.max()))
-        
-        # 2. 相位差分析
+        ax1.set_xlim(0, max_freq)
+        ax1.set_ylim(-np.pi, np.pi)
+
         ax2 = axes[1]
         reference_channel = phase_channels[0]
-        
-        for i, channel in enumerate(phase_channels[1:], 1):
-            phase_diff = df[channel] - df[reference_channel]
+        all_phase_diffs = []
+
+        for channel in phase_channels[1:]:
+            phase_diff = df.loc[phase_mask, channel] - df.loc[phase_mask, reference_channel]
             phase_diff_unwrapped = np.unwrap(phase_diff)
-            ax2.plot(frequency, phase_diff_unwrapped, 
-                    label=f'{channel} - {reference_channel}', alpha=0.7)
-        
-        ax2.set_title('Phase Difference Relative to Reference Channel (Unwrapped)', fontsize=14, fontweight='bold')
+            phase_diff_centered = phase_diff_unwrapped - np.mean(phase_diff_unwrapped)
+            all_phase_diffs.extend(phase_diff_centered[::step])
+            ax2.plot(phase_freq, phase_diff_centered[::step],
+                     label=f'{channel} - {reference_channel}', alpha=0.7)
+
+        ax2.set_title('Phase Difference Relative to Reference Channel (Centered)', fontsize=14, fontweight='bold')
         ax2.set_xlabel('Frequency (Hz)')
         ax2.set_ylabel('Phase Difference (rad)')
         ax2.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
         ax2.grid(True, alpha=0.3)
-        ax2.set_xlim(0, min(1000, frequency.max()))
-        
+        ax2.set_xlim(0, max_freq)
+        ax2.set_ylim(_robust_ylim(all_phase_diffs, default=(-10.0, 10.0), low_q=2.0, high_q=98.0, pad_ratio=0.2))
+
         group_name = Path(group_data[0]['file_path']).parent.name
         plt.suptitle(f'Group {group_name} - Phase Analysis', fontsize=16, fontweight='bold')
-        plt.tight_layout()
-        plt.subplots_adjust(top=0.95)
-        
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
-        
-        logger.info(f"组相位分析图已保存: {output_path}")
-        
+
+        logger.info(f"?????????: {output_path}")
+
     except Exception as e:
-        logger.error(f"绘制组相位分析图失败: {str(e)}")
+        logger.error(f"??????????: {str(e)}")
         import traceback
         logger.error(traceback.format_exc())
 
+
 def plot_group_dominant_frequencies(group_stats, output_path):
-    """绘制组主导频率分布图"""
+    """??????????"""
     try:
-        logger.info("开始绘制组主导频率分布图")
-        
+        logger.info("????????????")
+
         if not group_stats:
-            logger.warning("没有可用的统计数据")
+            logger.warning("?????????")
             return
-            
-        # 收集所有主导频率
+
         all_dominant_freqs = []
         for file_stats in group_stats:
             for channel, stats in file_stats['fft_stats'].items():
@@ -352,122 +449,114 @@ def plot_group_dominant_frequencies(group_stats, output_path):
                         'amplitude': amp,
                         'file': Path(file_stats['file_path']).name
                     })
-        
+
         if not all_dominant_freqs:
-            logger.warning("没有找到主导频率")
+            logger.warning("????????")
             return
-        
-        # 创建DataFrame
+
         df_dominant = pd.DataFrame(all_dominant_freqs)
-        
-        # 绘制主导频率分布
+
         plt.figure(figsize=(15, 10))
-        
-        # 按通道绘制
         channels = df_dominant['channel'].unique()
         colors = plt.cm.tab10(np.linspace(0, 1, len(channels)))
-        
+
         for i, channel in enumerate(channels):
             channel_data = df_dominant[df_dominant['channel'] == channel]
-            plt.scatter(channel_data['frequency'], channel_data['amplitude'], 
-                       label=channel, color=colors[i], s=50, alpha=0.7)
-        
+            plt.scatter(channel_data['frequency'], channel_data['amplitude'],
+                        label=channel, color=colors[i], s=50, alpha=0.7)
+
         plt.title('Dominant Frequency Distribution by Channel', fontsize=16, fontweight='bold')
         plt.xlabel('Frequency (Hz)')
         plt.ylabel('Amplitude')
         plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
         plt.grid(True, alpha=0.3)
-        
-        # 标记最常见的频率
+        max_freq = float(df_dominant['frequency'].max())
+        plt.xlim(0, max_freq * 1.05 if max_freq > 0 else 1)
+
         if len(df_dominant) > 0:
             freq_counts = df_dominant['frequency'].value_counts().head(5)
+            y_top = plt.ylim()[1]
             for freq, count in freq_counts.items():
                 plt.axvline(x=freq, color='red', linestyle='--', alpha=0.5)
-                plt.text(freq, plt.ylim()[1]*0.9, f'{freq:.1f}Hz\n({count} times)', 
-                        ha='center', fontsize=8, color='red')
-        
+                plt.text(freq, y_top * 0.9, f'{freq:.1f}Hz\\n({count} times)',
+                         ha='center', fontsize=8, color='red')
+
         group_name = Path(group_stats[0]['file_path']).parent.name
         plt.suptitle(f'Group {group_name} - Dominant Frequency Analysis', fontsize=16, fontweight='bold')
-        plt.tight_layout()
-        
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
-        
-        logger.info(f"组主导频率分布图已保存: {output_path}")
-        
+
+        logger.info(f"???????????: {output_path}")
+
         return df_dominant
-        
+
     except Exception as e:
-        logger.error(f"绘制组主导频率分布图失败: {str(e)}")
+        logger.error(f"????????????: {str(e)}")
         import traceback
         logger.error(traceback.format_exc())
         return None
 
+
 def plot_group_stability_analysis(group_stats, output_path):
-    """绘制组频率稳定性分析图"""
+    """???????????"""
     try:
-        logger.info("开始绘制组频率稳定性分析图")
+        logger.info("?????????????")
         all_amplitudes = []
         if len(group_stats) < 2:
-            logger.warning("需要至少2个文件进行稳定性分析")
+            logger.warning("????2??????????")
             return
-        
-        # 获取第一个文件的频率数据和通道
+
         first_file_stats = group_stats[0]
         first_file_data, first_channel_info = read_fft_data(first_file_stats['file_path'])
         frequency = first_file_data['frequency']
         amplitude_channels = first_channel_info['amplitude_channels']
-        
+
         if not amplitude_channels:
-            logger.warning("没有幅度通道数据")
+            logger.warning("????????")
             return
-        
-        # 使用第一个幅度通道进行稳定性分析
+
         reference_channel = amplitude_channels[0]
-        expected_length = len(first_file_data[reference_channel])  # 获取第一个文件的长度作为基准
+        expected_length = len(first_file_data[reference_channel])
 
         for file_stats in group_stats:
             try:
                 df, _ = read_fft_data(file_stats['file_path'])
                 current_amplitude = df[reference_channel].values
                 current_length = len(current_amplitude)
-                
-                # 检查数据长度是否一致
+
                 if current_length != expected_length:
-                    logger.warning(f"跳过文件 {Path(file_stats['file_path']).name}: 数据长度不一致 ({current_length} vs {expected_length})")
+                    logger.warning(f"???? {Path(file_stats['file_path']).name}: ??????? ({current_length} vs {expected_length})")
                     continue
-                    
+
                 all_amplitudes.append(current_amplitude)
             except Exception as e:
-                logger.warning(f"读取文件 {file_stats['file_path']} 失败: {str(e)}")
+                logger.warning(f"???? {file_stats['file_path']} ??: {str(e)}")
                 continue
-        
+
         if len(all_amplitudes) < 2:
-            logger.warning("没有足够的数据进行稳定性分析")
+            logger.warning("??????????????")
             return
-        
-        # 计算统计量
+
         all_amplitudes = np.array(all_amplitudes)
         mean_amplitude = np.mean(all_amplitudes, axis=0)
         std_amplitude = np.std(all_amplitudes, axis=0)
-        cv_amplitude = std_amplitude / (mean_amplitude + 1e-8)  # 变异系数
-        
-        # 绘制稳定性分析图
+        cv_amplitude = std_amplitude / (mean_amplitude + 1e-8)
+
         fig, axes = plt.subplots(2, 1, figsize=(15, 10))
-        
-        # 1. 幅度平均值和标准差
+
         ax1 = axes[0]
         ax1.plot(frequency, mean_amplitude, 'b-', label='Mean', linewidth=2)
-        ax1.fill_between(frequency, mean_amplitude - std_amplitude, 
-                        mean_amplitude + std_amplitude, alpha=0.3, label='±1 Std Dev')
-        ax1.set_title('Amplitude Spectrum Stability Analysis', fontsize=14, fontweight='bold')
+        ax1.fill_between(frequency, mean_amplitude - std_amplitude,
+                         mean_amplitude + std_amplitude, alpha=0.3, label='+/- 1 Std Dev')
+        ax1.set_title('Mean Amplitude with Std Envelope', fontsize=13, fontweight='bold')
         ax1.set_xlabel('Frequency (Hz)')
         ax1.set_ylabel('Amplitude')
         ax1.legend()
         ax1.grid(True, alpha=0.3)
         ax1.set_xlim(0, min(1000, frequency.max()))
-        
-        # 2. 变异系数
+
         ax2 = axes[1]
         ax2.plot(frequency, cv_amplitude, 'r-', linewidth=2)
         ax2.set_title('Amplitude Coefficient of Variation (CV)', fontsize=14, fontweight='bold')
@@ -475,118 +564,119 @@ def plot_group_stability_analysis(group_stats, output_path):
         ax2.set_ylabel('Coefficient of Variation')
         ax2.grid(True, alpha=0.3)
         ax2.set_xlim(0, min(1000, frequency.max()))
-        
+
         group_name = Path(group_stats[0]['file_path']).parent.name
-        plt.suptitle(f'Group {group_name} - Frequency Stability Analysis (Channel {reference_channel})', 
-                    fontsize=16, fontweight='bold')
-        plt.tight_layout()
-        plt.subplots_adjust(top=0.95)
-        
+        plt.suptitle(f'Group {group_name} - Frequency Stability Analysis (Channel {reference_channel})',
+                     fontsize=15, fontweight='bold')
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
-        
-        logger.info(f"组频率稳定性分析图已保存: {output_path}")
-        
+
+        logger.info(f"????????????: {output_path}")
+
         stability_analysis = {
             'mean_amplitude': mean_amplitude.tolist(),
             'std_amplitude': std_amplitude.tolist(),
             'cv_amplitude': cv_amplitude.tolist(),
-            'overall_cv': float(np.mean(cv_amplitude[frequency < 500])),  # 500Hz以下的平均CV
+            'overall_cv': float(np.mean(cv_amplitude[frequency < 500])),
             'file_count': len(all_amplitudes),
             'reference_channel': reference_channel
         }
-        
+
         return stability_analysis
-        
+
     except Exception as e:
-        logger.error(f"绘制组频率稳定性分析图失败: {str(e)}")
+        logger.error(f"?????????????: {str(e)}")
         import traceback
         logger.error(traceback.format_exc())
         return None
 
+
 def plot_group_feature_frequencies(group_data, target_frequencies, output_path):
-    """绘制组特征频率提取图"""
+    """??????????"""
     try:
-        logger.info("开始绘制组特征频率提取图")
-        
+        logger.info("????????????")
+
         if not group_data:
-            logger.warning("没有可用的数据")
+            logger.warning("???????")
             return
-        
-        # 使用第一个文件的数据
+
         sample_data = group_data[0]
         df = sample_data['df']
         channel_info = sample_data['channel_info']
         amplitude_channels = channel_info['amplitude_channels']
         frequency = df['frequency']
-        
-        # 如果没有指定目标频率，自动检测
+
         if target_frequencies is None:
             target_frequencies = auto_detect_feature_frequencies(df, channel_info)
-        
+
         if not target_frequencies:
-            logger.warning("没有找到特征频率")
+            logger.warning("????????")
             return
-        
-        # 绘制特征频率图
+
         plt.figure(figsize=(15, 8))
-        
-        # 只显示前4个通道避免过于拥挤
+        ax = plt.gca()
+
         for channel in amplitude_channels[:4]:
             amplitude = df[channel]
             plt.plot(frequency, amplitude, label=channel, alpha=0.7)
-            
-            # 标记特征频率
-            for target_freq in target_frequencies:
-                idx = np.argmin(np.abs(frequency - target_freq))
-                plt.plot(frequency.iloc[idx], amplitude.iloc[idx], 'ro', markersize=6)
-                plt.annotate(f'{target_freq}Hz', 
-                           (frequency.iloc[idx], amplitude.iloc[idx]),
-                           xytext=(10, 10), textcoords='offset points',
-                           fontsize=8, color='red')
-        
+
+        max_freq = min(1000, frequency.max())
+        y_values = []
+        y_mask = (frequency >= 20) & (frequency <= max_freq)
+        for channel in amplitude_channels[:4]:
+            y_values.extend(df.loc[y_mask, channel].values)
+
         plt.title('Feature Frequency Extraction', fontsize=16, fontweight='bold')
         plt.xlabel('Frequency (Hz)')
         plt.ylabel('Amplitude')
         plt.legend()
         plt.grid(True, alpha=0.3)
-        plt.xlim(0, min(1000, frequency.max()))
-        
+        plt.xlim(0, max_freq)
+        plt.ylim(_robust_ylim(y_values))
+
+        y_top = plt.ylim()[1]
+        for target_freq in target_frequencies:
+            ax.axvline(target_freq, color='red', linestyle='--', alpha=0.55, linewidth=1)
+            ax.text(target_freq + 3, y_top * 0.92, f'{target_freq}Hz',
+                    fontsize=8, color='red', rotation=90, va='top')
+
         group_name = Path(group_data[0]['file_path']).parent.name
         plt.suptitle(f'Group {group_name} - Feature Frequency Analysis', fontsize=16, fontweight='bold')
-        plt.tight_layout()
-        
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
-        
-        logger.info(f"组特征频率提取图已保存: {output_path}")
-        
-        # 计算特征频率结果
+
+        logger.info(f"???????????: {output_path}")
+
         feature_results = {}
         for channel in amplitude_channels:
             amplitude = df[channel]
             channel_features = {}
-            
+
             for target_freq in target_frequencies:
                 idx = np.argmin(np.abs(frequency - target_freq))
                 actual_freq = frequency.iloc[idx]
                 amp_value = amplitude.iloc[idx]
-                
+
                 channel_features[target_freq] = {
                     'actual_frequency': float(actual_freq),
                     'amplitude': float(amp_value),
                     'frequency_error': float(abs(actual_freq - target_freq))
                 }
-            
+
             feature_results[channel] = channel_features
-        
+
         return feature_results
-        
+
     except Exception as e:
-        logger.error(f"绘制组特征频率提取图失败: {str(e)}")
+        logger.error(f"????????????: {str(e)}")
         import traceback
         logger.error(traceback.format_exc())
         return None
+
 
 def auto_detect_feature_frequencies(df, channel_info, n_peaks=10):
     """自动检测特征频率"""
