@@ -1,0 +1,1733 @@
+{
+  "file": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\calculation and paper\\biyelunwen\\程家诺-极化带效应水下目标探测感知.docx",
+  "paragraph_count": 277,
+  "table_count": 2,
+  "paragraphs": [
+    {
+      "i": 0,
+      "style": "主题",
+      "text": "上海交通大学硕士学位论文"
+    },
+    {
+      "i": 1,
+      "style": "Normal",
+      "text": "基于极化带效应水下目标探测感知系统的艇体目标探测研究基于极化带效应水下目标探测感知系统的艇体目标探测研究"
+    },
+    {
+      "i": 2,
+      "style": "Normal",
+      "text": "姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2025年11月2日姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2025年11月2日"
+    },
+    {
+      "i": 4,
+      "style": "Normal",
+      "text": "A Dissertation Submitted to Shanghai Jiao Tong University for the Degree of Master"
+    },
+    {
+      "i": 5,
+      "style": "Normal",
+      "text": "Dissertation Template for Master Degree of Engineering in Shanghai Jiao Tong UniversityDissertation Template for Master Degree of Engineering in Shanghai Jiao Tong University"
+    },
+    {
+      "i": 6,
+      "style": "Normal",
+      "text": "Author:Cheng JianuoSupervisor:Prof. Hou ZhongyuAuthor:Cheng JianuoSupervisor:Prof. Hou Zhongyu"
+    },
+    {
+      "i": 7,
+      "style": "Normal",
+      "text": "School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023"
+    },
+    {
+      "i": 9,
+      "style": "Normal",
+      "text": "上海交通大学学位论文原创性声明"
+    },
+    {
+      "i": 10,
+      "style": "Normal",
+      "text": "本人郑重声明：所呈交的学位论文，是本人在导师的指导下，独立进行研究工作所取得的成果。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全知晓本声明的法律后果由本人承担。"
+    },
+    {
+      "i": 12,
+      "style": "Normal",
+      "text": "学位论文作者签名："
+    },
+    {
+      "i": 13,
+      "style": "Normal",
+      "text": "日期：     年   月   日"
+    },
+    {
+      "i": 14,
+      "style": "Normal",
+      "text": "上海交通大学学位论文使用授权书"
+    },
+    {
+      "i": 15,
+      "style": "Normal",
+      "text": "本人同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。"
+    },
+    {
+      "i": 16,
+      "style": "Normal",
+      "text": "本学位论文属于："
+    },
+    {
+      "i": 17,
+      "style": "Normal",
+      "text": "□公开论文"
+    },
+    {
+      "i": 18,
+      "style": "Normal",
+      "text": "□内部论文，保密□1年/□2年/□3年，过保密期后适用本授权书。"
+    },
+    {
+      "i": 19,
+      "style": "Normal",
+      "text": "□秘密论文，保密    年（不超过10年），过保密期后适用本授权书。"
+    },
+    {
+      "i": 20,
+      "style": "Normal",
+      "text": "□机密论文，保密    年（不超过20年），过保密期后适用本授权书。"
+    },
+    {
+      "i": 21,
+      "style": "Normal",
+      "text": "（请在以上方框内选择打“√”）"
+    },
+    {
+      "i": 23,
+      "style": "Normal",
+      "text": "学位论文作者签名：指导教师签名："
+    },
+    {
+      "i": 24,
+      "style": "Normal",
+      "text": "日期：     年   月   日日期：     年   月   日"
+    },
+    {
+      "i": 26,
+      "style": "标题 1*",
+      "text": "摘　要"
+    },
+    {
+      "i": 27,
+      "style": "Normal Indent",
+      "text": "学位论文是研究生从事科研工作的成果的主要表现，集中表明了作者在研究工作中获得的新的发明、理论或见解，是研究生申请硕士或博士学位的重要依据，也是科研领域中的重要文献资料和社会的宝贵财富。"
+    },
+    {
+      "i": 28,
+      "style": "Normal Indent",
+      "text": "为了提高研究生学位论文的质量，做到学位论文在内容和格式上的规范化与统一化，特制作本模板。"
+    },
+    {
+      "i": 30,
+      "style": "Normal",
+      "text": "关键词：学位论文，论文格式，规范化，模板"
+    },
+    {
+      "i": 32,
+      "style": "标题 1*",
+      "text": "Abstract"
+    },
+    {
+      "i": 33,
+      "style": "Normal Indent",
+      "text": "As a primary means of demonstrating research findings for postgraduate students, dissertation is a systematic and standardized record of the new inventions, theories or insights obtained by the author in the research work. It can not only function as an important reference when students pursue further studies, but also contribute to scientific research and social development."
+    },
+    {
+      "i": 34,
+      "style": "Normal Indent",
+      "text": "This template is therefore made to improve the quality of postgraduates’ dissertations and to further standardize it both in content and in format."
+    },
+    {
+      "i": 36,
+      "style": "Normal",
+      "text": "Key words: dissertation, dissertation format, standardization, template"
+    },
+    {
+      "i": 38,
+      "style": "标题 1*",
+      "text": "目　录"
+    },
+    {
+      "i": 39,
+      "style": "toc 1",
+      "text": "第 1 章 绪论1"
+    },
+    {
+      "i": 40,
+      "style": "toc 2",
+      "text": "1.1 引言1"
+    },
+    {
+      "i": 41,
+      "style": "toc 3",
+      "text": "1.1.1 三级标题1"
+    },
+    {
+      "i": 42,
+      "style": "toc 2",
+      "text": "1.2 本文研究主要内容1"
+    },
+    {
+      "i": 43,
+      "style": "toc 2",
+      "text": "1.3 本文研究意义1"
+    },
+    {
+      "i": 44,
+      "style": "toc 2",
+      "text": "1.4 本章小结1"
+    },
+    {
+      "i": 45,
+      "style": "toc 1",
+      "text": "第 2 章 格式要求2"
+    },
+    {
+      "i": 46,
+      "style": "toc 2",
+      "text": "2.1 论文正文2"
+    },
+    {
+      "i": 47,
+      "style": "toc 2",
+      "text": "2.2 字数要求2"
+    },
+    {
+      "i": 48,
+      "style": "toc 3",
+      "text": "2.2.1 硕士论文要求2"
+    },
+    {
+      "i": 49,
+      "style": "toc 3",
+      "text": "2.2.2 博士论文要求2"
+    },
+    {
+      "i": 50,
+      "style": "toc 2",
+      "text": "2.3 其他要求2"
+    },
+    {
+      "i": 51,
+      "style": "toc 3",
+      "text": "2.3.1 页面设置2"
+    },
+    {
+      "i": 52,
+      "style": "toc 3",
+      "text": "2.3.2 字体2"
+    },
+    {
+      "i": 53,
+      "style": "toc 2",
+      "text": "2.4 本章小结3"
+    },
+    {
+      "i": 54,
+      "style": "toc 1",
+      "text": "第 3 章 图表、公式格式4"
+    },
+    {
+      "i": 55,
+      "style": "toc 2",
+      "text": "3.1 图表格式4"
+    },
+    {
+      "i": 56,
+      "style": "toc 2",
+      "text": "3.2 公式格式5"
+    },
+    {
+      "i": 57,
+      "style": "toc 2",
+      "text": "3.3 本章小结5"
+    },
+    {
+      "i": 58,
+      "style": "toc 1",
+      "text": "第 4 章 全文总结6"
+    },
+    {
+      "i": 59,
+      "style": "toc 2",
+      "text": "4.1 主要结论6"
+    },
+    {
+      "i": 60,
+      "style": "toc 2",
+      "text": "4.2 研究展望6"
+    },
+    {
+      "i": 61,
+      "style": "toc 1",
+      "text": "参考文献7"
+    },
+    {
+      "i": 62,
+      "style": "toc 1",
+      "text": "附录 A 实验环境8"
+    },
+    {
+      "i": 63,
+      "style": "toc 1",
+      "text": "致　谢9"
+    },
+    {
+      "i": 64,
+      "style": "toc 1",
+      "text": "学术论文和科研成果目录10"
+    },
+    {
+      "i": 66,
+      "style": "Heading 1",
+      "text": "绪论"
+    },
+    {
+      "i": 67,
+      "style": "Heading 2",
+      "text": "引言"
+    },
+    {
+      "i": 68,
+      "style": "Normal Indent",
+      "text": "研究背景"
+    },
+    {
+      "i": 69,
+      "style": "Heading 3",
+      "text": "三级标题"
+    },
+    {
+      "i": 70,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 71,
+      "style": "Heading 4",
+      "text": "四级标题"
+    },
+    {
+      "i": 72,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 73,
+      "style": "Heading 2",
+      "text": "研究内容"
+    },
+    {
+      "i": 74,
+      "style": "Normal Indent",
+      "text": "本文主要研究水下目标在复杂物理环境（如极化带效应、涡流效应等）作用下所产生的电荷的复杂时空分布特性，通过构建一套高敏感度与选择性的电荷传感器阵列系统，实现对目标的实时远距离探测与分析，最终建立具备高电荷探测灵敏度、能够对探测空间中异常目标进行实时检测、特征提取与多目标识别能力的传感系统。"
+    },
+    {
+      "i": 75,
+      "style": "Normal Indent",
+      "text": "在探测系统方面，本研究采用基于MEMS技术的电荷传感阵列系统进行目标探测。该系统依据MEMS结构中的电容效应，将目标在时间与空间上的电荷变化转化为相应电压差信号，并输出为16个耦合通道的时间电压原始数据。该传感阵列基于小信号监测机制，采用直接差分测量策略，而非数字滤波算法，而是通过实验数据与背景数据的对消处理实现信号提取，进而为后续目标识别提供数据基础。"
+    },
+    {
+      "i": 76,
+      "style": "Normal Indent",
+      "text": "在目标特性建模方面，本研究从预期探测目标在真实水下环境中的电荷分布与电流密度生成机制出发，通过建立控制方程、确定目标物性参数，实现对目标电荷行为的等比模型与缩比模型的物理预测。结合有限元仿真工具（如COMSOL）进行真实场景的数值模拟，并通过实际实验验证仿真结果，系统分析探测数据与理论预期之间的差异。同时通过分析仿真工具中等比模型与缩比模型的理论预测关系，根据真实的缩比物理实验，预测真实远距离情景下的目标特性。随后借助回归分析与机器学习方法进行数据拟合与模型优化，最终构建适用于极化带效应水下目标探测的有效体系。需指出的是，实际目标的电荷分布在时间上呈非平稳特性，在空间中存在显著运动，因此需实现在大范围时空背景中有效分离稀疏目标信号，并完成实时识别与判断。"
+    },
+    {
+      "i": 77,
+      "style": "Normal Indent",
+      "text": "在数据分析方面，本研究主要依托时域分析、频域分析、时频分析及阵列信号处理等方法。首先获取一端连续时间（约20秒）内各通道的时间–电压序列，进行初步时域分析；随后通过快速傅里叶变换（FFT）获取频域中的幅度谱与相位谱，开展频域分析；进一步联合时频分析方法，以刻画信号的非平稳特性；"
+    },
+    {
+      "i": 78,
+      "style": "Normal Indent",
+      "text": "数据训练的方法主要是机器学习"
+    },
+    {
+      "i": 80,
+      "style": "Heading 2",
+      "text": "研究意义"
+    },
+    {
+      "i": 81,
+      "style": "Normal Indent",
+      "text": "本文……"
+    },
+    {
+      "i": 82,
+      "style": "Heading 2",
+      "text": "论文结构"
+    },
+    {
+      "i": 83,
+      "style": "Normal Indent",
+      "text": "本文……"
+    },
+    {
+      "i": 86,
+      "style": "Heading 1",
+      "text": "机器学习流程"
+    },
+    {
+      "i": 87,
+      "style": "Heading 2",
+      "text": "数据处理"
+    },
+    {
+      "i": 88,
+      "style": "Normal Indent",
+      "text": "1. 问题定义与规划"
+    },
+    {
+      "i": 89,
+      "style": "Normal Indent",
+      "text": "要解决什么问题？ 本研究旨在解决复杂水下物理环境（如极化带效应、涡流效应）中，对目标产生的非平稳、稀疏电荷信号进行实时探测、特征提取与多目标识别的问题。核心挑战在于从强背景噪声中有效分离弱目标信号，并实现对目标电荷时空分布特性的准确建模与识别。"
+    },
+    {
+      "i": 90,
+      "style": "Normal Indent",
+      "text": "如何将其转化为机器学习问题？ 一个多任务学习问题，包含："
+    },
+    {
+      "i": 91,
+      "style": "Normal Indent",
+      "text": "信号检测：二分类问题（有目标/无目标）；特征提取：时间序列特征工程与表示学习；多目标识别：多分类或序列标注问题（若目标类型多样）。"
+    },
+    {
+      "i": 92,
+      "style": "Normal Indent",
+      "text": "成功的标准是什么？ 检测准确率 > 95%，误报率 < 5%；目标识别准确率 > 90%；系统响应延迟低于 1 秒，满足实时性要求；在仿真与实测数据中均保持一致性表现。"
+    },
+    {
+      "i": 93,
+      "style": "Normal Indent",
+      "text": "需要哪些数据？ 16 通道电压时间序列数据（采样频率需明确）；标注数据：包括目标出现时间、类型、位置（若可行）；背景噪声数据（无目标时段）；仿真数据（COMSOL 有限元模拟结果）；实际实验数据（水池或海域实测）。"
+    },
+    {
+      "i": 94,
+      "style": "Normal Indent",
+      "text": "2. 数据收集与准备"
+    },
+    {
+      "i": 95,
+      "style": "Normal Indent",
+      "text": "数据收集：通过 MEMS 传感器阵列采集 16 通道电压时序数据，每段持续约 20 秒；同步记录环境参数（水温、流速等）与目标状态（类型、运动轨迹）。"
+    },
+    {
+      "i": 96,
+      "style": "Normal Indent",
+      "text": "数据清洗：处理缺失值：采用插值或前后帧填充；异常值处理：基于统计方法（如 3σ 准则）识别并修正或剔除；去除重复采集数据。"
+    },
+    {
+      "i": 97,
+      "style": "Normal Indent",
+      "text": "数据探索与可视化：绘制各通道时域波形、频谱图、时频图（如 STFT 或小波变换）；分析通道间相关性、背景噪声分布、目标信号典型模式。"
+    },
+    {
+      "i": 98,
+      "style": "Normal Indent",
+      "text": "数据标注：对实测数据人工标注目标出现区间与类型；仿真数据自带标签（目标类型、电荷分布、运动状态）。"
+    },
+    {
+      "i": 99,
+      "style": "Normal Indent",
+      "text": "3. 特征工程"
+    },
+    {
+      "i": 100,
+      "style": "Normal Indent",
+      "text": "特征构造：时域特征：均值、方差、峰值、过零率、短时能量等；频域特征：FFT 幅度谱、相位谱、频谱重心、带宽；时频特征：小波系数、STFT 频谱图；空间特征：通道间差分、协方差矩阵、阵列响应模式。"
+    },
+    {
+      "i": 101,
+      "style": "Normal Indent",
+      "text": "特征转换：对数据进行标准化、归一化、对数变换等，使其更适合模型处理。"
+    },
+    {
+      "i": 102,
+      "style": "Normal Indent",
+      "text": "特征选择：使用互信息、卡方检验、LASSO 等方法筛选关键特征；考虑使用遗传算法进行特征子集优化。"
+    },
+    {
+      "i": 103,
+      "style": "Normal Indent",
+      "text": "4. 模型选择与训练"
+    },
+    {
+      "i": 104,
+      "style": "Normal Indent",
+      "text": "模型选择：基线模型：SVM、随机森林、LSTM、1D-CNN；"
+    },
+    {
+      "i": 105,
+      "style": "Normal Indent",
+      "text": "进阶模型：注意力机制+CNN/LSTM、Transformer 时序模型；多任务学习框架：联合 训练检测与识别任务。"
+    },
+    {
+      "i": 106,
+      "style": "Normal Indent",
+      "text": "算法库包括：线性模型、决策树、神经网络、支持向量机（SVM）、聚类算法（如K-Means）等。"
+    },
+    {
+      "i": 107,
+      "style": "Normal Indent",
+      "text": "模型训练："
+    },
+    {
+      "i": 108,
+      "style": "Normal Indent",
+      "text": "训练方法：监督学习：使用标注数据训练；训练/验证集划分：按时间序列分段，避免随机划分导致信息泄漏"
+    },
+    {
+      "i": 109,
+      "style": "Normal Indent",
+      "text": "优化算法：梯度下降是训练神经网络最常用的方法。Adam、SGD；可尝试遗传算法进行超参数搜索。"
+    },
+    {
+      "i": 110,
+      "style": "Normal Indent",
+      "text": "5. 模型评估与调优"
+    },
+    {
+      "i": 111,
+      "style": "Normal Indent",
+      "text": "模型评估：评估指标：准确率、精确率、召回率、F1-score、AUC（检测任务）；分类准确率、混淆矩阵（识别任务）；测试集：完全独立于训练集的实测数据。"
+    },
+    {
+      "i": 112,
+      "style": "Normal Indent",
+      "text": "模型调优：超参数调优：网格搜索、贝叶斯优化或遗传算法；过拟合控制：Dropout、权重正则化、早停法；数据增强：添加噪声、时域拉伸、通道抖动。"
+    },
+    {
+      "i": 113,
+      "style": "Normal Indent",
+      "text": "6. 模型部署与监控"
+    },
+    {
+      "i": 114,
+      "style": "Normal Indent",
+      "text": "模型通过评估后，工作并未结束。必须将其投入使用并持续维护。"
+    },
+    {
+      "i": 115,
+      "style": "Normal Indent",
+      "text": "模型部署：将训练好的模型集成到现有的生产环境中，提供API接口、集成到应用程序中等，使其能够对真实数据做出预测。"
+    },
+    {
+      "i": 116,
+      "style": "Normal Indent",
+      "text": "模型监控：持续监控模型在生产环境中的性能。因为现实世界的数据分布可能会随时间发生变化（概念漂移），导致模型性能下降。"
+    },
+    {
+      "i": 117,
+      "style": "Normal Indent",
+      "text": "模型更新与维护：定期用新的数据重新训练模型（迭代过程），以保持其预测的准确性。"
+    },
+    {
+      "i": 118,
+      "style": "Heading 2",
+      "text": "数学与物理过程分析原理"
+    },
+    {
+      "i": 119,
+      "style": "Heading 3",
+      "text": "数字信号处理"
+    },
+    {
+      "i": 120,
+      "style": "Normal Indent",
+      "text": "时域分析"
+    },
+    {
+      "i": 121,
+      "style": "Normal Indent",
+      "text": "对于给定信号s(t)，其时域波形的基本特征常用信号能量、波形中心、均方持续及时宽等特征量来描述。"
+    },
+    {
+      "i": 122,
+      "style": "Normal Indent",
+      "text": "频域分析"
+    },
+    {
+      "i": 123,
+      "style": "List Paragraph",
+      "text": "信号的频域描述就是利用傅里叶变换，将信号 s(t) 用不同频率的正弦波展开。即信号由简单的正弦波相加（线性叠加）组成，每一个正弦波都有一个频率和用系数表示的有关的量。"
+    },
+    {
+      "i": 124,
+      "style": "Normal Indent",
+      "text": "时频分析"
+    },
+    {
+      "i": 125,
+      "style": "Normal Indent",
+      "text": "然傅里叶变换（FT）有很大的优越性，但它却存在许多不足。首先，在以外的空间，虽然傅里叶变换式在一定条件下仍然成立, 但大小不能刻画出s(t)所在的空间。其次，用傅里叶变换只能获得信号s(t)在时间范围内的频谱，而难以了解信号在某时间范围内的性质，即它对频率的分辨率是无穷的，而对时间的分辨则为零，不能同时对时间和频率具有较好的分辨率，这是因为傅里叶变换是对变量t求积分，去掉了非平稳信号中的时变信号，它只适宜于确定性的平稳信号，而对时变非平稳信号则难以充分刻划。同时傅里叶变换对时域的分辨率在任一区间上也是不变的，因而不足以在任意小的范围内描述或确定信号s(t)。"
+    },
+    {
+      "i": 126,
+      "style": "Normal Indent",
+      "text": "然而，对于该研究下的时变频率信号，我们关心的恰恰是信号在局部范围内的特性。如什么位置出现什么样的异常信号、信号突变的位置、信号在突变时刻所对应的频率成分，显然傅里叶变换的积分作用平滑了非平稳过程的突变成分，作为积分核的 的幅值在任何情况下均为 1，丢失了需要研究的信号。"
+    },
+    {
+      "i": 127,
+      "style": "Normal Indent",
+      "text": "时频分析（time-frequency analysis, TFA）是非平稳信号分析最基本的内容， 其基本任务就是建立一个以时间t和频率为变量的二维联合分布函数，简称时频分布。利用该分布函数可以求某一确定的频率和时间范围的能量分布，计算在某一特定时间的频率的密度，计算该分布的整体和局部各阶矩 （moment），如平均条件频率及其局部扩展等，利用这种时频分布来讨论非平稳 信号时频变特性，如瞬时频率、瞬时带宽、群延迟等。"
+    },
+    {
+      "i": 128,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 129,
+      "style": "Heading 3",
+      "text": "机器学习"
+    },
+    {
+      "i": 130,
+      "style": "Heading 3",
+      "text": "仿真建模"
+    },
+    {
+      "i": 132,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 134,
+      "style": "Heading 2",
+      "text": "记录"
+    },
+    {
+      "i": 135,
+      "style": "Heading 3",
+      "text": "2025.10.17"
+    },
+    {
+      "i": 136,
+      "style": "Normal Indent",
+      "text": "完成内容：数据分析项目框架，使用python语言搭建，包含主运行函数，各个数据处理函数(dataio)，将tdms以及tdms_index文件转换成csv文件和json元数据文件；将时域csv文件进行FFT处理，生成频域csv文件；将每个实验组的频域csv文件进行平均，得到频域平均csv文件（目前的数据不同文件之间的时间点是间断的，无法进行合并分析、增量分析绘制RGB图）。"
+    },
+    {
+      "i": 137,
+      "style": "Normal Indent",
+      "text": "接下来内容：1、使用comet等，查找与本研究方法相似的相关数据处理论文，参考其数据处理方法，寻找优化的数据处理方法。2、对于频域平均后的csv文件，分析所有可能的分析方法。3、对比一个实验组中的20个文件，分析其频域、时域上是否具有足够的稳定性，为频域平均提供理论支撑。"
+    },
+    {
+      "i": 138,
+      "style": "Normal Indent",
+      "text": "页边距：上3.5厘米，下4厘米，左右均为2.5厘米，装订线靠左0.5厘米位置。"
+    },
+    {
+      "i": 139,
+      "style": "Normal Indent",
+      "text": "页眉：2.5厘米。页脚：3厘米。"
+    },
+    {
+      "i": 140,
+      "style": "Normal Indent",
+      "text": "无网格。"
+    },
+    {
+      "i": 141,
+      "style": "Heading 3",
+      "text": "字体"
+    },
+    {
+      "i": 142,
+      "style": "Normal Indent",
+      "text": "英文与数字字体要求为Times New Roman。如果英文与数字夹杂出现在黑体中文中，则将英文与数字采用Times New Roman字体再加粗。"
+    },
+    {
+      "i": 143,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 144,
+      "style": "Normal Indent",
+      "text": "本章介绍了……"
+    },
+    {
+      "i": 147,
+      "style": "Heading 1",
+      "text": "机器学习"
+    },
+    {
+      "i": 148,
+      "style": "Heading 2",
+      "text": "数据处理"
+    },
+    {
+      "i": 149,
+      "style": "Normal Indent",
+      "text": "1. 问题定义与规划"
+    },
+    {
+      "i": 150,
+      "style": "Normal Indent",
+      "text": "要解决什么问题？"
+    },
+    {
+      "i": 151,
+      "style": "Normal Indent",
+      "text": "如何将其转化为机器学习问题？ （是分类、回归、聚类还是强化学习？）"
+    },
+    {
+      "i": 152,
+      "style": "Normal Indent",
+      "text": "成功的标准是什么？ （准确率 > 95%，或坏率降低10%）"
+    },
+    {
+      "i": 153,
+      "style": "Normal Indent",
+      "text": "需要哪些数据？ （数据是否可用？是否需要额外收集？）"
+    },
+    {
+      "i": 154,
+      "style": "Normal Indent",
+      "text": "资源和预算评估。 （时间、人力、计算资源）"
+    },
+    {
+      "i": 155,
+      "style": "Normal Indent",
+      "text": "2. 数据收集与准备"
+    },
+    {
+      "i": 156,
+      "style": "Normal Indent",
+      "text": "数据收集：获取原始数据。"
+    },
+    {
+      "i": 157,
+      "style": "Normal Indent",
+      "text": "数据清洗："
+    },
+    {
+      "i": 158,
+      "style": "Normal Indent",
+      "text": "处理缺失值（删除、填充）"
+    },
+    {
+      "i": 159,
+      "style": "Normal Indent",
+      "text": "处理异常值（剔除、修正）"
+    },
+    {
+      "i": 160,
+      "style": "Normal Indent",
+      "text": "处理重复值"
+    },
+    {
+      "i": 161,
+      "style": "Normal Indent",
+      "text": "数据探索与可视化：使用统计方法和图表来理解数据的分布、特征之间的关系以及潜在的模式。这有助于指导后续的特征工程。"
+    },
+    {
+      "i": 162,
+      "style": "Normal Indent",
+      "text": "数据标注：特别是对于监督学习，需要为数据打上标签"
+    },
+    {
+      "i": 163,
+      "style": "Normal Indent",
+      "text": "3. 特征工程"
+    },
+    {
+      "i": 164,
+      "style": "Normal Indent",
+      "text": "特征构造：根据业务知识创建新的特征。例如，从“出生日期”构造出“年龄”特征。"
+    },
+    {
+      "i": 165,
+      "style": "Normal Indent",
+      "text": "特征转换：对数据进行标准化、归一化、对数变换等，使其更适合模型处理。"
+    },
+    {
+      "i": 166,
+      "style": "Normal Indent",
+      "text": "特征选择：从所有特征中筛选出最重要的子集，以减少冗余、降低过拟合风险并加快训练速度。遗传算法有时就用于这个环节。"
+    },
+    {
+      "i": 167,
+      "style": "Normal Indent",
+      "text": "4. 模型选择与训练"
+    },
+    {
+      "i": 168,
+      "style": "Normal Indent",
+      "text": "模型选择：根据问题类型（分类、回归等）和数据特点，选择一个或多个算法进行试验。"
+    },
+    {
+      "i": 169,
+      "style": "Normal Indent",
+      "text": "算法库包括：线性模型、决策树、神经网络、支持向量机（SVM）、聚类算法（如K-Means）等。"
+    },
+    {
+      "i": 170,
+      "style": "Normal Indent",
+      "text": "模型训练：使用准备好的数据来“喂养”算法，让模型学习数据中的模式。"
+    },
+    {
+      "i": 171,
+      "style": "Normal Indent",
+      "text": "训练方法：这就是监督学习（用有标签的数据训练）、无监督学习（用无标签的数据训练）等范式发挥作用的地方。"
+    },
+    {
+      "i": 172,
+      "style": "Normal Indent",
+      "text": "优化算法：梯度下降是训练神经网络最常用的方法。而遗传算法则可以作为一种替代的优化器，用于寻找模型的最佳参数或超参数。"
+    },
+    {
+      "i": 173,
+      "style": "Normal Indent",
+      "text": "5. 模型评估与调优"
+    },
+    {
+      "i": 174,
+      "style": "Normal Indent",
+      "text": "训练出模型后，必须严格评估其性能，并不断改进。"
+    },
+    {
+      "i": 175,
+      "style": "Normal Indent",
+      "text": "模型评估：使用在训练时未见过的测试集数据来评估模型的泛化能力。"
+    },
+    {
+      "i": 176,
+      "style": "Normal Indent",
+      "text": "评估指标：准确率、精确率、召回率、F1分数、均方误差（MSE）、AUC等，取决于问题类型。"
+    },
+    {
+      "i": 177,
+      "style": "Normal Indent",
+      "text": "模型调优：根据评估结果调整模型以提升性能。"
+    },
+    {
+      "i": 178,
+      "style": "Normal Indent",
+      "text": "超参数调优：调整模型训练前设置的参数（如学习率、神经网络层数、树的深度）。遗传算法和神经网络（如NAS）都可以用于自动化此过程。"
+    },
+    {
+      "i": 179,
+      "style": "Normal Indent",
+      "text": "解决过拟合/欠拟合：通过正则化、增加数据、简化模型等方法。"
+    },
+    {
+      "i": 180,
+      "style": "Normal Indent",
+      "text": "6. 模型部署与监控"
+    },
+    {
+      "i": 181,
+      "style": "Normal Indent",
+      "text": "模型通过评估后，工作并未结束。必须将其投入使用并持续维护。"
+    },
+    {
+      "i": 182,
+      "style": "Normal Indent",
+      "text": "模型部署：将训练好的模型集成到现有的生产环境中，提供API接口、集成到应用程序中等，使其能够对真实数据做出预测。"
+    },
+    {
+      "i": 183,
+      "style": "Normal Indent",
+      "text": "模型监控：持续监控模型在生产环境中的性能。因为现实世界的数据分布可能会随时间发生变化（概念漂移），导致模型性能下降。"
+    },
+    {
+      "i": 184,
+      "style": "Normal Indent",
+      "text": "模型更新与维护：定期用新的数据重新训练模型（迭代过程），以保持其预测的准确性。"
+    },
+    {
+      "i": 186,
+      "style": "Heading 2",
+      "text": "数学与物理过程分析原理"
+    },
+    {
+      "i": 187,
+      "style": "Heading 3",
+      "text": "数字信号处理"
+    },
+    {
+      "i": 188,
+      "style": "Normal Indent",
+      "text": "时域分析"
+    },
+    {
+      "i": 189,
+      "style": "Normal Indent",
+      "text": "对于给定信号s(t)，其时域波形的基本特征常用信号能量、波形中心、均方持续及时宽等特征量来描述。"
+    },
+    {
+      "i": 190,
+      "style": "Normal Indent",
+      "text": "频域分析"
+    },
+    {
+      "i": 191,
+      "style": "List Paragraph",
+      "text": "信号的频域描述就是利用傅里叶变换，将信号 s(t) 用不同频率的正弦波展开。即信号由简单的正弦波相加（线性叠加）组成，每一个正弦波都有一个频率和用系数表示的有关的量。"
+    },
+    {
+      "i": 192,
+      "style": "Normal Indent",
+      "text": "时频分析"
+    },
+    {
+      "i": 193,
+      "style": "Normal Indent",
+      "text": "然傅里叶变换（FT）有很大的优越性，但它却存在许多不足。首先，在以外的空间，虽然傅里叶变换式在一定条件下仍然成立, 但大小不能刻画出s(t)所在的空间。其次，用傅里叶变换只能获得信号s(t)在时间范围内的频谱，而难以了解信号在某时间范围内的性质，即它对频率的分辨率是无穷的，而对时间的分辨则为零，不能同时对时间和频率具有较好的分辨率，这是因为傅里叶变换是对变量t求积分，去掉了非平稳信号中的时变信号，它只适宜于确定性的平稳信号，而对时变非平稳信号则难以充分刻划。同时傅里叶变换对时域的分辨率在任一区间上也是不变的，因而不足以在任意小的范围内描述或确定信号s(t)。"
+    },
+    {
+      "i": 194,
+      "style": "Normal Indent",
+      "text": "然而，对于该研究下的时变频率信号，我们关心的恰恰是信号在局部范围内的特性。如什么位置出现什么样的异常信号、信号突变的位置、信号在突变时刻所对应的频率成分，显然傅里叶变换的积分作用平滑了非平稳过程的突变成分，作为积分核的 的幅值在任何情况下均为 1，丢失了需要研究的信号。"
+    },
+    {
+      "i": 195,
+      "style": "Normal Indent",
+      "text": "时频分析（time-frequency analysis, TFA）是非平稳信号分析最基本的内容， 其基本任务就是建立一个以时间t和频率为变量的二维联合分布函数，简称时频分布。利用该分布函数可以求某一确定的频率和时间范围的能量分布，计算在某一特定时间的频率的密度，计算该分布的整体和局部各阶矩 （moment），如平均条件频率及其局部扩展等，利用这种时频分布来讨论非平稳 信号时频变特性，如瞬时频率、瞬时带宽、群延迟等。"
+    },
+    {
+      "i": 196,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 197,
+      "style": "Heading 3",
+      "text": "机器学习"
+    },
+    {
+      "i": 198,
+      "style": "Heading 3",
+      "text": "仿真建模"
+    },
+    {
+      "i": 200,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 202,
+      "style": "Heading 2",
+      "text": "其他要求"
+    },
+    {
+      "i": 203,
+      "style": "Heading 3",
+      "text": "页面设置"
+    },
+    {
+      "i": 204,
+      "style": "Normal Indent",
+      "text": "页边距：上3.5厘米，下4厘米，左右均为2.5厘米，装订线靠左0.5厘米位置。"
+    },
+    {
+      "i": 205,
+      "style": "Normal Indent",
+      "text": "页眉：2.5厘米。页脚：3厘米。"
+    },
+    {
+      "i": 206,
+      "style": "Normal Indent",
+      "text": "无网格。"
+    },
+    {
+      "i": 207,
+      "style": "Heading 3",
+      "text": "字体"
+    },
+    {
+      "i": 208,
+      "style": "Normal Indent",
+      "text": "英文与数字字体要求为Times New Roman。如果英文与数字夹杂出现在黑体中文中，则将英文与数字采用Times New Roman字体再加粗。"
+    },
+    {
+      "i": 209,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 210,
+      "style": "Normal Indent",
+      "text": "本章介绍了……"
+    },
+    {
+      "i": 212,
+      "style": "Heading 1",
+      "text": "图表、公式格式"
+    },
+    {
+      "i": 213,
+      "style": "Heading 2",
+      "text": "图表格式"
+    },
+    {
+      "i": 215,
+      "style": "题注 中",
+      "text": "图3.1　内热源沿径向的分布"
+    },
+    {
+      "i": 216,
+      "style": "题注 英",
+      "text": "Figure 3.1  Energy distribution along radial"
+    },
+    {
+      "i": 219,
+      "style": "题注 中",
+      "text": "表3.1　高频感应加热的基本参数"
+    },
+    {
+      "i": 220,
+      "style": "题注 英",
+      "text": "Table 3.1  XXXX"
+    },
+    {
+      "i": 222,
+      "style": "图表",
+      "text": "续表3.1"
+    },
+    {
+      "i": 224,
+      "style": "Heading 2",
+      "text": "公式格式"
+    },
+    {
+      "i": 226,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 227,
+      "style": "Normal Indent",
+      "text": "本章介绍了……"
+    },
+    {
+      "i": 229,
+      "style": "Heading 1",
+      "text": "全文总结"
+    },
+    {
+      "i": 230,
+      "style": "Heading 2",
+      "text": "主要结论"
+    },
+    {
+      "i": 231,
+      "style": "Normal Indent",
+      "text": "本文主要……"
+    },
+    {
+      "i": 232,
+      "style": "Heading 2",
+      "text": "研究展望"
+    },
+    {
+      "i": 233,
+      "style": "Normal Indent",
+      "text": "更深入的研究……"
+    },
+    {
+      "i": 235,
+      "style": "标题 1*",
+      "text": "参考文献"
+    },
+    {
+      "i": 236,
+      "style": "Bibliography",
+      "text": "唐向宏, 李齐良. 时频分析与小波变换[M]. 2版. 北京: 科学出版社, 2016:."
+    },
+    {
+      "i": 237,
+      "style": "Bibliography",
+      "text": "奥本海姆, 谢弗. 数字信号处理[M]. 董士嘉，杨耀增 译. 2版. 北京 :科学出版社,1980:."
+    },
+    {
+      "i": 238,
+      "style": "Bibliography",
+      "text": "于潇, 刘义, 柴跃廷, 等. 互联网药品可信交易环境中主体资质审核备案模式[J]. 清华大学学报(自然科学版), 2012, 52(11): 1518-1523."
+    },
+    {
+      "i": 239,
+      "style": "Bibliography",
+      "text": "SCHINSTOCK D E, CUTTINO J F. Real time kinematic solutions of a non-contacting, three dimensional metrology frame[J]. Precision Engineering, 2000, 24(1): 70-76."
+    },
+    {
+      "i": 240,
+      "style": "Bibliography",
+      "text": "温诗铸. 摩擦学原理[M]. 北京: 清华大学出版社, 1990: 296-300."
+    },
+    {
+      "i": 241,
+      "style": "Bibliography",
+      "text": "蒋有绪, 郭泉水, 马娟, 等. 中国森林群落分类及其群落学特征[M]. 北京: 科学出版社, 1998: 5-17."
+    },
+    {
+      "i": 242,
+      "style": "Bibliography",
+      "text": "方芳. 教育游戏的理论基础及应用模式[D]. 上海: 上海交通大学, 2007."
+    },
+    {
+      "i": 243,
+      "style": "Bibliography",
+      "text": "张凯军. 轨道火车及高速轨道火车紧急安全制动辅助装置: 201220158825.2[P]. 2012-04-05."
+    },
+    {
+      "i": 244,
+      "style": "Bibliography",
+      "text": "全国信息与文献标准化技术委员会. 文献著录: 第4部分 非书资料: GB/T 3792.4-2009[S]. 北京: 中国标准出版社, 2010: 3."
+    },
+    {
+      "i": 245,
+      "style": "Bibliography",
+      "text": "萧钰. 出版业信息化迈入快车道[EB/OL]. (2001-12-19) [2023-04-15]. http://www.creader.com/​news/20011219/200112190019.html."
+    },
+    {
+      "i": 247,
+      "style": "Bibliography",
+      "text": "杨瑞林, 李力军, 李玉成. 新型低合金高强韧性耐磨钢的研究[J]. 钢铁, 1999(7): 41-45. 作者. 题名[J]. 期刊名, 年, 卷(期): 起止页码."
+    },
+    {
+      "i": 248,
+      "style": "Bibliography",
+      "text": "于潇, 刘义, 柴跃廷, 等. 互联网药品可信交易环境中主体资质审核备案模式[J]. 清华大学学报(自然科学版), 2012, 52(11): 1518-1523. 同上。当作者超过3个时，后加“等”字。年, 卷(期) 格式很清晰：2012, 52(11)"
+    },
+    {
+      "i": 249,
+      "style": "Bibliography",
+      "text": "SCHINSTOCK D E, CUTTINO J F. Real time kinematic solutions of a non-contacting, three dimensional metrology frame[J]. Precision Engineering, 2000, 24(1): 70-76. 英文文献。作者姓大写，名缩写（不加点）。期刊名使用斜体（在正式排版中）。Precision Engineering, 2000, 24(1): 70-76."
+    },
+    {
+      "i": 250,
+      "style": "Bibliography",
+      "text": "温诗铸. 摩擦学原理[M]. 北京: 清华大学出版社, 1990: 296-300. 作者. 书名[M]. 出版地: 出版社, 出版年: 引文页码(可选)."
+    },
+    {
+      "i": 251,
+      "style": "Bibliography",
+      "text": "蒋有绪, 郭泉水, 马娟, 等. 中国森林群落分类及其群落学特征[M]. 北京: 科学出版社, 1998: 5-17."
+    },
+    {
+      "i": 252,
+      "style": "Bibliography",
+      "text": "方芳. 教育游戏的理论基础及应用模式[D]. 上海: 上海交通大学, 2007. 作者. 题名[D]. 保存地: 保存单位（通常是授予学位的大学）, 年份."
+    },
+    {
+      "i": 253,
+      "style": "Bibliography",
+      "text": "张凯军. 轨道火车及高速轨道火车紧急安全制动辅助装置: 201220158825.2[P]. 2012-04-05. 专利申请人或所有者. 专利题名: 专利号[P]. 公告日期或公开日期"
+    },
+    {
+      "i": 254,
+      "style": "Bibliography",
+      "text": "全国信息与文献标准化技术委员会. 文献著录: 第4部分 非书资料: GB/T 3792.4-2009[S]. 北京: 中国标准出版社, 2010: 3. 标准制定者. 标准名称: 标准编号[S]. 出版地: 出版社, 出版年: 引文页码(可选)."
+    },
+    {
+      "i": 255,
+      "style": "Bibliography",
+      "text": "萧钰. 出版业信息化迈入快车道[EB/OL]. (2001-12-19) [2023-04-15]. http://www.creader.com/​news/20011219/200112190019.html. 作者. 题名[EB/OL]. (更新或发布日期) [引用日期]. 获取和访问路径(网址)."
+    },
+    {
+      "i": 259,
+      "style": "附录 1",
+      "text": "实验环境"
+    },
+    {
+      "i": 260,
+      "style": "附录 2",
+      "text": "硬件配置"
+    },
+    {
+      "i": 261,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 262,
+      "style": "附录 2",
+      "text": "软件工具"
+    },
+    {
+      "i": 263,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 265,
+      "style": "标题 1*",
+      "text": "致　谢"
+    },
+    {
+      "i": 266,
+      "style": "Normal Indent",
+      "text": "致谢主要感谢导师和对论文工作有直接贡献和帮助的人士和单位。致谢言语应谦虚诚恳，实事求是。"
+    },
+    {
+      "i": 268,
+      "style": "标题 1*",
+      "text": "学术论文和科研成果目录"
+    },
+    {
+      "i": 269,
+      "style": "标题 3*",
+      "text": "学术论文"
+    },
+    {
+      "i": 270,
+      "style": "Bibliography",
+      "text": "Chen H, Chan C T. Acoustic cloaking in three dimensions using acoustic metamaterials[J]. Applied Physics Letters, 2007, 91:183518."
+    },
+    {
+      "i": 271,
+      "style": "Bibliography",
+      "text": "Chen H, Wu B I, Zhang B, et al. Electromagnetic Wave Interactions with a Metamaterial Cloak[J]. Physical Review Letters, 2007, 99(6):63903."
+    },
+    {
+      "i": 272,
+      "style": "标题 3*",
+      "text": "专利"
+    },
+    {
+      "i": 273,
+      "style": "Bibliography",
+      "text": "第一发明人, 永动机[P], 专利申请号202510149890.0."
+    }
+  ],
+  "styles": {
+    "主题": 1,
+    "Normal": 22,
+    "标题 1*": 6,
+    "Normal Indent": 116,
+    "toc 1": 8,
+    "toc 2": 13,
+    "toc 3": 5,
+    "Heading 1": 5,
+    "Heading 2": 17,
+    "Heading 3": 11,
+    "Heading 4": 1,
+    "List Paragraph": 2,
+    "题注 中": 2,
+    "题注 英": 2,
+    "图表": 1,
+    "Bibliography": 22,
+    "附录 1": 1,
+    "附录 2": 2,
+    "标题 3*": 2
+  },
+  "image_count": 3,
+  "images": [
+    "word/media/image1.png",
+    "word/media/image2.svg",
+    "word/media/image3.emf"
+  ],
+  "comments": [],
+  "style_items": [
+    {
+      "styleId": "a1",
+      "type": "paragraph",
+      "name": "Normal",
+      "used_count": 22,
+      "props": {
+        "sz_half_pt": "24",
+        "jc": "both",
+        "spacing": {
+          "line": "400",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "10",
+      "type": "paragraph",
+      "name": "heading 1",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "32",
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi"
+        },
+        "jc": "center",
+        "spacing": {
+          "before": "480",
+          "after": "360"
+        }
+      }
+    },
+    {
+      "styleId": "20",
+      "type": "paragraph",
+      "name": "heading 2",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "28",
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "480",
+          "after": "120",
+          "line": "360",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "30",
+      "type": "paragraph",
+      "name": "heading 3",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "120",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "40",
+      "type": "paragraph",
+      "name": "heading 4",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "120",
+          "after": "120",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "5",
+      "type": "paragraph",
+      "name": "heading 5",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "28",
+        "bold": "1",
+        "spacing": {
+          "before": "280",
+          "after": "290",
+          "line": "376",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "6",
+      "type": "paragraph",
+      "name": "heading 6",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "7",
+      "type": "paragraph",
+      "name": "heading 7",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "8",
+      "type": "paragraph",
+      "name": "heading 8",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "9",
+      "type": "paragraph",
+      "name": "heading 9",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "21",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "a2",
+      "type": "paragraph",
+      "name": "Normal Indent",
+      "used_count": 116,
+      "props": {
+        "ind": {
+          "firstLineChars": "200",
+          "firstLine": "200"
+        }
+      }
+    },
+    {
+      "styleId": "a7",
+      "type": "paragraph",
+      "name": "header",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "18",
+        "spacing": {
+          "line": "240",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "a9",
+      "type": "paragraph",
+      "name": "footer",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "18",
+        "jc": "center",
+        "spacing": {
+          "line": "240",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "12",
+      "type": "paragraph",
+      "name": "标题 1*",
+      "used_count": 6,
+      "props": {}
+    },
+    {
+      "styleId": "ab",
+      "type": "paragraph",
+      "name": "题注 中",
+      "used_count": 2,
+      "props": {
+        "jc": "center",
+        "spacing": {
+          "after": "0"
+        }
+      }
+    },
+    {
+      "styleId": "22",
+      "type": "paragraph",
+      "name": "标题 2*",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "TOC1",
+      "type": "paragraph",
+      "name": "toc 1",
+      "used_count": 8,
+      "props": {
+        "bold": "1",
+        "spacing": {
+          "before": "120"
+        }
+      }
+    },
+    {
+      "styleId": "TOC2",
+      "type": "paragraph",
+      "name": "toc 2",
+      "used_count": 13,
+      "props": {
+        "ind": {
+          "leftChars": "200",
+          "left": "200"
+        }
+      }
+    },
+    {
+      "styleId": "TOC3",
+      "type": "paragraph",
+      "name": "toc 3",
+      "used_count": 5,
+      "props": {
+        "ind": {
+          "leftChars": "400",
+          "left": "400"
+        }
+      }
+    },
+    {
+      "styleId": "1",
+      "type": "paragraph",
+      "name": "附录 1",
+      "used_count": 1,
+      "props": {}
+    },
+    {
+      "styleId": "ae",
+      "type": "paragraph",
+      "name": "题注 英",
+      "used_count": 2,
+      "props": {
+        "jc": "center",
+        "spacing": {
+          "before": "0"
+        }
+      }
+    },
+    {
+      "styleId": "ac",
+      "type": "paragraph",
+      "name": "caption",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "21",
+        "bold": "1",
+        "fonts": {
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "120",
+          "after": "120",
+          "line": "280",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "af0",
+      "type": "paragraph",
+      "name": "图表",
+      "used_count": 1,
+      "props": {
+        "sz_half_pt": "21",
+        "spacing": {
+          "line": "280",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "2",
+      "type": "paragraph",
+      "name": "附录 2",
+      "used_count": 2,
+      "props": {}
+    },
+    {
+      "styleId": "32",
+      "type": "paragraph",
+      "name": "标题 3*",
+      "used_count": 2,
+      "props": {}
+    },
+    {
+      "styleId": "af2",
+      "type": "paragraph",
+      "name": "Bibliography",
+      "used_count": 22,
+      "props": {
+        "sz_half_pt": "21",
+        "spacing": {
+          "after": "60",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "3",
+      "type": "paragraph",
+      "name": "附录 3",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "4",
+      "type": "paragraph",
+      "name": "附录 4",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "af5",
+      "type": "paragraph",
+      "name": "annotation text",
+      "used_count": 0,
+      "props": {
+        "jc": "left"
+      }
+    },
+    {
+      "styleId": "af7",
+      "type": "paragraph",
+      "name": "annotation subject",
+      "used_count": 0,
+      "props": {
+        "bold": "1"
+      }
+    },
+    {
+      "styleId": "af9",
+      "type": "paragraph",
+      "name": "主题",
+      "used_count": 1,
+      "props": {
+        "sz_half_pt": "36",
+        "jc": "center",
+        "spacing": {
+          "line": "600",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "afa",
+      "type": "paragraph",
+      "name": "Normal (Web)",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "ascii": "宋体",
+          "eastAsia": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "jc": "left",
+        "spacing": {
+          "before": "100",
+          "beforeAutospacing": "1",
+          "after": "100",
+          "afterAutospacing": "1",
+          "line": "240",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "EndNoteBibliographyTitle",
+      "type": "paragraph",
+      "name": "EndNote Bibliography Title",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "ascii": "Times New Roman",
+          "hAnsi": "Times New Roman",
+          "cs": "Times New Roman"
+        },
+        "jc": "center"
+      }
+    },
+    {
+      "styleId": "EndNoteBibliography",
+      "type": "paragraph",
+      "name": "EndNote Bibliography",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "ascii": "Times New Roman",
+          "hAnsi": "Times New Roman",
+          "cs": "Times New Roman"
+        },
+        "spacing": {
+          "line": "240",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "afb",
+      "type": "paragraph",
+      "name": "List Paragraph",
+      "used_count": 2,
+      "props": {
+        "ind": {
+          "firstLineChars": "200",
+          "firstLine": "420"
+        }
+      }
+    },
+    {
+      "styleId": "ds-markdown-paragraph",
+      "type": "paragraph",
+      "name": "ds-markdown-paragraph",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "ascii": "宋体",
+          "eastAsia": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "jc": "left",
+        "spacing": {
+          "before": "100",
+          "beforeAutospacing": "1",
+          "after": "100",
+          "afterAutospacing": "1",
+          "line": "240",
+          "lineRule": "auto"
+        }
+      }
+    }
+  ]
+}

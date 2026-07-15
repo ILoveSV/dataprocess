@@ -1,0 +1,202 @@
+\section{理论模型}
+
+\subsection{总等效偶极矩与 UEP 签名}
+
+本报告把腐蚀、牺牲阳极阴极保护和外加电流阴极保护看作形成机制，把 UEP 看作这些机制共同形成后的水下电势签名。总等效偶极矩写为
+\begin{equation}
+    P_0=P_{\mathrm{corr}}+P_{\mathrm{SACP}}+P_{\mathrm{ICCP}}.
+    \label{eq:p0_components}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $P_0$：总等效电流偶极矩，单位 $\mathrm{A\cdot m}$；
+    \item $P_{\mathrm{corr}}$：腐蚀/电化学不均匀贡献；
+    \item $P_{\mathrm{SACP}}$：牺牲阳极阴极保护贡献；
+    \item $P_{\mathrm{ICCP}}$：外加电流阴极保护贡献。
+\end{itemize}
+
+远场电场幅值采用单偶极子模型：
+\begin{equation}
+    E(R,\theta)=\frac{C_\theta P_0}{4\pi\sigma R^3}.
+    \label{eq:static_dipole}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E(R,\theta)$：距离 $R$、方向 $\theta$ 上的电场幅值，单位 $\mathrm{V/m}$；
+    \item $C_\theta$：方向因子；
+    \item $P_0$：总等效偶极矩，单位 $\mathrm{A\cdot m}$；
+    \item $\sigma$：海水电导率，单位 $\mathrm{S/m}$；
+    \item $R$：观测距离，单位 $\mathrm{m}$。
+\end{itemize}
+
+方向因子给出三种典型观测方向：
+\begin{align}
+    E_{\mathrm{equatorial}} &= \frac{P_0}{4\pi\sigma R^3},\\
+    E_{\mathrm{rms}} &= \frac{\sqrt{2}P_0}{4\pi\sigma R^3},\\
+    E_{\mathrm{axial}} &= \frac{2P_0}{4\pi\sigma R^3}.
+\end{align}
+其中：
+\begin{itemize}
+    \item $E_{\mathrm{equatorial}}$：赤道向观测幅值，作为方向范围下限；
+    \item $E_{\mathrm{rms}}$：均方根方向幅值，用于粗略平均方向；
+    \item $E_{\mathrm{axial}}$：轴向观测幅值，作为方向范围上限。
+\end{itemize}
+
+默认采用 $\sigma=4\ \mathrm{S/m}$，$P_0=300\ \mathrm{A\cdot m}$ 作为中等公开算例量级参考。该值不代表任何真实潜艇。参数扫描采用
+\begin{equation}
+    P_0=\{30,100,300,1000,3000\}\ \mathrm{A\cdot m}.
+\end{equation}
+其中每个 $P_0$ 都只表示公开理论估算中的等效量级。
+
+\subsection{远场边界与近场多点源}
+
+单偶极子 $R^{-3}$ 模型只在足够远时作为主模型：
+\begin{equation}
+    R\ge 3L_{\mathrm{ship}}.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $R$：观测距离；
+    \item $L_{\mathrm{ship}}$：舰体特征长度；
+    \item $3L_{\mathrm{ship}}$：本文采用的远场判据。
+\end{itemize}
+
+默认取 $L_{\mathrm{ship}}=70\ \mathrm{m}$，因此 $R\ge210\ \mathrm{m}$ 才按远场主模型解释；50--100 m 标注为近场/中间场估算。
+
+近场或中间场可用多点源解析模型：
+\begin{equation}
+    \phi(\bm r)=\sum_k \frac{I_k}{4\pi\sigma|\bm r-\bm r_k|},
+    \label{eq:multipoint_phi}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\phi(\bm r)$：观测点 $\bm r$ 处的电势，单位 $\mathrm{V}$；
+    \item $I_k$：第 $k$ 个等效源的电流，单位 $\mathrm{A}$；
+    \item $\bm r_k$：第 $k$ 个等效源的位置；
+    \item $\sigma$：海水电导率；
+    \item $|\bm r-\bm r_k|$：观测点到第 $k$ 个源的距离。
+\end{itemize}
+
+电场由电势梯度得到：
+\begin{equation}
+    \bm E(\bm r)=-\nabla \phi(\bm r).
+    \label{eq:multipoint_E}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\bm E(\bm r)$：观测点电场；
+    \item $-\nabla\phi$：电势下降最快方向。
+\end{itemize}
+
+多点源还需要满足
+\begin{equation}
+    \sum_k I_k=0,\qquad \sum_k I_k\bm r_k=\bm P_0.
+\end{equation}
+其中第一式保证总电流守恒，第二式保证多点源在远场等效为目标偶极矩 $\bm P_0$。
+
+\subsection{轴频调制}
+
+轴频信号不是另一个静态源，而是 $P_0$ 被推进轴系和螺旋桨周期运动调制后形成的线谱。写成
+\begin{equation}
+    P(t)=P_0\left[1+\sum_n m_n\cos(2\pi n f_s t+\phi_n)\right].
+    \label{eq:shaft_modulated_P}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $P(t)$：随时间变化的等效偶极矩；
+    \item $P_0$：平均等效偶极矩；
+    \item $m_n$：第 $n$ 阶调制系数；
+    \item $f_s$：轴频基频，单位 $\mathrm{Hz}$；
+    \item $n$：谐波阶次；
+    \item $\phi_n$：第 $n$ 阶相位；
+    \item $t$：时间。
+\end{itemize}
+
+主模型采用准静态调制：
+\begin{equation}
+    E_{\mathrm{shaft},n}^{\mathrm{base}}(R)=
+    m_n\frac{C_\theta P_0}{4\pi\sigma R^3}.
+    \label{eq:shaft_baseline}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E_{\mathrm{shaft},n}^{\mathrm{base}}$：第 $n$ 阶轴频电场幅值；
+    \item $m_n$：第 $n$ 阶调制系数；
+    \item 其他符号与式 \eqref{eq:static_dipole} 相同。
+\end{itemize}
+
+保守扩散敏感性作为附加参考：
+\begin{equation}
+    E_{\mathrm{shaft},n}^{\mathrm{cons}}(R)=
+    E_{\mathrm{shaft},n}^{\mathrm{base}}(R)
+    \exp\left[-\frac{R}{\delta(nf_s)}\right].
+    \label{eq:shaft_conservative}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E_{\mathrm{shaft},n}^{\mathrm{cons}}$：加入指数衰减后的保守敏感性结果；
+    \item $\delta(nf_s)$：频率 $nf_s$ 对应的皮肤深度；
+    \item $\exp[-R/\delta]$：可选保守衰减因子，不参与主结论。
+\end{itemize}
+
+\subsection{尾流/流动诱导电场}
+
+导电海水在地磁场中运动时，会形成运动感生电场。局部上限写为
+\begin{equation}
+    E_{\mathrm{wake,local}}\le vB_0.
+    \label{eq:wake_local}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E_{\mathrm{wake,local}}$：尾流局部感生电场上限；
+    \item $v$：局部水体速度，单位 $\mathrm{m/s}$；
+    \item $B_0$：地磁场强度，单位 $\mathrm{T}$。
+\end{itemize}
+
+该模型只给局部物理上限，不把尾流和远场偶极子信号放在同一个 dB 排序表里。若要得到尾流远距离信号，必须引入尾流速度场、湍流扩散和流体-电磁耦合模型。
+
+\subsection{工频泄漏}
+
+工频泄漏在实验中主要表现为通道干扰。实验室 200 L 桶、水泵、DAQ、BNC 和接地回路条件下，第 $i$ 个通道可写为
+\begin{equation}
+    V_i(t)=S_i(t)+A_{50,i}\cos(2\pi50t+\phi_{50,i})
+    +\sum_k A_{k,i}\cos(2\pi k50t+\phi_{k,i})+n_i(t).
+    \label{eq:lab_powerline}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $V_i(t)$：第 $i$ 个通道的测量电压；
+    \item $S_i(t)$：目标相关信号；
+    \item $A_{50,i}$：50 Hz 干扰幅值，需测量或作为参数输入；
+    \item $\phi_{50,i}$：50 Hz 干扰相位；
+    \item $A_{k,i}$：第 $k$ 个工频谐波幅值；
+    \item $\phi_{k,i}$：第 $k$ 个谐波相位；
+    \item $n_i(t)$：随机噪声和未建模扰动。
+\end{itemize}
+
+\subsection{检测阈值}
+
+在没有完整传感器标定时，不设单一固定现实阈值，而用噪声谱密度和积分时间表达：
+\begin{equation}
+    E_{\min}(f,T_{\mathrm{int}})
+    =\gamma\frac{S_E^{1/2}(f)}{\sqrt{T_{\mathrm{int}}}}.
+    \label{eq:emin_spectral}
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E_{\min}$：可分辨的最小等效电场；
+    \item $f$：信号频率；
+    \item $T_{\mathrm{int}}$：积分时间；
+    \item $\gamma$：检测裕度因子；
+    \item $S_E^{1/2}(f)$：等效电场噪声谱密度，单位 $\mathrm{V/m/\sqrt{Hz}}$。
+\end{itemize}
+
+本文扫描
+\begin{equation}
+    S_E^{1/2}=\{10^{-12},10^{-11},10^{-10},10^{-9},10^{-8}\}\ \mathrm{V/m/\sqrt{Hz}},
+\end{equation}
+和
+\begin{equation}
+    T_{\mathrm{int}}=\{10,100,1000\}\ \mathrm{s}.
+\end{equation}
+其中 $S_E^{1/2}$ 表示系统噪声水平，$T_{\mathrm{int}}$ 表示可用于窄带积分的时间。

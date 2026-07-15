@@ -1,0 +1,80 @@
+% SJTU thesis style reconstructed from the Word template comments.
+\usepackage[a4paper,top=3.5cm,bottom=4cm,left=3cm,right=2.5cm,headheight=15pt,headsep=0.75cm,footskip=1cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{etoolbox}
+\usepackage{float}
+
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{SimSun}{\setCJKmainfont[AutoFakeBold=true]{SimSun}}{\setCJKmainfont[AutoFakeBold=true]{FandolSong-Regular}}
+\IfFontExistsTF{SimHei}{\setCJKfamilyfont{hei}[AutoFakeBold=true]{SimHei}}{\setCJKfamilyfont{hei}[AutoFakeBold=true]{FandolHei-Regular}}
+\IfFontExistsTF{SimSun}{\setCJKfamilyfont{song}[AutoFakeBold=true]{SimSun}}{\setCJKfamilyfont{song}[AutoFakeBold=true]{FandolSong-Regular}}
+
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+\ctexset{
+  chapter={name={第,章},number=\arabic{chapter},format={\centering\heiti\bfseries\zihao{3}},beforeskip=24bp,afterskip=18bp,fixskip=true},
+  section={format={\raggedright\heiti\bfseries\zihao{4}},beforeskip=24bp,afterskip=6bp,fixskip=true},
+  subsection={format={\raggedright\heiti\bfseries\zihao{-4}},beforeskip=12bp,afterskip=6bp,fixskip=true},
+  subsubsection={format={\raggedright\songti\zihao{-4}},beforeskip=6bp,afterskip=6bp,fixskip=true}
+}
+
+\zihao{-4}\linespread{1.54}\selectfont
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\AtBeginDocument{\zihao{-4}\linespread{1.54}\selectfont}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\zihao{5}上海交通大学硕士学位论文}
+\fancyhead[R]{\zihao{5}\leftmark}
+\fancyfoot[C]{\zihao{5}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\zihao{5}\thepage}\renewcommand{\headrulewidth}{0pt}}
+\newcommand{\frontplain}{\pagestyle{plain}}
+\newcommand{\mainstyle}{\pagestyle{fancy}}
+
+\renewcommand{\contentsname}{目\quad 录}
+\titlecontents{chapter}[0em]{\songti\bfseries\zihao{-4}}{\thecontentslabel\quad}{ }{\titlerule*[0.6pc]{.}\contentspage}
+\titlecontents{section}[2em]{\songti\zihao{-4}}{\thecontentslabel\quad}{ }{\titlerule*[0.6pc]{.}\contentspage}
+\titlecontents{subsection}[4em]{\songti\zihao{-4}}{\thecontentslabel\quad}{ }{\titlerule*[0.6pc]{.}\contentspage}
+
+\captionsetup[figure]{font={small},labelfont={bf},labelsep=quad,justification=centering,position=bottom}
+\captionsetup[table]{font={small,bf},labelsep=quad,justification=centering,position=top,skip=6bp}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+
+\newcommand{\thesistitlezh}{基于极化带效应水下目标探测感知系统的艇体目标探测研究}
+\newcommand{\thesistitleen}{Research on Hull Target Detection Based on an Underwater Target Detection and Sensing System Using Polarization Band Effect}
+\newcommand{\thesisauthor}{程家诺}
+\newcommand{\thesisstudentid}{124039910036}
+\newcommand{\thesissupervisor}{侯中宇}
+\newcommand{\thesisschool}{集成电路学院}
+\newcommand{\thesismajor}{集成电路工程}
+\newcommand{\thesisdegree}{工学硕士}
+\newcommand{\thesisdate}{2025年11月2日}
+
+\newcommand{\sjtuFrontTitle}[1]{{\centering\heiti\bfseries\zihao{3}#1\par\vspace{1.5em}}}
+\newcommand{\keywords}[1]{\vspace{1em}\noindent\textbf{关键词：}#1\par}
+\newcommand{\enkeywords}[1]{\vspace{1em}\noindent\textbf{Key words: }#1\par}
+\newenvironment{refsectionmanual}{\chapter*{参考文献}\addcontentsline{toc}{chapter}{参考文献}\zihao{5}\linespread{1.23}\selectfont\begin{enumerate}[label={[\arabic*]},leftmargin=2.6em,itemsep=3bp,topsep=0pt]}{\end{enumerate}}

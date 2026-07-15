@@ -1,0 +1,106 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\geometry{margin=2.2cm}
+\title{子报告 1：UEP/ICCP 静态或慢变电场计算说明}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section{本源项计算目标}
+本子报告解释主报告表 5 中“UEP/ICCP 静态或慢变电场”这一行如何计算。这里的 UEP/ICCP 不是把 UEP 和 ICCP 当成两个独立源相加，而是把腐蚀、防腐和外加电流共同形成的等效电流偶极矩记为 $P_0$，再计算它在海水中的静态或慢变电场。
+
+\section{物理图像}
+可以把水下目标看成一个“有电流从某些位置流出、又从另一些位置流回”的整体。远处探测器看不到所有局部细节，只能看到一个等效的电流偶极。电流偶极越大，远处电场越强；海水电导率越高，电场越容易被导走，测到的电场越弱；距离越远，电场按 $R^{-3}$ 快速下降。
+
+\section{使用公式}
+\[
+P_0=P_{\mathrm{corr}}+P_{\mathrm{SACP}}+P_{\mathrm{ICCP}}
+\]
+\[
+E_{\mathrm{static}}(R)=\frac{C_\theta P_0}{4\pi\sigma R^3}
+\]
+
+\begin{longtable}{p{2.6cm}p{3.2cm}p{2.2cm}p{5.5cm}}
+\caption{公式变量说明}\\
+\toprule
+符号 & 名称 & 单位 & 来源和含义\\
+\midrule
+$P_0$ & 总等效电流偶极矩 & A$\cdot$m & 参数包络输入；代表腐蚀、防腐、ICCP 机制合成后的远场等效强度。\\
+$P_{\mathrm{corr}}$ & 腐蚀相关偶极矩 & A$\cdot$m & 源项分解概念；主表不单独扫描。\\
+$P_{\mathrm{SACP}}$ & 牺牲阳极防腐偶极矩 & A$\cdot$m & 源项分解概念；主表不单独扫描。\\
+$P_{\mathrm{ICCP}}$ & 外加电流防腐偶极矩 & A$\cdot$m & 源项分解概念；主表不单独扫描。\\
+$E_{\mathrm{static}}$ & 静态或慢变电场强度 & V/m & 需要输出的结果。\\
+$C_\theta$ & 方向因子 & 无量纲 & 参数包络输入；横向取 1，轴向取 2，用来覆盖观测方向差异。\\
+$\sigma$ & 水体电导率 & S/m & 参数包络输入；海水越导电，电场越小。\\
+$R$ & 探测器到等效源中心距离 & m & 主表距离列；取 100、300、500、1000 m。\\
+$4\pi$ & 球面几何常数 & 无量纲 & 来自三维空间中点源/偶极远场解析形式。\\
+\bottomrule
+\end{longtable}
+
+\section{参数扫描}
+\[
+P_0=\{30,100,300,1000,3000\}\ \mathrm{A\cdot m}
+\]
+\[
+\sigma=\{3,4,6\}\ \mathrm{S/m},\qquad C_\theta=\{1,2\}
+\]
+\[
+R=\{100,300,500,1000\}\ \mathrm{m}
+\]
+参考场景取 $P_0=300\ \mathrm{A\cdot m}$、$\sigma=4\ \mathrm{S/m}$、$C_\theta=1$。
+
+\section{Python 计算对应关系}
+核心函数位于：
+\[
+\texttt{ship\_efield\_theory/src/propagation.py}
+\]
+函数名：
+\[
+\texttt{static\_dipole\_field(P\_a\_m, sigma\_s\_per\_m, R\_m, Ctheta)}
+\]
+函数实际做的计算就是：
+\[
+\texttt{return Ctheta * P\_a\_m / (4*pi*sigma\_s\_per\_m*R\_m**3)}
+\]
+
+主表生成工作流可以写成：
+\[
+\texttt{for R in [100,300,500,1000]:}
+\]
+\[
+\texttt{\quad values=[]}
+\]
+\[
+\texttt{\quad for P0 in P0\_list, sigma in sigma\_list, Ctheta in Ctheta\_list:}
+\]
+\[
+\texttt{\quad\quad values.append(static\_dipole\_field(P0,sigma,R,Ctheta))}
+\]
+\[
+\texttt{\quad min=min(values),\ reference=E(300,4,R,1),\ max=max(values)}
+\]
+
+\section{手算示例}
+以 reference 场景、$R=100\ \mathrm{m}$ 为例：
+\[
+E=\frac{1\times300}{4\pi\times4\times100^3}
+=5.97\times10^{-6}\ \mathrm{V/m}
+\]
+换成 $\mu$V/m：
+\[
+5.97\times10^{-6}\ \mathrm{V/m}\times10^6=5.97\ \mu\mathrm{V/m}
+\]
+
+\section{本源项输出如何进入主报告}
+该源项进入表 5 的第一行。每个距离格写成：
+\[
+\mathrm{min/reference/max}
+\]
+其中 min 和 max 来自全部参数组合，reference 来自中等参考场景。
+
+\end{document}

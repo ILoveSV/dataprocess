@@ -1,0 +1,113 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\geometry{margin=2.2cm}
+\title{子报告 2：轴频基频电场计算说明}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section{本源项计算目标}
+本子报告解释主报告表 5 中“轴频基频”这一行如何计算。轴频基频不是新的独立电流源，而是等效偶极矩 $P_0$ 随螺旋桨/轴系转动产生的周期性调制。若轴频为 $f_s$，则基频信号出现在 $f_s$。
+
+\section{物理图像}
+静态场像一个稳定背景；轴频基频是在这个背景上叠加一个小的周期性起伏。调制深度 $m_1$ 表示起伏幅度占静态场的比例。例如 $m_1=0.03$ 表示基频幅值约为静态场的 3\%。
+
+\section{使用公式}
+\[
+E_{\mathrm{static}}(R)=\frac{C_\theta P_0}{4\pi\sigma R^3}
+\]
+\[
+E_{\mathrm{shaft},1}(R)=m_1E_{\mathrm{static}}(R)
+\]
+\[
+f_1=f_s
+\]
+
+\begin{longtable}{p{2.7cm}p{3.3cm}p{2.0cm}p{5.4cm}}
+\caption{公式变量说明}\\
+\toprule
+符号 & 名称 & 单位 & 来源和含义\\
+\midrule
+$E_{\mathrm{shaft},1}$ & 轴频基频电场幅值 & V/m & 本源项输出结果。\\
+$m_1$ & 基频调制深度 & 无量纲 & 参数扫描输入；表示基频起伏占静态场的比例。\\
+$E_{\mathrm{static}}$ & 静态或慢变场幅值 & V/m & 由 UEP/ICCP 等效偶极模型计算得到。\\
+$P_0$ & 总等效电流偶极矩 & A$\cdot$m & 与静态场相同的等效源强。\\
+$C_\theta$ & 方向因子 & 无量纲 & 横向 1，轴向 2。\\
+$\sigma$ & 水体电导率 & S/m & 参数扫描输入。\\
+$R$ & 探测器到等效源中心距离 & m & 主表距离。\\
+$f_s$ & 轴频 & Hz & 典型参考取 3 Hz。\\
+$f_1$ & 基频频率 & Hz & 等于 $f_s$。\\
+\bottomrule
+\end{longtable}
+
+\section{参数扫描}
+静态场参数沿用：
+\[
+P_0=\{30,100,300,1000,3000\}\ \mathrm{A\cdot m},\quad
+\sigma=\{3,4,6\}\ \mathrm{S/m},\quad
+C_\theta=\{1,2\}
+\]
+轴频基频新增：
+\[
+m_1=\{0.003,0.01,0.03,0.1,0.3\}
+\]
+参考场景为 $P_0=300\ \mathrm{A\cdot m}$、$\sigma=4\ \mathrm{S/m}$、$C_\theta=1$、$m_1=0.03$。
+
+\section{Python 计算对应关系}
+核心函数位于：
+\[
+\texttt{ship\_efield\_theory/src/propagation.py}
+\]
+函数名：
+\[
+\texttt{shaft\_rate\_field(P0\_a\_m, m\_n, fs\_hz, harmonic, R\_m, sigma\_s\_per\_m, Ctheta)}
+\]
+默认准静态模型中，函数先调用：
+\[
+\texttt{static\_dipole\_field(P0, sigma, R, Ctheta)}
+\]
+再计算：
+\[
+\texttt{signal = m\_n * base}
+\]
+对于基频，代码中 $m_n=m_1$，$harmonic=1$，频率为 $fs\_hz\times1$。
+
+\section{Python 工作流}
+\[
+\texttt{for R in distances:}
+\]
+\[
+\texttt{\quad values=[]}
+\]
+\[
+\texttt{\quad for P0,sigma,Ctheta,m1 in all\_combinations:}
+\]
+\[
+\texttt{\quad\quad Estatic = static\_dipole\_field(P0,sigma,R,Ctheta)}
+\]
+\[
+\texttt{\quad\quad values.append(m1*Estatic)}
+\]
+\[
+\texttt{\quad min=min(values),\ reference=0.03*Estatic(300,4,R,1),\ max=max(values)}
+\]
+
+\section{手算示例}
+以 $R=100\ \mathrm{m}$、reference 静态场 $E_{\mathrm{static}}=5.97\times10^{-6}\ \mathrm{V/m}$ 为例：
+\[
+E_{\mathrm{shaft},1}=0.03\times5.97\times10^{-6}
+=1.79\times10^{-7}\ \mathrm{V/m}
+\]
+换算成 $\mu$V/m：
+\[
+1.79\times10^{-7}\times10^6=0.179\ \mu\mathrm{V/m}
+\]
+
+\section{本源项输出如何进入主报告}
+该源项进入表 5 第二行。频率特征写作 $f_s$，典型参考为 3 Hz。强度格仍写成 min/reference/max。
+
+\end{document}

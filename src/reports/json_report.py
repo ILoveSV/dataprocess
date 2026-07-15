@@ -1,0 +1,2 @@
+from src.pipelines.frequency_analysis_pipeline import generate_group_analysis_report
+

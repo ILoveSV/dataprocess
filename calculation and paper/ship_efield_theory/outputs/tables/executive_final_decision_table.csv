@@ -1,0 +1,5 @@
+source_id,source_name,frequency_label,direct_far_field_sorting,experiment_priority,E_100m_range_v_per_m,E_100m_range_uV_per_m,E_300m_range_v_per_m,E_300m_range_uV_per_m,E_1000m_range_v_per_m,E_1000m_range_uV_per_m
+static_UEP_ICCP_signature,UEP/ICCP静态场,0 Hz/慢变,yes,第二优先：梯度和多通道一致性,5.968310e-07--1.193662e-04,5.968310e-01--1.193662e+02,2.210485e-08--4.420971e-06,2.210485e-02--4.420971e+00,5.968310e-10--1.193662e-07,5.968310e-04--1.193662e-01
+shaft_fundamental,轴频基频,3 Hz,yes,第一优先：当前最适合验证,5.968310e-09--1.193662e-05,5.968310e-03--1.193662e+01,2.210485e-10--4.420971e-07,2.210485e-04--4.420971e-01,5.968310e-12--1.193662e-08,5.968310e-06--1.193662e-02
+wake_local_upper_bound,尾流局部上限,低频宽带,no,第四优先：后续单独模型,local <= 2.500000e-04,local <= 2.500000e+02,local <= 2.500000e-04,local <= 2.500000e+02,local <= 2.500000e-04,local <= 2.500000e+02
+powerline_50hz,50 Hz工频干扰,50 Hz及倍频,no,第三优先：测量和剔除,measured A50_i / d_eff,measured,measured A50_i / d_eff,measured,measured A50_i / d_eff,measured

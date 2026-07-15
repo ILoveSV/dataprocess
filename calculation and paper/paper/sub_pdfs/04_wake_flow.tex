@@ -1,0 +1,108 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\geometry{margin=2.2cm}
+\title{子报告 4：尾流/流动诱导电场计算说明}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section{本源项计算目标}
+本子报告解释主报告表 5 中“尾流/流动诱导电场”这一行如何计算。尾流行不使用目标电偶极的 $R^{-3}$ 远场模型，而使用尾流中心线下游距离 $x$ 的流速衰减模型。
+
+\section{物理图像}
+导电水体在地磁场中运动，会产生感生电场。最简单的量级关系是：
+\[
+E\sim vB
+\]
+这里 $v$ 是水体运动速度，$B$ 是磁场强度。舰艇后方尾流速度会随下游距离逐渐衰减，所以先估计尾流中心线速度，再乘以地磁场强度。
+
+\section{使用公式}
+\[
+v_{\mathrm{wake}}(x)=\alpha U\left(1+\frac{x}{L_{\mathrm{ship}}}\right)^{-p}
+\]
+\[
+E_{\mathrm{wake}}(x)=v_{\mathrm{wake}}(x)B_0
+\]
+
+\begin{longtable}{p{2.8cm}p{3.3cm}p{2.0cm}p{5.4cm}}
+\caption{公式变量说明}\\
+\toprule
+符号 & 名称 & 单位 & 来源和含义\\
+\midrule
+$v_{\mathrm{wake}}$ & 尾流中心线速度 & m/s & 由尾流衰减模型计算。\\
+$E_{\mathrm{wake}}$ & 尾流诱导电场 & V/m & 本源项输出结果。\\
+$x$ & 尾流中心线下游距离 & m & 表 5 距离含义；不是径向远场距离。\\
+$\alpha$ & 尾流速度比例系数 & 无量纲 & 参数扫描输入；表示尾流速度占航速的初始比例。\\
+$U$ & 目标航速 & m/s & 参数扫描输入。\\
+$L_{\mathrm{ship}}$ & 舰长参考尺度 & m & 本报告取 70 m。\\
+$p$ & 衰减指数 & 无量纲 & 参数扫描输入；越大表示尾流衰减越快。\\
+$B_0$ & 地磁场强度 & T & 本报告取 $50\ \mu$T。\\
+\bottomrule
+\end{longtable}
+
+\section{参数扫描}
+\[
+U=\{3,5,8\}\ \mathrm{m/s}
+\]
+\[
+\alpha=\{0.003,0.01,0.03,0.1\}
+\]
+\[
+p=\{1,1.5,2,2.5\}
+\]
+\[
+B_0=50\ \mu\mathrm{T},\qquad L_{\mathrm{ship}}=70\ \mathrm{m}
+\]
+\[
+x=\{100,300,500,1000\}\ \mathrm{m}
+\]
+reference 场景取 $U=5\ \mathrm{m/s}$、$\alpha=0.03$、$p=1.5$。
+
+\section{Python 工作流}
+当前主报告中的尾流中心线结果按显式公式计算。等效 Python 逻辑为：
+\[
+\texttt{for x in [100,300,500,1000]:}
+\]
+\[
+\texttt{\quad values=[]}
+\]
+\[
+\texttt{\quad for U, alpha, p in all\_combinations:}
+\]
+\[
+\texttt{\quad\quad v = alpha * U * (1 + x / Lship)**(-p)}
+\]
+\[
+\texttt{\quad\quad E = v * B0}
+\]
+\[
+\texttt{\quad\quad values.append(E)}
+\]
+\[
+\texttt{\quad min=min(values),\ reference=E(5,0.03,1.5),\ max=max(values)}
+\]
+
+\section{手算示例}
+以 reference 场景、$x=100\ \mathrm{m}$ 为例：
+\[
+v_{\mathrm{wake}}=0.03\times5\times\left(1+\frac{100}{70}\right)^{-1.5}
+\]
+\[
+v_{\mathrm{wake}}\approx0.0396\ \mathrm{m/s}
+\]
+\[
+E_{\mathrm{wake}}=0.0396\times50\times10^{-6}
+=1.98\times10^{-6}\ \mathrm{V/m}
+\]
+\[
+1.98\times10^{-6}\ \mathrm{V/m}=1.98\ \mu\mathrm{V/m}
+\]
+
+\section{本源项输出如何进入主报告}
+该源项进入表 5 第四行。备注写“尾流中心线模型，非径向远场”，因为 $x$ 是尾流下游距离，不是探测器到等效电偶极中心的 $R$。
+
+\end{document}

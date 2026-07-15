@@ -1,0 +1,260 @@
+\section{最终源项--距离--强度客观参考表}
+
+本章计算目的：把目标相关源项和当前实验背景分成两张表。表 5 只包含真实水下目标相关源项的 100--1000 m 量级参考；表 6 只包含变频器--水泵系统高频电磁背景在 0--5 m 实验室耦合距离下的等效场强。
+
+\begin{table}[H]
+\centering
+\caption*{表 5：水下目标电场源项 100--1000 m 强度客观参考表}
+\label{tab:objective-source-reference}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{2.4cm}p{2.2cm}p{2.0cm}p{2.4cm}p{3.2cm}p{3.2cm}p{3.2cm}p{3.2cm}p{2.0cm}p{2.5cm}}
+\toprule
+源项 & 距离含义 & 频率特征 & 模型 & 100 m & 300 m & 500 m & 1000 m & 模型可信度 & 备注\\
+\midrule
+UEP/ICCP 静态或慢变电场
+& $R$：探测器到等效源中心
+& 0 Hz/慢变
+& $C_\theta P_0/(4\pi\sigma R^3)$
+& $3.98\times10^{-7}$ / $5.97\times10^{-6}$ / $1.59\times10^{-4}$ V/m；0.398 / 5.97 / 159 $\mu$V/m
+& $1.47\times10^{-8}$ / $2.21\times10^{-7}$ / $5.89\times10^{-6}$ V/m；0.0147 / 0.221 / 5.89 $\mu$V/m
+& $3.18\times10^{-9}$ / $4.77\times10^{-8}$ / $1.27\times10^{-6}$ V/m；0.00318 / 0.0477 / 1.27 $\mu$V/m
+& $3.98\times10^{-10}$ / $5.97\times10^{-9}$ / $1.59\times10^{-7}$ V/m；0.000398 / 0.00597 / 0.159 $\mu$V/m
+& 中
+& 远场偶极模型\\
+\midrule
+轴频基频
+& $R$：探测器到等效源中心
+& $f_s$；典型 3 Hz
+& $m_1E_{\mathrm{static}}$
+& $1.19\times10^{-9}$ / $1.79\times10^{-7}$ / $4.77\times10^{-5}$ V/m；0.00119 / 0.179 / 47.7 $\mu$V/m
+& $4.42\times10^{-11}$ / $6.63\times10^{-9}$ / $1.77\times10^{-6}$ V/m；0.0000442 / 0.00663 / 1.77 $\mu$V/m
+& $9.55\times10^{-12}$ / $1.43\times10^{-9}$ / $3.82\times10^{-7}$ V/m；0.00000955 / 0.00143 / 0.382 $\mu$V/m
+& $1.19\times10^{-12}$ / $1.79\times10^{-10}$ / $4.77\times10^{-8}$ V/m；0.00000119 / 0.000179 / 0.0477 $\mu$V/m
+& 中
+& 远场偶极调制模型\\
+\midrule
+轴频二/三阶谐波
+& $R$：探测器到等效源中心
+& $2f_s/3f_s$；典型 6/9 Hz
+& $(m_1/2)E_{\mathrm{static}}$，$(m_1/3)E_{\mathrm{static}}$
+& $3.98\times10^{-10}$ / $8.95\times10^{-8}$ / $2.39\times10^{-5}$ V/m；0.000398 / 0.0895 / 23.9 $\mu$V/m
+& $1.47\times10^{-11}$ / $3.32\times10^{-9}$ / $8.84\times10^{-7}$ V/m；0.0000147 / 0.00332 / 0.884 $\mu$V/m
+& $3.18\times10^{-12}$ / $7.16\times10^{-10}$ / $1.91\times10^{-7}$ V/m；0.00000318 / 0.000716 / 0.191 $\mu$V/m
+& $3.98\times10^{-13}$ / $8.95\times10^{-11}$ / $2.39\times10^{-8}$ V/m；0.000000398 / 0.0000895 / 0.0239 $\mu$V/m
+& 中
+& 二/三阶合并范围\\
+\midrule
+尾流/流动诱导电场
+& $x$：尾流中心线下游距离
+& 低频/宽带慢变
+& $\alpha U(1+x/L_{\mathrm{ship}})^{-p}B_0$
+& $4.90\times10^{-8}$ / $1.98\times10^{-6}$ / $1.65\times10^{-5}$ V/m；0.0490 / 1.98 / 16.5 $\mu$V/m
+& $7.01\times10^{-9}$ / $6.17\times10^{-7}$ / $7.57\times10^{-6}$ V/m；0.00701 / 0.617 / 7.57 $\mu$V/m
+& $2.38\times10^{-9}$ / $3.23\times10^{-7}$ / $4.91\times10^{-6}$ V/m；0.00238 / 0.323 / 4.91 $\mu$V/m
+& $4.93\times10^{-10}$ / $1.25\times10^{-7}$ / $2.62\times10^{-6}$ V/m；0.000493 / 0.125 / 2.62 $\mu$V/m
+& 低--中
+& 尾流中心线模型，非径向远场\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+变频器--水泵系统高频电磁背景不进入表 5。其结果单独列入表 6，用于当前实验系统背景场对照。
+
+\subsection{源项频率分布与强度分配}
+
+本节计算目的：前文已经计算各源项随距离变化的强度，本节补充这些强度主要分布在哪些频率上。这里不重新做复杂仿真，只用解析式和工程估算输出频率类型、主频/频带、强度分配方法和是否需要复杂计算。
+
+\subsubsection*{UEP/ICCP 静态或慢变场}
+
+UEP/ICCP 静态或慢变场的频率类型为 DC/慢变包络。若目标近似静止，可写成
+\[
+E_{\mathrm{static}}(f)\approx E_{\mathrm{static}}\delta(f),
+\]
+表示强度主要集中在 0 Hz 附近。若目标以速度 $v$ 通过最近距离 $R_0$，慢包络可写为
+\[
+E(t)=\frac{C_\theta P_0}{4\pi\sigma\left(R_0^2+v^2t^2\right)^{3/2}}.
+\]
+其工程特征频率估算为
+\[
+f_{\mathrm{env}}\approx\frac{v}{2\pi R_0}.
+\]
+取 $v=5\ \mathrm{m/s}$，得到
+\[
+\begin{array}{c|cccc}
+R_0\ (\mathrm{m}) & 100 & 300 & 500 & 1000\\
+\hline
+f_{\mathrm{env}}\ (\mathrm{Hz}) & 7.96\times10^{-3} & 2.65\times10^{-3} & 1.59\times10^{-3} & 7.96\times10^{-4}
+\end{array}
+\]
+因此 UEP/ICCP 主要集中在 DC 到 $10^{-2}$ Hz 的低频慢变范围，不是稳定线谱。
+
+\subsubsection*{轴频基频}
+
+轴频基频的频率类型为离散线谱。工程范围取
+\[
+f_s\in[1,7]\ \mathrm{Hz},
+\]
+参考值为
+\[
+f_s=3\ \mathrm{Hz}.
+\]
+强度分配为
+\[
+E_{\mathrm{shaft},1}=m_1E_{\mathrm{static}}.
+\]
+该强度集中在 $f_s$ 线谱处。
+
+\subsubsection*{轴频二/三阶谐波}
+
+轴频二/三阶谐波的频率类型为离散线谱，频率为
+\[
+2f_s,\qquad 3f_s.
+\]
+当 $f_s=3\ \mathrm{Hz}$ 时，参考频率为 6 Hz 和 9 Hz。强度分配为
+\[
+m_2=\frac{m_1}{2},\qquad m_3=\frac{m_1}{3},
+\]
+\[
+E_{\mathrm{shaft},2}=m_2E_{\mathrm{static}},\qquad
+E_{\mathrm{shaft},3}=m_3E_{\mathrm{static}}.
+\]
+
+\subsubsection*{尾流/流动诱导}
+
+尾流/流动诱导电场的频率类型为低频宽带/慢变扰动。当前报告不做完整尾流 PSD，只给特征频率估算：
+\[
+f_{\mathrm{wake}}\approx\frac{U}{2\pi l}.
+\]
+若取大尺度结构 $l=L_{\mathrm{ship}}=70\ \mathrm{m}$，$U=\{3,5,8\}\ \mathrm{m/s}$，则
+\[
+f_{\mathrm{wake}}\approx0.0068\text{--}0.018\ \mathrm{Hz}.
+\]
+若考虑小尺度结构 $l=1\text{--}10\ \mathrm{m}$，则
+\[
+f_{\mathrm{wake}}\approx0.05\text{--}1.3\ \mathrm{Hz}.
+\]
+因此尾流主要位于 $10^{-3}$--1 Hz 的低频宽带范围；严格频谱需要非定常尾流速度场和流体--电磁耦合计算。
+
+\subsubsection*{变频器--水泵系统高频电磁背景}
+
+变频器--水泵系统高频电磁背景的频率类型不是单一 50 Hz 工频线谱，而是由 VFD 输出、电力电子开关、电机电缆和实验测量链路共同形成的多频段背景。其频率结构包括：
+\[
+f_{\mathrm{out}},\qquad 2f_{\mathrm{out}},\qquad 3f_{\mathrm{out}},
+\]
+其中 $f_{\mathrm{out}}$ 是 VFD 输出基波，由变频器设置；还包括 VFD PWM 载波频率及谐波
+\[
+f_c,\qquad 2f_c,\qquad 3f_c,\ldots
+\]
+以及旁带
+\[
+nf_c\pm mf_{\mathrm{out}}.
+\]
+电机电缆、泵体、水体、接地、DAQ 和传感器链路还可能产生高频振铃或共振频段，当前重点关注 50--100 kHz 和 100--200 kHz。50 Hz 输入电源及其低阶谐波
+\[
+100,\ 150,\ 200,\ 250\ \mathrm{Hz}.
+\]
+只作为附加背景读取，不再作为唯一工频源。
+
+VFD 背景强度由表 6 的频率相关共模/漏电流等效偶极模型给出：
+\[
+E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}})=
+\frac{I_{\mathrm{cm}}(f)L_{\mathrm{eff}}}{4\pi\sigma r_{\mathrm{lab}}^3}.
+\]
+其中 $I_{\mathrm{cm}}(f)$ 是频率 $f$ 处的等效共模/漏电流，需要实测或作为场景参数，本报告不由 $2.2\ \mathrm{kW}$ 或 $4.58\ \mathrm{A}$ 直接推出。载波谐波和旁带的相对强度可写成
+\[
+E_k(f)=h_k(f)E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}}),
+\]
+其中 $h_k(f)$ 需要实测确定，本报告不假设其数值。
+
+\begin{table}[H]
+\centering
+\caption{源项频率分布与强度分配方法}
+\label{tab:frequency-distribution-method}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.0cm}p{2.8cm}p{3.0cm}p{4.2cm}p{2.4cm}p{3.2cm}}
+\toprule
+源项 & 频率类型 & 主频/频带 & 强度分配方法 & 是否需要复杂计算 & 备注\\
+\midrule
+UEP/ICCP 静态或慢变场 & DC/慢变包络 & DC 到 $10^{-2}$ Hz & 静止时近似集中在 $\delta(f)$；运动时由 $E(t)$ 慢包络给出 & 否 & 不是稳定线谱\\
+轴频基频 & 离散线谱 & $f_s\in[1,7]$ Hz，参考 3 Hz & $E_{\mathrm{shaft},1}=m_1E_{\mathrm{static}}$ & 否 & 强度集中在 $f_s$\\
+轴频二/三阶谐波 & 离散线谱 & $2f_s,3f_s$，参考 6/9 Hz & $m_2=m_1/2$，$m_3=m_1/3$ & 否 & 强度集中在二/三阶线谱\\
+尾流/流动诱导 & 低频宽带/慢变扰动 & $10^{-3}$--1 Hz & 用 $f_{\mathrm{wake}}\approx U/(2\pi l)$ 给特征频率 & 严格 PSD 需要 & 连续低频范围\\
+变频器--水泵系统高频电磁背景 & VFD 基波、PWM 载波、旁带和高频振铃 & $f_{\mathrm{out}}$、$2f_{\mathrm{out}}/3f_{\mathrm{out}}$、$f_c$ 及谐波、$nf_c\pm mf_{\mathrm{out}}$、50--200 kHz；50 Hz 输入侧为附加背景 & 表 6 给出 $E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}})$；谐波/旁带比例由 $h_k(f)$ 实测 & 频谱形状需实测 & 实验背景，非真实水下目标源项\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{参考频率与强度来源对应表}
+\label{tab:frequency-strength-source}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.4cm}p{3.0cm}p{4.0cm}p{5.0cm}}
+\toprule
+源项 & 参考频率 & 强度来源表 & 说明\\
+\midrule
+UEP/ICCP & 0--$10^{-2}$ Hz & 表 5 静态场行 & 强度按静态或慢变包络读取。\\
+轴频基频 & 3 Hz & 表 5 轴频基频行 & 强度集中在 $f_s$ 线谱处。\\
+轴频二阶 & 6 Hz & 表 5 二/三阶谐波行 & 二阶强度按 $m_2=m_1/2$ 分配。\\
+轴频三阶 & 9 Hz & 表 5 二/三阶谐波行 & 三阶强度按 $m_3=m_1/3$ 分配。\\
+尾流 & $10^{-3}$--1 Hz & 表 5 尾流行 & 低频宽带/慢变扰动。\\
+VFD 输出基波 & $f_{\mathrm{out}}$ & 表 6 & 由变频器设置，不按水下目标源项读取。\\
+VFD 基波谐波 & $2f_{\mathrm{out}},3f_{\mathrm{out}}$ & 表 6 乘以实测 $h_k(f)$ & 谐波比例需实测确定，本报告不设定。\\
+VFD PWM 载波与旁带 & $f_c$ 及谐波、$nf_c\pm mf_{\mathrm{out}}$ & 表 6 乘以实测 $h_k(f)$ & 对 50--200 kHz 观测差异尤其敏感。\\
+输入侧工频附加背景 & 50 Hz 及 100/150/200/250 Hz & 表 6 乘以实测 $h_k(f)$ & 附加背景，不是唯一背景源。\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption*{表 6：变频器--水泵系统实验背景 0--5 m 频率与强度参考表}
+\label{tab:power-background-reference}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{ccccc}
+\toprule
+$r_{\mathrm{lab}}$ & 弱耦合 & 可见耦合 & 较强耦合 & 备注\\
+\midrule
+0.1 m & $7.96\times10^{-5}$ V/m；79.6 $\mu$V/m & $2.39\times10^{-2}$ V/m；$2.39\times10^{4}$ $\mu$V/m & $2.39\times10^{-1}$ V/m；$2.39\times10^{5}$ $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+0.3 m & $2.95\times10^{-6}$ V/m；2.95 $\mu$V/m & $8.84\times10^{-4}$ V/m；884 $\mu$V/m & $8.84\times10^{-3}$ V/m；$8.84\times10^{3}$ $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+0.5 m & $6.37\times10^{-7}$ V/m；0.637 $\mu$V/m & $1.91\times10^{-4}$ V/m；191 $\mu$V/m & $1.91\times10^{-3}$ V/m；$1.91\times10^{3}$ $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+1 m & $7.96\times10^{-8}$ V/m；0.0796 $\mu$V/m & $2.39\times10^{-5}$ V/m；23.9 $\mu$V/m & $2.39\times10^{-4}$ V/m；239 $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+2 m & $9.95\times10^{-9}$ V/m；0.00995 $\mu$V/m & $2.98\times10^{-6}$ V/m；2.98 $\mu$V/m & $2.98\times10^{-5}$ V/m；29.8 $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+3 m & $2.95\times10^{-9}$ V/m；0.00295 $\mu$V/m & $8.84\times10^{-7}$ V/m；0.884 $\mu$V/m & $8.84\times10^{-6}$ V/m；8.84 $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+5 m & $6.37\times10^{-10}$ V/m；0.000637 $\mu$V/m & $1.91\times10^{-7}$ V/m；0.191 $\mu$V/m & $1.91\times10^{-6}$ V/m；1.91 $\mu$V/m & $I_{\mathrm{cm}}(f)$ 场景值\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+表 6 只用于当前实验背景对照，不参与真实水下目标源项远场排序。设备参数为泵功率 $P=2.2\ \mathrm{kW}$、额定电压 $U_{LL}=380\ \mathrm{V}$、额定电流 $I_{\mathrm{rated}}=4.58\ \mathrm{A}$、额定转速 $n_{\mathrm{rated}}=2800\ \mathrm{rpm}$，系统中存在小型 VFD；$U_{\mathrm{phase}}\approx219.4\ \mathrm{V}$、$S\approx3.014\ \mathrm{kVA}$、$\mathrm{PF}\approx0.730$。这些参数只描述实验设备条件，不能直接换算成水中电场强度，也不能直接推出 $I_{\mathrm{cm}}(f)$。
+
+\subsection{实验观测 50--200 kHz 高频差异的可能来源}
+
+50--100 kHz 和 100--200 kHz 显著高于 UEP/ICCP、轴频和尾流的主要频率范围，不宜解释为真实水下目标主源项。该频段更可能来自 VFD PWM 开关噪声、快速电压边沿、电机电缆共模电流、泵壳/水体/接地耦合、DAQ/MEMS 高频响应。
+
+\begin{table}[H]
+\centering
+\caption{辅助表：50--200 kHz 高频背景对照实验与判断规则}
+\label{tab:vfd-control-tests}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{4.2cm}p{5.0cm}p{7.0cm}}
+\toprule
+对照操作 & 观察量 & 判断规则\\
+\midrule
+改变 VFD 载波频率 $f_c$ & 50--200 kHz 峰值、谱线位置和旁带是否移动 & 若 50--200 kHz 随 $f_c$ 改变，说明 VFD 开关噪声主导。\\
+改变 VFD 输出基波 $f_{\mathrm{out}}$ & 低频基波、基波谐波和 $nf_c\pm mf_{\mathrm{out}}$ 旁带是否移动 & 若随 $f_{\mathrm{out}}$ 改变，说明与电机基波或机械状态有关。\\
+VFD 上电但不运行泵 & 载波、旁带和高频宽带底噪是否仍存在 & 若停泵仍存在，说明 VFD 或电缆电磁耦合可以独立形成背景。\\
+传感器短接 & DAQ 输入端 50--200 kHz 是否仍存在 & 若短接仍存在，说明 DAQ、线缆或地线拾取。\\
+传感器空气中测量 & 离水条件下 50--200 kHz 是否仍存在 & 若空气中也存在，说明空气电磁耦合。\\
+改变电机线/传感器线走线 & 高频幅值是否随线缆距离、平行长度、交叉角改变 & 若随走线明显改变，说明电机线到传感器线的耦合重要。\\
+加磁环、屏蔽和接地后复测 & 50--200 kHz 峰值和宽带底噪是否下降 & 若处理后下降，说明共模电流、屏蔽或接地路径是主要通道。\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+本章对客观参考表的作用：表 5 给出目标相关源项 100--1000 m 量级；表 6 给出 VFD--水泵系统实验背景 0--5 m 等效场强和频率读取方式。

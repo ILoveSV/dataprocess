@@ -1,0 +1,194 @@
+# template analysis
+
+- File: `极化带效应水下目标探测感知.docx`
+- Paragraphs: 151
+- Nonempty paragraphs: 126
+- Tables: 2
+- Images: 3
+- Comments: 36
+
+## Used paragraph styles
+- Normal Indent: 26
+- Normal: 22
+- toc 2: 13
+- Heading 2: 13
+- Bibliography: 12
+- toc 1: 8
+- 标题 1*: 6
+- toc 3: 5
+- Heading 3: 5
+- Heading 1: 4
+- 题注 中: 2
+- 题注 英: 2
+- 附录 2: 2
+- 标题 3*: 2
+- 主题: 1
+- Heading 4: 1
+- 图表: 1
+- 附录 1: 1
+
+## Comments
+- [0] 作者: 中文论文标题：宋体，加粗，二号。1行或2行，论文题目一般不宜超过 20 字，如有副标题，主副标题合计最多不超过36字。
+- [1] 作者: 各项信息应与研究生信息系统内一致。学科专业：参照国务院学位委员会颁布的《授予博士、硕士学位和培养研究生的学科、专业目录》进行标注。申请学位：包括申请的学位类别和级别，学位类别参照《中华人民共和国学位条例暂行实施办法》的规定标注，包括以下门类：哲学、经济学、法学、教育学、文学、历史学、理学、工学、农学、医学、军事学、管理学。学位级别参照《中华人民共和国学位条例暂行实施办法》的规定标注，包括学士、硕士、博士。
+- [2] 作者: 英文标题页，无页眉页脚，页面布局两端对齐。申请学位层次：Master/Doctor
+- [3] 作者: 英文论文标题：Times New Roman，加粗，小二，字体效果全部大写字母。
+- [4] 作者: 声明页，全校统一格式，无页眉页脚。请在研究生院主页下载：https://www.gs.sjtu.edu.cn/xwxk/bgxz.htm上传论文归档稿时（作者签字处签名后）单独上传，论文正文中不必包括。
+- [5] 作者: 此处需要手工签名（非电脑输入姓名）。
+- [6] 作者: 秘密或机密论文是指由学校相关部门审核通过的涉及国家秘密的论文。涉及商业秘密的论文应勾选“内部论文”。
+- [7] 作者: 此处需要手工签名（非电脑输入姓名）。
+- [8] 作者: 此处需要手工签名（非电脑输入姓名）。
+- [9] 作者: 中文摘要标题：使用一级标题格式，两字间空一个字符。
+- [10] 作者: 中文摘要内容：使用正文格式。摘要力求语言精炼准确，字数一般不超过800字
+- [11] 作者: 段前空一行，“关键词”三个字加粗。
+- [12] 作者: 英文摘要标题：使用一级标题格式。
+- [13] 作者: 英文摘要内容：使用正文格式，首行缩进1.5字符。英文摘要内容应与中文摘要基本相对应（作为格式示例，模板英文内容与中文不符合）要符合英语语法，语句通顺，文字流畅。
+- [14] 作者: 段前空一行，“Key words”两词加粗。
+- [15] 作者: 目录标题：使用一级标题格式，两字间空一个字符。目录层次到三级标题为止。一级标题目录：宋体，加粗，小四，行距最小值20磅，段前6磅，页码右对齐。二级标题目录：宋体，小四，行距最小值20磅，左缩进2个字符，页码右对齐。三级标题目录：宋体，小四，行距最小值20磅，左缩进4个字符，页码右对齐。
+- [17] 作者: 论文应该有绪论。
+- [18] 作者: 一级标题：黑体，加粗，三号，居中，行距最小值20磅，段前24磅，段后18磅，序号与标题间空一个字符。
+- [20] 作者: 二级标题：黑体，加粗，四号，左对齐，行距最小值18磅，段前24磅，段后6磅，序号与标题间空一个字符。
+- [22] 作者: 三级标题：黑体，加粗，小四号，左对齐，行距最小值16磅，段前12磅，段后6磅，序号与标题间空一个汉字符。
+- [23] 作者: 四级标题：宋体，小四号，左对齐，行距最小值16磅，段前6磅，段后6磅，序号与标题间空一个汉字符。论文中一般不出现四级标题。
+- [27] 作者: 每章的结束部分都应该有本章小结。
+- [30] 作者: 论文正文：宋体，小四或五号，两端对齐。首行缩进2字符，行距最小值20磅（段落中有数学表达式时，可根据表达需要设置该段的行距）。
+- [31] 作者: 正文参考文献编号请参照此格式。
+- [39] 作者: 每章结尾都应该有本章小结。
+- [42] 作者: 图标题在图下方，表标题在表上方。全文的图、表、公式可以统一编序，也可以逐章编序，不管采用哪种方式，序号必须连续。如统一编序，可以为图1、图2、图3…。如逐章编序，序号分章设置，如图3-1表示第三章第1幅图，图3-2表示第三章第2幅图。
+- [43] 作者: 表注：表题置于表号之后，之间空一个字符，表号及表题置于表上方居中位置。中文宋体，五号，加粗，行距最小值14磅。表格太大需要转页时，需要在续表上方注明“续表”，表头也应重复排出。表内容：宋体，五号。表格建议采用三线表形式。
+- [45] 作者: 行间公式：应另起一行居中排版，较长的公式尽可能在等号处回行，或者在“+”、“-”等符号处回行。公式中分数线的横线，长短要分清，主要的横线应与等号取平。公式后应注明编号，编号用括弧括起来写在右边行末，其间不加虚线。
+- [47] 作者: 每章结尾都应该有本章小结。
+- [49] 作者: 文章结尾要有全文总结。
+- [51] 作者: 应给出文章的主要结论，以及创新之处。
+- [53] 作者: 应给出进一步深入研究的方向与展望。
+- [55] 作者: 参考文献标题：使用一级标题格式。参考文献列表：宋体，五号，行距最小值16磅，段前0磅，段后3磅。参考文献格式请参考GB/T 7714-2015《信息与文献 参考文献著录规则》
+- [57] 作者: 附录标题：使用一级标题格式。论文的附录依次为附录A，附录B……编号。附录中的图表公式另编排序号，与正文分开。
+- [59] 作者: 致谢标题：使用一级标题格式，两字间空一个字符。
+- [61] 作者: 成果目录标题：使用一级标题格式。成果目录列表：参考“参考文献”格式。
+
+## First non-empty paragraphs
+- 0 `主题`: 上海交通大学硕士学位论文
+- 1 `Normal`: 基于极化带效应感知系统的艇体目标探测研究基于极化带效应感知系统的艇体目标探测研究
+- 2 `Normal`: 姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2026年11月2日姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2026年11月2日
+- 4 `Normal`: A Dissertation Submitted to Shanghai Jiao Tong University for the Degree of Master
+- 5 `Normal`: Dissertation Template for Master Degree of Engineering in Shanghai Jiao Tong UniversityDissertation Template for Master Degree of Engineering in Shanghai Jiao Tong University
+- 6 `Normal`: Author:Cheng JianuoSupervisor:Prof. Hou ZhongyuAuthor:Cheng JianuoSupervisor:Prof. Hou Zhongyu
+- 7 `Normal`: School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023
+- 9 `Normal`: 上海交通大学学位论文原创性声明
+- 10 `Normal`: 本人郑重声明：所呈交的学位论文，是本人在导师的指导下，独立进行研究工作所取得的成果。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全知晓本声明的法律后果由本人承担。
+- 12 `Normal`: 学位论文作者签名：
+- 13 `Normal`: 日期：     年   月   日
+- 14 `Normal`: 上海交通大学学位论文使用授权书
+- 15 `Normal`: 本人同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。
+- 16 `Normal`: 本学位论文属于：
+- 17 `Normal`: □公开论文
+- 18 `Normal`: □内部论文，保密□1年/□2年/□3年，过保密期后适用本授权书。
+- 19 `Normal`: □秘密论文，保密    年（不超过10年），过保密期后适用本授权书。
+- 20 `Normal`: □机密论文，保密    年（不超过20年），过保密期后适用本授权书。
+- 21 `Normal`: （请在以上方框内选择打“√”）
+- 23 `Normal`: 学位论文作者签名：指导教师签名：
+- 24 `Normal`: 日期：     年   月   日日期：     年   月   日
+- 26 `标题 1*`: 摘　要
+- 27 `Normal Indent`: 学位论文是研究生从事科研工作的成果的主要表现，集中表明了作者在研究工作中获得的新的发明、理论或见解，是研究生申请硕士或博士学位的重要依据，也是科研领域中的重要文献资料和社会的宝贵财富。
+- 28 `Normal Indent`: 为了提高研究生学位论文的质量，做到学位论文在内容和格式上的规范化与统一化，特制作本模板。
+- 30 `Normal`: 关键词：学位论文，论文格式，规范化，模板
+- 32 `标题 1*`: Abstract
+- 33 `Normal Indent`: As a primary means of demonstrating research findings for postgraduate students, dissertation is a systematic and standardized record of the new inventions, theories or insights obtained by the author in the research work. It can not only function as an important reference when students pursue further studies, but also contribute to scientific research and social development.
+- 34 `Normal Indent`: This template is therefore made to improve the quality of postgraduates’ dissertations and to further standardize it both in content and in format.
+- 36 `Normal`: Key words: dissertation, dissertation format, standardization, template
+- 38 `标题 1*`: 目　录
+- 39 `toc 1`: 第 1 章 绪论1
+- 40 `toc 2`: 1.1 引言1
+- 41 `toc 3`: 1.1.1 三级标题1
+- 42 `toc 2`: 1.2 本文研究主要内容1
+- 43 `toc 2`: 1.3 本文研究意义1
+- 44 `toc 2`: 1.4 本章小结1
+- 45 `toc 1`: 第 2 章 格式要求2
+- 46 `toc 2`: 2.1 论文正文2
+- 47 `toc 2`: 2.2 字数要求2
+- 48 `toc 3`: 2.2.1 硕士论文要求2
+- 49 `toc 3`: 2.2.2 博士论文要求2
+- 50 `toc 2`: 2.3 其他要求2
+- 51 `toc 3`: 2.3.1 页面设置2
+- 52 `toc 3`: 2.3.2 字体2
+- 53 `toc 2`: 2.4 本章小结3
+- 54 `toc 1`: 第 3 章 图表、公式格式4
+- 55 `toc 2`: 3.1 图表格式4
+- 56 `toc 2`: 3.2 公式格式5
+- 57 `toc 2`: 3.3 本章小结5
+- 58 `toc 1`: 第 4 章 全文总结6
+- 59 `toc 2`: 4.1 主要结论6
+- 60 `toc 2`: 4.2 研究展望6
+- 61 `toc 1`: 参考文献7
+- 62 `toc 1`: 附录 A 实验环境8
+- 63 `toc 1`: 致　谢9
+- 64 `toc 1`: 学术论文和科研成果目录10
+- 66 `Heading 1`: 绪论
+- 67 `Heading 2`: 引言
+- 68 `Normal Indent`: 学位论文……
+- 69 `Heading 3`: 三级标题
+- 70 `Normal Indent`: ……
+- 71 `Heading 4`: 四级标题
+- 72 `Normal Indent`: ……
+- 73 `Heading 2`: 本文研究主要内容
+- 74 `Normal Indent`: 本文……
+- 75 `Heading 2`: 本文研究意义
+- 76 `Normal Indent`: 本文……
+- 77 `Heading 2`: 本章小结
+- 78 `Normal Indent`: 本文……
+- 80 `Heading 1`: 格式要求
+- 81 `Heading 2`: 论文正文
+- 82 `Normal Indent`: 论文正文是主体，一般由标题、文字叙述、图、表格和公式等部分构成[1]。一般可包括理论分析、计算方法、实验装置和测试方法，经过整理加工的实验结果分析和讨论，与理论计算结果的比较以及本研究方法与已有研究方法的比较等，因学科性质不同可有所变化。
+- 83 `Normal Indent`: 论文内容一般应由十个主要部分组成，依次为：1. 封面，2. 中文摘要，3. 英文摘要，4. 目录，5. 符号说明，6. 论文正文，7. 参考文献，8. 附录，9. 致谢，10. 攻读学位期间发表的学术论文目录[2]。
+- 84 `Normal Indent`: 以上各部分独立为一部分，每部分应从新的一页开始，且纸质论文应装订在论文的右侧。
+- 85 `Heading 2`: 字数要求
+- 86 `Heading 3`: 硕士论文要求
+- 87 `Normal Indent`: 各学科和学院自定。
+- 88 `Heading 3`: 博士论文要求
+- 89 `Normal Indent`: 各学科和学院自定。
+- 90 `Heading 2`: 其他要求
+- 91 `Heading 3`: 页面设置
+- 92 `Normal Indent`: 页边距：上3.5厘米，下4厘米，左右均为2.5厘米，装订线靠左0.5厘米位置。
+- 93 `Normal Indent`: 页眉：2.5厘米。页脚：3厘米。
+- 94 `Normal Indent`: 无网格。
+- 95 `Heading 3`: 字体
+- 96 `Normal Indent`: 英文与数字字体要求为Times New Roman。如果英文与数字夹杂出现在黑体中文中，则将英文与数字采用Times New Roman字体再加粗。
+- 97 `Heading 2`: 本章小结
+- 98 `Normal Indent`: 本章介绍了……
+- 100 `Heading 1`: 图表、公式格式
+- 101 `Heading 2`: 图表格式
+- 103 `题注 中`: 图3.1　内热源沿径向的分布
+- 104 `题注 英`: Figure 3.1  Energy distribution along radial
+- 107 `题注 中`: 表3.1　高频感应加热的基本参数
+- 108 `题注 英`: Table 3.1  XXXX
+- 110 `图表`: 续表3.1
+- 112 `Heading 2`: 公式格式
+- 114 `Heading 2`: 本章小结
+- 115 `Normal Indent`: 本章介绍了……
+- 117 `Heading 1`: 全文总结
+- 118 `Heading 2`: 主要结论
+- 119 `Normal Indent`: 本文主要……
+- 120 `Heading 2`: 研究展望
+- 121 `Normal Indent`: 更深入的研究……
+- 123 `标题 1*`: 参考文献
+- 124 `Bibliography`: 杨瑞林, 李力军, 李玉成. 新型低合金高强韧性耐磨钢的研究[J]. 钢铁, 1999(7): 41-45.
+- 125 `Bibliography`: 于潇, 刘义, 柴跃廷, 等. 互联网药品可信交易环境中主体资质审核备案模式[J]. 清华大学学报(自然科学版), 2012, 52(11): 1518-1523.
+- 126 `Bibliography`: SCHINSTOCK D E, CUTTINO J F. Real time kinematic solutions of a non-contacting, three dimensional metrology frame[J]. Precision Engineering, 2000, 24(1): 70-76.
+- 127 `Bibliography`: 温诗铸. 摩擦学原理[M]. 北京: 清华大学出版社, 1990: 296-300.
+- 128 `Bibliography`: 蒋有绪, 郭泉水, 马娟, 等. 中国森林群落分类及其群落学特征[M]. 北京: 科学出版社, 1998: 5-17.
+- 129 `Bibliography`: 方芳. 教育游戏的理论基础及应用模式[D]. 上海: 上海交通大学, 2007.
+- 130 `Bibliography`: 张凯军. 轨道火车及高速轨道火车紧急安全制动辅助装置: 201220158825.2[P]. 2012-04-05.
+- 131 `Bibliography`: 全国信息与文献标准化技术委员会. 文献著录: 第4部分 非书资料: GB/T 3792.4-2009[S]. 北京: 中国标准出版社, 2010: 3.
+- 132 `Bibliography`: 萧钰. 出版业信息化迈入快车道[EB/OL]. (2001-12-19) [2023-04-15]. http://www.creader.com/​news/20011219/200112190019.html.
+- 135 `附录 1`: 实验环境
+- 136 `附录 2`: 硬件配置
+- 137 `Normal Indent`: ……
+- 138 `附录 2`: 软件工具
+- 139 `Normal Indent`: ……
+- 141 `标题 1*`: 致　谢
+- 142 `Normal Indent`: 致谢主要感谢导师和对论文工作有直接贡献和帮助的人士和单位。致谢言语应谦虚诚恳，实事求是。
+- 144 `标题 1*`: 学术论文和科研成果目录
+- 145 `标题 3*`: 学术论文
+- 146 `Bibliography`: Chen H, Chan C T. Acoustic cloaking in three dimensions using acoustic metamaterials[J]. Applied Physics Letters, 2007, 91:183518.
+- 147 `Bibliography`: Chen H, Wu B I, Zhang B, et al. Electromagnetic Wave Interactions with a Metamaterial Cloak[J]. Physical Review Letters, 2007, 99(6):63903.
+- 148 `标题 3*`: 专利
+- 149 `Bibliography`: 第一发明人, 永动机[P], 专利申请号202510149890.0.

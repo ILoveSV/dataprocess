@@ -1,0 +1,18 @@
+{
+  "timings": {
+    "timeplots.csv_read": {
+      "count": 174,
+      "seconds": 146.18389389999402,
+      "avg_seconds": 0.8401373212643335
+    },
+    "timeplots.file_scan": {
+      "count": 1,
+      "seconds": 0.027456899999833695,
+      "avg_seconds": 0.027456899999833695
+    }
+  },
+  "counters": {
+    "timeplots.input_files": 174.0,
+    "timeplots.input_rows": 187920000.0
+  }
+}

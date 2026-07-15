@@ -1,0 +1,120 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\geometry{margin=2.2cm}
+\title{子报告 3：轴频二/三阶谐波电场计算说明}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section{本源项计算目标}
+本子报告解释主报告表 5 中“轴频二/三阶谐波”这一行如何计算。二阶谐波频率为 $2f_s$，三阶谐波频率为 $3f_s$。主报告把两者合并成一行，给出二/三阶整体范围。
+
+\section{物理图像}
+如果轴频基频是每转一圈出现一次周期起伏，那么二阶谐波可以理解为每转一圈出现两次相似起伏，三阶谐波是三次。工程估算中，阶数越高，调制深度越小。本报告采用：
+\[
+m_n=\frac{m_1}{n}
+\]
+
+\section{使用公式}
+\[
+E_{\mathrm{static}}(R)=\frac{C_\theta P_0}{4\pi\sigma R^3}
+\]
+\[
+m_2=\frac{m_1}{2},\qquad m_3=\frac{m_1}{3}
+\]
+\[
+E_{\mathrm{shaft},2}(R)=m_2E_{\mathrm{static}}(R)
+\]
+\[
+E_{\mathrm{shaft},3}(R)=m_3E_{\mathrm{static}}(R)
+\]
+\[
+f_2=2f_s,\qquad f_3=3f_s
+\]
+
+\begin{longtable}{p{2.7cm}p{3.3cm}p{2.0cm}p{5.4cm}}
+\caption{公式变量说明}\\
+\toprule
+符号 & 名称 & 单位 & 来源和含义\\
+\midrule
+$n$ & 谐波阶数 & 无量纲 & 二阶取 2，三阶取 3。\\
+$m_n$ & 第 $n$ 阶调制深度 & 无量纲 & 由工程假设 $m_n=m_1/n$ 得到。\\
+$m_1$ & 基频调制深度 & 无量纲 & 参数扫描输入。\\
+$E_{\mathrm{shaft},2}$ & 二阶谐波电场幅值 & V/m & 表 5 合并范围的一部分。\\
+$E_{\mathrm{shaft},3}$ & 三阶谐波电场幅值 & V/m & 表 5 合并范围的一部分。\\
+$f_s$ & 轴频 & Hz & 典型参考 3 Hz。\\
+$f_2,f_3$ & 二/三阶谐波频率 & Hz & 典型为 6 Hz 和 9 Hz。\\
+\bottomrule
+\end{longtable}
+
+\section{Python 计算对应关系}
+调制深度函数位于：
+\[
+\texttt{ship\_efield\_theory/src/source\_models.py}
+\]
+函数名：
+\[
+\texttt{harmonic\_modulation(m1, harmonic)}
+\]
+实际计算：
+\[
+\texttt{return m1 / harmonic}
+\]
+电场计算仍使用：
+\[
+\texttt{shaft\_rate\_field(...)}
+\]
+其中 $harmonic=2$ 或 $3$。
+
+\section{Python 工作流}
+\[
+\texttt{for R in [100,300,500,1000]:}
+\]
+\[
+\texttt{\quad values=[]}
+\]
+\[
+\texttt{\quad for n in [2,3]:}
+\]
+\[
+\texttt{\quad\quad for P0,sigma,Ctheta,m1 in all\_combinations:}
+\]
+\[
+\texttt{\quad\quad\quad mn = harmonic\_modulation(m1,n)}
+\]
+\[
+\texttt{\quad\quad\quad values.append(mn*Estatic(P0,sigma,R,Ctheta))}
+\]
+\[
+\texttt{\quad min=min(values),\ max=max(values)}
+\]
+reference 取二阶谐波：
+\[
+E_{\mathrm{ref}}=\frac{0.03}{2}E_{\mathrm{static}}(P_0=300,\sigma=4,C_\theta=1)
+\]
+
+\section{手算示例}
+以 $R=100\ \mathrm{m}$、reference 静态场 $5.97\times10^{-6}\ \mathrm{V/m}$ 为例：
+\[
+m_2=\frac{0.03}{2}=0.015
+\]
+\[
+E_{\mathrm{shaft},2}=0.015\times5.97\times10^{-6}
+=8.95\times10^{-8}\ \mathrm{V/m}
+\]
+\[
+8.95\times10^{-8}\ \mathrm{V/m}=0.0895\ \mu\mathrm{V/m}
+\]
+若取三阶：
+\[
+m_3=0.01,\qquad E_{\mathrm{shaft},3}=5.97\times10^{-8}\ \mathrm{V/m}
+\]
+
+\section{本源项输出如何进入主报告}
+该源项进入表 5 第三行。主报告表格中 min/max 覆盖二阶和三阶全部参数组合；reference 使用二阶谐波参考值。
+
+\end{document}

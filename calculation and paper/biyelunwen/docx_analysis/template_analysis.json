@@ -1,0 +1,1282 @@
+{
+  "file": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\calculation and paper\\biyelunwen\\极化带效应水下目标探测感知.docx",
+  "paragraph_count": 151,
+  "table_count": 2,
+  "paragraphs": [
+    {
+      "i": 0,
+      "style": "主题",
+      "text": "上海交通大学硕士学位论文"
+    },
+    {
+      "i": 1,
+      "style": "Normal",
+      "text": "基于极化带效应感知系统的艇体目标探测研究基于极化带效应感知系统的艇体目标探测研究"
+    },
+    {
+      "i": 2,
+      "style": "Normal",
+      "text": "姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2026年11月2日姓名：程家诺学号：124039910036导师：侯中宇院系：集成电路学院学科/专业：集成电路工程申请学位：工学硕士2026年11月2日"
+    },
+    {
+      "i": 4,
+      "style": "Normal",
+      "text": "A Dissertation Submitted to Shanghai Jiao Tong University for the Degree of Master"
+    },
+    {
+      "i": 5,
+      "style": "Normal",
+      "text": "Dissertation Template for Master Degree of Engineering in Shanghai Jiao Tong UniversityDissertation Template for Master Degree of Engineering in Shanghai Jiao Tong University"
+    },
+    {
+      "i": 6,
+      "style": "Normal",
+      "text": "Author:Cheng JianuoSupervisor:Prof. Hou ZhongyuAuthor:Cheng JianuoSupervisor:Prof. Hou Zhongyu"
+    },
+    {
+      "i": 7,
+      "style": "Normal",
+      "text": "School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023School of XXXXXXXShanghai Jiao Tong UniversityShanghai, P.R. ChinaNovember 2nd, 2023"
+    },
+    {
+      "i": 9,
+      "style": "Normal",
+      "text": "上海交通大学学位论文原创性声明"
+    },
+    {
+      "i": 10,
+      "style": "Normal",
+      "text": "本人郑重声明：所呈交的学位论文，是本人在导师的指导下，独立进行研究工作所取得的成果。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全知晓本声明的法律后果由本人承担。"
+    },
+    {
+      "i": 12,
+      "style": "Normal",
+      "text": "学位论文作者签名："
+    },
+    {
+      "i": 13,
+      "style": "Normal",
+      "text": "日期：     年   月   日"
+    },
+    {
+      "i": 14,
+      "style": "Normal",
+      "text": "上海交通大学学位论文使用授权书"
+    },
+    {
+      "i": 15,
+      "style": "Normal",
+      "text": "本人同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。"
+    },
+    {
+      "i": 16,
+      "style": "Normal",
+      "text": "本学位论文属于："
+    },
+    {
+      "i": 17,
+      "style": "Normal",
+      "text": "□公开论文"
+    },
+    {
+      "i": 18,
+      "style": "Normal",
+      "text": "□内部论文，保密□1年/□2年/□3年，过保密期后适用本授权书。"
+    },
+    {
+      "i": 19,
+      "style": "Normal",
+      "text": "□秘密论文，保密    年（不超过10年），过保密期后适用本授权书。"
+    },
+    {
+      "i": 20,
+      "style": "Normal",
+      "text": "□机密论文，保密    年（不超过20年），过保密期后适用本授权书。"
+    },
+    {
+      "i": 21,
+      "style": "Normal",
+      "text": "（请在以上方框内选择打“√”）"
+    },
+    {
+      "i": 23,
+      "style": "Normal",
+      "text": "学位论文作者签名：指导教师签名："
+    },
+    {
+      "i": 24,
+      "style": "Normal",
+      "text": "日期：     年   月   日日期：     年   月   日"
+    },
+    {
+      "i": 26,
+      "style": "标题 1*",
+      "text": "摘　要"
+    },
+    {
+      "i": 27,
+      "style": "Normal Indent",
+      "text": "学位论文是研究生从事科研工作的成果的主要表现，集中表明了作者在研究工作中获得的新的发明、理论或见解，是研究生申请硕士或博士学位的重要依据，也是科研领域中的重要文献资料和社会的宝贵财富。"
+    },
+    {
+      "i": 28,
+      "style": "Normal Indent",
+      "text": "为了提高研究生学位论文的质量，做到学位论文在内容和格式上的规范化与统一化，特制作本模板。"
+    },
+    {
+      "i": 30,
+      "style": "Normal",
+      "text": "关键词：学位论文，论文格式，规范化，模板"
+    },
+    {
+      "i": 32,
+      "style": "标题 1*",
+      "text": "Abstract"
+    },
+    {
+      "i": 33,
+      "style": "Normal Indent",
+      "text": "As a primary means of demonstrating research findings for postgraduate students, dissertation is a systematic and standardized record of the new inventions, theories or insights obtained by the author in the research work. It can not only function as an important reference when students pursue further studies, but also contribute to scientific research and social development."
+    },
+    {
+      "i": 34,
+      "style": "Normal Indent",
+      "text": "This template is therefore made to improve the quality of postgraduates’ dissertations and to further standardize it both in content and in format."
+    },
+    {
+      "i": 36,
+      "style": "Normal",
+      "text": "Key words: dissertation, dissertation format, standardization, template"
+    },
+    {
+      "i": 38,
+      "style": "标题 1*",
+      "text": "目　录"
+    },
+    {
+      "i": 39,
+      "style": "toc 1",
+      "text": "第 1 章 绪论1"
+    },
+    {
+      "i": 40,
+      "style": "toc 2",
+      "text": "1.1 引言1"
+    },
+    {
+      "i": 41,
+      "style": "toc 3",
+      "text": "1.1.1 三级标题1"
+    },
+    {
+      "i": 42,
+      "style": "toc 2",
+      "text": "1.2 本文研究主要内容1"
+    },
+    {
+      "i": 43,
+      "style": "toc 2",
+      "text": "1.3 本文研究意义1"
+    },
+    {
+      "i": 44,
+      "style": "toc 2",
+      "text": "1.4 本章小结1"
+    },
+    {
+      "i": 45,
+      "style": "toc 1",
+      "text": "第 2 章 格式要求2"
+    },
+    {
+      "i": 46,
+      "style": "toc 2",
+      "text": "2.1 论文正文2"
+    },
+    {
+      "i": 47,
+      "style": "toc 2",
+      "text": "2.2 字数要求2"
+    },
+    {
+      "i": 48,
+      "style": "toc 3",
+      "text": "2.2.1 硕士论文要求2"
+    },
+    {
+      "i": 49,
+      "style": "toc 3",
+      "text": "2.2.2 博士论文要求2"
+    },
+    {
+      "i": 50,
+      "style": "toc 2",
+      "text": "2.3 其他要求2"
+    },
+    {
+      "i": 51,
+      "style": "toc 3",
+      "text": "2.3.1 页面设置2"
+    },
+    {
+      "i": 52,
+      "style": "toc 3",
+      "text": "2.3.2 字体2"
+    },
+    {
+      "i": 53,
+      "style": "toc 2",
+      "text": "2.4 本章小结3"
+    },
+    {
+      "i": 54,
+      "style": "toc 1",
+      "text": "第 3 章 图表、公式格式4"
+    },
+    {
+      "i": 55,
+      "style": "toc 2",
+      "text": "3.1 图表格式4"
+    },
+    {
+      "i": 56,
+      "style": "toc 2",
+      "text": "3.2 公式格式5"
+    },
+    {
+      "i": 57,
+      "style": "toc 2",
+      "text": "3.3 本章小结5"
+    },
+    {
+      "i": 58,
+      "style": "toc 1",
+      "text": "第 4 章 全文总结6"
+    },
+    {
+      "i": 59,
+      "style": "toc 2",
+      "text": "4.1 主要结论6"
+    },
+    {
+      "i": 60,
+      "style": "toc 2",
+      "text": "4.2 研究展望6"
+    },
+    {
+      "i": 61,
+      "style": "toc 1",
+      "text": "参考文献7"
+    },
+    {
+      "i": 62,
+      "style": "toc 1",
+      "text": "附录 A 实验环境8"
+    },
+    {
+      "i": 63,
+      "style": "toc 1",
+      "text": "致　谢9"
+    },
+    {
+      "i": 64,
+      "style": "toc 1",
+      "text": "学术论文和科研成果目录10"
+    },
+    {
+      "i": 66,
+      "style": "Heading 1",
+      "text": "绪论"
+    },
+    {
+      "i": 67,
+      "style": "Heading 2",
+      "text": "引言"
+    },
+    {
+      "i": 68,
+      "style": "Normal Indent",
+      "text": "学位论文……"
+    },
+    {
+      "i": 69,
+      "style": "Heading 3",
+      "text": "三级标题"
+    },
+    {
+      "i": 70,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 71,
+      "style": "Heading 4",
+      "text": "四级标题"
+    },
+    {
+      "i": 72,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 73,
+      "style": "Heading 2",
+      "text": "本文研究主要内容"
+    },
+    {
+      "i": 74,
+      "style": "Normal Indent",
+      "text": "本文……"
+    },
+    {
+      "i": 75,
+      "style": "Heading 2",
+      "text": "本文研究意义"
+    },
+    {
+      "i": 76,
+      "style": "Normal Indent",
+      "text": "本文……"
+    },
+    {
+      "i": 77,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 78,
+      "style": "Normal Indent",
+      "text": "本文……"
+    },
+    {
+      "i": 80,
+      "style": "Heading 1",
+      "text": "格式要求"
+    },
+    {
+      "i": 81,
+      "style": "Heading 2",
+      "text": "论文正文"
+    },
+    {
+      "i": 82,
+      "style": "Normal Indent",
+      "text": "论文正文是主体，一般由标题、文字叙述、图、表格和公式等部分构成[1]。一般可包括理论分析、计算方法、实验装置和测试方法，经过整理加工的实验结果分析和讨论，与理论计算结果的比较以及本研究方法与已有研究方法的比较等，因学科性质不同可有所变化。"
+    },
+    {
+      "i": 83,
+      "style": "Normal Indent",
+      "text": "论文内容一般应由十个主要部分组成，依次为：1. 封面，2. 中文摘要，3. 英文摘要，4. 目录，5. 符号说明，6. 论文正文，7. 参考文献，8. 附录，9. 致谢，10. 攻读学位期间发表的学术论文目录[2]。"
+    },
+    {
+      "i": 84,
+      "style": "Normal Indent",
+      "text": "以上各部分独立为一部分，每部分应从新的一页开始，且纸质论文应装订在论文的右侧。"
+    },
+    {
+      "i": 85,
+      "style": "Heading 2",
+      "text": "字数要求"
+    },
+    {
+      "i": 86,
+      "style": "Heading 3",
+      "text": "硕士论文要求"
+    },
+    {
+      "i": 87,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 88,
+      "style": "Heading 3",
+      "text": "博士论文要求"
+    },
+    {
+      "i": 89,
+      "style": "Normal Indent",
+      "text": "各学科和学院自定。"
+    },
+    {
+      "i": 90,
+      "style": "Heading 2",
+      "text": "其他要求"
+    },
+    {
+      "i": 91,
+      "style": "Heading 3",
+      "text": "页面设置"
+    },
+    {
+      "i": 92,
+      "style": "Normal Indent",
+      "text": "页边距：上3.5厘米，下4厘米，左右均为2.5厘米，装订线靠左0.5厘米位置。"
+    },
+    {
+      "i": 93,
+      "style": "Normal Indent",
+      "text": "页眉：2.5厘米。页脚：3厘米。"
+    },
+    {
+      "i": 94,
+      "style": "Normal Indent",
+      "text": "无网格。"
+    },
+    {
+      "i": 95,
+      "style": "Heading 3",
+      "text": "字体"
+    },
+    {
+      "i": 96,
+      "style": "Normal Indent",
+      "text": "英文与数字字体要求为Times New Roman。如果英文与数字夹杂出现在黑体中文中，则将英文与数字采用Times New Roman字体再加粗。"
+    },
+    {
+      "i": 97,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 98,
+      "style": "Normal Indent",
+      "text": "本章介绍了……"
+    },
+    {
+      "i": 100,
+      "style": "Heading 1",
+      "text": "图表、公式格式"
+    },
+    {
+      "i": 101,
+      "style": "Heading 2",
+      "text": "图表格式"
+    },
+    {
+      "i": 103,
+      "style": "题注 中",
+      "text": "图3.1　内热源沿径向的分布"
+    },
+    {
+      "i": 104,
+      "style": "题注 英",
+      "text": "Figure 3.1  Energy distribution along radial"
+    },
+    {
+      "i": 107,
+      "style": "题注 中",
+      "text": "表3.1　高频感应加热的基本参数"
+    },
+    {
+      "i": 108,
+      "style": "题注 英",
+      "text": "Table 3.1  XXXX"
+    },
+    {
+      "i": 110,
+      "style": "图表",
+      "text": "续表3.1"
+    },
+    {
+      "i": 112,
+      "style": "Heading 2",
+      "text": "公式格式"
+    },
+    {
+      "i": 114,
+      "style": "Heading 2",
+      "text": "本章小结"
+    },
+    {
+      "i": 115,
+      "style": "Normal Indent",
+      "text": "本章介绍了……"
+    },
+    {
+      "i": 117,
+      "style": "Heading 1",
+      "text": "全文总结"
+    },
+    {
+      "i": 118,
+      "style": "Heading 2",
+      "text": "主要结论"
+    },
+    {
+      "i": 119,
+      "style": "Normal Indent",
+      "text": "本文主要……"
+    },
+    {
+      "i": 120,
+      "style": "Heading 2",
+      "text": "研究展望"
+    },
+    {
+      "i": 121,
+      "style": "Normal Indent",
+      "text": "更深入的研究……"
+    },
+    {
+      "i": 123,
+      "style": "标题 1*",
+      "text": "参考文献"
+    },
+    {
+      "i": 124,
+      "style": "Bibliography",
+      "text": "杨瑞林, 李力军, 李玉成. 新型低合金高强韧性耐磨钢的研究[J]. 钢铁, 1999(7): 41-45."
+    },
+    {
+      "i": 125,
+      "style": "Bibliography",
+      "text": "于潇, 刘义, 柴跃廷, 等. 互联网药品可信交易环境中主体资质审核备案模式[J]. 清华大学学报(自然科学版), 2012, 52(11): 1518-1523."
+    },
+    {
+      "i": 126,
+      "style": "Bibliography",
+      "text": "SCHINSTOCK D E, CUTTINO J F. Real time kinematic solutions of a non-contacting, three dimensional metrology frame[J]. Precision Engineering, 2000, 24(1): 70-76."
+    },
+    {
+      "i": 127,
+      "style": "Bibliography",
+      "text": "温诗铸. 摩擦学原理[M]. 北京: 清华大学出版社, 1990: 296-300."
+    },
+    {
+      "i": 128,
+      "style": "Bibliography",
+      "text": "蒋有绪, 郭泉水, 马娟, 等. 中国森林群落分类及其群落学特征[M]. 北京: 科学出版社, 1998: 5-17."
+    },
+    {
+      "i": 129,
+      "style": "Bibliography",
+      "text": "方芳. 教育游戏的理论基础及应用模式[D]. 上海: 上海交通大学, 2007."
+    },
+    {
+      "i": 130,
+      "style": "Bibliography",
+      "text": "张凯军. 轨道火车及高速轨道火车紧急安全制动辅助装置: 201220158825.2[P]. 2012-04-05."
+    },
+    {
+      "i": 131,
+      "style": "Bibliography",
+      "text": "全国信息与文献标准化技术委员会. 文献著录: 第4部分 非书资料: GB/T 3792.4-2009[S]. 北京: 中国标准出版社, 2010: 3."
+    },
+    {
+      "i": 132,
+      "style": "Bibliography",
+      "text": "萧钰. 出版业信息化迈入快车道[EB/OL]. (2001-12-19) [2023-04-15]. http://www.creader.com/​news/20011219/200112190019.html."
+    },
+    {
+      "i": 135,
+      "style": "附录 1",
+      "text": "实验环境"
+    },
+    {
+      "i": 136,
+      "style": "附录 2",
+      "text": "硬件配置"
+    },
+    {
+      "i": 137,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 138,
+      "style": "附录 2",
+      "text": "软件工具"
+    },
+    {
+      "i": 139,
+      "style": "Normal Indent",
+      "text": "……"
+    },
+    {
+      "i": 141,
+      "style": "标题 1*",
+      "text": "致　谢"
+    },
+    {
+      "i": 142,
+      "style": "Normal Indent",
+      "text": "致谢主要感谢导师和对论文工作有直接贡献和帮助的人士和单位。致谢言语应谦虚诚恳，实事求是。"
+    },
+    {
+      "i": 144,
+      "style": "标题 1*",
+      "text": "学术论文和科研成果目录"
+    },
+    {
+      "i": 145,
+      "style": "标题 3*",
+      "text": "学术论文"
+    },
+    {
+      "i": 146,
+      "style": "Bibliography",
+      "text": "Chen H, Chan C T. Acoustic cloaking in three dimensions using acoustic metamaterials[J]. Applied Physics Letters, 2007, 91:183518."
+    },
+    {
+      "i": 147,
+      "style": "Bibliography",
+      "text": "Chen H, Wu B I, Zhang B, et al. Electromagnetic Wave Interactions with a Metamaterial Cloak[J]. Physical Review Letters, 2007, 99(6):63903."
+    },
+    {
+      "i": 148,
+      "style": "标题 3*",
+      "text": "专利"
+    },
+    {
+      "i": 149,
+      "style": "Bibliography",
+      "text": "第一发明人, 永动机[P], 专利申请号202510149890.0."
+    }
+  ],
+  "styles": {
+    "主题": 1,
+    "Normal": 22,
+    "标题 1*": 6,
+    "Normal Indent": 26,
+    "toc 1": 8,
+    "toc 2": 13,
+    "toc 3": 5,
+    "Heading 1": 4,
+    "Heading 2": 13,
+    "Heading 3": 5,
+    "Heading 4": 1,
+    "题注 中": 2,
+    "题注 英": 2,
+    "图表": 1,
+    "Bibliography": 12,
+    "附录 1": 1,
+    "附录 2": 2,
+    "标题 3*": 2
+  },
+  "image_count": 3,
+  "images": [
+    "word/media/image1.png",
+    "word/media/image2.svg",
+    "word/media/image3.emf"
+  ],
+  "comments": [
+    {
+      "id": "0",
+      "author": "作者",
+      "text": "中文论文标题：宋体，加粗，二号。1行或2行，论文题目一般不宜超过 20 字，如有副标题，主副标题合计最多不超过36字。"
+    },
+    {
+      "id": "1",
+      "author": "作者",
+      "text": "各项信息应与研究生信息系统内一致。学科专业：参照国务院学位委员会颁布的《授予博士、硕士学位和培养研究生的学科、专业目录》进行标注。申请学位：包括申请的学位类别和级别，学位类别参照《中华人民共和国学位条例暂行实施办法》的规定标注，包括以下门类：哲学、经济学、法学、教育学、文学、历史学、理学、工学、农学、医学、军事学、管理学。学位级别参照《中华人民共和国学位条例暂行实施办法》的规定标注，包括学士、硕士、博士。"
+    },
+    {
+      "id": "2",
+      "author": "作者",
+      "text": "英文标题页，无页眉页脚，页面布局两端对齐。申请学位层次：Master/Doctor"
+    },
+    {
+      "id": "3",
+      "author": "作者",
+      "text": "英文论文标题：Times New Roman，加粗，小二，字体效果全部大写字母。"
+    },
+    {
+      "id": "4",
+      "author": "作者",
+      "text": "声明页，全校统一格式，无页眉页脚。请在研究生院主页下载：https://www.gs.sjtu.edu.cn/xwxk/bgxz.htm上传论文归档稿时（作者签字处签名后）单独上传，论文正文中不必包括。"
+    },
+    {
+      "id": "5",
+      "author": "作者",
+      "text": "此处需要手工签名（非电脑输入姓名）。"
+    },
+    {
+      "id": "6",
+      "author": "作者",
+      "text": "秘密或机密论文是指由学校相关部门审核通过的涉及国家秘密的论文。涉及商业秘密的论文应勾选“内部论文”。"
+    },
+    {
+      "id": "7",
+      "author": "作者",
+      "text": "此处需要手工签名（非电脑输入姓名）。"
+    },
+    {
+      "id": "8",
+      "author": "作者",
+      "text": "此处需要手工签名（非电脑输入姓名）。"
+    },
+    {
+      "id": "9",
+      "author": "作者",
+      "text": "中文摘要标题：使用一级标题格式，两字间空一个字符。"
+    },
+    {
+      "id": "10",
+      "author": "作者",
+      "text": "中文摘要内容：使用正文格式。摘要力求语言精炼准确，字数一般不超过800字"
+    },
+    {
+      "id": "11",
+      "author": "作者",
+      "text": "段前空一行，“关键词”三个字加粗。"
+    },
+    {
+      "id": "12",
+      "author": "作者",
+      "text": "英文摘要标题：使用一级标题格式。"
+    },
+    {
+      "id": "13",
+      "author": "作者",
+      "text": "英文摘要内容：使用正文格式，首行缩进1.5字符。英文摘要内容应与中文摘要基本相对应（作为格式示例，模板英文内容与中文不符合）要符合英语语法，语句通顺，文字流畅。"
+    },
+    {
+      "id": "14",
+      "author": "作者",
+      "text": "段前空一行，“Key words”两词加粗。"
+    },
+    {
+      "id": "15",
+      "author": "作者",
+      "text": "目录标题：使用一级标题格式，两字间空一个字符。目录层次到三级标题为止。一级标题目录：宋体，加粗，小四，行距最小值20磅，段前6磅，页码右对齐。二级标题目录：宋体，小四，行距最小值20磅，左缩进2个字符，页码右对齐。三级标题目录：宋体，小四，行距最小值20磅，左缩进4个字符，页码右对齐。"
+    },
+    {
+      "id": "17",
+      "author": "作者",
+      "text": "论文应该有绪论。"
+    },
+    {
+      "id": "18",
+      "author": "作者",
+      "text": "一级标题：黑体，加粗，三号，居中，行距最小值20磅，段前24磅，段后18磅，序号与标题间空一个字符。"
+    },
+    {
+      "id": "20",
+      "author": "作者",
+      "text": "二级标题：黑体，加粗，四号，左对齐，行距最小值18磅，段前24磅，段后6磅，序号与标题间空一个字符。"
+    },
+    {
+      "id": "22",
+      "author": "作者",
+      "text": "三级标题：黑体，加粗，小四号，左对齐，行距最小值16磅，段前12磅，段后6磅，序号与标题间空一个汉字符。"
+    },
+    {
+      "id": "23",
+      "author": "作者",
+      "text": "四级标题：宋体，小四号，左对齐，行距最小值16磅，段前6磅，段后6磅，序号与标题间空一个汉字符。论文中一般不出现四级标题。"
+    },
+    {
+      "id": "27",
+      "author": "作者",
+      "text": "每章的结束部分都应该有本章小结。"
+    },
+    {
+      "id": "30",
+      "author": "作者",
+      "text": "论文正文：宋体，小四或五号，两端对齐。首行缩进2字符，行距最小值20磅（段落中有数学表达式时，可根据表达需要设置该段的行距）。"
+    },
+    {
+      "id": "31",
+      "author": "作者",
+      "text": "正文参考文献编号请参照此格式。"
+    },
+    {
+      "id": "39",
+      "author": "作者",
+      "text": "每章结尾都应该有本章小结。"
+    },
+    {
+      "id": "42",
+      "author": "作者",
+      "text": "图标题在图下方，表标题在表上方。全文的图、表、公式可以统一编序，也可以逐章编序，不管采用哪种方式，序号必须连续。如统一编序，可以为图1、图2、图3…。如逐章编序，序号分章设置，如图3-1表示第三章第1幅图，图3-2表示第三章第2幅图。"
+    },
+    {
+      "id": "43",
+      "author": "作者",
+      "text": "表注：表题置于表号之后，之间空一个字符，表号及表题置于表上方居中位置。中文宋体，五号，加粗，行距最小值14磅。表格太大需要转页时，需要在续表上方注明“续表”，表头也应重复排出。表内容：宋体，五号。表格建议采用三线表形式。"
+    },
+    {
+      "id": "45",
+      "author": "作者",
+      "text": "行间公式：应另起一行居中排版，较长的公式尽可能在等号处回行，或者在“+”、“-”等符号处回行。公式中分数线的横线，长短要分清，主要的横线应与等号取平。公式后应注明编号，编号用括弧括起来写在右边行末，其间不加虚线。"
+    },
+    {
+      "id": "47",
+      "author": "作者",
+      "text": "每章结尾都应该有本章小结。"
+    },
+    {
+      "id": "49",
+      "author": "作者",
+      "text": "文章结尾要有全文总结。"
+    },
+    {
+      "id": "51",
+      "author": "作者",
+      "text": "应给出文章的主要结论，以及创新之处。"
+    },
+    {
+      "id": "53",
+      "author": "作者",
+      "text": "应给出进一步深入研究的方向与展望。"
+    },
+    {
+      "id": "55",
+      "author": "作者",
+      "text": "参考文献标题：使用一级标题格式。参考文献列表：宋体，五号，行距最小值16磅，段前0磅，段后3磅。参考文献格式请参考GB/T 7714-2015《信息与文献 参考文献著录规则》"
+    },
+    {
+      "id": "57",
+      "author": "作者",
+      "text": "附录标题：使用一级标题格式。论文的附录依次为附录A，附录B……编号。附录中的图表公式另编排序号，与正文分开。"
+    },
+    {
+      "id": "59",
+      "author": "作者",
+      "text": "致谢标题：使用一级标题格式，两字间空一个字符。"
+    },
+    {
+      "id": "61",
+      "author": "作者",
+      "text": "成果目录标题：使用一级标题格式。成果目录列表：参考“参考文献”格式。"
+    }
+  ],
+  "style_items": [
+    {
+      "styleId": "a1",
+      "type": "paragraph",
+      "name": "Normal",
+      "used_count": 22,
+      "props": {
+        "sz_half_pt": "24",
+        "jc": "both",
+        "spacing": {
+          "line": "400",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "10",
+      "type": "paragraph",
+      "name": "heading 1",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "32",
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi"
+        },
+        "jc": "center",
+        "spacing": {
+          "before": "480",
+          "after": "360"
+        }
+      }
+    },
+    {
+      "styleId": "20",
+      "type": "paragraph",
+      "name": "heading 2",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "28",
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "480",
+          "after": "120",
+          "line": "360",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "30",
+      "type": "paragraph",
+      "name": "heading 3",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "120",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "40",
+      "type": "paragraph",
+      "name": "heading 4",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "120",
+          "after": "120",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "5",
+      "type": "paragraph",
+      "name": "heading 5",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "28",
+        "bold": "1",
+        "spacing": {
+          "before": "280",
+          "after": "290",
+          "line": "376",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "6",
+      "type": "paragraph",
+      "name": "heading 6",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "7",
+      "type": "paragraph",
+      "name": "heading 7",
+      "used_count": 0,
+      "props": {
+        "bold": "1",
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "8",
+      "type": "paragraph",
+      "name": "heading 8",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "9",
+      "type": "paragraph",
+      "name": "heading 9",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "21",
+        "fonts": {
+          "asciiTheme": "majorHAnsi",
+          "eastAsiaTheme": "majorEastAsia",
+          "hAnsiTheme": "majorHAnsi",
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "240",
+          "after": "64",
+          "line": "320",
+          "lineRule": "auto"
+        }
+      }
+    },
+    {
+      "styleId": "a2",
+      "type": "paragraph",
+      "name": "Normal Indent",
+      "used_count": 26,
+      "props": {
+        "ind": {
+          "firstLineChars": "200",
+          "firstLine": "200"
+        }
+      }
+    },
+    {
+      "styleId": "a6",
+      "type": "paragraph",
+      "name": "header",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "18",
+        "spacing": {
+          "line": "240",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "a8",
+      "type": "paragraph",
+      "name": "footer",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "18",
+        "jc": "center",
+        "spacing": {
+          "line": "240",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "12",
+      "type": "paragraph",
+      "name": "标题 1*",
+      "used_count": 6,
+      "props": {}
+    },
+    {
+      "styleId": "aa",
+      "type": "paragraph",
+      "name": "题注 中",
+      "used_count": 2,
+      "props": {
+        "jc": "center",
+        "spacing": {
+          "after": "0"
+        }
+      }
+    },
+    {
+      "styleId": "22",
+      "type": "paragraph",
+      "name": "标题 2*",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "TOC1",
+      "type": "paragraph",
+      "name": "toc 1",
+      "used_count": 8,
+      "props": {
+        "bold": "1",
+        "spacing": {
+          "before": "120"
+        }
+      }
+    },
+    {
+      "styleId": "TOC2",
+      "type": "paragraph",
+      "name": "toc 2",
+      "used_count": 13,
+      "props": {
+        "ind": {
+          "leftChars": "200",
+          "left": "200"
+        }
+      }
+    },
+    {
+      "styleId": "TOC3",
+      "type": "paragraph",
+      "name": "toc 3",
+      "used_count": 5,
+      "props": {
+        "ind": {
+          "leftChars": "400",
+          "left": "400"
+        }
+      }
+    },
+    {
+      "styleId": "1",
+      "type": "paragraph",
+      "name": "附录 1",
+      "used_count": 1,
+      "props": {}
+    },
+    {
+      "styleId": "ad",
+      "type": "paragraph",
+      "name": "题注 英",
+      "used_count": 2,
+      "props": {
+        "jc": "center",
+        "spacing": {
+          "before": "0"
+        }
+      }
+    },
+    {
+      "styleId": "ab",
+      "type": "paragraph",
+      "name": "caption",
+      "used_count": 0,
+      "props": {
+        "sz_half_pt": "21",
+        "bold": "1",
+        "fonts": {
+          "cstheme": "majorBidi"
+        },
+        "spacing": {
+          "before": "120",
+          "after": "120",
+          "line": "280",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "af",
+      "type": "paragraph",
+      "name": "图表",
+      "used_count": 1,
+      "props": {
+        "sz_half_pt": "21",
+        "spacing": {
+          "line": "280",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "2",
+      "type": "paragraph",
+      "name": "附录 2",
+      "used_count": 2,
+      "props": {}
+    },
+    {
+      "styleId": "32",
+      "type": "paragraph",
+      "name": "标题 3*",
+      "used_count": 2,
+      "props": {}
+    },
+    {
+      "styleId": "af1",
+      "type": "paragraph",
+      "name": "Bibliography",
+      "used_count": 12,
+      "props": {
+        "sz_half_pt": "21",
+        "spacing": {
+          "after": "60",
+          "line": "320",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "3",
+      "type": "paragraph",
+      "name": "附录 3",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "4",
+      "type": "paragraph",
+      "name": "附录 4",
+      "used_count": 0,
+      "props": {}
+    },
+    {
+      "styleId": "af4",
+      "type": "paragraph",
+      "name": "annotation text",
+      "used_count": 0,
+      "props": {
+        "jc": "left"
+      }
+    },
+    {
+      "styleId": "af6",
+      "type": "paragraph",
+      "name": "annotation subject",
+      "used_count": 0,
+      "props": {
+        "bold": "1"
+      }
+    },
+    {
+      "styleId": "af8",
+      "type": "paragraph",
+      "name": "主题",
+      "used_count": 1,
+      "props": {
+        "sz_half_pt": "36",
+        "jc": "center",
+        "spacing": {
+          "line": "600",
+          "lineRule": "atLeast"
+        }
+      }
+    },
+    {
+      "styleId": "af9",
+      "type": "paragraph",
+      "name": "Normal (Web)",
+      "used_count": 0,
+      "props": {
+        "fonts": {
+          "ascii": "宋体",
+          "eastAsia": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "jc": "left",
+        "spacing": {
+          "before": "100",
+          "beforeAutospacing": "1",
+          "after": "100",
+          "afterAutospacing": "1",
+          "line": "240",
+          "lineRule": "auto"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+\section{必要知识推导}
+
+本节先把后续计算会用到的物理量讲清楚。报告关心的问题是：水下舰艇相关的低频电场在不同距离处有多强、主要落在哪些频率上，以及这些量级对实验和仿真意味着什么。
+
+\subsection{电荷、电流、电压和电场}
+
+电荷是带电粒子的基本属性，单位为库仑，记作 $\mathrm{C}$。如果电荷在一段时间内通过某个截面，就形成电流：
+\begin{equation}
+    I=\frac{\Delta Q}{\Delta t}.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $I$：电流，单位 $\mathrm{A}$；
+    \item $\Delta Q$：通过截面的电荷量，单位 $\mathrm{C}$；
+    \item $\Delta t$：时间间隔，单位 $\mathrm{s}$。
+\end{itemize}
+
+电压可以理解为单位电荷具有的电势能差：
+\begin{equation}
+    V=\frac{W}{Q}.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $V$：电压或电势差，单位 $\mathrm{V}$；
+    \item $W$：电场对电荷做的功，单位 $\mathrm{J}$；
+    \item $Q$：电荷量，单位 $\mathrm{C}$。
+\end{itemize}
+
+电场描述单位正电荷在某一点会受到多大的电力：
+\begin{equation}
+    \bm E=\frac{\bm F}{q}.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\bm E$：电场强度，单位 $\mathrm{V/m}$ 或 $\mathrm{N/C}$；
+    \item $\bm F$：电荷受到的力，单位 $\mathrm{N}$；
+    \item $q$：试探电荷量，单位 $\mathrm{C}$。
+\end{itemize}
+
+如果知道电势 $\phi$ 在空间中的分布，电场等于电势下降最快的方向：
+\begin{equation}
+    \bm E=-\nabla \phi.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\phi$：电势，单位 $\mathrm{V}$；
+    \item $\nabla$：梯度算符，表示空间变化率；
+    \item 负号：表示电场方向由高电势指向低电势。
+\end{itemize}
+
+\subsection{海水导电和准静态近似}
+
+海水含有大量离子，离子会在电场作用下运动，因此海水是导电介质。电流密度和电场之间的关系可写为
+\begin{equation}
+    \bm J=\sigma\bm E.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\bm J$：电流密度，单位 $\mathrm{A/m^2}$；
+    \item $\sigma$：海水电导率，单位 $\mathrm{S/m}$；
+    \item $\bm E$：电场强度，单位 $\mathrm{V/m}$。
+\end{itemize}
+
+本报告讨论的是低频或准静态电场。低频情况下，可以先忽略电磁波辐射传播，把问题写成导电介质中的电势问题：
+\begin{equation}
+    \nabla\cdot(\sigma\nabla\phi)=-\rho_I.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\nabla\cdot$：散度算符，表示某个量从一点向外流出的程度；
+    \item $\sigma$：海水电导率；
+    \item $\phi$：电势；
+    \item $\rho_I$：电流源强度密度，表示电流从哪里注入或流出海水。
+\end{itemize}
+
+若把海水看成均匀介质，$\sigma$ 近似为常数，则有
+\begin{equation}
+    \nabla^2\phi=-\frac{\rho_I}{\sigma}.
+\end{equation}
+其中 $\nabla^2$ 是拉普拉斯算符，可以理解为空间弯曲程度。后续 UEP 结果签名、轴频调制和多点源模型都建立在这个准静态框架上。
+
+\subsection{为什么使用等效偶极矩}
+
+真实舰体表面有材料、涂层、腐蚀区域、牺牲阳极、外加电流阴极保护电极和轴系结构。直接公开估算每个局部电流很困难，因此用等效电流偶极矩表示整体低频电场量级：
+\begin{equation}
+    \bm P=\sum_k I_k\bm r_k.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $\bm P$：等效电流偶极矩，单位 $\mathrm{A\cdot m}$；
+    \item $I_k$：第 $k$ 个等效电流源的电流，单位 $\mathrm{A}$；
+    \item $\bm r_k$：第 $k$ 个电流源的位置向量，单位 $\mathrm{m}$。
+\end{itemize}
+
+为了满足电流守恒，还需要
+\begin{equation}
+    \sum_k I_k=0.
+\end{equation}
+其中 $\sum_k I_k=0$ 表示总注入电流为零，即有电流流出也必须有电流流回。
+
+\subsection{距离衰减和频率的意义}
+
+在足够远的区域，单个等效电流偶极子的电场按 $R^{-3}$ 衰减：
+\begin{equation}
+    E\propto \frac{1}{R^3}.
+\end{equation}
+其中：
+\begin{itemize}
+    \item $E$：电场幅值；
+    \item $R$：观测距离；
+    \item $R^{-3}$：表示距离增大 10 倍，电场约降低 1000 倍。
+\end{itemize}
+
+频率用于区分不同信号特征。静态或慢变 UEP 签名主要在 $0\ \mathrm{Hz}$ 附近；轴频调制出现在 $f_s,2f_s,3f_s,\ldots$；工频干扰常在 $50\ \mathrm{Hz}$ 及其倍频；尾流/流动诱导电场不是单一线谱，通常应作为低频宽带或局部上限处理。

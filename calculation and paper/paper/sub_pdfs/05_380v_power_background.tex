@@ -1,0 +1,134 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\geometry{margin=2.2cm}
+\title{子报告 5：变频器--水泵系统高频电磁背景计算说明}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section{本源项计算目标}
+本子报告解释主报告表 6 中“变频器--水泵系统实验背景 0--5 m 频率与强度参考表”如何计算。该源项不是水下目标源项，不进入表 5 的 100--1000 m 目标源项总表。它只表示当前实验系统中小型变频器 VFD、电机电缆、泵体、水体、接地、DAQ 和传感器链路之间可能存在的高频电磁背景耦合。
+
+\section{已知设备条件}
+\[
+P=2.2\ \mathrm{kW},\qquad U_{LL}=380\ \mathrm{V},\qquad
+I_{\mathrm{rated}}=4.58\ \mathrm{A},\qquad n_{\mathrm{rated}}=2800\ \mathrm{rpm}
+\]
+系统中存在小型变频器 VFD。输入侧三相条件可写为：
+\[
+U_{\mathrm{phase}}=\frac{U_{LL}}{\sqrt{3}}\approx219.4\ \mathrm{V}
+\]
+\[
+S=\sqrt{3}U_{LL}I_{\mathrm{rated}}\approx3.014\ \mathrm{kVA}
+\]
+\[
+\mathrm{PF}=\frac{P}{S}\approx0.730
+\]
+这些量只描述实验设备条件，不能直接换算成水中电场强度，也不能直接推出频率 $f$ 处的共模/漏电流 $I_{\mathrm{cm}}(f)$。
+
+\section{频率结构}
+VFD--水泵系统背景不是单一 50 Hz 工频源。主要频率包括：
+\[
+f_{\mathrm{out}},\qquad 2f_{\mathrm{out}},\qquad 3f_{\mathrm{out}},
+\]
+其中 $f_{\mathrm{out}}$ 是 VFD 输出基波，由变频器设置；还包括 PWM 载波频率及谐波
+\[
+f_c,\qquad 2f_c,\qquad 3f_c,\ldots
+\]
+以及旁带
+\[
+nf_c\pm mf_{\mathrm{out}}.
+\]
+电机电缆、泵体、水体、接地、DAQ 和传感器链路还可能形成高频振铃或共振，重点关注 50--100 kHz 和 100--200 kHz。50 Hz 输入电源及低阶谐波只作为附加背景，不是唯一工频源。
+
+\section{保留的等效耦合模型}
+本报告只保留频率相关共模/漏电流等效偶极模型：
+\[
+E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}})=
+\frac{I_{\mathrm{cm}}(f)L_{\mathrm{eff}}}{4\pi\sigma r_{\mathrm{lab}}^3}
+\]
+
+\begin{longtable}{p{2.8cm}p{3.6cm}p{2.0cm}p{5.1cm}}
+\caption{公式变量说明}\\
+\toprule
+符号 & 名称 & 单位 & 来源和含义\\
+\midrule
+$E_{\mathrm{VFD,bg}}$ & VFD 背景等效电场 & V/m & 表 6 输出结果。\\
+$f$ & 频率 & Hz & 可对应 $f_{\mathrm{out}}$、$f_c$、旁带或高频振铃频段。\\
+$r_{\mathrm{lab}}$ & 实验室耦合距离 & m & VFD、电机电缆、泵体、水体、接地、DAQ 和传感器链路之间的等效距离；不是潜艇远场距离。\\
+$I_{\mathrm{cm}}(f)$ & 等效共模/漏电流 & A & 频率 $f$ 处的场景输入或实测量；不能由额定电流直接推出。\\
+$L_{\mathrm{eff}}$ & 等效电流偶极长度 & m & 三档实验场景输入。\\
+$\sigma$ & 水体电导率 & S/m & 本背景表取 0.1 S/m，用于实验水体背景估算。\\
+$4\pi$ & 球面几何常数 & 无量纲 & 来自三维电流偶极远场形式。\\
+\bottomrule
+\end{longtable}
+
+\section{三档实验耦合场景}
+\begin{longtable}{p{2.6cm}p{3.2cm}p{3.2cm}p{3.2cm}}
+\caption{三档耦合参数}\\
+\toprule
+场景 & $I_{\mathrm{cm}}(f)$ & $L_{\mathrm{eff}}$ & $\sigma$\\
+\midrule
+弱耦合 & $10^{-6}$ A & 0.1 m & 0.1 S/m\\
+可见耦合 & $10^{-4}$ A & 0.3 m & 0.1 S/m\\
+较强耦合 & $10^{-3}$ A & 0.3 m & 0.1 S/m\\
+\bottomrule
+\end{longtable}
+
+可选附录场景为异常耦合：$I_{\mathrm{cm}}(f)=10^{-2}$ A，$L_{\mathrm{eff}}=0.5$ m，$\sigma=0.1$ S/m。该场景不进入主表。
+
+\section{Python 工作流}
+等效 Python 计算为：
+\[
+\texttt{def Evfd(Icm, Leff, sigma, r):}
+\]
+\[
+\texttt{\quad return Icm * Leff / (4*pi*sigma*r**3)}
+\]
+\[
+\texttt{for r in [0.1,0.3,0.5,1,2,3,5]:}
+\]
+\[
+\texttt{\quad weak = Evfd(1e-6,0.1,0.1,r)}
+\]
+\[
+\texttt{\quad visible = Evfd(1e-4,0.3,0.1,r)}
+\]
+\[
+\texttt{\quad strong = Evfd(1e-3,0.3,0.1,r)}
+\]
+\[
+\texttt{\quad write row to table 6}
+\]
+
+\section{手算示例}
+以可见耦合、$r_{\mathrm{lab}}=1\ \mathrm{m}$ 为例：
+\[
+E=\frac{10^{-4}\times0.3}{4\pi\times0.1\times1^3}
+\]
+\[
+E=2.39\times10^{-5}\ \mathrm{V/m}
+\]
+\[
+2.39\times10^{-5}\ \mathrm{V/m}=23.9\ \mu\mathrm{V/m}
+\]
+以较强耦合、$r_{\mathrm{lab}}=2\ \mathrm{m}$ 为例：
+\[
+E=\frac{10^{-3}\times0.3}{4\pi\times0.1\times2^3}
+=2.98\times10^{-5}\ \mathrm{V/m}
+\]
+\[
+2.98\times10^{-5}\ \mathrm{V/m}=29.8\ \mu\mathrm{V/m}
+\]
+
+\section{50--200 kHz 高频差异的读取}
+50--100 kHz 和 100--200 kHz 显著高于 UEP/ICCP、轴频和尾流的主要频率范围，不宜解释为真实水下目标主源项。该频段更可能来自 VFD PWM 开关噪声、快速电压边沿、电机电缆共模电流、泵壳/水体/接地耦合、DAQ/MEMS 高频响应。
+
+\section{本源项输出如何进入主报告}
+本源项只进入表 6，不进入表 5。表 6 用于和表 5 中目标相关源项强度做实验背景对照；它不代表真实水下目标的远场源项。
+
+\end{document}

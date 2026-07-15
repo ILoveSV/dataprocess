@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{emgeosci_skin_depth}
+{Electromagnetic Geophysics}.
+\newblock Attenuation and skin depth, 2026.
+\newblock Skin depth formula for conductive media.
+
+\bibitem{ship_wake_em_1994}
+Public Literature.
+\newblock Induced electromagnetic fields associated with large ship wakes.
+\newblock {\em Ocean Engineering / Elsevier indexed source}, 1994.
+
+\bibitem{wake_detection_2011}
+Public Literature.
+\newblock Detection of the electromagnetic field induced by the wake of a ship
+  moving in a random sea of finite depth.
+\newblock {\em Environmental Fluid Mechanics}, 2011.
+
+\bibitem{four_layer_uep}
+Public Literature.
+\newblock An analytical four-layer horizontal electric current dipole model for
+  underwater electric potential.
+\newblock {\em Open-access article}, 2022.
+
+\bibitem{oscillating_metal_cylinder_2024}
+Public Literature.
+\newblock Characteristics of electric field induced by oscillating metal
+  cylinder in seawater.
+\newblock {\em Applied Sciences}, 2024.
+
+\bibitem{shaft_rate_jmse}
+Public Literature.
+\newblock Ship shaft-rate electric field signal denoising method based on
+  mha-vmd.
+\newblock {\em Journal of Marine Science and Engineering}, 2024.
+
+\bibitem{manoj2019conductivity}
+C.~Manoj et~al.
+\newblock Electrical conductivity of the global ocean.
+\newblock {\em Earth, Planets and Space}, 2019.
+
+\bibitem{noaa_seawater}
+{NOAA}.
+\newblock Sea water, 2026.
+\newblock Public ocean background information.
+
+\bibitem{mixed_multishaft_2022}
+Xiangjun Wang, Shichuan Wang, Yucheng Hu, and Yude Tong.
+\newblock Mixed electric field of multi-shaft ship based on oxygen mass
+  transfer process under turbulent conditions.
+\newblock {\em Electronics}, 11(22):3684, 2022.
+
+\end{thebibliography}

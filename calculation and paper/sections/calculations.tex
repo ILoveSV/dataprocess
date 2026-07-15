@@ -1,0 +1,39 @@
+\section{Theoretical Calculations}
+
+\subsection{Notation}
+
+在此处统一定义符号、变量与假设。例如，令
+\begin{equation}
+    \bm{x} = (x_1, x_2, \dots, x_n)^\top \in \mathbb{R}^n .
+\end{equation}
+
+\subsection{Model Assumptions}
+
+在此处列出理论模型的基本假设。
+
+\begin{definition}
+给定目标函数 $f:\mathbb{R}^n \to \mathbb{R}$，若 $f$ 二阶连续可微，则其一阶与二阶局部展开可写为
+\begin{equation}
+    f(\bm{x} + \Delta \bm{x})
+    =
+    f(\bm{x})
+    + \nabla f(\bm{x})^\top \Delta \bm{x}
+    + \frac{1}{2}\Delta \bm{x}^\top \nabla^2 f(\bm{x}) \Delta \bm{x}
+    + o(\|\Delta \bm{x}\|^2).
+\end{equation}
+\end{definition}
+
+\subsection{Derivation}
+
+在此处逐步写入核心推导。
+
+\begin{align}
+    A &= B + C, \\
+    \frac{\partial A}{\partial x_i}
+      &= \frac{\partial B}{\partial x_i}
+       + \frac{\partial C}{\partial x_i}.
+\end{align}
+
+\subsection{Conclusion}
+
+在此处总结理论计算得到的关键结论，并标记后续需要证明或验证的部分。

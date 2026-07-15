@@ -1,0 +1,103 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\title{水下舰艇低频电场理论估算公式摘要（修正版）}
+\author{}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section*{计算边界}
+本摘要只用于公开量级下的理论估算，不代表任何真实平台。UEP 是观测结果签名；腐蚀、SACP 和 ICCP 是形成总等效偶极矩 $P_0$ 的机制。
+
+\section{总等效偶极矩}
+\[
+P_0=P_{\mathrm{corr}}+P_{\mathrm{SACP}}+P_{\mathrm{ICCP}}.
+\]
+默认中等参考值为 $P_0=300\ \mathrm{A\cdot m}$，扫描集合为
+\[
+P_0=\{30,100,300,1000,3000\}\ \mathrm{A\cdot m}.
+\]
+
+\section{远场单偶极模型}
+\[
+E(R,\theta)=\frac{C_\theta P_0}{4\pi\sigma R^3}.
+\]
+\[
+E_{\mathrm{equatorial}}=\frac{P_0}{4\pi\sigma R^3},\qquad
+E_{\mathrm{rms}}=\frac{\sqrt{2}P_0}{4\pi\sigma R^3},\qquad
+E_{\mathrm{axial}}=\frac{2P_0}{4\pi\sigma R^3}.
+\]
+单偶极 $R^{-3}$ 模型只在
+\[
+R\ge 3L_{\mathrm{ship}}
+\]
+时作为远场主模型；$R<3L_{\mathrm{ship}}$ 标注为 near/intermediate field estimate。
+
+\section{近场多点源模型}
+\[
+\phi(\bm r)=\sum_k\frac{I_k}{4\pi\sigma|\bm r-\bm r_k|},
+\qquad
+\bm E(\bm r)=-\nabla\phi(\bm r).
+\]
+\[
+\sum_k I_k=0,\qquad
+\sum_k I_k\bm r_k=\bm P_0.
+\]
+
+\section{轴频调制}
+\[
+P(t)=P_0\left[1+\sum_n m_n\cos(2\pi n f_s t+\phi_n)\right].
+\]
+主模型为准静态调制：
+\[
+E_{\mathrm{shaft},n}^{\mathrm{base}}(R)
+=m_n\frac{C_\theta P_0}{4\pi\sigma R^3}.
+\]
+可选保守敏感性为
+\[
+E_{\mathrm{shaft},n}^{\mathrm{cons}}(R)
+=E_{\mathrm{shaft},n}^{\mathrm{base}}(R)
+\exp\left[-\frac{R}{\delta(nf_s)}\right],
+\]
+其中
+\[
+\delta(f)=\sqrt{\frac{1}{\pi f\mu\sigma}}.
+\]
+该指数项不进入主结论。
+
+\section{移动包络时间尺度}
+\[
+R(t)=\sqrt{R_0^2+v^2t^2},\qquad
+E_{\mathrm{env}}(t)=\frac{C_\theta P_0}{4\pi\sigma [R_0^2+v^2t^2]^{3/2}}.
+\]
+\[
+\tau=\frac{R_0}{v},\qquad
+t_{\mathrm{half}}=\frac{R_0}{v}\sqrt{2^{2/3}-1}.
+\]
+
+\section{尾流与工频}
+\[
+E_{\mathrm{wake,local}}\le vB_0.
+\]
+尾流只作为局部上限，不进入 UEP/轴频远场排序。
+\[
+V_i(t)=S_i(t)+A_{50,i}\cos(2\pi50t+\phi_{50,i})
++\sum_k A_{k,i}\cos(2\pi k50t+\phi_{k,i})+n_i(t).
+\]
+实验室工频幅值 $A_{50,i}$ 和 $A_{k,i}$ 必须测量或参数输入。
+
+\section{检测阈值}
+\[
+E_{\min}(f,T_{\mathrm{int}})
+=\gamma\frac{S_E^{1/2}(f)}{\sqrt{T_{\mathrm{int}}}}.
+\]
+扫描
+\[
+S_E^{1/2}=\{10^{-12},10^{-11},10^{-10},10^{-9},10^{-8}\}\ \mathrm{V/m/\sqrt{Hz}},
+\qquad
+T_{\mathrm{int}}=\{10,100,1000\}\ \mathrm{s}.
+\]
+
+\end{document}

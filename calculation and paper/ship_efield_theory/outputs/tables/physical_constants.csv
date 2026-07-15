@@ -1,0 +1,5 @@
+parameter,value,unit,note
+mu0,1.2566370614359173e-06,H/m,真空磁导率
+sigma_default,4.0,S/m,默认海水电导率
+sigma_min,3.0,S/m,扫描下限
+sigma_max,6.0,S/m,扫描上限

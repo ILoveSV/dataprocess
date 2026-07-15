@@ -1,0 +1,2 @@
+channel,model,A_50_i,A_k_i,note
+i,V_i(t)=S_i(t)+A_50_i cos(2pi50t+phi_50_i)+sum_k A_k_i cos(2pik50t+phi_k_i)+n_i(t),measured_or_parameter_input,measured_or_parameter_input,"For 200 L tank, pump, DAQ, and BNC coupling, do not infer 50 Hz amplitude from open-sea skin depth or 1/R spreading."

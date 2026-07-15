@@ -1,0 +1,71 @@
+\section{各源项计算过程}
+
+本章计算目的：按目标相关源项和实验背景源分别给出公式、参数和计算输出来源。每小节只说明计算方式和模型边界，不给出实验取舍。
+
+\subsection{UEP/ICCP 静态或慢变电场}
+
+计算公式为
+\[
+E_{\mathrm{static}}=\frac{C_\theta P_0}{4\pi\sigma R^3}.
+\]
+参数使用第 3 章的 $P_0$、$\sigma$、$C_\theta$ 包络，距离取 $R=100,300,500,1000\ \mathrm{m}$。reference 采用 $P_0=300\ \mathrm{A\cdot m}$、$\sigma=4\ \mathrm{S/m}$、$C_\theta=1$。
+
+计算结果进入表 5 的 UEP/ICCP 行。该行使用远场偶极模型，强度随 $R^{-3}$ 变化。
+
+\subsection{轴频基频}
+
+计算公式为
+\[
+E_{\mathrm{shaft},1}=m_1E_{\mathrm{static}}.
+\]
+参数使用静态场包络并增加 $m_1=\{0.003,0.01,0.03,0.1,0.3\}$。reference 采用 $m_1=0.03$。频率特征按典型轴频写作 $f_s$，最终表中用 3 Hz 作为典型参考。
+
+计算结果进入表 5 的轴频基频行。该行与静态场共享同一等效偶极距离 $R$，但幅值按 $m_1$ 缩放。
+
+\subsection{轴频二/三阶谐波}
+
+计算公式为
+\[
+m_2=\frac{m_1}{2},\qquad m_3=\frac{m_1}{3},
+\]
+\[
+E_{\mathrm{shaft},2}=m_2E_{\mathrm{static}},\qquad
+E_{\mathrm{shaft},3}=m_3E_{\mathrm{static}}.
+\]
+参数使用静态场包络和 $m_1$ 包络。最终表将二阶和三阶合并为“二/三阶谐波范围”，频率特征按 $2f_s/3f_s$ 标注，典型参考为 6 Hz/9 Hz。
+
+计算结果进入表 5 的轴频二/三阶谐波行。合并行的 min/max 覆盖二阶与三阶全部包络，reference 取二阶谐波参考值，并在备注中说明为二/三阶合并范围。
+
+\subsection{尾流/流动诱导电场}
+
+尾流使用中心线模型，不使用 $R^{-3}$ 远场偶极模型：
+\[
+v_{\mathrm{wake}}(x)=\alpha U\left(1+\frac{x}{L_{\mathrm{ship}}}\right)^{-p},
+\]
+\[
+E_{\mathrm{wake}}(x)=v_{\mathrm{wake}}(x)B_0.
+\]
+参数使用第 3 章的 $U$、$\alpha$、$p$ 包络，$B_0=50\ \mu\mathrm{T}$，$L_{\mathrm{ship}}=70\ \mathrm{m}$，距离变量为尾流中心线下游距离 $x=100,300,500,1000\ \mathrm{m}$。reference 采用 $U=5\ \mathrm{m/s}$、$\alpha=0.03$、$p=1.5$。
+
+计算结果进入表 5 的尾流/流动诱导电场行。该行的距离含义为尾流中心线下游距离，不等同于径向远场传播距离。
+
+\subsection{变频器--水泵系统高频电磁背景}
+
+本源项只描述当前实验中的 VFD--水泵系统电磁背景，不做真实水下目标远场预测。已知设备参数为 $P=2.2\ \mathrm{kW}$、$U_{LL}=380\ \mathrm{V}$、$I_{\mathrm{rated}}=4.58\ \mathrm{A}$、$n_{\mathrm{rated}}=2800\ \mathrm{rpm}$，系统中存在小型变频器 VFD。输入侧三相条件可给出
+\[
+U_{\mathrm{phase}}\approx219.4\ \mathrm{V},\qquad
+S\approx3.014\ \mathrm{kVA},\qquad
+\mathrm{PF}\approx0.730.
+\]
+这些参数只用于描述实验设备条件，不能直接换算成水中电场强度，也不用于推出 $I_{\mathrm{cm}}(f)$。
+
+VFD 背景只保留频率相关共模/漏电流等效偶极模型：
+\[
+E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}})=
+\frac{I_{\mathrm{cm}}(f)L_{\mathrm{eff}}}{4\pi\sigma r_{\mathrm{lab}}^3}.
+\]
+其中 $I_{\mathrm{cm}}(f)$ 是频率 $f$ 处的等效共模/漏电流，需要实测或作为场景参数；$r_{\mathrm{lab}}$ 是实验室 VFD、电机电缆、泵体、水体、接地、DAQ 和传感器链路之间的耦合距离，不是真实潜艇远场距离。
+
+计算结果进入表 6。表 6 只用于当前实验背景对照，不参与真实水下目标源项远场排序。
+
+本章对客观参考表的作用：给出表 5 四个目标相关源项行的计算来源，并说明变频器--水泵系统高频电磁背景只进入表 6。

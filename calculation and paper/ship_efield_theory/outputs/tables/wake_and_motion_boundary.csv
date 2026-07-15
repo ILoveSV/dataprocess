@@ -1,0 +1,8 @@
+R_or_R0_m,field_region,wake_local_upper_bound_v_per_m,v_m_per_s,B0_t,moving_tau_s,moving_t_half_s,moving_full_half_width_s,interpretation
+30.0,near_intermediate_estimate_R_lt_3L,0.00025,5.0,5e-05,6.0,4.5985256192452795,9.197051238490559,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+50.0,near_intermediate_estimate_R_lt_3L,0.00025,5.0,5e-05,10.0,7.664209365408798,15.328418730817596,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+100.0,near_intermediate_estimate_R_lt_3L,0.00025,5.0,5e-05,20.0,15.328418730817596,30.65683746163519,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+300.0,far_field_R_ge_3L,0.00025,5.0,5e-05,60.0,45.98525619245279,91.97051238490558,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+500.0,far_field_R_ge_3L,0.00025,5.0,5e-05,100.0,76.64209365408799,153.28418730817597,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+1000.0,far_field_R_ge_3L,0.00025,5.0,5e-05,200.0,153.28418730817597,306.56837461635195,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.
+3000.0,far_field_R_ge_3L,0.00025,5.0,5e-05,600.0,459.8525619245279,919.7051238490558,Wake is a local motional upper bound E<=vB0 and is not ranked against UEP/shaft far-field dipole rows.

@@ -1,0 +1,2 @@
+from src.pipelines.fft_average_pipeline import generate_summary_report
+

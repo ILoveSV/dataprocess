@@ -1,0 +1,100 @@
+\section{参数包络与典型参考场景}
+
+本章计算目的：建立 min/reference/max 三层输出所需的参数范围和中等参考场景。本章只定义输入，不提前比较源项强弱。
+
+\subsection{参数包络}
+
+UEP/ICCP 静态场采用
+\[
+E_{\mathrm{static}}=\frac{C_\theta P_0}{4\pi\sigma R^3}.
+\]
+参数包络为
+\[
+P_0=\{30,100,300,1000,3000\}\ \mathrm{A\cdot m},\quad
+\sigma=\{3,4,6\}\ \mathrm{S/m},\quad
+C_\theta=\{1,2\}.
+\]
+
+轴频基频采用
+\[
+E_{\mathrm{shaft},1}=m_1E_{\mathrm{static}},
+\]
+其中
+\[
+m_1=\{0.003,0.01,0.03,0.1,0.3\}.
+\]
+
+轴频二/三阶谐波采用
+\[
+m_2=\frac{m_1}{2},\qquad m_3=\frac{m_1}{3},
+\]
+\[
+E_{\mathrm{shaft},2}=m_2E_{\mathrm{static}},\qquad
+E_{\mathrm{shaft},3}=m_3E_{\mathrm{static}}.
+\]
+
+尾流/流动诱导电场采用尾流中心线模型
+\[
+v_{\mathrm{wake}}(x)=\alpha U\left(1+\frac{x}{L_{\mathrm{ship}}}\right)^{-p},
+\]
+\[
+E_{\mathrm{wake}}(x)=v_{\mathrm{wake}}(x)B_0.
+\]
+参数包络为
+\[
+U=\{3,5,8\}\ \mathrm{m/s},\quad
+\alpha=\{0.003,0.01,0.03,0.1\},\quad
+p=\{1,1.5,2,2.5\},
+\]
+\[
+B_0=50\ \mu\mathrm{T},\qquad L_{\mathrm{ship}}=70\ \mathrm{m}.
+\]
+
+变频器--水泵系统高频电磁背景的已知实验设备参数为
+\[
+P=2.2\ \mathrm{kW},\qquad U_{LL}=380\ \mathrm{V},\qquad
+I_{\mathrm{rated}}=4.58\ \mathrm{A},\qquad n_{\mathrm{rated}}=2800\ \mathrm{rpm}.
+\]
+系统中存在小型变频器 VFD。额定功率、电压、电流和转速只用于描述设备条件，不能直接换算成水中电场强度，也不能直接推出频率 $f$ 处的共模/漏电流 $I_{\mathrm{cm}}(f)$。
+
+若只描述输入侧三相电源条件，可计算
+\[
+U_{\mathrm{phase}}=\frac{U_{LL}}{\sqrt{3}},\qquad
+S=\sqrt{3}U_{LL}I_{\mathrm{rated}}.
+\]
+得到 $U_{\mathrm{phase}}\approx219.4\ \mathrm{V}$、$S\approx3.014\ \mathrm{kVA}$。当需要描述输入侧负载状态时，可用 $\mathrm{PF}=P/S\approx0.730$ 作为设备电气条件参考；该值同样不用于直接计算水中电场。
+
+VFD 高频背景场强只按频率相关共模/漏电流等效偶极模型给出：
+\[
+P_I(f)=I_{\mathrm{cm}}(f)L_{\mathrm{eff}},
+\]
+\[
+E_{\mathrm{VFD,bg}}(f,r_{\mathrm{lab}})=
+\frac{I_{\mathrm{cm}}(f)L_{\mathrm{eff}}}{4\pi\sigma r_{\mathrm{lab}}^3}.
+\]
+其中 $I_{\mathrm{cm}}(f)$ 是频率 $f$ 处的等效共模/漏电流，需要实测或作为场景参数；$L_{\mathrm{eff}}$ 是等效耦合长度；距离取 $r_{\mathrm{lab}}=\{0.1,0.3,0.5,1,2,3,5\}\ \mathrm{m}$。这是实验室 VFD、电机电缆、泵体、水体、接地、DAQ 和传感器链路之间的耦合距离，不是真实潜艇远场距离。
+
+三档实验耦合场景为：
+\begin{itemize}
+  \item 弱耦合：$I_{\mathrm{cm}}(f)=10^{-6}\ \mathrm{A}$，$L_{\mathrm{eff}}=0.1\ \mathrm{m}$，$\sigma=0.1\ \mathrm{S/m}$。
+  \item 可见耦合：$I_{\mathrm{cm}}(f)=10^{-4}\ \mathrm{A}$，$L_{\mathrm{eff}}=0.3\ \mathrm{m}$，$\sigma=0.1\ \mathrm{S/m}$。
+  \item 较强耦合：$I_{\mathrm{cm}}(f)=10^{-3}\ \mathrm{A}$，$L_{\mathrm{eff}}=0.3\ \mathrm{m}$，$\sigma=0.1\ \mathrm{S/m}$。
+\end{itemize}
+
+可选附录场景为异常耦合：$I_{\mathrm{cm}}(f)=10^{-2}\ \mathrm{A}$，$L_{\mathrm{eff}}=0.5\ \mathrm{m}$，$\sigma=0.1\ \mathrm{S/m}$；该场景不进入主表。
+
+\subsection{典型参考场景}
+
+最终表中 reference 列值采用以下中等参考场景：
+
+\begin{itemize}
+  \item UEP/ICCP 静态场：$P_0=300\ \mathrm{A\cdot m}$，$\sigma=4\ \mathrm{S/m}$，$C_\theta=1$。
+  \item 轴频基频：$P_0=300\ \mathrm{A\cdot m}$，$\sigma=4\ \mathrm{S/m}$，$C_\theta=1$，$m_1=0.03$。
+  \item 轴频二/三阶谐波：同轴频基频，并取 $m_2=m_1/2$、$m_3=m_1/3$；合并行中的 reference 取二阶谐波参考值。
+  \item 尾流/流动诱导电场：$U=5\ \mathrm{m/s}$，$\alpha=0.03$，$p=1.5$，$B_0=50\ \mu\mathrm{T}$，$L_{\mathrm{ship}}=70\ \mathrm{m}$。
+  \item 变频器--水泵系统高频电磁背景：按弱耦合、可见耦合、较强耦合三档输出，不进入目标源项 100--1000 m 主表。
+\end{itemize}
+
+同时输出 min/reference/max 是为了保留参数不确定性：min 和 max 给出公开量级参数包络，reference 给出中等场景下的单点读取值，避免只用一个数掩盖模型输入差异。
+
+本章对客观参考表的作用：为最终表中每个数值单元格的 min/reference/max 提供统一参数来源。

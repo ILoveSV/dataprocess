@@ -1,0 +1,14 @@
+[
+  {
+    "source": "word/media/image1.png",
+    "target": "figures\\word_image_01.png"
+  },
+  {
+    "source": "word/media/image2.svg",
+    "target": "figures\\word_image_02.svg"
+  },
+  {
+    "source": "word/media/image3.emf",
+    "target": "figures\\word_image_03.emf"
+  }
+]
