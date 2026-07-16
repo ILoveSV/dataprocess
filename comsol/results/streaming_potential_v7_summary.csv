@@ -1,0 +1,11 @@
+quantity,value,unit
+pressure_in_Pa,685.3444622398176,Pa
+pressure_out_Pa,23.742745345582705,Pa
+pressure_drop_Pa,661.6017168942349,Pa
+potential_in_V,2.8121819055688225E-4,V
+potential_out_V,0.0,V
+streaming_potential_V,2.8121819055688225E-4,V
+max_velocity_m_per_s,1.4109120981827952,m/s
+max_electric_field_V_per_m,0.008795680746511977,V/m
+reynolds_number,55492.97651498551,1
+nameplate_head_reference_V,-0.13319712373044737,V
