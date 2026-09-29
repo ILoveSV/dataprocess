@@ -1,0 +1,364 @@
+{
+  "dataset": "20260806",
+  "case_id": "vfd_tc2_4k_50hz",
+  "arrangement": "vfd",
+  "detector": "tc2",
+  "condition": "run",
+  "distance": "",
+  "carrier_khz": 4.0,
+  "output_hz": 50.0,
+  "signals": {
+    "slow_pc1": {
+      "16": {
+        "directions": 16,
+        "summary": {
+          "memd_energy_fraction_0p05_0p15hz": 0.0,
+          "memd_energy_fraction_0p15_0p5hz": 0.08620997714328617,
+          "memd_energy_fraction_0p5_2hz": 0.07750944213154695,
+          "memd_energy_fraction_2_5hz": 0.07460368535489706,
+          "memd_mode_count": 5,
+          "memd_residual_energy_fraction": 0.4890360807704668,
+          "memd_reconstruction_nrmse": 1.132851571298502e-16,
+          "memd_dominant_mode_center_hz": 3.133257685533474
+        },
+        "modes": [
+          {
+            "mode_index": 1,
+            "center_frequency_hz_median": 3.133257685533474,
+            "center_frequency_hz_iqr": 0.1053118263053654,
+            "energy_fraction": 0.07460368535489706,
+            "channel_pc1_variance_fraction": 0.14161815281497975,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 2,
+            "center_frequency_hz_median": 1.5658476036113784,
+            "center_frequency_hz_iqr": 0.028823723175663618,
+            "energy_fraction": 0.04021386372387973,
+            "channel_pc1_variance_fraction": 0.1519723422805845,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 3,
+            "center_frequency_hz_median": 0.7914443568821303,
+            "center_frequency_hz_iqr": 0.03259503211796244,
+            "energy_fraction": 0.03729557840766723,
+            "channel_pc1_variance_fraction": 0.16255822989016605,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 4,
+            "center_frequency_hz_median": 0.39547611691951357,
+            "center_frequency_hz_iqr": 0.016858315763700393,
+            "energy_fraction": 0.0408785498989337,
+            "channel_pc1_variance_fraction": 0.19246752631342168,
+            "assigned_band": "0p15_0p5hz"
+          },
+          {
+            "mode_index": 5,
+            "center_frequency_hz_median": 0.20016197223694837,
+            "center_frequency_hz_iqr": 0.025438580660049254,
+            "energy_fraction": 0.045331427244352476,
+            "channel_pc1_variance_fraction": 0.21982515053531632,
+            "assigned_band": "0p15_0p5hz"
+          }
+        ],
+        "sift_diagnostics": [
+          {
+            "mode_index": 1,
+            "sift_count": 3,
+            "final_sift_sd": 0.042170709072181824,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 2,
+            "sift_count": 3,
+            "final_sift_sd": 0.06588443099166007,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 3,
+            "sift_count": 3,
+            "final_sift_sd": 0.06961923907127106,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 4,
+            "sift_count": 3,
+            "final_sift_sd": 0.07772979483445373,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 5,
+            "sift_count": 3,
+            "final_sift_sd": 0.07970386884270085,
+            "valid_direction_count": 16
+          }
+        ]
+      },
+      "24": {
+        "directions": 24,
+        "summary": {
+          "memd_energy_fraction_0p05_0p15hz": 0.0,
+          "memd_energy_fraction_0p15_0p5hz": 0.09587552305980196,
+          "memd_energy_fraction_0p5_2hz": 0.0765487424564991,
+          "memd_energy_fraction_2_5hz": 0.07421473311977853,
+          "memd_mode_count": 5,
+          "memd_residual_energy_fraction": 0.4678323276072469,
+          "memd_reconstruction_nrmse": 1.12177429844895e-16,
+          "memd_dominant_mode_center_hz": 3.161651665869708
+        },
+        "modes": [
+          {
+            "mode_index": 1,
+            "center_frequency_hz_median": 3.161651665869708,
+            "center_frequency_hz_iqr": 0.09170811297088077,
+            "energy_fraction": 0.07421473311977853,
+            "channel_pc1_variance_fraction": 0.136069891009458,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 2,
+            "center_frequency_hz_median": 1.5716907531139221,
+            "center_frequency_hz_iqr": 0.04969932019731349,
+            "energy_fraction": 0.0401875009151076,
+            "channel_pc1_variance_fraction": 0.15003820281524605,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 3,
+            "center_frequency_hz_median": 0.7922510897437545,
+            "center_frequency_hz_iqr": 0.03502744073255981,
+            "energy_fraction": 0.0363612415413915,
+            "channel_pc1_variance_fraction": 0.15668306545658406,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 4,
+            "center_frequency_hz_median": 0.4110586298439479,
+            "center_frequency_hz_iqr": 0.023059614330245115,
+            "energy_fraction": 0.040988155046037526,
+            "channel_pc1_variance_fraction": 0.18129836551294945,
+            "assigned_band": "0p15_0p5hz"
+          },
+          {
+            "mode_index": 5,
+            "center_frequency_hz_median": 0.1853181814482565,
+            "center_frequency_hz_iqr": 0.024610261733734234,
+            "energy_fraction": 0.05488736801376443,
+            "channel_pc1_variance_fraction": 0.24710311979877456,
+            "assigned_band": "0p15_0p5hz"
+          }
+        ],
+        "sift_diagnostics": [
+          {
+            "mode_index": 1,
+            "sift_count": 3,
+            "final_sift_sd": 0.0406414194152844,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 2,
+            "sift_count": 3,
+            "final_sift_sd": 0.06087641163822873,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 3,
+            "sift_count": 3,
+            "final_sift_sd": 0.07108204075451287,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 4,
+            "sift_count": 3,
+            "final_sift_sd": 0.07217568428283742,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 5,
+            "sift_count": 3,
+            "final_sift_sd": 0.07297379972545978,
+            "valid_direction_count": 24
+          }
+        ]
+      }
+    },
+    "fast_residual_rms_pc1": {
+      "16": {
+        "directions": 16,
+        "summary": {
+          "memd_energy_fraction_0p05_0p15hz": 0.0,
+          "memd_energy_fraction_0p15_0p5hz": 0.013627698777037876,
+          "memd_energy_fraction_0p5_2hz": 0.06349646947162171,
+          "memd_energy_fraction_2_5hz": 0.48352682972265715,
+          "memd_mode_count": 5,
+          "memd_residual_energy_fraction": 0.04167246462409467,
+          "memd_reconstruction_nrmse": 1.0929230674480011e-16,
+          "memd_dominant_mode_center_hz": 3.647352504862022
+        },
+        "modes": [
+          {
+            "mode_index": 1,
+            "center_frequency_hz_median": 3.647352504862022,
+            "center_frequency_hz_iqr": 0.14935855406981036,
+            "energy_fraction": 0.40353199054130506,
+            "channel_pc1_variance_fraction": 0.1430115601537513,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 2,
+            "center_frequency_hz_median": 2.2135365805243516,
+            "center_frequency_hz_iqr": 0.05632750078748394,
+            "energy_fraction": 0.07999483918135211,
+            "channel_pc1_variance_fraction": 0.1362747173028855,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 3,
+            "center_frequency_hz_median": 1.2537409800273849,
+            "center_frequency_hz_iqr": 0.01892119743506271,
+            "energy_fraction": 0.039057024577305685,
+            "channel_pc1_variance_fraction": 0.14443796018636587,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 4,
+            "center_frequency_hz_median": 0.7061320420862541,
+            "center_frequency_hz_iqr": 0.036378052209967704,
+            "energy_fraction": 0.02443944489431602,
+            "channel_pc1_variance_fraction": 0.17514039133198545,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 5,
+            "center_frequency_hz_median": 0.4121109997309784,
+            "center_frequency_hz_iqr": 0.03772694835637086,
+            "energy_fraction": 0.013627698777037876,
+            "channel_pc1_variance_fraction": 0.21800020370144943,
+            "assigned_band": "0p15_0p5hz"
+          }
+        ],
+        "sift_diagnostics": [
+          {
+            "mode_index": 1,
+            "sift_count": 3,
+            "final_sift_sd": 0.021486801319479373,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 2,
+            "sift_count": 3,
+            "final_sift_sd": 0.042167214844285934,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 3,
+            "sift_count": 3,
+            "final_sift_sd": 0.05086970783539153,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 4,
+            "sift_count": 3,
+            "final_sift_sd": 0.05440889376792302,
+            "valid_direction_count": 16
+          },
+          {
+            "mode_index": 5,
+            "sift_count": 3,
+            "final_sift_sd": 0.06865219506933953,
+            "valid_direction_count": 16
+          }
+        ]
+      },
+      "24": {
+        "directions": 24,
+        "summary": {
+          "memd_energy_fraction_0p05_0p15hz": 0.0,
+          "memd_energy_fraction_0p15_0p5hz": 0.013779710671295237,
+          "memd_energy_fraction_0p5_2hz": 0.0631317622367376,
+          "memd_energy_fraction_2_5hz": 0.4774342421627439,
+          "memd_mode_count": 5,
+          "memd_residual_energy_fraction": 0.03999362986438224,
+          "memd_reconstruction_nrmse": 1.0524555110122634e-16,
+          "memd_dominant_mode_center_hz": 3.675774070941009
+        },
+        "modes": [
+          {
+            "mode_index": 1,
+            "center_frequency_hz_median": 3.675774070941009,
+            "center_frequency_hz_iqr": 0.1804814645054318,
+            "energy_fraction": 0.39602558842885704,
+            "channel_pc1_variance_fraction": 0.14411621720774614,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 2,
+            "center_frequency_hz_median": 2.2099002888485657,
+            "center_frequency_hz_iqr": 0.05457933107701729,
+            "energy_fraction": 0.08140865373388685,
+            "channel_pc1_variance_fraction": 0.13649691244680354,
+            "assigned_band": "2_5hz"
+          },
+          {
+            "mode_index": 3,
+            "center_frequency_hz_median": 1.240838864201201,
+            "center_frequency_hz_iqr": 0.021892558012001295,
+            "energy_fraction": 0.039266370663737386,
+            "channel_pc1_variance_fraction": 0.14353734084264977,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 4,
+            "center_frequency_hz_median": 0.705872499195563,
+            "center_frequency_hz_iqr": 0.03236775679711279,
+            "energy_fraction": 0.023865391573000213,
+            "channel_pc1_variance_fraction": 0.17970304225417813,
+            "assigned_band": "0p5_2hz"
+          },
+          {
+            "mode_index": 5,
+            "center_frequency_hz_median": 0.4030450518937322,
+            "center_frequency_hz_iqr": 0.037519281641086644,
+            "energy_fraction": 0.013779710671295237,
+            "channel_pc1_variance_fraction": 0.2188660142551366,
+            "assigned_band": "0p15_0p5hz"
+          }
+        ],
+        "sift_diagnostics": [
+          {
+            "mode_index": 1,
+            "sift_count": 3,
+            "final_sift_sd": 0.020302195585616294,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 2,
+            "sift_count": 3,
+            "final_sift_sd": 0.04237028021322584,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 3,
+            "sift_count": 3,
+            "final_sift_sd": 0.04410654620039912,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 4,
+            "sift_count": 3,
+            "final_sift_sd": 0.05259568911258553,
+            "valid_direction_count": 24
+          },
+          {
+            "mode_index": 5,
+            "sift_count": 3,
+            "final_sift_sd": 0.05924975365544719,
+            "valid_direction_count": 24
+          }
+        ]
+      }
+    }
+  }
+}

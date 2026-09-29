@@ -1,0 +1,9 @@
+﻿case_id,group,balanced_accuracy,feature_count,note
+g111_r1,111,0.16666666666666666,9,15s local complexity/mode features; sample sizes small
+g111_r2,111,1.0,9,15s local complexity/mode features; sample sizes small
+g111_r3,111,0.6666666666666666,9,15s local complexity/mode features; sample sizes small
+g111_r4,111,0.5,9,15s local complexity/mode features; sample sizes small
+g111_r5,111,0.5,9,15s local complexity/mode features; sample sizes small
+g222_r1,222,0.5,9,15s local complexity/mode features; sample sizes small
+g222_r2,222,0.75,9,15s local complexity/mode features; sample sizes small
+g222_r3,222,1.0,9,15s local complexity/mode features; sample sizes small

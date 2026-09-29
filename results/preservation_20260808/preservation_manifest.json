@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-08-08T14:25:14.875981+00:00",
+  "python": "3.9.23",
+  "platform": "Windows-10-10.0.22631-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "nptdms": "1.10.0",
+    "matplotlib": "3.9.4",
+    "pandas": "2.3.2"
+  },
+  "raw_hashes_included": true,
+  "media_copied": true,
+  "source_tdms_count": 49,
+  "source_tdms_bytes": 137016808940,
+  "retained_file_count": 459,
+  "retained_bytes": 6042016331,
+  "problems": []
+}

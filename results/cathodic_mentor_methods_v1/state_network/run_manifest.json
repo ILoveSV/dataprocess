@@ -1,0 +1,23 @@
+{
+  "analysis": "cathodic_cycle_paired_state_network",
+  "protocol_case_count": 8,
+  "feature_groups": [
+    "slow_mean",
+    "broadband_rms",
+    "subkhz_rms",
+    "fast_residual_rms",
+    "difference_rms",
+    "combined"
+  ],
+  "timing_offsets_s": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "null": "exact independent cycle-direction sign flips",
+  "limitations": [
+    "manual switching has no synchronized current trace",
+    "005hz has only four cycles",
+    "old electrode spacing was approximately 1 cm"
+  ]
+}

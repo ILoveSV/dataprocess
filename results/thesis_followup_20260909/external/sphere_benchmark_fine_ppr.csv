@@ -1,0 +1,6 @@
+% Model,sphere_benchmark_fine.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Sep 9 2026, 09:40"
+% Table,表格 2 - 
+% freq (Hz),"x 坐标 (m), 点: (2, 0, 0)","x 坐标 (m), 点: (3, 0, 0)","x 坐标 (m), 点: (4, 0, 0)","real(V) (V), 点: (2, 0, 0)","real(V) (V), 点: (3, 0, 0)","real(V) (V), 点: (4, 0, 0)","real(pprint(ec.Ex)) (V/m), 点: (2, 0, 0)","real(pprint(ec.Ex)) (V/m), 点: (3, 0, 0)","real(pprint(ec.Ex)) (V/m), 点: (4, 0, 0)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (2, 0, 0)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (3, 0, 0)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (4, 0, 0)"
+0.001,2,3,3.9999999999999996,0.37458002402430074,0.1666682850284571,0.062421290091406456,0.3145808385013921,0.13868280825340118,0.07842736589471173,0.31458264347023485,0.13868429728232637,0.0784274001024581

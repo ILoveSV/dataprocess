@@ -1,0 +1,19 @@
+parameter,value,unit,status,description
+lid_diameter,0.56,m,assumed,Matched to existing tank diameter
+square_support_plate_side,0.62,m,assumed,Estimated from photographs
+electrode_center_spacing,0.30,m,assumed,Provisional center-to-center spacing
+carbon_steel_pipe_length,0.40,m,provided,20# seamless carbon-steel specimen
+carbon_steel_pipe_outer_diameter,0.10,m,provided,Specimen outside diameter
+carbon_steel_pipe_wall_thickness,0.003,m,provided,Specimen wall thickness
+exposed_window_axial_length,0.20,m,provided,Window length along pipe axis
+exposed_window_developed_width,0.12,m,provided,Window width measured around pipe circumference
+exposed_window_area,0.024,m2,derived,Length multiplied by developed width
+graphite_diameter,0.025,m,provided_approximate,Graphite rod diameter
+graphite_length,0.20,m,provided_approximate,Graphite rod length may be shorter
+steel_pipe_center_elevation,-0.30,m,assumed,Aligned with graphite active-section center
+steel_pipe_axis,y,-,confirmed_by_user,Horizontal after 90-degree rotation about the window-to-graphite centerline
+graphite_axis,z,-,confirmed_by_user,Vertical graphite rod
+electrode_axis_angle,90,deg,confirmed_by_user,Steel-pipe and graphite axes are perpendicular
+exposed_window_facing,+x,-,confirmed_by_user,Window faces the graphite electrode
+waterproof_tape_thickness,0.0015,m,assumed,Geometry separation only
+holder_outer_diameter,0.032,m,assumed,Simplified feedthrough and holder

@@ -1,0 +1,10 @@
+﻿constraint,length_ratio_lab_to_reference,conductivity_ratio_lab_to_reference,current_ratio_lab_to_reference,E_ratio_lab_to_reference,potential_ratio_lab_to_reference,J_ratio_lab_to_reference
+equal_E,0.01,1.0,0.0001,1.0,0.01,1.0
+equal_potential,0.01,1.0,0.01,100.0,1.0,100.0
+equal_J,0.01,1.0,0.0001,1.0,0.01,1.0
+equal_E,0.01,0.01,1.0000000000000002e-06,1.0000000000000002,0.010000000000000002,0.010000000000000002
+equal_potential,0.01,0.01,0.0001,100.0,1.0,1.0
+equal_J,0.01,0.01,0.0001,100.0,1.0,1.0
+equal_E,0.01,0.0125,1.25e-06,1.0,0.01,0.0125
+equal_potential,0.01,0.0125,0.000125,100.0,1.0,1.25
+equal_J,0.01,0.0125,0.0001,80.0,0.8,1.0

@@ -1,0 +1,7 @@
+﻿case_id,method,expected,nominal_s,detected_s,delay_from_command_s,hit_within_window
+g111_r1,clipped_state,30Hz,60,,,False
+g111_r1,clipped_state,off,90,,,False
+g111_r2,clipped_state,50Hz,30,,,False
+g111_r5,clipped_state,50Hz,30,,,False
+g111_r5,clipped_state,30Hz,60,,,False
+g111_r1,clipped_binary,off,90,,,False

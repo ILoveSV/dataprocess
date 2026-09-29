@@ -1,0 +1,370 @@
+{
+  "root": "D:\\Lab\\raw\\26.8.6",
+  "block_seconds": 0.1,
+  "spectrum_nfft": 262144,
+  "channel_exclusion": "dynamic per acquisition; comparisons use the healthy-channel intersection",
+  "duo_position_convention": {
+    "duo1": {
+      "TC1": "A",
+      "TC2": "B"
+    },
+    "duo2": {
+      "TC1": "B",
+      "TC2": "A"
+    }
+  },
+  "cases": [
+    {
+      "case_id": "duo1_tc1_background",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo1",
+      "position": "A",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo\\background"
+    },
+    {
+      "case_id": "duo1_tc1_vfd_stop",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo1",
+      "position": "A",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo\\vfd"
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo1",
+      "position": "A",
+      "condition": "30hz",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo\\30"
+    },
+    {
+      "case_id": "duo1_tc1_50hz",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo1",
+      "position": "A",
+      "condition": "50hz",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo\\50"
+    },
+    {
+      "case_id": "duo1_tc2_background",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo1",
+      "position": "B",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo\\background"
+    },
+    {
+      "case_id": "duo1_tc2_vfd_stop",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo1",
+      "position": "B",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo\\vfd"
+    },
+    {
+      "case_id": "duo1_tc2_30hz",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo1",
+      "position": "B",
+      "condition": "30hz",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo\\30"
+    },
+    {
+      "case_id": "duo1_tc2_50hz",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo1",
+      "position": "B",
+      "condition": "50hz",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo\\50"
+    },
+    {
+      "case_id": "duo2_tc1_background",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo2",
+      "position": "B",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo2\\background"
+    },
+    {
+      "case_id": "duo2_tc1_vfd_stop",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo2",
+      "position": "B",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo2\\vfd"
+    },
+    {
+      "case_id": "duo2_tc1_30hz",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo2",
+      "position": "B",
+      "condition": "30hz",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo2\\30hz"
+    },
+    {
+      "case_id": "duo2_tc1_50hz",
+      "experiment": "duo",
+      "detector": "TC1",
+      "arrangement": "duo2",
+      "position": "B",
+      "condition": "50hz",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1duo2\\50hz"
+    },
+    {
+      "case_id": "duo2_tc2_background",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo2",
+      "position": "A",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo2\\background"
+    },
+    {
+      "case_id": "duo2_tc2_vfd_stop",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo2",
+      "position": "A",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo2\\vfd"
+    },
+    {
+      "case_id": "duo2_tc2_30hz",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo2",
+      "position": "A",
+      "condition": "30hz",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo2\\30hz"
+    },
+    {
+      "case_id": "duo2_tc2_50hz",
+      "experiment": "duo",
+      "detector": "TC2",
+      "arrangement": "duo2",
+      "position": "A",
+      "condition": "50hz",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2duo2\\50hz"
+    },
+    {
+      "case_id": "vfd_tc1_background",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\background"
+    },
+    {
+      "case_id": "vfd_tc1_vfd_stop",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd"
+    },
+    {
+      "case_id": "vfd_tc1_4k_30hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd4k30hz"
+    },
+    {
+      "case_id": "vfd_tc1_4k_50hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd4k50hz"
+    },
+    {
+      "case_id": "vfd_tc1_8k_30hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 8,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd8k30hz"
+    },
+    {
+      "case_id": "vfd_tc1_8k_50hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 8,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd8k50hz"
+    },
+    {
+      "case_id": "vfd_tc1_12k_30hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 12,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd12k30hz"
+    },
+    {
+      "case_id": "vfd_tc1_12k_50hz",
+      "experiment": "vfd",
+      "detector": "TC1",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 12,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc1vfd\\vfd12k50hz"
+    },
+    {
+      "case_id": "vfd_tc2_background",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "background",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\background"
+    },
+    {
+      "case_id": "vfd_tc2_vfd_stop",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "vfd_stop",
+      "carrier_khz": null,
+      "output_hz": null,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\vfd"
+    },
+    {
+      "case_id": "vfd_tc2_4k_30hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 4,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\4k30hz"
+    },
+    {
+      "case_id": "vfd_tc2_4k_50hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 4,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\4k50hz"
+    },
+    {
+      "case_id": "vfd_tc2_8k_30hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 8,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\8k30hz"
+    },
+    {
+      "case_id": "vfd_tc2_8k_50hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 8,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\8k50hz"
+    },
+    {
+      "case_id": "vfd_tc2_12k_30hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 12,
+      "output_hz": 30,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\12k30hz"
+    },
+    {
+      "case_id": "vfd_tc2_12k_50hz",
+      "experiment": "vfd",
+      "detector": "TC2",
+      "arrangement": "vfd",
+      "position": "fixed",
+      "condition": "run",
+      "carrier_khz": 12,
+      "output_hz": 50,
+      "folder": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\12k50hz"
+    }
+  ]
+}

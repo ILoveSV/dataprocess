@@ -1,0 +1,4 @@
+﻿distance_from_bucket_wall_m,frequency_Hz,small_gap_mm,large_gap_mm,small_E_at_10mA_mV_m,large_E_at_10mA_mV_m,gap_gain_at_equal_port_current,gap_gain_at_equal_differential_voltage,single_vs_balanced_small_gap_equal_voltage,status
+2.0,0.001,10,300,0.5216960057667257,2.274914832612597,4.360613858389048,1.6588459979546812,10.470902208864212,recomputed_from_existing_COMSOL_not_new_experiment_or_solver_run
+3.0,0.001,10,300,0.17696195211473267,0.7563264636733698,4.273949595577517,1.6258775512636203,10.82510574655457,recomputed_from_existing_COMSOL_not_new_experiment_or_solver_run
+4.0,0.001,10,300,0.0803007400717488,0.34014357554918423,4.235870992537125,1.6113918526182929,10.95669814338181,recomputed_from_existing_COMSOL_not_new_experiment_or_solver_run

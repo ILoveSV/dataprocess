@@ -1,0 +1,14 @@
+# Baseline analysis and unit tests; not an exact environment lock.
+numpy
+scipy
+pandas
+matplotlib
+PyYAML
+npTDMS
+scikit-learn
+joblib
+PyWavelets
+openpyxl
+xlsxwriter
+seaborn
+pytest

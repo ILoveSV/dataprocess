@@ -1,0 +1,6 @@
+% Model,Untitled.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Sep 16 2026, 12:35"
+% Table,Unit transfer at 3 m from tank wall - 
+% freq (Hz),"real(V) (V), 点: (0, -3.28, 0.5)","imag(V) (V), 点: (0, -3.28, 0.5)","real(pprint(ec.Ex)) (V/m), 点: (0, -3.28, 0.5)","imag(pprint(ec.Ex)) (V/m), 点: (0, -3.28, 0.5)","real(pprint(ec.Ey)) (V/m), 点: (0, -3.28, 0.5)","imag(pprint(ec.Ey)) (V/m), 点: (0, -3.28, 0.5)","real(pprint(ec.Ez)) (V/m), 点: (0, -3.28, 0.5)","imag(pprint(ec.Ez)) (V/m), 点: (0, -3.28, 0.5)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (0, -3.28, 0.5)"
+0.001,-2.620077959544043E-4,-2.0681439112864037E-6,-5.364852789868069E-5,-6.503181522542902E-7,2.4105594106341226E-4,1.7658570143325005E-6,4.853211425492802E-4,3.886421270527041E-6,5.445561386193233E-4

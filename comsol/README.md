@@ -2,6 +2,8 @@
 
 本目录集中保存本项目后续所有 COMSOL 建模资料。
 
+2026-09-28同步说明：Git保留建模源程序、说明和轻量导出结果，`.mph`、恢复文件及编译产物仅保留本地。已有模型索引见[研究资料模型清单](../research_materials/existing_comsol_model_index.csv)。最新舰艇背景模型及研究边界见[研究资料入口](../research_materials/README.md)，下列历史模型不等于实物绝对标定。
+
 ## 目录结构
 
 - `docs/`：需求、参数和建模说明。
@@ -16,6 +18,8 @@
 ## 当前项目
 
 - 三维水循环系统需求文档：`docs/三维水循环系统电场仿真参数汇总.md`
+- 双代表源电学模型说明：`docs/双代表源电学模型V14说明.md`
+- 双代表源已求解工程：`models/water_system_3d_two_source_v14_solved.mph`
 - 已完成的二维阴极保护模型：`models/cathodic_protection_2d.mph`
 - 二维模型结果：`results/cathodic_protection_2d/`
 

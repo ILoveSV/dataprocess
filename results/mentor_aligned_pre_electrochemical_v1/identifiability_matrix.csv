@@ -1,0 +1,8 @@
+target,status,evidence,boundary
+paired local background vs steady pump RUN,group difference detected in current archive,same dual-band sign in 24/24 later pairs; 6/6 early pairs agree as reference,paired detection only; does not validate an unknown-sample RUN classifier
+unknown STOP vs RUN sample with local background,"candidate separation, not validated classifier","direction rule sensitivity 100%, specificity 50%; score AUC 0.917",4/8 STOP controls mimic the RUN direction; no independent holdout
+30 Hz vs 50 Hz output setting,"candidate, not validated classifier",redistribution score is higher at 50 Hz in 5/6 later strata,one stratum reverses and no repeated unknown-label validation exists
+VFD carrier 4/8/12 kHz,not identifiable,set carrier is strongest candidate in only 3/12 cases,no repeatable moving main peak or harmonic-comb ordering
+3.1 s water/acoustic cycle in electrical output,not detected,0/40 long records pass AR(1) red-noise point test,does not exclude a weaker or differently timed water signal
+VFD STOP vs pure background,not stable,band signs change with detector/position/session,power-on state cannot be universally recognized from current files
+universal high-frequency narrow line,not found,line positions and persistence are detector/channel dependent,local line changes can still flag a change when a matched reference exists

@@ -1,0 +1,6 @@
+% Model,cathodic_protection_external_field_v4.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Sep 9 2026, 09:40"
+% Table,表格 4 - 
+% freq (Hz),"real(V) (V), 点: (0, -4.28, 0.5)","imag(V) (V), 点: (0, -4.28, 0.5)","real(pprint(ec.Ex)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ex)) (V/m), 点: (0, -4.28, 0.5)","real(pprint(ec.Ey)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ey)) (V/m), 点: (0, -4.28, 0.5)","real(pprint(ec.Ez)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ez)) (V/m), 点: (0, -4.28, 0.5)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (0, -4.28, 0.5)"
+0.001,-1.7840926532415276E-4,-2.7243858481612086E-6,1.4362899428579574E-6,-1.9939238949208395E-8,1.1381831194378431E-4,1.7113479388332761E-6,3.2716128775843456E-4,5.004567550618125E-6,3.464378069379834E-4

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "docs/PROJECT_CONTEXT_FOR_CONTINUATION.md",
+    "action": "retire_after_verification",
+    "bytes": 17911,
+    "sha256": "f8a76487d1fb2ec6a6182808cbf5fc371257be5c72d2cd8abea04403102e0263"
+  },
+  {
+    "path": "docs/PROJECT_HANDOFF_TO_GPT6_20260906.md",
+    "action": "retire_after_verification",
+    "bytes": 24584,
+    "sha256": "2bfb25cfc6ed9c1724697fadf72dd341f94287344306848858e555a7639c9d5d"
+  },
+  {
+    "path": "docs/RESEARCH_PROGRESS_REVIEW_20260906.md",
+    "action": "retire_after_verification",
+    "bytes": 25170,
+    "sha256": "dc4e11a882772e906632f0699d4fe8ce7a5e84e61a53c36347dc531397d73fdd"
+  },
+  {
+    "path": "docs/MENTOR_ALIGNED_ANALYSIS_CONTEXT_20260828.md",
+    "action": "retire_after_verification",
+    "bytes": 24508,
+    "sha256": "03e59aedaf46dfcb9c639ee3017491eaa69e0b96b9649a876ddad1829c5d9d20"
+  },
+  {
+    "path": "docs/论文背景与总体框架_导师讨论稿_20260915.md",
+    "action": "retire_after_verification",
+    "bytes": 24165,
+    "sha256": "9df2841344f3b0a455b5e849c56415428f44d560c10bc05863dc374c1af679aa"
+  },
+  {
+    "path": "docs/毕业论文非实验工作路线图_20260908.md",
+    "action": "retire_after_verification",
+    "bytes": 23169,
+    "sha256": "6f8bf0f7767088504f41c022df5a1b3b5433c6712ce551ab0cd727cfe74e75a6"
+  },
+  {
+    "path": "PROJECT_STATE.md",
+    "action": "backup_before_update",
+    "bytes": 55461,
+    "sha256": "533038ab17ac517c9c98fa1fdca31c9213d70da3c06f5760ceeea424586e7c5b"
+  },
+  {
+    "path": "information.md",
+    "action": "backup_before_update",
+    "bytes": 29048,
+    "sha256": "741e46997ae7776203adc88b7a9b1ac313f6e5148aa13346756b3f22c35c37e3"
+  },
+  {
+    "path": "docs/导师组会意见与当前任务_20260920.md",
+    "action": "backup_before_update",
+    "bytes": 6059,
+    "sha256": "47d58abc2a083cdb6d275069f30724a22deac704e58e61351ddb1b6018c22b7a"
+  },
+  {
+    "path": "docs/RESEARCH_REVIEW_FILE_AUDIT_20260906.md",
+    "action": "backup_before_update",
+    "bytes": 15049,
+    "sha256": "abc6d8885563fd5281e7d21c8eaaeabaed0269e3a0a9fbaf1f27dc2299cb7ed5"
+  },
+  {
+    "path": "docs/COMSOL仿真执行计划书_20260908.md",
+    "action": "backup_before_update",
+    "bytes": 16417,
+    "sha256": "e0b02b51e55e441fe55b6a58d9b190e84f88dd4490c2bd5405fb3ee22dada424"
+  },
+  {
+    "path": "calculation and paper/舰艇电场纯理论计算任务说明_v0.1.md",
+    "action": "backup_before_update",
+    "bytes": 24069,
+    "sha256": "f1150cce4bb1fc9cb627145629c6ec6b1c3505b9952b390b9b5febd183fd4b3d"
+  },
+  {
+    "path": "calculation and paper/biyelunwen/thesis_latex/README.md",
+    "action": "backup_before_update",
+    "bytes": 1854,
+    "sha256": "137e24968476ba65e0cbd9e502eeb63bf174f31f55e75f94f51d8e864623aed2"
+  },
+  {
+    "path": "calculation and paper/biyelunwen/thesis_latex/chapters/chapter01_introduction.tex",
+    "action": "backup_before_update",
+    "bytes": 2681,
+    "sha256": "f567d5699f3dbdfbe5230853bd6893a6ac44f57dc327873f1b9773246831917c"
+  },
+  {
+    "path": "calculation and paper/biyelunwen/thesis_latex/references.tex",
+    "action": "backup_before_update",
+    "bytes": 427,
+    "sha256": "d0adbec521efaaa402d7328636f8247917faeeb79b081d55856c7db971d0744a"
+  }
+]

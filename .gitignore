@@ -1,36 +1,107 @@
-# 忽略Python缓存文件和虚拟环境
+# Python, editors, dependencies, and machine-local credentials.
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
-
-# 忽略conda虚拟环境（根据你的环境名称调整）
 .conda/
-
-# 忽略IDE文件
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# 忽略数据文件（如果有大型数据文件）
-*.tdms
-*.npy
-*.pkl
-*.h5
-
-# 忽略结果目录（可选，如果你不想跟踪生成的结果）
-results/
-
-# SSH keys
-/.ssh/
-~/.ssh/
+.env
+.env.*
+!.env.example
+.ssh/
 *.pem
 *.key
-id_*
+id_rsa*
+id_ed25519*
+
+# Raw acquisition and derived arrays are backed up outside Git.
+*.tdms
+*.tdms_index
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.joblib
+*.wav
+*.m4a
+*.mp3
+*.mp4
+*.mov
+*.avi
+
+# COMSOL solutions, Java binaries, and compilation products.
+*.mph
+*.mph.*
+*.class
+*.class.*
+*.recovery
+*.status
+*.lock
+build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.log
+*.out
+
+# Presentation/Word originals and inspection renders remain local.
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.inspect.ndjson
+*.validation.json
+~$*
+/output/
+/outputs/
+/local_archive/
+
+# Disposable working directories; some older scripts still import local deps.
+/.codex_tmp/
+/.codex-finalizer-*/
+/$build/
+/tmp/
+/logs/
+/third_party/
+/.agents/
+/module_timing_summary.json
+
+# Historical material copies are indexed, not uploaded twice.
+/research_materials/90_material_snapshot/*
+!/research_materials/90_material_snapshot/资料导航.md
+/snapshots/V1_candidate_*/
+
+# Earlier bulk output: compact artifacts only (see its own .gitignore).
+/analysis_out/*
+!/analysis_out/README.md
+!/analysis_out/.gitignore
+!/analysis_out/*/
+
+# Research outputs: keep reports/tables/figures, not smoke runs or raw caches.
+/results/*smoke*/
+/results/exact_smoke/
+/results/retry/
+/results/2025.11.11/
+/results/**/cache/
+/results/**/raw/
+/results/**/media/
+/results/**/audio/
+/results/**/preservation/
+/results/**/frames/
+/results/**/extracted_frames/
+/results/**/COMPLETE

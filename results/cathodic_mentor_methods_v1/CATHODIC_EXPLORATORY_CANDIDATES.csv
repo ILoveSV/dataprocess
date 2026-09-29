@@ -1,0 +1,7 @@
+candidate,observed,why_not_positive,status
+1000 mA两次记录的SST中位脊线,cp1000near=0.109 Hz; cp1000near2=0.109 Hz,脊线IQR为0.198-0.227 Hz，目标CWT/红噪声比仅0.078/0.151，邻频和协议锁定均不显著，且无剂量单调性,探索性但不支持识别
+cp1000near/difference_rms多通道状态,"pair alignment=0.186, raw p=0.0015, FDR q=0.070",未过FDR，且第二次1000 mA记录的跨重复迁移为负,单文件状态候选，不能泛化
+cp200near/pair_phase_locking_80_200khz,"median ON-OFF=0.000589386, raw p=0.0479",多重比较FDR q=0.970，且同电流重复或剂量关系不支持,原始p候选，已否定
+cp1000near/bandpower_20_80khz_db,"median ON-OFF=0.0325503, raw p=0.0220",多重比较FDR q=0.970，且同电流重复或剂量关系不支持,原始p候选，已否定
+cp3000near2/pair_phase_locking_20_80khz,"median ON-OFF=-0.0012615, raw p=0.0332",多重比较FDR q=0.970，且同电流重复或剂量关系不支持,原始p候选，已否定
+第二次3000 mA的0.1 Hz拟合幅值,"repeat2=3.35 uV, repeat1=1.93 uV",CWT、邻频、协议锁定、周期重复及高频网络均未复现,孤立候选，已否定

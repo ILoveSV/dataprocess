@@ -1,0 +1,7 @@
+﻿time_end_s,raw_binary,confirmed_binary,decision,prob_on,event,model_score,event_type,effective_channels,healthy_channel_count,largest_weight,single_channel_fallback
+34,on,on,on,0.797188001285542,on,0.797188001285542,state_transition,"4,8,3",12.0,0.509681037966866,False
+44,off,off,off,0.21554785752941955,off,0.7844521424705805,state_transition,"4,8,3",12.0,0.509681037966866,False
+49,on,on,on,0.7465509834850242,on,0.7465509834850242,state_transition,"4,8,3",12.0,0.509681037966866,False
+54,off,off,off,0.2524700620933562,off,0.7475299379066438,state_transition,"4,8,3",12.0,0.509681037966866,False
+58,on,on,on,0.7266799066240072,on,0.7266799066240072,state_transition,"4,8,3",12.0,0.509681037966866,False
+100,off,off,off,0.009986038444059058,off,0.9900139615559409,state_transition,"4,8,3",12.0,0.509681037966866,False

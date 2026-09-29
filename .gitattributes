@@ -1,0 +1,17 @@
+# Do not apply text conversion to document and image binaries.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.emf binary
+*.zip binary
+*.xlsx binary
+*.pptx binary
+*.docx binary
+*.mph binary
+
+# Preserve exported research evidence exactly, including line endings.
+/results/** -text
+/comsol/results/** -text
+/research_materials/** -text

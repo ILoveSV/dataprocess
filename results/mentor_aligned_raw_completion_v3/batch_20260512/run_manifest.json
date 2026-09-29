@@ -1,0 +1,9 @@
+{
+  "analysis": "20260512_full_batch_completion",
+  "input": "E:\\Lab\\process\\26.5.12\\time",
+  "file_count": 360,
+  "group_count": 9,
+  "dynamic_bad_channel_per_file": true,
+  "independence_rule": "40 adjacent files are one distance-condition run, not 40 independent replicates",
+  "cross_validation": "leave one distance out"
+}

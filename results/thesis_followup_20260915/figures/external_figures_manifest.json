@@ -1,0 +1,21 @@
+{
+  "script": "scripts\\plot_external_20260916.py",
+  "inputs": {
+    "results\\thesis_followup_20260915\\external\\all_transfers.csv": "c76e79836282cbb99d800b3e4ef09092bcd6f810828f59e56f68b301db1417df",
+    "results\\thesis_followup_20260915\\external\\comparisons.csv": "0fdcc3bf3b94ba593ea1148dbe79db289428c043eecd986510cf35285df094c9",
+    "results\\thesis_followup_20260915\\external\\gap_current_scaled.csv": "a82061bfc810194c272f9f539f7465b09900987509c81b810ddb6c12c46e9cf6",
+    "results\\thesis_followup_20260915\\external\\source_currents.csv": "41e6f86874fdaecc31dd1d9473263bd6da33ffd8c0b3ea2d1b2b6fc6e5d61d1d"
+  },
+  "outputs": [
+    "external_local_mesh_convergence.pdf",
+    "external_local_mesh_convergence.png",
+    "external_domain_convergence.pdf",
+    "external_domain_convergence.png",
+    "external_gap_and_boundary.pdf",
+    "external_gap_and_boundary.png",
+    "external_gap_drive_scaling.pdf",
+    "external_gap_drive_scaling.png"
+  ],
+  "frequency_hz": 0.001,
+  "notes": "No experimental results. Field norm units are V/m per 1 V; relative comparisons are explicitly labelled."
+}

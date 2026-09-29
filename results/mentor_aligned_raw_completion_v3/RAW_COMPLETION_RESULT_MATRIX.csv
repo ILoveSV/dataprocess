@@ -1,0 +1,9 @@
+question,grade,result
+Can RUN be separated from STOP?,exploratory_positive,"predefined 80-200 kHz coherence BA=0.750, permutation p=0.010; external validation required"
+Does the same RUN/STOP feature generalize across detectors?,detector_dependent,"TC1 BA=0.958, p=0.008; TC2 BA=0.750, p=0.078"
+Is cross-channel coherence consistently changed?,positive,8/8 strata positive vs STOP
+Can 4/8/12 kHz carrier be identified?,negative,harmonic-comb accuracy 0.417
+Is a water-specific 30/50 feature available?,negative,grouped 30/50 recognition remains nonsignificant
+Is a credible pulse relaxation waveform present?,negative,0/533 transitions pass all gates
+Does strict MEMD add a condition feature?,negative,0/24 parameterized tests pass FDR
+Does 20260512 generalize across distance?,exploratory,3-class BA=0.556; 30/50 BA=0.500

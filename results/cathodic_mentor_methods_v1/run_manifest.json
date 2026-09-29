@@ -1,0 +1,12 @@
+{
+  "analysis": "cathodic_mentor_methods_v1",
+  "unique_archived_records": 21,
+  "new_low_frequency_feature_rows": 50,
+  "new_folded_relaxation_rows": 40,
+  "new_memd_rows": 40,
+  "new_high_frequency_summary_rows": 216,
+  "state_network_summary_rows": 144,
+  "cross_repeat_transfer_rows": 24,
+  "predefined_method_gates_passed": 0,
+  "report": "CATHODIC_MENTOR_METHODS_REPORT.md"
+}

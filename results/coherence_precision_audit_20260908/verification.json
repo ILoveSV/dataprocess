@@ -1,0 +1,13 @@
+{
+  "pool_max_precision_difference": 4.849518066640107e-05,
+  "epoch_max_precision_difference": 5.932064540260795e-05,
+  "center_then32_max_pool_difference": 1.81358635199802e-07,
+  "prediction_changes_common_vs_legacy": {
+    "combined": 0,
+    "tc1": 0,
+    "tc2": 0
+  },
+  "feature_rows": 200,
+  "classification_rows": 18,
+  "status": "validated"
+}

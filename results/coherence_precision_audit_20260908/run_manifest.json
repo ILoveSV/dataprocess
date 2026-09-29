@@ -1,0 +1,274 @@
+{
+  "status": "complete",
+  "raw_root": "D:/Lab/raw/raw",
+  "record_count": 40,
+  "window_count": 96,
+  "window_samples": 16384,
+  "band_hz": [
+    80000,
+    199000
+  ],
+  "upper_exclusive": true,
+  "configs": [
+    "legacy32_original",
+    "center64_then32_original",
+    "full64_original",
+    "full64_common",
+    "full64_strict"
+  ],
+  "new_experiments": false,
+  "full_interval_all_samples": false,
+  "classification_input": "RUN and STOP features minus local background features",
+  "code_sha256": "16e88e92a093841223acf315b14e1e77c88b41a8daae3dc6a863c18d2815d29c",
+  "source_function_sha256": "9e05a613fac992e79c206bcf6cd370a5da3fc5881e1cd8f54d2bdec590ae486f",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "nptdms": "1.11.0"
+  },
+  "files": [
+    {
+      "case_id": "afternoon_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc1\\30hz\\20260731161953.444656-1.tdms",
+      "size": 3198173480,
+      "metadata_sha256": "ce4aabbca9fe4311d3716fac11b92de9080499351a214bd85e528039f36cac94"
+    },
+    {
+      "case_id": "afternoon_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc1\\50hz\\20260731161500.388939-1.tdms",
+      "size": 3430668576,
+      "metadata_sha256": "2605f2b8585f0277051fc0aee5c82f827557d6330af15e5f2a21a08275d8b33b"
+    },
+    {
+      "case_id": "afternoon_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc1\\background\\20260731160942.874832-1.tdms",
+      "size": 5763170588,
+      "metadata_sha256": "0ff5d2e6a475732db25d355e8d465d136dcbd3682a212244ac2f96f277ab5aed"
+    },
+    {
+      "case_id": "afternoon_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc1\\VFDbackground\\20260731160723.908995-1.tdms",
+      "size": 3987123048,
+      "metadata_sha256": "ab4d5d9a3ae93da50652dc51a247bd0fc3ed856f2eca27d8c28d32fcf829ea5c"
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo\\30\\20260806112031.053740-1.tdms",
+      "size": 3186787748,
+      "metadata_sha256": "14ee985bb401abe11a9084b1fbcd5d6a3d95a1ed3f14bcf05a744dbd3d8affc5"
+    },
+    {
+      "case_id": "duo1_tc1_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo\\50\\20260806112238.758855-1.tdms",
+      "size": 3294242836,
+      "metadata_sha256": "39dbaef2d76c3f27b92fb1b7400739a02f37e9ab25334abbc07a3bb8225acef9"
+    },
+    {
+      "case_id": "duo1_tc1_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo\\background\\20260806111549.077951-1.tdms",
+      "size": 3423981740,
+      "metadata_sha256": "84328e4f30816e33bc30e7f4bf43d395eea7cef7ed217bc708e05bc35448a06f"
+    },
+    {
+      "case_id": "duo1_tc1_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo\\vfd\\20260806111807.453769-1.tdms",
+      "size": 3271377312,
+      "metadata_sha256": "57e3ec766f1e8d3100347538c6098b925826446318e552f1ab73bd09d2479785"
+    },
+    {
+      "case_id": "duo1_tc2_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo\\30\\20260806112038.257376-1.tdms",
+      "size": 3174990984,
+      "metadata_sha256": "50891cfe47b91afefccebb5511769eaf8977c8a69a58ed4f4fe40d9ef207b928"
+    },
+    {
+      "case_id": "duo1_tc2_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo\\50\\20260806112245.633409-1.tdms",
+      "size": 3294859564,
+      "metadata_sha256": "045f97a8a14df5b017948c3a055c16a322d9f0216f922bff5740cf7d790b754f"
+    },
+    {
+      "case_id": "duo1_tc2_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo\\background\\20260806111555.934766-1.tdms",
+      "size": 3440853808,
+      "metadata_sha256": "2f4ddf9c7e244625afbc7c006e4797109290d1e474fb390b2c7bfa216a2eb87e"
+    },
+    {
+      "case_id": "duo1_tc2_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo\\vfd\\20260806111814.521016-1.tdms",
+      "size": 3264510512,
+      "metadata_sha256": "f26ceb4ef1c84a2a0be000266189b2a6f766e2a40d1008f7dc985aa318378d53"
+    },
+    {
+      "case_id": "duo2_tc1_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo2\\30hz\\20260806142255.441139-1.tdms",
+      "size": 3213193804,
+      "metadata_sha256": "cac5a58295a11d4e2a061dc4484165dc1c99cf39280c74e97f820665ce614fd8"
+    },
+    {
+      "case_id": "duo2_tc1_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo2\\50hz\\20260806142722.042107-1.tdms",
+      "size": 3343427196,
+      "metadata_sha256": "75710040608c6d705583345273ae267c09a159df0375ebd8f98fa29b33139aaa"
+    },
+    {
+      "case_id": "duo2_tc1_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo2\\background\\20260806141922.385208-1.tdms",
+      "size": 3115346856,
+      "metadata_sha256": "2c00f7c23803ca7f5a3eeb6aa44130fc2b7a1dc8baf61878f2e656af59093752"
+    },
+    {
+      "case_id": "duo2_tc1_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1duo2\\vfd\\20260806141620.841536-1.tdms",
+      "size": 3151579008,
+      "metadata_sha256": "d882680ce8ebbe152aad4111cda1fb63a4504ad0d25de6a51f411d6b92b6f779"
+    },
+    {
+      "case_id": "duo2_tc2_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo2\\30hz\\20260806142301.851346-1.tdms",
+      "size": 3212693624,
+      "metadata_sha256": "70d309592af6544c1d5e4e02b5794659ff68168ad5e2c5634c7b734b1f4b6065"
+    },
+    {
+      "case_id": "duo2_tc2_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo2\\50hz\\20260806142728.442691-1.tdms",
+      "size": 3405108964,
+      "metadata_sha256": "7c810c0fe646ccc4a1d9c92a6f13cfbbfa4688d955a058ae8467db5e7a5c7e48"
+    },
+    {
+      "case_id": "duo2_tc2_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo2\\background\\20260806141928.787601-1.tdms",
+      "size": 3134364068,
+      "metadata_sha256": "148d23dcac35f275f2df53d79f9c1bd643a092cefc1b85da0e8756dc41d5cd79"
+    },
+    {
+      "case_id": "duo2_tc2_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2duo2\\vfd\\20260806141627.231319-1.tdms",
+      "size": 3159261232,
+      "metadata_sha256": "4e6a69673555cb628f93c2210aab8f77bc6d28bd0c266fb416e8f34c6fa79dec"
+    },
+    {
+      "case_id": "morning_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc2\\30\\20260731104851.170316-1.tdms",
+      "size": 2978472704,
+      "metadata_sha256": "e96ea6e730d01ad40a2d77563fc1e61ae7671041ec1c4549c3c344081ef55f4b"
+    },
+    {
+      "case_id": "morning_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc2\\50\\20260731105108.369860-1.tdms",
+      "size": 2717346524,
+      "metadata_sha256": "715a911d4eeeca1dfa1ff17c6112080f180db03b7fef9d95f4bbc3a47407c7d2"
+    },
+    {
+      "case_id": "morning_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc2\\background\\20260731103544.127104-1.tdms",
+      "size": 3898037032,
+      "metadata_sha256": "ac62d3502b54fc787f887f304794a457de3f45e65c80939d6f204af9dac64f4c"
+    },
+    {
+      "case_id": "morning_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.7.31\\tc2\\VFDbackground\\20260731104251.731543-1.tdms",
+      "size": 3241196160,
+      "metadata_sha256": "19570ef786f8413320ef00150a69bee6edaccde1f3dc0e057526d2dbe4e17377"
+    },
+    {
+      "case_id": "vfd_tc1_12k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd12k30hz\\20260806132812.085857-1.tdms",
+      "size": 3116014828,
+      "metadata_sha256": "c9817ca7780618883f8ad3a4501b6099f5c2b24c1eba2766b94012ff6b75daff"
+    },
+    {
+      "case_id": "vfd_tc1_12k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd12k50hz\\20260806133136.333117-1.tdms",
+      "size": 3122009576,
+      "metadata_sha256": "c5843f3189e928534e53e537968cae681b24381d2869ec441e924af4cd7adb60"
+    },
+    {
+      "case_id": "vfd_tc1_4k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd4k30hz\\20260806131725.005749-1.tdms",
+      "size": 3134616000,
+      "metadata_sha256": "293be6591152ed5d268f36479769a4b74855ce51f714e871168cb521dad2aba2"
+    },
+    {
+      "case_id": "vfd_tc1_4k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd4k50hz\\20260806132044.734046-1.tdms",
+      "size": 3152664916,
+      "metadata_sha256": "dec4bf16aeccab600b24c89a127584389492266470c392c0191a2bff730708d7"
+    },
+    {
+      "case_id": "vfd_tc1_8k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd8k30hz\\20260806132330.547603-1.tdms",
+      "size": 3117644116,
+      "metadata_sha256": "281593bd3665afff63cdde237eea438820a1261a88f3f587900326980b29c38a"
+    },
+    {
+      "case_id": "vfd_tc1_8k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd8k50hz\\20260806132538.781226-1.tdms",
+      "size": 3127702612,
+      "metadata_sha256": "ac4fb0176eb94f3e704cc9166c3f243b706d439b597a6521c65bbc67b6c3246f"
+    },
+    {
+      "case_id": "vfd_tc1_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\background\\20260806124932.615211-1.tdms",
+      "size": 3115473940,
+      "metadata_sha256": "d77bbbf31561a7c31e0609ccd48b8c4d52722f046dceb38203dbaaf04e832a32"
+    },
+    {
+      "case_id": "vfd_tc1_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc1vfd\\vfd\\20260806125211.407440-1.tdms",
+      "size": 3415041052,
+      "metadata_sha256": "56514b6445675200ad42bd55205b5025b6bee5d7a53ac9b29af4ef32b18c56b6"
+    },
+    {
+      "case_id": "vfd_tc2_12k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\12k30hz\\20260806134823.422080-1.tdms",
+      "size": 3194499088,
+      "metadata_sha256": "a132bcc5d545154d8ce768e200822105500ce62e40cbce53476f1b5f88059373"
+    },
+    {
+      "case_id": "vfd_tc2_12k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\12k50hz\\20260806134504.193721-1.tdms",
+      "size": 3164886236,
+      "metadata_sha256": "acc53b1b0032fa9a0ccbe22a93e57cdbc37e87d4072ac4f1b2e10d8409357b6c"
+    },
+    {
+      "case_id": "vfd_tc2_4k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\4k30hz\\20260806140108.565976-1.tdms",
+      "size": 3116229316,
+      "metadata_sha256": "1c6c3d105cbb6edde1a2a20a384851553931d7744122a2d3351e54dc9a0b5ad4"
+    },
+    {
+      "case_id": "vfd_tc2_4k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\4k50hz\\20260806140442.701704-1.tdms",
+      "size": 3203117476,
+      "metadata_sha256": "dedbc8a058df63a967190b4e19d045b50e5850d959cbff03f605f72c2e07ede6"
+    },
+    {
+      "case_id": "vfd_tc2_8k_30hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\8k30hz\\20260806135325.279224-1.tdms",
+      "size": 3119471460,
+      "metadata_sha256": "4708611c73765a2252247c70be9eaa681eafedcef7aa8e8936ce4a65275025f8"
+    },
+    {
+      "case_id": "vfd_tc2_8k_50hz",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\8k50hz\\20260806135726.468801-1.tdms",
+      "size": 3139207448,
+      "metadata_sha256": "1fd74d4ed70067ef3fe480ab43d593441a0b79326f85b08400317327c411ea0f"
+    },
+    {
+      "case_id": "vfd_tc2_background",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\background\\20260806134123.587989-1.tdms",
+      "size": 3138279884,
+      "metadata_sha256": "c5ba024f97dfe3941039f1215c20fdaf9610345203b6c61af4e8cf90f6923ae6"
+    },
+    {
+      "case_id": "vfd_tc2_vfd_stop",
+      "raw": "D:\\Lab\\raw\\raw\\26.8.6\\tc2vfd\\vfd\\20260806133922.301807-1.tdms",
+      "size": 3398642112,
+      "metadata_sha256": "98fe28a81118a6145659c8c5b1f236fed2c823421b6967620f0b12e63c433de4"
+    }
+  ],
+  "legacy_max_abs_error": 1.2218952178399967e-06,
+  "classification_permutations": 499
+}

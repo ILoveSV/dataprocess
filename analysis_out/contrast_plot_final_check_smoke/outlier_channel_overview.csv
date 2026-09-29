@@ -1,0 +1,13 @@
+﻿channel,outlier_count,total_checked_rows,outlier_ratio
+channel1,4,20,0.2
+channel2,3,20,0.15
+channel3,2,20,0.1
+channel4,4,20,0.2
+channel5,4,20,0.2
+channel6,2,20,0.1
+channel7,3,20,0.15
+channel8,0,20,0.0
+channel9,2,20,0.1
+channel10,4,20,0.2
+channel11,6,20,0.3
+channel12,2,20,0.1

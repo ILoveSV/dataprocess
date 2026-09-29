@@ -1,0 +1,20 @@
+{
+  "source": "E:\\Lab\\raw\\9.21\\222\\20260921105922.663283-1.tdms",
+  "case_id": "g222_r3",
+  "mode": "held-out cache replay",
+  "training_ids": [
+    "g111_r1",
+    "g111_r2",
+    "g111_r3",
+    "g111_r4",
+    "g111_r5",
+    "g222_r1",
+    "g222_r2"
+  ],
+  "timing_scope": "cached features only, excludes raw reading/FFT",
+  "processing_mean_s": 0.0007978908333313939,
+  "processing_p95_s": 0.0012033799998562242,
+  "processing_max_s": 0.0016067999999904714,
+  "seconds_processed": 120,
+  "confirmed_event_count": 2
+}

@@ -1,0 +1,263 @@
+{
+  "archive_version": 4,
+  "source_path": "D:\\Lab\\raw\\26.8.6\\tc2vfd\\8k30hz\\20260806135325.279224-1.tdms",
+  "source_size_bytes": 3119471460,
+  "source_mtime_ns": 1785995686843734500,
+  "sample_rate_hz": 400000.0000000076,
+  "sample_count": 32487979,
+  "duration_s": 81.21994749999845,
+  "start_time": "2026-08-06T05:53:25.512918",
+  "channel_names": [
+    "cDAQ9188-1B5105DMod1/ai0",
+    "cDAQ9188-1B5105DMod1/ai1",
+    "cDAQ9188-1B5105DMod1/ai2",
+    "cDAQ9188-1B5105DMod1/ai3",
+    "cDAQ9188-1B5105DMod2/ai0",
+    "cDAQ9188-1B5105DMod2/ai1",
+    "cDAQ9188-1B5105DMod2/ai2",
+    "cDAQ9188-1B5105DMod2/ai3",
+    "cDAQ9188-1B5105DMod3/ai0",
+    "cDAQ9188-1B5105DMod3/ai1",
+    "cDAQ9188-1B5105DMod3/ai2",
+    "cDAQ9188-1B5105DMod3/ai3"
+  ],
+  "group_name": "未命名",
+  "group_properties": {},
+  "channel_properties": [
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod1/ai0",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod1/ai1",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod1/ai2",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod1/ai3",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod2/ai0",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod2/ai1",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod2/ai2",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod2/ai3",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod3/ai0",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod3/ai1",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod3/ai2",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    },
+    {
+      "NI_ChannelName": "cDAQ9188-1B5105DMod3/ai3",
+      "NI_UnitDescription": "Volts",
+      "unit_string": "Volts",
+      "wf_start_time": "2026-08-06 05:53:25.512918",
+      "wf_start_offset": 0.0,
+      "wf_increment": 2.4999999999999523e-06,
+      "wf_samples": 8192
+    }
+  ],
+  "config": {
+    "trim_start_seconds": 15.0,
+    "trim_end_seconds": 5.0,
+    "block_seconds": 0.1,
+    "subblock_seconds": 0.001,
+    "welch_nperseg": 262144,
+    "welch_overlap_fraction": 0.5,
+    "low_rate_hz": 4000.0,
+    "analysis_rate_hz": 10.0,
+    "lowpass_pass_hz": 1800.0,
+    "lowpass_stop_hz": 2000.0,
+    "lowpass_pass_ripple_db": 0.05,
+    "lowpass_stop_attenuation_db": 100.0,
+    "snippet_seconds": 1.0,
+    "snippet_centers": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "peak_count_per_segment": 64,
+    "welch_epoch_count": 8
+  },
+  "lowpass_filter": {
+    "type": "causal elliptic SOS before decimation",
+    "order": 14,
+    "sos": [
+      [
+        9.894483395824361e-06,
+        -1.9462446575780893e-05,
+        9.894483395824361e-06,
+        1.0,
+        -1.9821119872850788,
+        0.9822187355788656
+      ],
+      [
+        1.0,
+        -1.9957770191752502,
+        1.0,
+        1.0,
+        -1.9854781914809863,
+        0.9857349870373654
+      ],
+      [
+        1.0,
+        -1.9980759235655192,
+        1.0,
+        1.0,
+        -1.9899388680202228,
+        0.9903938301883921
+      ],
+      [
+        1.0,
+        -1.9986866512385677,
+        1.0,
+        1.0,
+        -1.9936440097230756,
+        0.9942618259402375
+      ],
+      [
+        1.0,
+        -1.9989168291928656,
+        0.9999999999999998,
+        1.0,
+        -1.9961392075221878,
+        0.9968629364213939
+      ],
+      [
+        1.0,
+        -1.9990144384374595,
+        1.0,
+        1.0,
+        -1.9977008447055737,
+        0.9984834206275183
+      ],
+      [
+        1.0,
+        -1.9990517969809312,
+        1.0,
+        1.0,
+        -1.9987438338077737,
+        0.9995520511775762
+      ]
+    ],
+    "dc_gain_before_normalization": 0.9942600739522948,
+    "raw_to_low_decimation": 100,
+    "low_to_analysis_decimation": 400,
+    "analysis_rate_first_sample_time_s": 0.05
+  },
+  "welch": {
+    "definition": "all stable samples covered; 50% overlap plus final endpoint segment",
+    "segment_count": 186,
+    "nperseg": 262144,
+    "step": 131072,
+    "window": "periodic Hann",
+    "detrend": "linear",
+    "epoch_count": 8,
+    "epoch_definition": "Welch segments assigned by center time to equal stable-time bins"
+  },
+  "band_names": [
+    "5_100hz",
+    "100_1khz",
+    "1_20khz",
+    "20_80khz",
+    "80_200khz"
+  ],
+  "band_limits_hz": [
+    [
+      5.0,
+      100.0
+    ],
+    [
+      100.0,
+      1000.0
+    ],
+    [
+      1000.0,
+      20000.0
+    ],
+    [
+      20000.0,
+      80000.0
+    ],
+    [
+      80000.0,
+      199900.0
+    ]
+  ]
+}

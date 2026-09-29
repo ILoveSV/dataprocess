@@ -1,0 +1,9 @@
+{
+  "coverage_rows": 20,
+  "complete_or_exploratory_rows": 16,
+  "limited_rows": 4,
+  "consistency_rows": 567,
+  "cross_stratum_stable_rows": 6,
+  "directional_candidate_rows": 43,
+  "significance_summary_rows": 25
+}

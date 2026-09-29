@@ -1,0 +1,224 @@
+{
+  "analysis_version": 3,
+  "group_name": "non_vac/no/一阶波/0v20ms-14v10ms",
+  "source_mode": "non_vac",
+  "setup": "no",
+  "waveform": "一阶波",
+  "timing_variant": "",
+  "pulse_sequence": "0v20ms-14v10ms",
+  "replicate_label": "",
+  "pulse_level_count": 2,
+  "pulse_max_v": 14.0,
+  "pulse_min_v": 0.0,
+  "pulse_span_v": 14.0,
+  "pulse_total_duration_ms": 30.0,
+  "is_first_order": true,
+  "is_second_order_positive": false,
+  "is_second_order_negative": false,
+  "pulse_tokens": [
+    [
+      0.0,
+      20.0
+    ],
+    [
+      14.0,
+      10.0
+    ]
+  ],
+  "input_files": [
+    "E:\\Lab\\process\\44.6.9\\time\\non_vac\\no\\一阶波\\0v20ms-14v10ms\\20260604023244.155473_seg0001.csv",
+    "E:\\Lab\\process\\44.6.9\\time\\non_vac\\no\\一阶波\\0v20ms-14v10ms\\20260604023246.855473_seg0002.csv",
+    "E:\\Lab\\process\\44.6.9\\time\\non_vac\\no\\一阶波\\0v20ms-14v10ms\\20260604023249.555473_seg0003.csv"
+  ],
+  "source_filenames": [
+    "20260604103244.150657-1.tdms",
+    "20260604103244.150657-1.tdms",
+    "20260604103244.150657-1.tdms"
+  ],
+  "downsampled_rate_hz": 20000.000000000382,
+  "period_s": 0.029999999999999426,
+  "fundamental_hz": 33.33333333333397,
+  "cycle_count": 270,
+  "healthy_channel_indices_1based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "healthy_channel_count": 12,
+  "channel_health": [
+    {
+      "channel_index": 1,
+      "std_v": 0.00930851511657238,
+      "difference_rms_v": 0.011726479046046734,
+      "range_v": 0.030307292938232422,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 2,
+      "std_v": 0.0008873199112713337,
+      "difference_rms_v": 0.0008916697115637362,
+      "range_v": 0.0034775733947753906,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 3,
+      "std_v": 0.0010928959818556905,
+      "difference_rms_v": 0.0014145192690193653,
+      "range_v": 0.0035948753356933594,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 4,
+      "std_v": 0.0009551115217618644,
+      "difference_rms_v": 0.0010582394897937775,
+      "range_v": 0.003528118133544922,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 5,
+      "std_v": 0.004308830946683884,
+      "difference_rms_v": 0.0009224900277331471,
+      "range_v": 0.02752518653869629,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 6,
+      "std_v": 0.00091881601838395,
+      "difference_rms_v": 0.001010599546134472,
+      "range_v": 0.003398418426513672,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 7,
+      "std_v": 0.003401606809347868,
+      "difference_rms_v": 0.0006980565376579762,
+      "range_v": 0.020090937614440918,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 8,
+      "std_v": 0.0028917742893099785,
+      "difference_rms_v": 0.0008743882062844932,
+      "range_v": 0.017107248306274414,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 9,
+      "std_v": 0.0028168323915451765,
+      "difference_rms_v": 0.0006244978285394609,
+      "range_v": 0.01729297637939453,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 10,
+      "std_v": 0.0010456631425768137,
+      "difference_rms_v": 0.0013405131176114082,
+      "range_v": 0.0034580230712890625,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 11,
+      "std_v": 0.008048665709793568,
+      "difference_rms_v": 0.0045960573479533195,
+      "range_v": 0.048645734786987305,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 12,
+      "std_v": 0.00548306480050087,
+      "difference_rms_v": 0.0026197880506515503,
+      "range_v": 0.03347063064575195,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    }
+  ],
+  "pulse_locked_pc1_variance_fraction": 0.941990852355957,
+  "pulse_locked_rms": 8.425021171569824,
+  "pulse_locked_snr_vs_fold_sem": 8.404178046223821,
+  "template_alignment_type": "exponential_relaxation",
+  "template_alignment_shift_samples": 474,
+  "template_correlation": 0.00555624670659382,
+  "relaxation_template_tau_s": 0.0001624012907622371,
+  "exact_period_harmonic_comb_score_db": 2.9058351516723633,
+  "nearby_period_surrogate_p": 0.46,
+  "nearby_period_null_q95_db": 3.868848633766174,
+  "segment_profile_correlation_median": -0.06630757451057434,
+  "credible_relaxation_count": 0,
+  "transition_count": 2,
+  "transitions": [
+    {
+      "transition_index": 0,
+      "transition_sample": 274,
+      "from_voltage_v": 0.0,
+      "to_voltage_v": 14.0,
+      "next_state_duration_s": 0.00999999999999981,
+      "event_peak_to_peak": 25.248254776000977,
+      "event_snr_vs_fold_sem": 25.264709908072035,
+      "segment_single_tau_cv": 0.5935789667014792,
+      "segment_single_tau_median_s": 0.01989999999999962,
+      "matrix_pencil_physical_pole_count": 3,
+      "matrix_pencil_dominant_tau_s": 0.00300246961626339,
+      "matrix_pencil_dominant_frequency_hz": 0.0,
+      "single_tau_s": 0.0005838272460813898,
+      "single_r2": 0.7154847686767049,
+      "single_aicc": 608.3301465666291,
+      "linear_aicc": 693.0229806093841,
+      "single_vs_linear_delta_aicc": 84.69283404275507,
+      "tau_identifiable": true,
+      "double_tau_fast_s": 0.0049418748221543105,
+      "double_tau_slow_s": 0.008627327308645455,
+      "double_r2": 0.9448063851463689,
+      "double_aicc": 284.57234839275225,
+      "double_tau_separation": 1.745759983634014,
+      "double_identifiable": false,
+      "credible_relaxation": false
+    },
+    {
+      "transition_index": 1,
+      "transition_sample": 474,
+      "from_voltage_v": 14.0,
+      "to_voltage_v": 0.0,
+      "next_state_duration_s": 0.01999999999999962,
+      "event_peak_to_peak": 25.004587173461914,
+      "event_snr_vs_fold_sem": 24.942726943787925,
+      "segment_single_tau_cv": 0.4426415480031631,
+      "segment_single_tau_median_s": 0.0016748936846714957,
+      "matrix_pencil_physical_pole_count": 1,
+      "matrix_pencil_dominant_tau_s": 0.012998935740802837,
+      "matrix_pencil_dominant_frequency_hz": 0.0,
+      "single_tau_s": 0.0002877366724604327,
+      "single_r2": 0.15359904667959168,
+      "single_aicc": 1647.3204838836868,
+      "linear_aicc": 1650.1575315771045,
+      "single_vs_linear_delta_aicc": 2.8370476934176168,
+      "tau_identifiable": true,
+      "double_tau_fast_s": 0.029112505620446875,
+      "double_tau_slow_s": 0.039899999999999235,
+      "double_r2": 0.26153952829777816,
+      "double_aicc": 1596.8627137174392,
+      "double_tau_separation": 1.3705450338144674,
+      "double_identifiable": false,
+      "credible_relaxation": false
+    }
+  ]
+}

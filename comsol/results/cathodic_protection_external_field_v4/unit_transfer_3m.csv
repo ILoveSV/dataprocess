@@ -1,0 +1,6 @@
+% Model,Untitled.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Aug 11 2026, 18:51"
+% Table,Unit transfer at 3 m from tank wall - 
+% freq (Hz),"Electric potential (V), 点: (0, -3.28, 0.5)","Electric field x (V/m), 点: (0, -3.28, 0.5)","Electric field y (V/m), 点: (0, -3.28, 0.5)","Electric field z (V/m), 点: (0, -3.28, 0.5)","Electric field magnitude per 1 V differential (V/m), 点: (0, -3.28, 0.5)"
+0.001,-3.60126372911902E-4-5.405709794404342E-6i,1.2785134330590238E-5+5.6715733251594223E-8i,2.1696209379494353E-4+3.232915080122696E-6i,5.847693119898959E-4+8.978531746649816E-6i,6.239248568840551E-4

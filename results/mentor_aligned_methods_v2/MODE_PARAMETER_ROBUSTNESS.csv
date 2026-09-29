@@ -1,0 +1,15 @@
+signal_name,feature,case_count,median_parameter_range,q95_parameter_range
+fast_residual_rms_pc1,dominant_mode_center_hz,49,0.9523809523809524,4.0703125
+fast_residual_rms_pc1,mode_energy_entropy,49,0.49709399530055176,0.5215820749343544
+fast_residual_rms_pc1,mode_energy_fraction_below_0p15hz,49,0.0,0.2828081306802316
+fast_residual_rms_pc1,mode_energy_fraction_0p15_0p5hz,49,0.1334618544093436,0.3046800877679995
+fast_residual_rms_pc1,mode_energy_fraction_0p5_2hz,49,0.2007988487040001,0.4674698963709452
+fast_residual_rms_pc1,mode_energy_fraction_above_2hz,49,0.2245611970533129,0.33892328456034265
+slow_pc1,dominant_mode_center_hz,49,0.0,0.0
+slow_pc1,mode_energy_entropy,49,0.32833542009001515,0.46470480669198017
+slow_pc1,mode_energy_fraction_below_0p15hz,49,0.08290355503096092,0.1421130474860028
+slow_pc1,mode_energy_fraction_0p15_0p5hz,49,0.0484312060786512,0.1485465591013294
+slow_pc1,mode_energy_fraction_0p5_2hz,49,0.0366712634032259,0.12026000064272344
+slow_pc1,mode_energy_fraction_above_2hz,49,0.011696393936551999,0.05262052193635104
+fast_residual_rms_pc1,dominant_energy_band_agreement,49,1.0,1.0
+slow_pc1,dominant_energy_band_agreement,49,1.0,1.0

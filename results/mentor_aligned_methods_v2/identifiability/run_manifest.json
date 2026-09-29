@@ -1,0 +1,22 @@
+{
+  "analysis": "multimethod_identifiability",
+  "project_root": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit_learn": "1.6.1",
+    "pywavelets": "1.8.0",
+    "ruptures": "v1.1.10",
+    "ssqueezepy": "0.6.6",
+    "antropy": "0.1.9",
+    "emd_signal": "1.6.4",
+    "vmdpy": "0.2"
+  },
+  "permutations": 199,
+  "selected_features_per_fold": 10,
+  "task_count": 9,
+  "feature_matrix_rows": 32,
+  "feature_matrix_columns": 297,
+  "grouping": "dataset|arrangement|detector"
+}

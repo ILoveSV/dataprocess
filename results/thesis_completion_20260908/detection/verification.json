@@ -1,0 +1,8 @@
+{
+  "noise_records": 16,
+  "independent_dates": 2,
+  "ols_injection_max_error_uv": 3.8191672047105385e-14,
+  "train_test_record_overlap": 0,
+  "phase_count": 64,
+  "script_sha256": "3432b8e7d5466d2606894700db08f64c1edf4c2c39fb1cb28fd1def64af753f1"
+}

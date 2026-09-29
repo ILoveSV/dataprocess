@@ -1,0 +1,9 @@
+{
+  "time_root": "D:\\Lab\\process\\26.5.12\\time",
+  "rolling_window_sec": 0.2,
+  "rolling_window_mode": "non_overlapping",
+  "stable_window_rule": "window is stable when local mean is within 3*robust_sigma of median local mean and local ac_rms is within 3*IQR of median local rms",
+  "kurtosis_definition": "Fisher kurtosis as returned by pandas Series.kurt",
+  "tail_ratio_definition": "q99(abs(x-mean)) / q95(abs(x-mean))",
+  "clipping_risk_rule": "repeated exact min or max value ratio >= 0.001"
+}

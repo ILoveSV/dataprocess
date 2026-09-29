@@ -1,3 +1,5 @@
+> 历史开题素材，非当前论文规划（2026-09-26标注）。下文的研究目标、器件性能和创新表述不视为已验证结论；当前方向见[论文总体判断与写作主线](docs/论文总体判断与写作主线.md)。原文保留供追溯，引用条目需要重新核查。
+
 1、	请综述课题国内外研究进展、现状、挑战与意义，可分节描述。博士生不少于10,000汉字，硕士生不少于5,000汉字。请在文中标注参考文献。 Please review the frontier, current status, challenges and significance of the research topic. The citations should be marked in the context and listed in order at the end of this section. No less than 8,000 words for doctoral students and 4,000 words for master students if written in English.
 第一节 国内外研究现状
 一、水下智能电磁探测系统应用背景

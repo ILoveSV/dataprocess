@@ -1,0 +1,16 @@
+{
+  "analysis": "cathodic_mentor_high_frequency",
+  "case_count": 8,
+  "timing_offsets_s": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "windows_per_state_cycle": 4,
+  "window_samples": 16384,
+  "limitations": [
+    "manual switching has no synchronized current trace",
+    "four windows per state-cycle make cycle-level coherence exploratory",
+    "old electrode spacing was approximately 1 cm"
+  ]
+}

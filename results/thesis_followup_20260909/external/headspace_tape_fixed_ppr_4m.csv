@@ -1,0 +1,6 @@
+% Model,headspace_tape_fixed.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Sep 9 2026, 09:40"
+% Table,表格 4 - 
+% freq (Hz),"real(V) (V), 点: (0, -4.28, 0.5)","imag(V) (V), 点: (0, -4.28, 0.5)","real(pprint(ec.Ex)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ex)) (V/m), 点: (0, -4.28, 0.5)","real(pprint(ec.Ey)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ey)) (V/m), 点: (0, -4.28, 0.5)","real(pprint(ec.Ez)) (V/m), 点: (0, -4.28, 0.5)","imag(pprint(ec.Ez)) (V/m), 点: (0, -4.28, 0.5)","sqrt(abs(pprint(ec.Ex))^2+abs(pprint(ec.Ey))^2+abs(pprint(ec.Ez))^2) (V/m), 点: (0, -4.28, 0.5)"
+0.001,-2.0677543815405056E-4,-1.527039577111604E-6,-6.972524076583399E-6,-1.0318013724413989E-7,1.3745979253902525E-4,1.0114488369321291E-6,3.8386143838586265E-4,2.8375756561019154E-6,4.0780203536400895E-4

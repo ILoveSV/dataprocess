@@ -1,0 +1,255 @@
+{
+  "analysis_version": 3,
+  "group_name": "vac/S/二阶波-Δ-2/t3-10ms210ms/0v20ms-20v10ms-18v70ms",
+  "source_mode": "vac",
+  "setup": "S",
+  "waveform": "二阶波-Δ-2",
+  "timing_variant": "t3-10ms210ms",
+  "pulse_sequence": "0v20ms-20v10ms-18v70ms",
+  "replicate_label": "",
+  "pulse_level_count": 3,
+  "pulse_max_v": 20.0,
+  "pulse_min_v": 0.0,
+  "pulse_span_v": 20.0,
+  "pulse_total_duration_ms": 100.0,
+  "is_first_order": false,
+  "is_second_order_positive": false,
+  "is_second_order_negative": true,
+  "pulse_tokens": [
+    [
+      0.0,
+      20.0
+    ],
+    [
+      20.0,
+      10.0
+    ],
+    [
+      18.0,
+      70.0
+    ]
+  ],
+  "input_files": [
+    "E:\\Lab\\process\\44.6.9\\vac\\time\\S\\二阶波-Δ-2\\t3-10ms210ms\\0v20ms-20v10ms-18v70ms\\20260605060732.697752_seg0001.csv",
+    "E:\\Lab\\process\\44.6.9\\vac\\time\\S\\二阶波-Δ-2\\t3-10ms210ms\\0v20ms-20v10ms-18v70ms\\20260605060735.397752_seg0002.csv",
+    "E:\\Lab\\process\\44.6.9\\vac\\time\\S\\二阶波-Δ-2\\t3-10ms210ms\\0v20ms-20v10ms-18v70ms\\20260605060738.097752_seg0003.csv"
+  ],
+  "source_filenames": [
+    "20260605140732.437420-1.tdms",
+    "20260605140732.437420-1.tdms",
+    "20260605140732.437420-1.tdms"
+  ],
+  "downsampled_rate_hz": 20000.000000000382,
+  "period_s": 0.09999999999999809,
+  "fundamental_hz": 10.000000000000192,
+  "cycle_count": 81,
+  "healthy_channel_indices_1based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "healthy_channel_count": 12,
+  "channel_health": [
+    {
+      "channel_index": 1,
+      "std_v": 0.009669703431427479,
+      "difference_rms_v": 0.012228121049702168,
+      "range_v": 0.031163692474365234,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 2,
+      "std_v": 0.0008850917220115662,
+      "difference_rms_v": 0.0008920819382183254,
+      "range_v": 0.0034766197204589844,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 3,
+      "std_v": 0.0010915353195741773,
+      "difference_rms_v": 0.0014167785411700606,
+      "range_v": 0.00357818603515625,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 4,
+      "std_v": 0.0009545282809995115,
+      "difference_rms_v": 0.0010659336112439632,
+      "range_v": 0.0034956932067871094,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 5,
+      "std_v": 0.006993550807237625,
+      "difference_rms_v": 0.0012988654198125005,
+      "range_v": 0.0419919490814209,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 6,
+      "std_v": 0.0031893067061901093,
+      "difference_rms_v": 0.0008484654244966805,
+      "range_v": 0.01569533348083496,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 7,
+      "std_v": 0.006758768577128649,
+      "difference_rms_v": 0.0012256174813956022,
+      "range_v": 0.03652334213256836,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 8,
+      "std_v": 0.0011452605249360204,
+      "difference_rms_v": 0.0005847308202646673,
+      "range_v": 0.008472442626953125,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 9,
+      "std_v": 0.015408109873533249,
+      "difference_rms_v": 0.0026815934106707573,
+      "range_v": 0.06792688369750977,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 10,
+      "std_v": 0.0010438684839755297,
+      "difference_rms_v": 0.0013444353826344013,
+      "range_v": 0.00342559814453125,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 11,
+      "std_v": 0.0005269809043966234,
+      "difference_rms_v": 0.0005353988381102681,
+      "range_v": 0.0035431385040283203,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    },
+    {
+      "channel_index": 12,
+      "std_v": 0.00042878405656665564,
+      "difference_rms_v": 0.00022403121693059802,
+      "range_v": 0.003203153610229492,
+      "automatic_bad": false,
+      "bad_vote_count": 0
+    }
+  ],
+  "pulse_locked_pc1_variance_fraction": 0.8653275370597839,
+  "pulse_locked_rms": 22.73048973083496,
+  "pulse_locked_snr_vs_fold_sem": 22.336994777331213,
+  "template_alignment_type": "exponential_relaxation",
+  "template_alignment_shift_samples": 420,
+  "template_correlation": 0.037939762987643094,
+  "relaxation_template_tau_s": 0.003020510327386293,
+  "exact_period_harmonic_comb_score_db": 3.410435676574707,
+  "nearby_period_surrogate_p": 0.03,
+  "nearby_period_null_q95_db": 3.349932909011841,
+  "segment_profile_correlation_median": 0.8293670415878296,
+  "credible_relaxation_count": 0,
+  "transition_count": 3,
+  "transitions": [
+    {
+      "transition_index": 0,
+      "transition_sample": 420,
+      "from_voltage_v": 18.0,
+      "to_voltage_v": 0.0,
+      "next_state_duration_s": 0.01999999999999962,
+      "event_peak_to_peak": 68.35649871826172,
+      "event_snr_vs_fold_sem": 67.14437267664253,
+      "segment_single_tau_cv": 0.0,
+      "segment_single_tau_median_s": 0.039899999999999235,
+      "matrix_pencil_physical_pole_count": 0,
+      "matrix_pencil_dominant_tau_s": NaN,
+      "matrix_pencil_dominant_frequency_hz": NaN,
+      "single_tau_s": 0.039899999999999235,
+      "single_r2": 0.7556860218103608,
+      "single_aicc": 1943.5357070899129,
+      "linear_aicc": 2389.2804459182707,
+      "single_vs_linear_delta_aicc": 445.74473882835787,
+      "tau_identifiable": false,
+      "double_tau_fast_s": 0.006020229311105955,
+      "double_tau_slow_s": 0.008250995384760559,
+      "double_r2": 0.9838480199848205,
+      "double_aicc": 861.083561634209,
+      "double_tau_separation": 1.3705450338144676,
+      "double_identifiable": false,
+      "credible_relaxation": false
+    },
+    {
+      "transition_index": 1,
+      "transition_sample": 820,
+      "from_voltage_v": 0.0,
+      "to_voltage_v": 20.0,
+      "next_state_duration_s": 0.00999999999999981,
+      "event_peak_to_peak": 59.068878173828125,
+      "event_snr_vs_fold_sem": 58.62103695156059,
+      "segment_single_tau_cv": 0.5133089832060886,
+      "segment_single_tau_median_s": 0.0027696036097717134,
+      "matrix_pencil_physical_pole_count": 0,
+      "matrix_pencil_dominant_tau_s": NaN,
+      "matrix_pencil_dominant_frequency_hz": NaN,
+      "single_tau_s": 0.0024965603340301396,
+      "single_r2": 0.9957800900562891,
+      "single_aicc": 84.1235692025379,
+      "linear_aicc": 786.3575415943554,
+      "single_vs_linear_delta_aicc": 702.2339723918176,
+      "tau_identifiable": true,
+      "double_tau_fast_s": 0.015061242781146188,
+      "double_tau_slow_s": 0.01989999999999962,
+      "double_r2": 0.9974184333850592,
+      "double_aicc": -9.929797386158294,
+      "double_tau_separation": 1.321272108096593,
+      "double_identifiable": false,
+      "credible_relaxation": false
+    },
+    {
+      "transition_index": 2,
+      "transition_sample": 1020,
+      "from_voltage_v": 20.0,
+      "to_voltage_v": 18.0,
+      "next_state_duration_s": 0.06999999999999866,
+      "event_peak_to_peak": 68.90318298339844,
+      "event_snr_vs_fold_sem": 67.66292313906328,
+      "segment_single_tau_cv": 0.38235342584579524,
+      "segment_single_tau_median_s": 0.0037625669408476205,
+      "matrix_pencil_physical_pole_count": 0,
+      "matrix_pencil_dominant_tau_s": NaN,
+      "matrix_pencil_dominant_frequency_hz": NaN,
+      "single_tau_s": 0.0037625669408476205,
+      "single_r2": 0.10920075820934494,
+      "single_aicc": 2861.557967034564,
+      "linear_aicc": 2911.2882020199954,
+      "single_vs_linear_delta_aicc": 49.73023498543125,
+      "tau_identifiable": true,
+      "double_tau_fast_s": 0.0013721186272682595,
+      "double_tau_slow_s": 0.0018673450612236484,
+      "double_r2": 0.13730072576250552,
+      "double_aicc": 2144.2399239517054,
+      "double_tau_separation": 1.360921005016404,
+      "double_identifiable": false,
+      "credible_relaxation": false
+    }
+  ]
+}

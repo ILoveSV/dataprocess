@@ -1,0 +1,20 @@
+{
+  "analysis": "strict_projection_memd",
+  "case_count": 49,
+  "signals": [
+    "slow_pc1",
+    "fast_residual_rms_pc1"
+  ],
+  "direction_counts": [
+    16,
+    24
+  ],
+  "implementation": "multivariate envelopes from extrema of hypersphere projections",
+  "strict_multivariate": true,
+  "synthetic_validation": {
+    "synthetic_reconstruction_nrmse": 1.164851018087481e-16,
+    "synthetic_0p32hz_nearest_error_hz": 0.001556770152668474,
+    "synthetic_1p35hz_nearest_error_hz": 0.007921656030899449,
+    "synthetic_mode_count": 5
+  }
+}

@@ -1,0 +1,9 @@
+% Model,cathodic_protection_tank_3d_current_sweep_v3.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Aug 11 2026, 18:45"
+% Table,Four-current average water-field values - 
+% I_total (A),Average water electric field (V/m),Average water current density (A/m^2)
+0.01,0.18540618187742816,0.009270309093871396
+0.05,0.9270309093909738,0.0463515454695484
+0.1,1.8540618187829225,0.09270309093914617
+0.2,3.708123637566693,0.18540618187833466

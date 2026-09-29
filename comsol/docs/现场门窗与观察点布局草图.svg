@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <pattern id="glass" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#d9f0f5"/>
+      <path d="M0 18L18 0" stroke="#b5dbe3" stroke-width="2"/>
+    </pattern>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; fill: #172033; }
+      .title { font-size: 24px; font-weight: 700; }
+      .label { font-size: 17px; }
+      .small { font-size: 14px; fill: #475569; }
+      .dim { font-size: 14px; fill: #334155; }
+      .frame { fill: #334155; }
+      .outline { stroke: #334155; stroke-width: 3; fill: none; }
+      .dash { stroke: #2563eb; stroke-width: 3; stroke-dasharray: 10 8; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="820" fill="#f7f9fb"/>
+  <text x="55" y="48" class="title">水桶、开放门洞、玻璃墙与观察点布局草图</text>
+  <text x="55" y="76" class="small">用于确认空间关系，尚未写入COMSOL；门窗尺寸为暂定值</text>
+
+  <!-- Plan view -->
+  <g transform="translate(45,105)">
+    <rect x="0" y="0" width="790" height="655" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="24" y="38" class="title">俯视图</text>
+    <rect x="25" y="55" width="740" height="273" fill="#edf7f0"/>
+    <text x="42" y="84" class="label">室外平台 / 水循环设备区</text>
+    <rect x="25" y="353" width="740" height="277" fill="#f4f5f7"/>
+    <text x="42" y="615" class="label">实验室室内 / MEMS观察区</text>
+
+    <!-- Wall and opening -->
+    <rect x="25" y="328" width="285" height="25" class="frame"/>
+    <rect x="480" y="328" width="285" height="25" class="frame"/>
+    <rect x="25" y="303" width="285" height="25" fill="url(#glass)" stroke="#334155" stroke-width="3"/>
+    <rect x="480" y="303" width="285" height="25" fill="url(#glass)" stroke="#334155" stroke-width="3"/>
+    <line x1="310" y1="328" x2="310" y2="365" stroke="#334155" stroke-width="7"/>
+    <line x1="480" y1="328" x2="480" y2="365" stroke="#334155" stroke-width="7"/>
+    <text x="332" y="322" class="label">开放门洞平面</text>
+    <text x="500" y="374" class="small">门宽暂按约0.9 m</text>
+    <text x="80" y="295" class="small">金属框架 + 玻璃</text>
+    <text x="570" y="295" class="small">金属框架 + 玻璃</text>
+
+    <!-- Tank and equipment -->
+    <circle cx="395" cy="150" r="28" fill="#dceff8" stroke="#1878a8" stroke-width="4"/>
+    <circle cx="395" cy="150" r="8" fill="#1878a8"/>
+    <text x="350" y="115" class="label">水桶</text>
+    <text x="350" y="194" class="small">直径0.56 m</text>
+    <rect x="510" y="120" width="105" height="60" rx="6" fill="#4f87b8" stroke="#245276" stroke-width="3"/>
+    <text x="545" y="156" class="label" fill="#ffffff">泵</text>
+    <rect x="665" y="105" width="75" height="90" rx="4" fill="#4b5563"/>
+    <text x="679" y="143" class="small" fill="#ffffff">变频器</text>
+    <text x="680" y="164" class="small" fill="#ffffff">+电源</text>
+    <path d="M453 150 C475 150 487 150 510 150" stroke="#2870a0" stroke-width="8" fill="none"/>
+
+    <!-- Observation axis -->
+    <line x1="395" y1="150" x2="395" y2="585" class="dash" marker-end="url(#arrow)"/>
+    <text x="510" y="430" class="small" fill="#2563eb">观察轴：正对桶中心，穿过开放门洞</text>
+    <circle cx="395" cy="378" r="12" fill="#ef4444" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="395" cy="478" r="12" fill="#ef4444" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="395" cy="578" r="12" fill="#ef4444" stroke="#ffffff" stroke-width="3"/>
+    <text x="415" y="384" class="label">距桶壁2 m观察点</text>
+    <text x="415" y="484" class="label">距桶壁3 m观察点</text>
+    <text x="415" y="584" class="label">距桶壁4 m观察点</text>
+
+    <!-- Coordinates -->
+    <line x1="395" y1="150" x2="500" y2="150" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="395" y1="150" x2="395" y2="235" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="505" y="155" class="dim">+x（泵方向）</text>
+    <text x="405" y="228" class="dim">-y（观察方向）</text>
+    <circle cx="395" cy="178" r="5" fill="#2563eb"/>
+    <text x="448" y="205" class="small" fill="#2563eb">距离起点：水桶近侧外壁</text>
+    <line x1="275" y1="178" x2="275" y2="328" stroke="#7c3aed" stroke-width="3"/>
+    <line x1="265" y1="178" x2="285" y2="178" stroke="#7c3aed" stroke-width="3"/>
+    <line x1="265" y1="328" x2="285" y2="328" stroke="#7c3aed" stroke-width="3"/>
+    <text x="218" y="258" class="label" fill="#7c3aed">1.5 m</text>
+    <line x1="295" y1="328" x2="295" y2="378" stroke="#dc2626" stroke-width="3"/>
+    <line x1="285" y1="378" x2="305" y2="378" stroke="#dc2626" stroke-width="3"/>
+    <text x="238" y="360" class="label" fill="#dc2626">0.5 m</text>
+    <text x="42" y="218" class="small">桶壁到门框1.5 m；门框再向室内0.5 m即第一个观察点</text>
+  </g>
+
+  <!-- Front elevation -->
+  <g transform="translate(870,105)">
+    <rect x="0" y="0" width="485" height="655" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="24" y="38" class="title">从观察点看向水桶</text>
+    <rect x="28" y="70" width="429" height="400" fill="url(#glass)" stroke="#334155" stroke-width="8"/>
+    <rect x="165" y="70" width="155" height="400" fill="#ffffff" stroke="#334155" stroke-width="8"/>
+    <rect x="165" y="70" width="155" height="35" class="frame"/>
+    <line x1="95" y1="70" x2="95" y2="470" stroke="#334155" stroke-width="8"/>
+    <line x1="390" y1="70" x2="390" y2="470" stroke="#334155" stroke-width="8"/>
+    <line x1="28" y1="245" x2="165" y2="245" stroke="#334155" stroke-width="8"/>
+    <line x1="320" y1="245" x2="457" y2="245" stroke="#334155" stroke-width="8"/>
+    <text x="52" y="130" class="small">玻璃</text>
+    <text x="393" y="130" class="small">玻璃</text>
+    <text x="194" y="135" class="label">开放门洞</text>
+
+    <!-- Tank visible through opening -->
+    <rect x="190" y="250" width="105" height="185" rx="22" fill="#dceff8" stroke="#1878a8" stroke-width="4"/>
+    <ellipse cx="242" cy="250" rx="52" ry="13" fill="#c4e4f2" stroke="#1878a8" stroke-width="4"/>
+    <line x1="242" y1="100" x2="242" y2="500" class="dash"/>
+    <text x="201" y="342" class="label">水桶</text>
+    <text x="179" y="525" class="small">门洞中心与桶中心对齐</text>
+
+    <!-- Sensor height -->
+    <line x1="42" y1="555" x2="442" y2="555" stroke="#64748b" stroke-width="3"/>
+    <circle cx="242" cy="555" r="12" fill="#ef4444"/>
+    <text x="260" y="562" class="label">观察点高度 z = 0.5 m</text>
+    <line x1="65" y1="555" x2="65" y2="470" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="77" y="520" class="dim">0.5 m</text>
+
+    <rect x="28" y="585" width="429" height="46" fill="#fff7e6" stroke="#eab308" stroke-width="2"/>
+    <text x="42" y="606" class="small">已知：桶近侧外壁到门洞平面约1.5 m；待确认门宽/高、</text>
+    <text x="42" y="624" class="small">金属框架网格尺寸及框架是否可靠接地</text>
+  </g>
+</svg>

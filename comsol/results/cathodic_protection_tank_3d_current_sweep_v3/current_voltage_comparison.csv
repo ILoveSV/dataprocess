@@ -1,0 +1,9 @@
+% Model,cathodic_protection_tank_3d_current_sweep_v3.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Aug 11 2026, 18:45"
+% Table,Four-current measured and modeled comparison - 
+% I_total (A),Applied constant current (A),Measured stable supply voltage (V),COMSOL water-domain terminal voltage (V),Measured minus COMSOL voltage (V),COMSOL ohmic resistance (Ω),Measured apparent resistance (Ω)
+0.01,0.01,0.2,0.3748929395915894,-0.1748929395915894,37.48929395915894,20
+0.05,0.05,0.5,1.8744646979624706,-1.3744646979624706,37.48929395924941,10
+0.1,0.1,0.7,3.7489293959261167,-3.048929395926117,37.48929395926117,6.999999999999999
+0.2,0.2,1.2,7.497858791853151,-6.297858791853151,37.48929395926575,5.999999999999999

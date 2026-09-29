@@ -1,0 +1,12 @@
+question,method,tested,passed,decision,key_result
+目标周期是否超过AR(1)红噪声阈值,Morlet CWT + red-noise null,50,0,不支持,最大目标功率/阈值=0.658
+目标频率是否优于邻近频率,预注册邻频置换 + FDR,50,0,不支持,FDR通过0项
+信号是否与名义开关协议时频同步,cross-wavelet + circular shift + FDR,40,0,不支持,FDR通过0项
+同一周期波形是否重复,cycle folding + leave-cycle profile correlation,40,0,不支持,最高周期相关=0.444
+开关后是否存在稳定被动弛豫,level/edge/32-tau exponential templates,40,0,不支持,单工况强指数事件占比最高=0.083
+MEMD是否分离出目标频率共同模态,"projection MEMD, 16/24 directions",10,0,不支持,24方向最近模态中心为0.195-0.225 Hz，而目标为0.05/0.1 Hz
+高频宽带能量是否随ON稳定改变,400 kHz逐周期ON-OFF sign-flip + FDR,24,0,不支持,三个频带共24项，FDR通过0项
+跨通道高频相干/相位是否随ON改变,pair coherence/phase locking + sign-flip + FDR,48,0,不支持,网络指标共48项，FDR通过0项
+效应是否随设定电流单调变化,低频与高频Spearman dose response + FDR,18,0,不支持,低频9项、高频9项，FDR通过0项
+多通道ON-OFF状态方向是否逐周期一致,paired state vectors + exact cycle sign flips + FDR,48,0,不支持,48项中0项通过FDR；最佳q=0.070
+状态方向能否跨1000/3000 mA重复记录迁移,cross-repeat matched-state projection + sign flips + FDR,24,0,不支持,24个双向迁移检验中0项通过FDR

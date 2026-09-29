@@ -1,0 +1,3 @@
+﻿time_end_s,raw_binary,confirmed_binary,decision,prob_on,event,model_score,event_type,effective_channels,healthy_channel_count,largest_weight,single_channel_fallback
+32,on,on,on,0.8819382262849488,on,0.8819382262849488,state_transition,"8,4,2",12.0,0.6182240821392355,False
+99,off,off,off,0.0692752570768065,off,0.9307247429231935,state_transition,"8,4,2",12.0,0.6182240821392355,False

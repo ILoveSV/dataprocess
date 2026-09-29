@@ -1,0 +1,17 @@
+parameter,value,unit,status,description
+tank_outer_diameter,0.56,m,provided,PE tank outside diameter
+tank_height,0.87,m,provided,Tank height
+tank_wall_thickness,0.005,m,assumed,Not measured yet
+water_volume,170,L,baseline,Middle of the reported 160-180 L range
+calculated_water_depth,0.7155396,m,derived,Cylindrical inner volume
+water_surface_below_lid,0.1494604,m,derived,Tank height minus wall and water depth
+water_conductivity,0.05,S/m,assumed_unit,Interpreting 500 as 500 uS/cm
+discharge_current,0.010,A,assumed,Constant-current graphite terminal
+electrode_center_spacing,0.30,m,assumed,Steel-window to graphite-center spacing
+steel_pipe_length,0.40,m,provided,20# seamless carbon-steel specimen
+steel_pipe_outer_diameter,0.10,m,provided,Specimen outside diameter
+steel_pipe_wall_thickness,0.003,m,provided,Specimen wall thickness
+steel_window_area,0.024,m2,derived,0.20 m by 0.12 m developed area
+graphite_diameter,0.025,m,provided_approximate,Graphite rod
+graphite_active_length,0.20,m,assumed,To be measured
+electrode_polarization,not_included,-,deferred,Requires measured electrochemical data

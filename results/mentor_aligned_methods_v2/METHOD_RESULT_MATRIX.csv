@@ -1,0 +1,25 @@
+method_family,method,result_grade,stable_feature_count,directional_candidate_count,maximum_dominant_stratum_fraction,single_file_fdr_significant_count,interpretation_boundary
+CWT,Morlet CWT + COI + red-noise,local_background_envelope_candidate_not_stop_specific,5.0,7.0,1.0,0.0,single-file structure is not condition specificity
+SST,synchrosqueezed CWT,no_stable_local_contrast,0.0,0.0,0.625,0.0,single-file structure is not condition specificity
+cross_wavelet,cross-wavelet coherence,directional_candidates_only,0.0,8.0,1.0,0.0,single-file structure is not condition specificity
+changepoint,PELT + event alignment,directional_candidates_only,0.0,1.0,1.0,0.0,single-file structure is not condition specificity
+event_shape,single/double/damped relaxation,no_stable_local_contrast,0.0,0.0,0.625,0.0,single-file structure is not condition specificity
+complexity,DFA/MF-DFA and entropy/RQA,directional_candidates_only,0.0,3.0,0.875,0.0,single-file structure is not condition specificity
+adaptive_mode,EMD/EEMD/VMD,directional_candidates_only,0.0,9.0,1.0,0.0,single-file structure is not condition specificity
+aligned_channel_EMD,channelwise aligned EMD,directional_candidates_only,0.0,2.0,1.0,0.0,single-file structure is not condition specificity
+network_state,Robust PCA/state space/Granger,no_stable_local_contrast,0.0,0.0,1.0,0.0,single-file structure is not condition specificity
+PAC,phase-amplitude coupling,directional_candidates_only,0.0,3.0,1.0,0.0,single-file structure is not condition specificity
+short_high_CWT,high-frequency CWT,no_stable_local_contrast,0.0,0.0,1.0,0.0,three 1 s raw snippets only
+short_bicoherence,bispectrum/bicoherence,pooled_short_window_candidate_not_snippet_repeatable,1.0,0.0,1.0,49.0,three 1 s raw snippets only
+filter_path,filter-path sensitivity,method_dependent_validation_only,0.0,10.0,1.0,0.0,single-file structure is not condition specificity
+coverage_only,PSD/narrow-line/band,complete,,,,,full archived PSD and local contrasts
+coverage_only,ACF/AR1/Allan/lag/coherence,complete,,,,,full 4 kHz or 10 Hz archived time series
+coverage_only,matrix pencil,complete_exploratory,,,,,candidate poles only; requires repeated supported events
+coverage_only,DFA/MF-DFA,complete,,,,,full slow common-mode signals
+coverage_only,multiscale entropy/RQA,complete,,,,,short records may be underpowered
+coverage_only,strict projection MEMD,data_or_implementation_limited,,,,,channelwise EMD band alignment used; not labelled MEMD
+coverage_only,Robust PCA + state space,complete,,,,,common/sparse network and local-trend variance
+coverage_only,conditional VAR Granger,complete_exploratory,,,,,"predictive direction, not physical causation"
+coverage_only,filter sensitivity/injection,complete,,,,,"unfiltered, SG, zero-phase, wavelet shrinkage, Kalman"
+coverage_only,grouped multimethod identifiability,complete_exploratory,,,,,leave-one date-arrangement-detector stratum out plus label permutation
+coverage_only,full 400 kHz time-frequency/coherence,archive_limited,,,,,full raw waveform was not archived

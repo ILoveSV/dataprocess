@@ -1,0 +1,350 @@
+{
+  "scope": "Published source constraints and reported laboratory operating points, not new measurements",
+  "new_measurement": false,
+  "fitted_conductivity": false,
+  "measured_scale_model_current_balance": {
+    "branches": [
+      {
+        "id": "aft_port_anode",
+        "role": "injection",
+        "current_magnitude_A": 0.0005,
+        "area_m2": 0.001,
+        "mean_current_density_magnitude_A_m2": 0.5
+      },
+      {
+        "id": "aft_starboard_anode",
+        "role": "injection",
+        "current_magnitude_A": 0.0008,
+        "area_m2": 0.001,
+        "mean_current_density_magnitude_A_m2": 0.8
+      },
+      {
+        "id": "forward_port_anode",
+        "role": "injection",
+        "current_magnitude_A": 0.0026000000000000003,
+        "area_m2": 0.001,
+        "mean_current_density_magnitude_A_m2": 2.6
+      },
+      {
+        "id": "forward_starboard_anode",
+        "role": "injection",
+        "current_magnitude_A": 0.0008,
+        "area_m2": 0.001,
+        "mean_current_density_magnitude_A_m2": 0.8
+      },
+      {
+        "id": "port_propeller",
+        "role": "return",
+        "current_magnitude_A": 0.0011,
+        "area_m2": 0.00295,
+        "mean_current_density_magnitude_A_m2": 0.3728813559322034
+      },
+      {
+        "id": "starboard_propeller",
+        "role": "return",
+        "current_magnitude_A": 0.0011,
+        "area_m2": 0.00295,
+        "mean_current_density_magnitude_A_m2": 0.3728813559322034
+      },
+      {
+        "id": "port_steel",
+        "role": "return",
+        "current_magnitude_A": 0.0013000000000000002,
+        "area_m2": 0.009000000000000001,
+        "mean_current_density_magnitude_A_m2": 0.14444444444444446
+      },
+      {
+        "id": "starboard_steel",
+        "role": "return",
+        "current_magnitude_A": 0.0012,
+        "area_m2": 0.009000000000000001,
+        "mean_current_density_magnitude_A_m2": 0.1333333333333333
+      }
+    ],
+    "injected_current_A": 0.0047,
+    "returned_current_A": 0.0047,
+    "imbalance_A": 0.0,
+    "sum_of_magnitudes_A": 0.0094
+  },
+  "published_peak_field_cases": [
+    {
+      "conductivity_S_m": 2.5,
+      "reported_peak_field_V_m": 0.000102,
+      "reported_peak_field_uV_m": 102.0
+    },
+    {
+      "conductivity_S_m": 4.0,
+      "reported_peak_field_V_m": 7.16e-05,
+      "reported_peak_field_uV_m": 71.60000000000001
+    },
+    {
+      "conductivity_S_m": 5.2,
+      "reported_peak_field_V_m": 4.37e-05,
+      "reported_peak_field_uV_m": 43.699999999999996
+    }
+  ],
+  "candidate_port_models": [
+    {
+      "case": "gap_g010",
+      "R_ohm": 31.333506127244664,
+      "frequency_hz": 0.001
+    },
+    {
+      "case": "gap_g020",
+      "R_ohm": 36.76189225428167,
+      "frequency_hz": 0.001
+    }
+  ],
+  "operating_point_comparisons": [
+    {
+      "reported_set": "earlier_four_point_record",
+      "model": "gap_g010",
+      "model_R_ohm": 31.333506127244664,
+      "points": [
+        {
+          "current_A": 0.01,
+          "voltage_V": 0.2,
+          "reported_V_over_I_ohm": 20.0,
+          "model_voltage_at_reported_current_V": 0.31333506127244665,
+          "current_based_over_voltage_based_field": 1.5666753063622332
+        },
+        {
+          "current_A": 0.05,
+          "voltage_V": 0.5,
+          "reported_V_over_I_ohm": 10.0,
+          "model_voltage_at_reported_current_V": 1.5666753063622334,
+          "current_based_over_voltage_based_field": 3.1333506127244664
+        },
+        {
+          "current_A": 0.1,
+          "voltage_V": 0.7,
+          "reported_V_over_I_ohm": 6.999999999999999,
+          "model_voltage_at_reported_current_V": 3.133350612724467,
+          "current_based_over_voltage_based_field": 4.476215161034952
+        },
+        {
+          "current_A": 0.2,
+          "voltage_V": 1.2,
+          "reported_V_over_I_ohm": 5.999999999999999,
+          "model_voltage_at_reported_current_V": 6.266701225448934,
+          "current_based_over_voltage_based_field": 5.222251021207445
+        }
+      ]
+    },
+    {
+      "reported_set": "earlier_four_point_record",
+      "model": "gap_g020",
+      "model_R_ohm": 36.76189225428167,
+      "points": [
+        {
+          "current_A": 0.01,
+          "voltage_V": 0.2,
+          "reported_V_over_I_ohm": 20.0,
+          "model_voltage_at_reported_current_V": 0.3676189225428167,
+          "current_based_over_voltage_based_field": 1.8380946127140834
+        },
+        {
+          "current_A": 0.05,
+          "voltage_V": 0.5,
+          "reported_V_over_I_ohm": 10.0,
+          "model_voltage_at_reported_current_V": 1.8380946127140836,
+          "current_based_over_voltage_based_field": 3.6761892254281667
+        },
+        {
+          "current_A": 0.1,
+          "voltage_V": 0.7,
+          "reported_V_over_I_ohm": 6.999999999999999,
+          "model_voltage_at_reported_current_V": 3.676189225428167,
+          "current_based_over_voltage_based_field": 5.25169889346881
+        },
+        {
+          "current_A": 0.2,
+          "voltage_V": 1.2,
+          "reported_V_over_I_ohm": 5.999999999999999,
+          "model_voltage_at_reported_current_V": 7.352378450856334,
+          "current_based_over_voltage_based_field": 6.126982042380279
+        }
+      ]
+    },
+    {
+      "reported_set": "outdoor_seven_point_user_report",
+      "model": "gap_g010",
+      "model_R_ohm": 31.333506127244664,
+      "points": [
+        {
+          "current_A": 0.01,
+          "voltage_V": 0.11,
+          "reported_V_over_I_ohm": 11.0,
+          "model_voltage_at_reported_current_V": 0.31333506127244665,
+          "current_based_over_voltage_based_field": 2.848500557022242
+        },
+        {
+          "current_A": 0.05,
+          "voltage_V": 0.28,
+          "reported_V_over_I_ohm": 5.6000000000000005,
+          "model_voltage_at_reported_current_V": 1.5666753063622334,
+          "current_based_over_voltage_based_field": 5.59526895129369
+        },
+        {
+          "current_A": 0.1,
+          "voltage_V": 0.43,
+          "reported_V_over_I_ohm": 4.3,
+          "model_voltage_at_reported_current_V": 3.133350612724467,
+          "current_based_over_voltage_based_field": 7.286861890056899
+        },
+        {
+          "current_A": 0.5,
+          "voltage_V": 1.14,
+          "reported_V_over_I_ohm": 2.28,
+          "model_voltage_at_reported_current_V": 15.666753063622332,
+          "current_based_over_voltage_based_field": 13.742765845282749
+        },
+        {
+          "current_A": 1.0,
+          "voltage_V": 1.69,
+          "reported_V_over_I_ohm": 1.69,
+          "model_voltage_at_reported_current_V": 31.333506127244664,
+          "current_based_over_voltage_based_field": 18.540536169967258
+        },
+        {
+          "current_A": 2.0,
+          "voltage_V": 2.61,
+          "reported_V_over_I_ohm": 1.305,
+          "model_voltage_at_reported_current_V": 62.66701225448933,
+          "current_based_over_voltage_based_field": 24.010349522792847
+        },
+        {
+          "current_A": 3.0,
+          "voltage_V": 3.4,
+          "reported_V_over_I_ohm": 1.1333333333333333,
+          "model_voltage_at_reported_current_V": 94.000518381734,
+          "current_based_over_voltage_based_field": 27.647211288745293
+        }
+      ]
+    },
+    {
+      "reported_set": "outdoor_seven_point_user_report",
+      "model": "gap_g020",
+      "model_R_ohm": 36.76189225428167,
+      "points": [
+        {
+          "current_A": 0.01,
+          "voltage_V": 0.11,
+          "reported_V_over_I_ohm": 11.0,
+          "model_voltage_at_reported_current_V": 0.3676189225428167,
+          "current_based_over_voltage_based_field": 3.3419902049346972
+        },
+        {
+          "current_A": 0.05,
+          "voltage_V": 0.28,
+          "reported_V_over_I_ohm": 5.6000000000000005,
+          "model_voltage_at_reported_current_V": 1.8380946127140836,
+          "current_based_over_voltage_based_field": 6.564623616836012
+        },
+        {
+          "current_A": 0.1,
+          "voltage_V": 0.43,
+          "reported_V_over_I_ohm": 4.3,
+          "model_voltage_at_reported_current_V": 3.676189225428167,
+          "current_based_over_voltage_based_field": 8.549277268437597
+        },
+        {
+          "current_A": 0.5,
+          "voltage_V": 1.14,
+          "reported_V_over_I_ohm": 2.28,
+          "model_voltage_at_reported_current_V": 18.380946127140835,
+          "current_based_over_voltage_based_field": 16.123636953632314
+        },
+        {
+          "current_A": 1.0,
+          "voltage_V": 1.69,
+          "reported_V_over_I_ohm": 1.69,
+          "model_voltage_at_reported_current_V": 36.76189225428167,
+          "current_based_over_voltage_based_field": 21.752598967030575
+        },
+        {
+          "current_A": 2.0,
+          "voltage_V": 2.61,
+          "reported_V_over_I_ohm": 1.305,
+          "model_voltage_at_reported_current_V": 73.52378450856334,
+          "current_based_over_voltage_based_field": 28.170032378759903
+        },
+        {
+          "current_A": 3.0,
+          "voltage_V": 3.4,
+          "reported_V_over_I_ohm": 1.1333333333333333,
+          "model_voltage_at_reported_current_V": 110.28567676284501,
+          "current_based_over_voltage_based_field": 32.436963753777945
+        }
+      ]
+    }
+  ],
+  "incremental_slopes": {
+    "earlier_four_point_record": [
+      {
+        "I_from_A": 0.01,
+        "I_to_A": 0.05,
+        "delta_V_over_delta_I_ohm": 7.5
+      },
+      {
+        "I_from_A": 0.05,
+        "I_to_A": 0.1,
+        "delta_V_over_delta_I_ohm": 3.999999999999999
+      },
+      {
+        "I_from_A": 0.1,
+        "I_to_A": 0.2,
+        "delta_V_over_delta_I_ohm": 5.0
+      }
+    ],
+    "outdoor_seven_point_user_report": [
+      {
+        "I_from_A": 0.01,
+        "I_to_A": 0.05,
+        "delta_V_over_delta_I_ohm": 4.250000000000001
+      },
+      {
+        "I_from_A": 0.05,
+        "I_to_A": 0.1,
+        "delta_V_over_delta_I_ohm": 2.999999999999999
+      },
+      {
+        "I_from_A": 0.1,
+        "I_to_A": 0.5,
+        "delta_V_over_delta_I_ohm": 1.775
+      },
+      {
+        "I_from_A": 0.5,
+        "I_to_A": 1.0,
+        "delta_V_over_delta_I_ohm": 1.1
+      },
+      {
+        "I_from_A": 1.0,
+        "I_to_A": 2.0,
+        "delta_V_over_delta_I_ohm": 0.9199999999999999
+      },
+      {
+        "I_from_A": 2.0,
+        "I_to_A": 3.0,
+        "delta_V_over_delta_I_ohm": 0.79
+      }
+    ]
+  },
+  "limitations": [
+    "Reported operating points are approximate and not file-level labels.",
+    "Port disagreement is not proof that a specific sensor, current reading, or material is wrong.",
+    "A published scale model is not a measured full-size submarine.",
+    "No actual vessel current or TC field sensitivity is inferred."
+  ],
+  "source_sha256": {
+    "research_materials\\01_vessel_background\\source_constraints\\inputs.json": "f5c730d61649ea13522d1a4b00b05c0089364caeacd9a8c7456ea0bb0c1dbbe7",
+    "results\\thesis_followup_20260915\\external\\gap_current_scaled.csv": "a82061bfc810194c272f9f539f7465b09900987509c81b810ddb6c12c46e9cf6",
+    "research_materials\\01_vessel_background\\source_constraints\\Gijsel-2026-Implementation.pdf": "8aa91a6253fdca77086affd71b2572eec2d201e8156e6a11af82f34ad2492d3b",
+    "articles\\raw\\schaefer2019.pdf": "fea272ca83c7f9c3a7c8be7d15129df3da9409ce0321f2735cb44adccc87c1d0",
+    "articles\\raw\\wang2018.pdf": "39e778ceb086480e42cd59e5530c333c8e355ce476f8d55e42cfdeb7423126f1",
+    "articles\\raw\\thiel2020.pdf": "4a6f4ddb40182ede755428afe19adcd1e9d9a7740f2d2e219860d7cf40119bc1",
+    "comsol\\docs\\阴极保护四档恒流与外部电场V4说明.md": "fb68a40f57eb1850f6cf82ce7ee7545302c8c99ffccff9f3e9e71bc14b134d16",
+    "results\\20260922_channel_diagnosis\\逐通道贡献与漏判诊断.md": "d10c5179ab9bf8b1160b5771f61e9aca2be3d0fc22a7d8df1262457c9f5881a0"
+  },
+  "script_sha256": "2cb91072373578525d11a74007287e2175fc22f63cc23de0d9bef236261615d0"
+}

@@ -1,0 +1,347 @@
+{
+  "scope": "Analytic scaling and postprocessing of existing conditional FEM results",
+  "no_new_experiment": true,
+  "no_new_comsol_solve": true,
+  "drive_decomposition": [
+    {
+      "gap_mm": 10,
+      "distance_from_bucket_wall_m": 2,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.0016649780705935515,
+      "Kcm_V_m_per_V": 0.03819154684457566,
+      "Kdiff_xyz_complex": [
+        [
+          -6.368156868847683e-05,
+          -1.4201461781102517e-06
+        ],
+        [
+          0.0009742735911365056,
+          4.891902318701744e-06
+        ],
+        [
+          0.0013486290209997,
+          7.837038643825064e-06
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -0.0006435665278618472,
+          4.552613792374893e-07
+        ],
+        [
+          -0.021839314680888212,
+          -8.55311367607305e-05
+        ],
+        [
+          -0.031324089483367,
+          -0.00013604789660964754
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 22.938168087079173,
+      "equal_contribution_Vcm_over_Vdiff": 0.043595460465881294,
+      "reconstruction_error": 1.734723475976807e-18,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    },
+    {
+      "gap_mm": 10,
+      "distance_from_bucket_wall_m": 3,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.0005647690730686737,
+      "Kcm_V_m_per_V": 0.01335623491357412,
+      "Kdiff_xyz_complex": [
+        [
+          -1.4270830406436154e-05,
+          -2.8836833643801845e-07
+        ],
+        [
+          0.0002415893759625055,
+          1.3722019249722693e-06
+        ],
+        [
+          0.0005102777806128086,
+          3.1053558335300374e-06
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -9.245492132202996e-05,
+          1.629891671046577e-07
+        ],
+        [
+          -0.005627874136474811,
+          -2.39985636280456e-05
+        ],
+        [
+          -0.012112142143867218,
+          -5.4153367683750974e-05
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 23.64901966214792,
+      "equal_contribution_Vcm_over_Vdiff": 0.042285050893698446,
+      "reconstruction_error": 6.776263578034403e-21,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    },
+    {
+      "gap_mm": 10,
+      "distance_from_bucket_wall_m": 4,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.0002562775443822563,
+      "Kcm_V_m_per_V": 0.006128348403207235,
+      "Kdiff_xyz_complex": [
+        [
+          -3.650362802333742e-06,
+          -7.946214748525336e-08
+        ],
+        [
+          8.71914486961266e-05,
+          5.239628272834944e-07
+        ],
+        [
+          0.00024095633131516025,
+          1.507125788676114e-06
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -3.625738751816335e-05,
+          -8.85175029226284e-09
+        ],
+        [
+          -0.0020645402754567066,
+          -9.144824215840277e-06
+        ],
+        [
+          -0.00576994262445352,
+          -2.6296132534967085e-05
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 23.912935555783086,
+      "equal_contribution_Vcm_over_Vdiff": 0.04181837054958151,
+      "reconstruction_error": 1.0842021724855044e-19,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    },
+    {
+      "gap_mm": 300,
+      "distance_from_bucket_wall_m": 2,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.002761942209086438,
+      "Kcm_V_m_per_V": 0.03880032633264598,
+      "Kdiff_xyz_complex": [
+        [
+          -0.000335771559908433,
+          -3.7470671543847695e-06
+        ],
+        [
+          0.0016348123075122,
+          7.3626544310803184e-06
+        ],
+        [
+          0.0022006298992765,
+          1.1434260550622845e-05
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -0.0006776902087363512,
+          6.622928662847129e-07
+        ],
+        [
+          -0.022188837281758203,
+          -9.006557068053993e-05
+        ],
+        [
+          -0.0318218942366748,
+          -0.00014315910271573724
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 14.048203544953928,
+      "equal_contribution_Vcm_over_Vdiff": 0.07118347885550085,
+      "reconstruction_error": 2.4532788251558753e-18,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    },
+    {
+      "gap_mm": 300,
+      "distance_from_bucket_wall_m": 3,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.0009182453575502448,
+      "Kcm_V_m_per_V": 0.01357068630021611,
+      "Kdiff_xyz_complex": [
+        [
+          -6.539887623408144e-05,
+          -7.509674080275587e-07
+        ],
+        [
+          0.0003963554775007425,
+          2.00641717827953e-06
+        ],
+        [
+          0.0008256968169396743,
+          4.476152231907363e-06
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -0.00010204619908633732,
+          1.7798130831925115e-07
+        ],
+        [
+          -0.005717025657029686,
+          -2.526006295128939e-05
+        ],
+        [
+          -0.01230710564827755,
+          -5.695022973362437e-05
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 14.778932655233758,
+      "equal_contribution_Vcm_over_Vdiff": 0.06766388502662697,
+      "reconstruction_error": 0.0,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    },
+    {
+      "gap_mm": 300,
+      "distance_from_bucket_wall_m": 4,
+      "frequency_hz": 0.001,
+      "Kdiff_V_m_per_V": 0.0004129635470265049,
+      "Kcm_V_m_per_V": 0.006231593539014877,
+      "Kdiff_xyz_complex": [
+        [
+          -1.7779542223104927e-05,
+          -2.1171415426362867e-07
+        ],
+        [
+          0.0001413637142823974,
+          7.559992146086286e-07
+        ],
+        [
+          0.00038760004578394336,
+          2.1604365122144675e-06
+        ]
+      ],
+      "Kcm_xyz_complex": [
+        [
+          -3.631020631986801e-05,
+          6.063642917334901e-09
+        ],
+        [
+          -0.002097592251289423,
+          -9.617784519403013e-06
+        ],
+        [
+          -0.005867766925801687,
+          -2.7661424249730464e-05
+        ]
+      ],
+      "Kcm_over_Kdiff_norm": 15.089936106672678,
+      "equal_contribution_Vcm_over_Vdiff": 0.06626933294686424,
+      "reconstruction_error": 1.0842021724855044e-19,
+      "meaning": "Conditional linear boundary decomposition, not measured TC coupling"
+    }
+  ],
+  "gap_ratios": [
+    {
+      "distance_from_bucket_wall_m": 2,
+      "fixed_10mA_field_ratio": 4.360613858389048
+    },
+    {
+      "distance_from_bucket_wall_m": 3,
+      "fixed_10mA_field_ratio": 4.273949595577517
+    },
+    {
+      "distance_from_bucket_wall_m": 4,
+      "fixed_10mA_field_ratio": 4.235870992537125
+    }
+  ],
+  "geometric_scaling_examples": [
+    {
+      "case": "same_current",
+      "length_ratio": 0.01,
+      "conductivity_ratio": 0.0125,
+      "current_ratio": 1.0,
+      "potential_ratio": 8000.0,
+      "field_ratio": 799999.9999999999,
+      "current_density_ratio": 10000.0,
+      "dipole_moment_ratio": 0.01
+    },
+    {
+      "case": "same_potential",
+      "length_ratio": 0.01,
+      "conductivity_ratio": 0.0125,
+      "current_ratio": 0.000125,
+      "potential_ratio": 1.0,
+      "field_ratio": 100.0,
+      "current_density_ratio": 1.25,
+      "dipole_moment_ratio": 1.25e-06
+    },
+    {
+      "case": "same_field",
+      "length_ratio": 0.01,
+      "conductivity_ratio": 0.0125,
+      "current_ratio": 1.25e-06,
+      "potential_ratio": 0.01,
+      "field_ratio": 1.0,
+      "current_density_ratio": 0.0125,
+      "dipole_moment_ratio": 1.2500000000000001e-08
+    },
+    {
+      "case": "DACS_example",
+      "length_ratio": 0.0125,
+      "conductivity_ratio": 0.0125,
+      "current_ratio": 0.00015625000000000003,
+      "potential_ratio": 1.0,
+      "field_ratio": 80.0,
+      "current_density_ratio": 1.0,
+      "dipole_moment_ratio": 1.9531250000000005e-06
+    }
+  ],
+  "frequency_similarity_example": {
+    "induction_frequency_ratio": 799999.9999999999,
+    "displacement_frequency_ratio": 0.0125,
+    "assumption": "Equal permeability and permittivity; not a recommended frequency"
+  },
+  "vessel_direction_examples": [
+    {
+      "medium": "water",
+      "horizontal_offset_m": 100.0,
+      "z_m": -20.0,
+      "norm_uV_m_per_A": 1.1152836393591488,
+      "xyz_uV_m_per_A": [
+        -1.1084077101143635,
+        0.12272409350143604,
+        -0.015124194374309398
+      ],
+      "largest_over_smallest_component": 73.28705798684736
+    },
+    {
+      "medium": "air",
+      "horizontal_offset_m": 100.0,
+      "z_m": 1.0,
+      "norm_uV_m_per_A": 1.1451676950701644,
+      "xyz_uV_m_per_A": [
+        -1.1375174565225674,
+        0.12999314564305803,
+        0.02376695236173065
+      ],
+      "largest_over_smallest_component": 47.861309233496364
+    }
+  ],
+  "source_sha256": {
+    "results\\thesis_followup_20260915\\external\\all_transfers.csv": "c76e79836282cbb99d800b3e4ef09092bcd6f810828f59e56f68b301db1417df",
+    "results\\thesis_followup_20260915\\external\\gap_current_scaled.csv": "a82061bfc810194c272f9f539f7465b09900987509c81b810ddb6c12c46e9cf6",
+    "research_materials\\01_vessel_background\\results\\unit_current_distance.csv": "92d7a7526518f540bed81a2754a34e0abd6114cef8cc3b8bc822af8ef8f64ff6",
+    "scripts\\ExternalGapCases20260916.java": "4662197f4cd25ff87e0353d428430e80bf590400751ffee50eaca1e20d2ec8fc",
+    "results\\thesis_followup_20260915\\external\\gap_g010_ppr_2m.csv": "af56c767d134c00feab1f5e1eb669d954233c0002ad0b352da63b8834e80aa32",
+    "results\\thesis_followup_20260915\\external\\single_g010_ppr_2m.csv": "3b0bcad02263984353d3a304281de41991a91ca2cba9b614811614f514e8b4d1",
+    "results\\thesis_followup_20260915\\external\\gap_g010_ppr_3m.csv": "66bdd8c7f32d983a0c04051f6716bfda6bfde1d80123adc4d3c7eda58fbb78aa",
+    "results\\thesis_followup_20260915\\external\\single_g010_ppr_3m.csv": "4d970c92c4195da96d3f2373c716e32a28ea98a05d5a9f8f87864dffeff9f709",
+    "results\\thesis_followup_20260915\\external\\gap_g010_ppr_4m.csv": "1e711582ca641a68bf5fb7c44244e4eac1cbc6b2de909192e54a974f84d066ee",
+    "results\\thesis_followup_20260915\\external\\single_g010_ppr_4m.csv": "af36ceb3d9791f0e2bc5cc57f52530c6bddeb88c1172bdd1e0bbcf8920ac4470",
+    "results\\thesis_followup_20260915\\external\\gap_g300_ppr_2m.csv": "c1aed188fd5ba227e8d7ecde871aa5abf0c9ed6ed5ca7ac7a52829bb65952054",
+    "results\\thesis_followup_20260915\\external\\single_g300_ppr_2m.csv": "881bb03f9c1cc495eff502e2ccefbf45dae42ea3c88ea3c296aef0e8b70678a9",
+    "results\\thesis_followup_20260915\\external\\gap_g300_ppr_3m.csv": "bf660a45f30451ac6f5533c3aac6fcdc018ea27e36483d1ed319eb494d758853",
+    "results\\thesis_followup_20260915\\external\\single_g300_ppr_3m.csv": "199db8789c213e4eef0ed3d6640b74ee4fde97d6c7a00e9a28c885a8e8f773db",
+    "results\\thesis_followup_20260915\\external\\gap_g300_ppr_4m.csv": "3a27a5264f98e5b8da0f2c128a767af15864a518e1033e7a39a28276b624f7fd",
+    "results\\thesis_followup_20260915\\external\\single_g300_ppr_4m.csv": "abba7320773e73c4c369ecd893c670df2f1986e0f3deed6ba68c1c785976192b"
+  },
+  "script_sha256": "ffc0f9887434a0f71f70cc0c7b187cd02066665268946fc66b1176a57b8c72bc"
+}

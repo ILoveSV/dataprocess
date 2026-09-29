@@ -1,0 +1,23 @@
+{
+  "analysis": "nonlinear_highfreq",
+  "project_root": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit_learn": "1.6.1",
+    "pywavelets": "1.8.0",
+    "ruptures": "v1.1.10",
+    "ssqueezepy": "0.6.6",
+    "antropy": "0.1.9",
+    "emd_signal": "1.6.4",
+    "vmdpy": "0.2"
+  },
+  "case_count": 49,
+  "pac_null_shifts": 39,
+  "bicoherence_surrogates": 49,
+  "pac_rows": 392,
+  "high_cwt_rows": 49,
+  "bicoherence_rows": 49,
+  "high_frequency_scope_limit": "three 1 s raw snippets per file"
+}

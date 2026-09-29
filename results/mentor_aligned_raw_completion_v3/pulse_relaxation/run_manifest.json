@@ -1,0 +1,12 @@
+{
+  "analysis": "raw_pulse_relaxation_completion",
+  "analysis_version": 3,
+  "input": "E:\\Lab\\process\\44.6.9",
+  "group_count": 188,
+  "transition_count": 533,
+  "credible_relaxation_count": 0,
+  "original_sample_rate_hz": 400000.0,
+  "analysis_sample_rate_hz": 20000.000000000382,
+  "anti_alias_note": "20-sample boxcar aggregation; relaxation below 0.1 ms remains unresolved",
+  "template_note": "level, transition and 32-tau periodic exponential-relaxation templates audited"
+}

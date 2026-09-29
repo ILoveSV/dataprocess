@@ -1,0 +1,36 @@
+{
+  "distance": "5m",
+  "condition": "50hz",
+  "source_csv": "E:\\Lab\\process\\26.5.12\\time\\5m50hz\\20260512082406.444907.csv",
+  "source_filename": "20260512162406.552241-37.tdms",
+  "start_time": "2026-05-12T08:24:06.444907",
+  "sample_rate_hz": 400000.0000000076,
+  "duration_s": 2.7,
+  "healthy_channel_count": 10,
+  "healthy_channel_indices_1based": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "automatic_bad_channels_1based": [
+    5,
+    9
+  ],
+  "bandpower_5_100hz_db": -96.8010756158813,
+  "bandpower_5_100hz_temporal_iqr_db": 1.903489610146778,
+  "bandpower_100_1khz_db": -90.69804538316623,
+  "bandpower_100_1khz_temporal_iqr_db": 0.5454402855880005,
+  "bandpower_1_20khz_db": -57.53269463702366,
+  "bandpower_1_20khz_temporal_iqr_db": 0.009311846361530485,
+  "bandpower_20_80khz_db": -49.07377721533419,
+  "bandpower_20_80khz_temporal_iqr_db": 0.0057819808096368774,
+  "bandpower_80_200khz_db": -53.90276809784539,
+  "bandpower_80_200khz_temporal_iqr_db": 0.007969172078382769
+}

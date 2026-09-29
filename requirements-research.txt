@@ -1,0 +1,14 @@
+# Optional exploratory methods and document generation.
+-r requirements.txt
+antropy
+statsmodels
+ruptures
+ssqueezepy
+EMD-signal
+vmdpy
+python-docx
+reportlab
+Markdown
+pypdf
+pypdfium2
+Pillow

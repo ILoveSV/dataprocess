@@ -1,0 +1,54 @@
+﻿{
+    "generated_at":  "2026-06-15 16:31:50",
+    "status_text":  "RUNNING first_test_pipeline_vac_first3",
+    "current_task":  "first-test-pipeline vac first3",
+    "raw_input":  "D:\\Lab\\raw\\44.6.9\\vac",
+    "process_input":  "D:\\Lab\\process\\44.6.9\\vac\\time",
+    "output_path":  "D:\\Lab\\results\\44.6.9\\vac\\first_test_pipeline_44_6_9_vac_first3",
+    "log_path":  "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\logs\\vac_first3_20260615_153143\\run.log",
+    "latest_progress":  "progress=84/130",
+    "latest_progress_line":  "2026-06-15 16:29:22-INFO-[first_test_pipeline.py:118]-First-test processing group=S/二阶波-Δ-2/t3-10ms210ms/0v20ms-20v10ms-18v110ms progress=84/130 files=3",
+    "latest_log_write_time":  "2026-06-15 16:29:24",
+    "processes":  [
+                      {
+                          "pid":  30704,
+                          "parent_pid":  19240,
+                          "name":  "powershell.exe",
+                          "executable_path":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                          "start_time":  "2026-06-15 15:31:43",
+                          "elapsed_minutes":  60.1,
+                          "command_line":  "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy Bypass -File C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\scripts\\run_vac_first3_pipeline.ps1 -RunId 20260615_153143 ",
+                          "working_set_mb":  25.57,
+                          "private_mb":  72.64,
+                          "cpu_seconds":  0.09,
+                          "still_running":  true,
+                          "cwd":  "无法确认"
+                      },
+                      {
+                          "pid":  31388,
+                          "parent_pid":  30704,
+                          "name":  "python.exe",
+                          "executable_path":  "D:\\Anaconda\\python.exe",
+                          "start_time":  "2026-06-15 15:31:49",
+                          "elapsed_minutes":  60,
+                          "command_line":  "\"D:\\Anaconda\\python.exe\" -m src.main first-test-pipeline --input D:\\Lab\\process\\44.6.9\\vac\\time --output D:\\Lab\\results\\44.6.9\\vac\\first_test_pipeline_44_6_9_vac_first3 --max-files 3 --skip-bandpower-gain",
+                          "working_set_mb":  1667.4,
+                          "private_mb":  2986.79,
+                          "cpu_seconds":  1325.45,
+                          "still_running":  true,
+                          "cwd":  "无法确认"
+                      }
+                  ],
+    "completed_group_manifest_count":  83,
+    "approx_png_count":  12025,
+    "warning_match_count":  0,
+    "warning_or_issue_matches":  [
+
+                                 ],
+    "report_files":  [
+                         "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\docs\\CURRENT_PROCESSING_AND_PROJECT_TREE.md",
+                         "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\analysis_out\\current_project_audit\\current_running_task.json",
+                         "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\analysis_out\\current_project_audit\\project_tree.txt",
+                         "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\analysis_out\\current_project_audit\\recent_output_summary.csv"
+                     ]
+}

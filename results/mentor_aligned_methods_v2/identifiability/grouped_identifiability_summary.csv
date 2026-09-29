@@ -1,0 +1,10 @@
+task,feature_set,sample_count,group_count,class_count,feature_count_before_fold_filter,selected_features_per_fold,grouped_balanced_accuracy,permutation_null_median,permutation_null_q95,permutation_p,class_order,confusion_matrix_rows,interpretation
+run_vs_stop,baseline_spectral_only,32,8,2,3,10,0.6875,0.5416666666666666,0.6458333333333333,0.045,run;stop,"15,9;2,6",exploratory_grouped_cv; not external validation
+run_vs_stop,new_methods_only,32,8,2,284,10,0.625,0.5208333333333333,0.6666666666666667,0.16,run;stop,"15,9;3,5",exploratory_grouped_cv; not external validation
+run_vs_stop,combined,32,8,2,287,10,0.6875,0.5,0.6458333333333333,0.035,run;stop,"15,9;2,6",exploratory_grouped_cv; not external validation
+30hz_vs_50hz,baseline_spectral_only,12,6,2,3,10,0.5,0.5833333333333333,0.6666666666666667,0.66,30hz;50hz,"4,2;4,2",exploratory_grouped_cv; not external validation
+30hz_vs_50hz,new_methods_only,12,6,2,284,10,0.5833333333333333,0.5,0.75,0.395,30hz;50hz,"4,2;3,3",exploratory_grouped_cv; not external validation
+30hz_vs_50hz,combined,12,6,2,287,10,0.5833333333333333,0.5,0.75,0.33,30hz;50hz,"4,2;3,3",exploratory_grouped_cv; not external validation
+carrier_4_8_12khz,baseline_spectral_only,12,2,3,3,10,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.99,12.0;4.0;8.0,"0,4,0;0,4,0;0,4,0",exploratory_grouped_cv; not external validation
+carrier_4_8_12khz,new_methods_only,12,2,3,284,10,0.3333333333333333,0.3333333333333333,0.5,0.705,12.0;4.0;8.0,"2,0,2;2,0,2;2,0,2",exploratory_grouped_cv; not external validation
+carrier_4_8_12khz,combined,12,2,3,287,10,0.3333333333333333,0.3333333333333333,0.5,0.735,12.0;4.0;8.0,"2,0,2;2,0,2;2,0,2",exploratory_grouped_cv; not external validation

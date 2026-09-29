@@ -1,0 +1,2 @@
+﻿group,distance,rpm,file_id,channel,feature_name,feature_value,qc_flag,skipped_reason
+,,,,,,,,"SKIPPED: current background_psd_diff_curves.csv stores group/channel median PSD curves and file_count=1 group_median rows, not per-file PSD curves."

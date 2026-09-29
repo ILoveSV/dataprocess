@@ -1,0 +1,73 @@
+{
+  "scope": "Published source constraints and reported laboratory operating points, not new measurements",
+  "gijsel2026": {
+    "doi": "10.1016/j.oceaneng.2025.123917",
+    "download_url": "https://publications.tno.nl/publication/34645745/iDzPeSXW/Gijsel-2026-Implementation.pdf",
+    "evidence": "Table 1 and sections 4.1-4.2, visually checked printed page 6",
+    "source_kind": "measured physical scale model, not full-scale submarine",
+    "branches": [
+      {"id": "aft_port_anode", "role": "injection", "current_magnitude_mA": 0.5, "area_cm2": 10.0},
+      {"id": "aft_starboard_anode", "role": "injection", "current_magnitude_mA": 0.8, "area_cm2": 10.0},
+      {"id": "forward_port_anode", "role": "injection", "current_magnitude_mA": 2.6, "area_cm2": 10.0},
+      {"id": "forward_starboard_anode", "role": "injection", "current_magnitude_mA": 0.8, "area_cm2": 10.0},
+      {"id": "port_propeller", "role": "return", "current_magnitude_mA": 1.1, "area_cm2": 29.5},
+      {"id": "starboard_propeller", "role": "return", "current_magnitude_mA": 1.1, "area_cm2": 29.5},
+      {"id": "port_steel", "role": "return", "current_magnitude_mA": 1.3, "area_cm2": 90.0},
+      {"id": "starboard_steel", "role": "return", "current_magnitude_mA": 1.2, "area_cm2": 90.0}
+    ],
+    "sign_note": "Original table lists positive magnitudes. Injection/return roles specify this audit's sign convention, not extra signed measurements.",
+    "conductivity_uS_cm": 500.0,
+    "model_length_m": 1.14,
+    "model_width_m": 0.64,
+    "water_height_m": 0.75,
+    "basin_diameter_m": 6.0,
+    "published_rRMS_measured_current_percent": 6.4,
+    "published_rRMS_polarization_percent": 7.6,
+    "rRMS_definition": "RMS difference over 112 field values, normalized by maximum measured field; not pointwise relative error or a confidence interval"
+  },
+  "wang2018": {
+    "doi": "10.2528/PIERM18092706",
+    "evidence": "Printed page 50, section 4.1; contextual limitations checked pages 46,49,52",
+    "source_kind": "published numerical corrosion-field scenario, not a measured vessel",
+    "peak_field_cases": [
+      {"conductivity_S_m": 2.5, "reported_peak_field_V_m": 0.000102},
+      {"conductivity_S_m": 4.0, "reported_peak_field_V_m": 0.0000716},
+      {"conductivity_S_m": 5.2, "reported_peak_field_V_m": 0.0000437}
+    ],
+    "not_used_for_calibration": "Published path endpoints have an unresolved z-coordinate inconsistency; full geometry/current distribution not recovered. Do not transplant peaks to our 100m points."
+  },
+  "reported_lab_points": [
+    {
+      "id": "earlier_four_point_record",
+      "source": "comsol/docs/阴极保护四档恒流与外部电场V4说明.md, section 1; based on earlier user-reported values",
+      "precision": "Approximate operating-point recollections, no uncertainty or synchronized waveform. 1.20V is the legacy report's value for an originally approximate description.",
+      "points": [
+        {"I_A": 0.01, "V_V": 0.20},
+        {"I_A": 0.05, "V_V": 0.50},
+        {"I_A": 0.10, "V_V": 0.70},
+        {"I_A": 0.20, "V_V": 1.20}
+      ]
+    },
+    {
+      "id": "outdoor_seven_point_user_report",
+      "source": "User message in this conversation beginning 今晚放在外面，信号显示, following the E:/Lab/raw/8.11.2 message",
+      "precision": "User-reported approximate panel values, not recovered instrument logs; do not infer acquisition date or map to individual TDMS files.",
+      "points": [
+        {"I_A": 0.01, "V_V": 0.11},
+        {"I_A": 0.05, "V_V": 0.28},
+        {"I_A": 0.10, "V_V": 0.43},
+        {"I_A": 0.50, "V_V": 1.14},
+        {"I_A": 1.00, "V_V": 1.69},
+        {"I_A": 2.00, "V_V": 2.61},
+        {"I_A": 3.00, "V_V": 3.40}
+      ]
+    }
+  ],
+  "lab_model_comparisons": {
+    "source": "results/thesis_followup_20260915/external/gap_current_scaled.csv",
+    "cases": ["gap_g010", "gap_g020"],
+    "meaning": "Both candidate geometries are compared to both reported sets. This audit does not assign either geometry to a specific acquisition.",
+    "frequency_hz": 0.001,
+    "drive": "Prescribed ground-referenced balanced voltages, not a solved floating supply"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "created": "2026-08-29T00:27:36.227951",
+  "case_count": 32,
+  "datasets": [
+    "20260806"
+  ],
+  "cases": [
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc1_30hz",
+      "arrangement": "duo1",
+      "detector": "tc1",
+      "condition": "30hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc1_50hz",
+      "arrangement": "duo1",
+      "detector": "tc1",
+      "condition": "50hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc1_background",
+      "arrangement": "duo1",
+      "detector": "tc1",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc1_vfd_stop",
+      "arrangement": "duo1",
+      "detector": "tc1",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc2_30hz",
+      "arrangement": "duo1",
+      "detector": "tc2",
+      "condition": "30hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc2_50hz",
+      "arrangement": "duo1",
+      "detector": "tc2",
+      "condition": "50hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc2_background",
+      "arrangement": "duo1",
+      "detector": "tc2",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo1_tc2_vfd_stop",
+      "arrangement": "duo1",
+      "detector": "tc2",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc1_30hz",
+      "arrangement": "duo2",
+      "detector": "tc1",
+      "condition": "30hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc1_50hz",
+      "arrangement": "duo2",
+      "detector": "tc1",
+      "condition": "50hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc1_background",
+      "arrangement": "duo2",
+      "detector": "tc1",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc1_vfd_stop",
+      "arrangement": "duo2",
+      "detector": "tc1",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc2_30hz",
+      "arrangement": "duo2",
+      "detector": "tc2",
+      "condition": "30hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc2_50hz",
+      "arrangement": "duo2",
+      "detector": "tc2",
+      "condition": "50hz",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc2_background",
+      "arrangement": "duo2",
+      "detector": "tc2",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "duo2_tc2_vfd_stop",
+      "arrangement": "duo2",
+      "detector": "tc2",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_12k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 12.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_12k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 12.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_4k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 4.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_4k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 4.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_8k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 8.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_8k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 8.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_background",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc1_vfd_stop",
+      "arrangement": "vfd",
+      "detector": "tc1",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_12k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 12.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_12k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 12.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_4k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 4.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_4k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 4.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_8k_30hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 8.0,
+      "output_hz": 30.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_8k_50hz",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "run",
+      "distance": "",
+      "carrier_khz": 8.0,
+      "output_hz": 50.0
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_background",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "background",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    },
+    {
+      "dataset": "20260806",
+      "case_id": "vfd_tc2_vfd_stop",
+      "arrangement": "vfd",
+      "detector": "tc2",
+      "condition": "vfd_stop",
+      "distance": "",
+      "carrier_khz": null,
+      "output_hz": null
+    }
+  ],
+  "outputs": {
+    "health": 384,
+    "slow": 384,
+    "allan": 3072,
+    "network": 32,
+    "pairs": 1600,
+    "coupling": 1472,
+    "band": 160,
+    "lines": 10080,
+    "line_support": 2560,
+    "low_rate_coherence_pairs": 6400,
+    "low_rate_coherence_summary": 128,
+    "slow_periodicity": 192,
+    "contrasts": 230,
+    "narrow_line_contrasts": 755,
+    "network_contrasts": 276,
+    "coherence_contrasts": 552,
+    "slow_contrasts": 322,
+    "allan_contrasts": 368,
+    "sync": 40
+  },
+  "method_notes": {
+    "channels_dynamic_per_file": true,
+    "windows_are_independent_replicates": false,
+    "raw_tdms_required": false,
+    "electrochemical_data_included": false
+  }
+}

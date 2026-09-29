@@ -1,0 +1,12 @@
+{
+  "analysis": "cathodic_mentor_low_frequency",
+  "case_count": 1,
+  "feature_count": 5,
+  "relaxation_count": 5,
+  "memd_configuration_count": 4,
+  "limitations": [
+    "manual switching has no synchronized current trace",
+    "8.11 005hz retains four complete nominal cycles",
+    "old electrode spacing was approximately 1 cm"
+  ]
+}

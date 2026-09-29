@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "frequency": {
+      "source_file": "analysis_out\\feature_extraction_v2\\candidate_feature_dataset_v2.csv",
+      "rows_loaded": 63180,
+      "n_groups": 9,
+      "n_files": 351,
+      "n_channels": 12,
+      "n_features": 15
+    },
+    "time": {
+      "source_file": "analysis_out\\time_domain_features_v1\\time_domain_feature_dataset_v1.csv",
+      "rows_loaded": 155520,
+      "n_groups": 9,
+      "n_files": 360,
+      "n_channels": 12,
+      "n_features": 36
+    },
+    "acf": {
+      "source_file": "analysis_out\\acf_features_v1\\acf_feature_dataset_v1.csv",
+      "rows_loaded": 168480,
+      "n_groups": 9,
+      "n_files": 360,
+      "n_channels": 12,
+      "n_features": 39
+    },
+    "tf": {
+      "source_file": "analysis_out\\time_frequency_stability_features_v1\\tf_stability_feature_dataset_v1.csv",
+      "rows_loaded": 1879200,
+      "n_groups": 9,
+      "n_files": 360,
+      "n_channels": 12,
+      "n_features": 435
+    }
+  },
+  "skipped": []
+}

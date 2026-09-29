@@ -1,0 +1,77 @@
+{
+  "stage": "background_contrast_figures",
+  "created_at": "2026-05-25T15:18:21.280070",
+  "input_dir": "analysis_out\\contrast_plot_cleanup_smoke",
+  "output_dir": "analysis_out\\contrast_plot_cleanup_smoke\\figures",
+  "input_files": [
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\active_channels.json",
+      "mtime": 1779693330.1775863,
+      "size": 298
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\background_bandpower_contrast.xlsx",
+      "mtime": 1779693500.2675064,
+      "size": 31162
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\cross_channel_background_contrast.xlsx",
+      "mtime": 1779693500.3316412,
+      "size": 7442
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\distance_decay_after_background.xlsx",
+      "mtime": 1779693500.3822548,
+      "size": 5034
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\pumpfreq_net_contrast.xlsx",
+      "mtime": 1779693500.37059,
+      "size": 16629
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\qc_outlier_channels.xlsx",
+      "mtime": 1779693500.4018936,
+      "size": 7919
+    }
+  ],
+  "expected_outputs": [
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\figures\\bandpower_gain_heatmap.png",
+      "mtime": 1779693500.755396,
+      "size": 66412
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\figures\\cross_channel_support_heatmap.png",
+      "mtime": 1779693500.9540303,
+      "size": 80871
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\figures\\outlier_channel_overview.png",
+      "mtime": 1779693501.2774832,
+      "size": 39130
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\figures\\pumpfreq_net_contrast_heatmap.png",
+      "mtime": 1779693501.157905,
+      "size": 69329
+    },
+    {
+      "path": "analysis_out\\contrast_plot_cleanup_smoke\\plot_status.json",
+      "mtime": 1779693501.2784793,
+      "size": 450
+    }
+  ],
+  "params": {
+    "stage": "background_contrast_figures",
+    "dpi": 160,
+    "figure_schema": [
+      "figures/bandpower_gain_heatmap.png",
+      "figures/cross_channel_support_heatmap.png",
+      "figures/pumpfreq_net_contrast_heatmap.png",
+      "figures/distance_decay_after_background.png",
+      "figures/outlier_channel_overview.png"
+    ]
+  },
+  "param_signature": "b7e43d26f75d24c7324a31bf431d047b803878f347176d54bd07aa6de775babd"
+}

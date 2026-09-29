@@ -1,0 +1,385 @@
+{
+  "dataset": "20260806",
+  "case_id": "duo1_tc1_30hz",
+  "arrangement": "duo1",
+  "detector": "tc1",
+  "condition": "30hz",
+  "distance": "",
+  "carrier_khz": null,
+  "output_hz": 30.0,
+  "raw_tdms_path": "E:\\Lab\\raw\\26.8.6\\tc1duo\\30\\20260806112031.053740-1.tdms",
+  "raw_window_count": 96,
+  "raw_window_samples": 16384,
+  "raw_window_seconds": 0.04095999999999922,
+  "sample_rate_hz": 400000.0000000076,
+  "stable_span_sampled_seconds": 62.9321899999988,
+  "healthy_channel_count": 11,
+  "healthy_channel_indices_1based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "healthy_channel_names": [
+    "cDAQ9188-1855C19Mod1/ai0",
+    "cDAQ9188-1855C19Mod1/ai1",
+    "cDAQ9188-1855C19Mod1/ai2",
+    "cDAQ9188-1855C19Mod1/ai3",
+    "cDAQ9188-1855C19Mod2/ai0",
+    "cDAQ9188-1855C19Mod2/ai1",
+    "cDAQ9188-1855C19Mod2/ai2",
+    "cDAQ9188-1855C19Mod2/ai3",
+    "cDAQ9188-1855C19Mod3/ai0",
+    "cDAQ9188-1855C19Mod3/ai1",
+    "cDAQ9188-1855C19Mod3/ai2"
+  ],
+  "raw_pc1_variance_fraction": 0.09413129091262817,
+  "common_bandpower_2_20khz_db_median": -8.78764312403777,
+  "common_bandpower_2_20khz_db_iqr": 0.42913236875133975,
+  "pair_coherence_2_20khz_median": 0.04051238298416138,
+  "pair_coherence_2_20khz_max": 0.5361567735671997,
+  "pair_coherence_2_20khz_max_frequency_hz": 15307.617187500291,
+  "pair_phase_locking_2_20khz_median": 0.17861251533031464,
+  "pair_phase_locking_2_20khz_max": 0.5735300183296204,
+  "pair_phase_locking_2_20khz_max_frequency_hz": 15307.617187500291,
+  "pair_coherence_2_20khz_epoch_median": 0.09598737582564354,
+  "pair_coherence_2_20khz_epoch_iqr": 0.0030070114880800247,
+  "pair_phase_locking_2_20khz_epoch_median": 0.28624530136585236,
+  "pair_phase_locking_2_20khz_epoch_iqr": 0.004065349698066711,
+  "common_bandpower_20_80khz_db_median": -2.016435533575522,
+  "common_bandpower_20_80khz_db_iqr": 0.04160893132030474,
+  "pair_coherence_20_80khz_median": 0.037004683166742325,
+  "pair_coherence_20_80khz_max": 0.7355448603630066,
+  "pair_coherence_20_80khz_max_frequency_hz": 53808.593750001026,
+  "pair_phase_locking_20_80khz_median": 0.1691684126853943,
+  "pair_phase_locking_20_80khz_max": 0.6909530758857727,
+  "pair_phase_locking_20_80khz_max_frequency_hz": 53930.664062501026,
+  "pair_coherence_20_80khz_epoch_median": 0.0912763960659504,
+  "pair_coherence_20_80khz_epoch_iqr": 0.005091581493616104,
+  "pair_phase_locking_20_80khz_epoch_median": 0.28056278824806213,
+  "pair_phase_locking_20_80khz_epoch_iqr": 0.005036778748035431,
+  "common_bandpower_80_200khz_db_median": -6.053221100049041,
+  "common_bandpower_80_200khz_db_iqr": 0.0566740418034728,
+  "pair_coherence_80_200khz_median": 0.07332591712474823,
+  "pair_coherence_80_200khz_max": 0.83205246925354,
+  "pair_coherence_80_200khz_max_frequency_hz": 138476.56250000265,
+  "pair_phase_locking_80_200khz_median": 0.2288069874048233,
+  "pair_phase_locking_80_200khz_max": 0.8229113221168518,
+  "pair_phase_locking_80_200khz_max_frequency_hz": 151904.29687500288,
+  "pair_coherence_80_200khz_epoch_median": 0.12420476973056793,
+  "pair_coherence_80_200khz_epoch_iqr": 0.006308477371931076,
+  "pair_phase_locking_80_200khz_epoch_median": 0.314140722155571,
+  "pair_phase_locking_80_200khz_epoch_iqr": 0.005906544625759125,
+  "carrier_comb_4khz_score_db": 2.735973328294114,
+  "carrier_comb_4khz_occupancy_ge_6db": 0.0,
+  "carrier_comb_4khz_harmonic_count": 49,
+  "carrier_comb_8khz_score_db": 3.494526596472781,
+  "carrier_comb_8khz_occupancy_ge_6db": 0.010416666666666666,
+  "carrier_comb_8khz_harmonic_count": 24,
+  "carrier_comb_12khz_score_db": 3.4315786516132203,
+  "carrier_comb_12khz_occupancy_ge_6db": 0.020833333333333332,
+  "carrier_comb_12khz_harmonic_count": 16,
+  "configured_carrier_comb_margin_db": NaN,
+  "carrier_comb_predicted_khz": NaN,
+  "carrier_comb_prediction_correct": NaN,
+  "full_bicoherence_max": 0.9840800762176514,
+  "full_bicoherence_q99": 0.5210397839546204,
+  "full_bicoherence_f1_hz": 87500.00000000167,
+  "full_bicoherence_f2_hz": 87500.00000000167,
+  "full_bicoherence_sum_hz": 175000.00000000335,
+  "full_bicoherence_surrogate_p": 0.05,
+  "full_bicoherence_null_q95": 0.016782929408574575,
+  "full_bicoherence_epoch_max_median": 0.9883979856967926,
+  "full_bicoherence_epoch_max_cv": 0.0076842914269072094,
+  "full_bicoherence_epoch_sum_frequency_range_hz": 0.0,
+  "full_bicoherence_epoch_peak_repeat_fraction": 1.0,
+  "full_bicoherence_fft_segment_count": 672,
+  "full_bicoherence_window_epoch_count": 8,
+  "peaks": [
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 1,
+      "frequency_hz": 52514.648437501004,
+      "mean_prominence_db": 45.65157799654431,
+      "window_contrast_db_median": 43.07738221862357,
+      "window_contrast_db_q10": 41.268746366270285,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 2,
+      "frequency_hz": 40844.72656250078,
+      "mean_prominence_db": 43.30214427850315,
+      "window_contrast_db_median": 41.86527932394969,
+      "window_contrast_db_q10": 40.018714992236234,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 3,
+      "frequency_hz": 29174.804687500557,
+      "mean_prominence_db": 43.07550509066816,
+      "window_contrast_db_median": 42.36055428776385,
+      "window_contrast_db_q10": 40.602122825726624,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 4,
+      "frequency_hz": 49829.10156250095,
+      "mean_prominence_db": 41.00016335262893,
+      "window_contrast_db_median": 41.80299015446413,
+      "window_contrast_db_q10": 39.88180894435579,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 5,
+      "frequency_hz": 35595.70312500068,
+      "mean_prominence_db": 40.963136714755166,
+      "window_contrast_db_median": 38.00616572188555,
+      "window_contrast_db_q10": 36.40924582882151,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 6,
+      "frequency_hz": 21362.304687500407,
+      "mean_prominence_db": 40.23620699844156,
+      "window_contrast_db_median": 38.89005548379565,
+      "window_contrast_db_q10": 37.2296738718632,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 7,
+      "frequency_hz": 64086.91406250122,
+      "mean_prominence_db": 39.15748268266956,
+      "window_contrast_db_median": 39.43891496071382,
+      "window_contrast_db_q10": 37.31387024434872,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 8,
+      "frequency_hz": 32421.87500000062,
+      "mean_prominence_db": 38.579488145939955,
+      "window_contrast_db_median": 37.816497133130724,
+      "window_contrast_db_q10": 36.01472005366654,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 9,
+      "frequency_hz": 50952.14843750097,
+      "mean_prominence_db": 38.346353126290616,
+      "window_contrast_db_median": 36.95187736407853,
+      "window_contrast_db_q10": 35.12944552358307,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 10,
+      "frequency_hz": 60205.07812500115,
+      "mean_prominence_db": 37.958389818385086,
+      "window_contrast_db_median": 38.53022814224802,
+      "window_contrast_db_q10": 36.860739054434745,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 11,
+      "frequency_hz": 23168.94531250044,
+      "mean_prominence_db": 37.9122651322771,
+      "window_contrast_db_median": 36.41243916813815,
+      "window_contrast_db_q10": 34.81159089601363,
+      "occupancy_contrast_ge_6db": 1.0
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "peak_rank": 12,
+      "frequency_hz": 41674.80468750079,
+      "mean_prominence_db": 37.48281009443293,
+      "window_contrast_db_median": 37.35873637273939,
+      "window_contrast_db_q10": 35.368930111227726,
+      "occupancy_contrast_ge_6db": 1.0
+    }
+  ],
+  "epochs": [
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 1,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.09552699327468872,
+      "pair_phase_locking_median": 0.28666144609451294
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 2,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.09206780791282654,
+      "pair_phase_locking_median": 0.2828507423400879
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 3,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.09583009034395218,
+      "pair_phase_locking_median": 0.2858291566371918
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 4,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.10483318567276001,
+      "pair_phase_locking_median": 0.29316675662994385
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 5,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.09217962622642517,
+      "pair_phase_locking_median": 0.28158652782440186
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 6,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.0961446613073349,
+      "pair_phase_locking_median": 0.2845393419265747
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 7,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.09906017780303955,
+      "pair_phase_locking_median": 0.28749483823776245
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 8,
+      "band_name": "2_20khz",
+      "pair_coherence_median": 0.0972428247332573,
+      "pair_phase_locking_median": 0.2902456521987915
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 1,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.08779638260602951,
+      "pair_phase_locking_median": 0.2778765857219696
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 2,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.09344705939292908,
+      "pair_phase_locking_median": 0.28340068459510803
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 3,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.09606314450502396,
+      "pair_phase_locking_median": 0.2871852219104767
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 4,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.10348127782344818,
+      "pair_phase_locking_median": 0.29391559958457947
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 5,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.08901209384202957,
+      "pair_phase_locking_median": 0.2795354127883911
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 6,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.08900171518325806,
+      "pair_phase_locking_median": 0.2786339223384857
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 7,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.09019061923027039,
+      "pair_phase_locking_median": 0.28010207414627075
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 8,
+      "band_name": "20_80khz",
+      "pair_coherence_median": 0.0923621729016304,
+      "pair_phase_locking_median": 0.2810235023498535
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 1,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12078241258859634,
+      "pair_phase_locking_median": 0.31133630871772766
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 2,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12562039494514465,
+      "pair_phase_locking_median": 0.315979540348053
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 3,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12812530994415283,
+      "pair_phase_locking_median": 0.3197033107280731
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 4,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.14109064638614655,
+      "pair_phase_locking_median": 0.32900404930114746
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 5,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12068524211645126,
+      "pair_phase_locking_median": 0.3100068271160126
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 6,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.11973521113395691,
+      "pair_phase_locking_median": 0.30836784839630127
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 7,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12278914451599121,
+      "pair_phase_locking_median": 0.3124878406524658
+    },
+    {
+      "case_id": "duo1_tc1_30hz",
+      "epoch_index": 8,
+      "band_name": "80_200khz",
+      "pair_coherence_median": 0.12671369314193726,
+      "pair_phase_locking_median": 0.31579360365867615
+    }
+  ]
+}

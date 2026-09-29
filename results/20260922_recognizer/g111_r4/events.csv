@@ -1,0 +1,3 @@
+﻿time_end_s,raw_binary,confirmed_binary,decision,model_score,prob_on,event,processing_s,frequency_candidate,frequency_score,large_voltage_excursion
+32,on,on,30Hz,0.9775309356637665,0.9775309356637665,on,0.0008218999998916843,30Hz,0.6366008121091594,True
+99,off,off,off,0.9261557572453984,0.07384424275460155,off,0.0008148000001710898,,,False

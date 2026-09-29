@@ -1,0 +1,17 @@
+﻿feature_name_or_feature_set,stable_file_ratio_pass,separability_pass,channel_robustness_pass,strict_mode_pass,leakage_safe_pilot_pass,ml_ready_level,reason
+band_50_100k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0249
+band_100_200k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=True; strict_auc_delta=0.025
+subband_50_60k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.025
+subband_60_70k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.025
+subband_70_80k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0249
+subband_80_90k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.025
+subband_90_100k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.025
+subband_100_120k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=True; strict_auc_delta=0.025
+subband_120_140k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=True; strict_auc_delta=0.025
+subband_140_160k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.025
+subband_160_180k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=True; strict_auc_delta=0.025
+subband_180_200k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0248
+peakwin_53p5_55k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0244
+peakwin_137_139p5k,True,True,False,True,True,medium,best_auc=0.978; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0237
+peakwin_177_179k,True,True,False,True,True,medium,best_auc=1; median_stable_file_ratio=1; redundant=False; strict_auc_delta=0.0244
+all_15_features_file_agg,True,True,False,True,True,medium,best_balanced_accuracy=1; GroupKFold by file_id used

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "full_raw_case_count": 49,
+  "run_stop_phase_coherence_balanced_accuracy": 0.75,
+  "run_stop_phase_coherence_permutation_p": 0.01,
+  "run_stop_tc1_predefined_balanced_accuracy": 0.9583333333333331,
+  "run_stop_tc1_predefined_permutation_p": 0.008,
+  "run_stop_tc2_predefined_balanced_accuracy": 0.75,
+  "run_stop_tc2_predefined_permutation_p": 0.078,
+  "carrier_correct_count": 5,
+  "carrier_case_count": 12,
+  "pulse_group_count": 188,
+  "pulse_credible_relaxation_count": 0,
+  "memd_fdr_significant_count": 0,
+  "batch_20260512_group_count": 9
+}

@@ -1,0 +1,49 @@
+﻿active_condition,distance_set,channel,n_features,n_strong,n_moderate,n_weak,n_inconsistent,top_strong_features,channel_status_note
+30Hz_minus_0Hz,2m3m,channel1,15,2,2,11,0,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+30Hz_minus_0Hz,2m3m,channel10,15,3,1,11,0,"[""freq__peakwin_177_179k"", ""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+30Hz_minus_0Hz,2m3m,channel11,15,0,1,13,1,"[""freq__peakwin_137_139p5k""]",
+30Hz_minus_0Hz,2m3m,channel12,15,0,0,14,1,[],
+30Hz_minus_0Hz,2m3m,channel2,15,2,4,9,0,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+30Hz_minus_0Hz,2m3m,channel3,15,0,1,13,1,"[""freq__peakwin_177_179k""]",
+30Hz_minus_0Hz,2m3m,channel4,15,1,4,9,1,"[""freq__peakwin_177_179k"", ""freq__peakwin_53p5_55k"", ""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_50_60k""]",
+30Hz_minus_0Hz,2m3m,channel5,15,5,2,8,0,"[""freq__band_100_200k"", ""freq__band_50_100k"", ""freq__peakwin_53p5_55k"", ""freq__subband_100_120k"", ""freq__subband_140_160k"", ""freq__subband_70_80k"", ""freq__subband_80_90k""]",channel5 suspect/sensitive pilot channel
+30Hz_minus_0Hz,2m3m,channel6,15,0,0,14,1,[],
+30Hz_minus_0Hz,2m3m,channel7,15,0,1,14,0,"[""freq__peakwin_53p5_55k""]",
+30Hz_minus_0Hz,2m3m,channel8,15,1,3,11,0,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_140_160k"", ""freq__subband_160_180k""]",
+30Hz_minus_0Hz,2m3m,channel9,15,2,1,11,1,"[""freq__subband_120_140k"", ""freq__subband_140_160k"", ""freq__subband_180_200k""]","channel9 QC-sensitive, especially 5m pilot context"
+30Hz_minus_0Hz,2m3m5m,channel1,15,2,2,10,1,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+30Hz_minus_0Hz,2m3m5m,channel10,15,2,2,11,0,"[""freq__peakwin_177_179k"", ""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+30Hz_minus_0Hz,2m3m5m,channel11,15,0,1,13,1,"[""freq__peakwin_137_139p5k""]",
+30Hz_minus_0Hz,2m3m5m,channel12,15,0,0,14,1,[],
+30Hz_minus_0Hz,2m3m5m,channel2,15,2,4,9,0,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+30Hz_minus_0Hz,2m3m5m,channel3,15,0,1,13,1,"[""freq__peakwin_177_179k""]",
+30Hz_minus_0Hz,2m3m5m,channel4,15,0,3,10,2,"[""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_50_60k""]",
+30Hz_minus_0Hz,2m3m5m,channel5,15,3,4,8,0,"[""freq__band_100_200k"", ""freq__band_50_100k"", ""freq__peakwin_53p5_55k"", ""freq__subband_100_120k"", ""freq__subband_140_160k"", ""freq__subband_70_80k"", ""freq__subband_80_90k""]",channel5 suspect/sensitive pilot channel
+30Hz_minus_0Hz,2m3m5m,channel6,15,1,2,11,1,"[""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_160_180k""]",
+30Hz_minus_0Hz,2m3m5m,channel7,15,0,0,15,0,[],
+30Hz_minus_0Hz,2m3m5m,channel8,15,1,3,11,0,"[""freq__peakwin_137_139p5k"", ""freq__peakwin_53p5_55k"", ""freq__subband_140_160k"", ""freq__subband_160_180k""]",
+30Hz_minus_0Hz,2m3m5m,channel9,15,4,1,9,1,"[""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_140_160k"", ""freq__subband_180_200k"", ""freq__subband_90_100k""]","channel9 QC-sensitive, especially 5m pilot context"
+50Hz_minus_0Hz,2m3m,channel1,15,1,2,12,0,"[""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+50Hz_minus_0Hz,2m3m,channel10,15,3,2,9,1,"[""freq__peakwin_177_179k"", ""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m,channel11,15,2,1,12,0,"[""freq__peakwin_137_139p5k"", ""freq__subband_50_60k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m,channel12,15,1,3,10,1,"[""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+50Hz_minus_0Hz,2m3m,channel2,15,1,4,8,2,"[""freq__peakwin_53p5_55k"", ""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m,channel3,15,0,0,12,3,[],
+50Hz_minus_0Hz,2m3m,channel4,15,0,4,9,2,"[""freq__peakwin_177_179k"", ""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_50_60k""]",
+50Hz_minus_0Hz,2m3m,channel5,15,7,2,5,1,"[""freq__band_100_200k"", ""freq__band_50_100k"", ""freq__peakwin_137_139p5k"", ""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_140_160k"", ""freq__subband_60_70k"", ""freq__subband_70_80k""]",channel5 suspect/sensitive pilot channel
+50Hz_minus_0Hz,2m3m,channel6,15,1,3,11,0,"[""freq__peakwin_53p5_55k"", ""freq__subband_120_140k"", ""freq__subband_140_160k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m,channel7,15,0,2,12,1,"[""freq__subband_100_120k"", ""freq__subband_50_60k""]",
+50Hz_minus_0Hz,2m3m,channel8,15,0,3,10,2,"[""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m,channel9,15,3,0,12,0,"[""freq__peakwin_177_179k"", ""freq__subband_120_140k"", ""freq__subband_140_160k""]","channel9 QC-sensitive, especially 5m pilot context"
+50Hz_minus_0Hz,2m3m5m,channel1,15,1,2,11,1,"[""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+50Hz_minus_0Hz,2m3m5m,channel10,15,3,1,9,2,"[""freq__peakwin_53p5_55k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m5m,channel11,15,2,1,12,0,"[""freq__peakwin_137_139p5k"", ""freq__subband_50_60k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m5m,channel12,15,1,3,10,1,"[""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k""]",
+50Hz_minus_0Hz,2m3m5m,channel2,15,1,3,9,2,"[""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_180_200k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m5m,channel3,15,0,0,12,3,[],
+50Hz_minus_0Hz,2m3m5m,channel4,15,0,4,9,2,"[""freq__peakwin_177_179k"", ""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_50_60k""]",
+50Hz_minus_0Hz,2m3m5m,channel5,15,4,4,6,1,"[""freq__band_100_200k"", ""freq__band_50_100k"", ""freq__subband_100_120k"", ""freq__subband_120_140k"", ""freq__subband_140_160k"", ""freq__subband_60_70k"", ""freq__subband_70_80k"", ""freq__subband_80_90k""]",channel5 suspect/sensitive pilot channel
+50Hz_minus_0Hz,2m3m5m,channel6,15,1,2,10,2,"[""freq__subband_100_120k"", ""freq__subband_140_160k"", ""freq__subband_160_180k""]",
+50Hz_minus_0Hz,2m3m5m,channel7,15,0,2,12,1,"[""freq__subband_100_120k"", ""freq__subband_50_60k""]",
+50Hz_minus_0Hz,2m3m5m,channel8,15,0,3,10,2,"[""freq__subband_120_140k"", ""freq__subband_160_180k"", ""freq__subband_60_70k""]",
+50Hz_minus_0Hz,2m3m5m,channel9,15,2,1,12,0,"[""freq__peakwin_177_179k"", ""freq__subband_120_140k"", ""freq__subband_140_160k""]","channel9 QC-sensitive, especially 5m pilot context"

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-25",
+  "scope": "theory_groundwork_and_existing_simulation_postprocessing",
+  "assumptions": {
+    "water_reference": "infinite_uniform_stationary_conductor; fixed_source_pair; no_bucket_air_or_electrode_polarization",
+    "I0_A": 0.01,
+    "effective_source_separation_m": 0.3,
+    "conductivities_S_m": [
+      0.05,
+      4.0
+    ],
+    "modulation_fraction": "assumed_scenarios_not_measured_or_universal",
+    "scaling": "geometrically_similar_linear_conduction_with_matching_normalized_boundaries",
+    "sensor_calibration": "not_available_no_input_field_detection_limit_computed"
+  },
+  "inputs_sha256": {
+    "results\\thesis_followup_20260915\\external\\gap_current_scaled.csv": "a82061bfc810194c272f9f539f7465b09900987509c81b810ddb6c12c46e9cf6",
+    "calculation and paper\\ship_efield_theory\\src\\propagation.py": "c80e443570117ea61c0e86c7c46989ef2a3ec339c2d31829a83d4b84091cad39",
+    "scripts\\source_scale_groundwork_20260925.py": "5e8a9efb6df718a917eafca7dba2645f93e44075e4aa58fd4cc55b4bca4d1e1e"
+  },
+  "verification": {
+    "passed": [
+      "balanced_source",
+      "linear_current",
+      "inverse_conductivity",
+      "far_field_inverse_cube",
+      "finite_source_field_scaling",
+      "finite_source_potential_scaling",
+      "current_density_scaling",
+      "fixed_geometry_modulation",
+      "equatorial_pair_closed_form",
+      "existing_comsol_gap_ratio_range"
+    ],
+    "count": 10
+  },
+  "outputs": {
+    "existing_comsol_ratios.csv": "9b7a196ff7640fb66ca446b11faae1c9095dc167d41fa0b764f7331286b45c93",
+    "geometric_scaling.csv": "30462620c7d1d2b663becd0a67e01c00cde77af2d2106e3d6d9ff27e3ded88fa",
+    "modulation_scenarios.csv": "66da2c5927ef7d4289339011219d86a1c350753b086e7a27c298afe6176c8d1c",
+    "motional_source_scale.csv": "3f36143ef85ff95999d6139437e5185c12aae8896d710bb736756fc670b402de",
+    "uniform_water_reference.csv": "49c572b4c775f363bac5cd6a55a2f995a61de75e1f3bf3fff91ec9343efaa800"
+  }
+}

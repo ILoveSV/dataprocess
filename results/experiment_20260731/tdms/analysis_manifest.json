@@ -1,0 +1,78 @@
+{
+  "block_seconds": 0.1,
+  "spectrum_nfft": 262144,
+  "stable_state_trim_seconds": [
+    15.0,
+    5.0
+  ],
+  "reference_periods_s": {
+    "morning_30hz": 3.06,
+    "morning_50hz": 2.5104,
+    "afternoon_30hz": 3.025,
+    "afternoon_50hz": 2.5438
+  },
+  "video_start_minus_tdms_start_seconds": {
+    "morning_30hz": 4.59299,
+    "afternoon_30hz": -16.674447,
+    "afternoon_50hz": -19.61984
+  },
+  "channel_exclusion": "dynamic per acquisition; comparisons use the healthy-channel intersection",
+  "cases": [
+    {
+      "case_id": "morning_background",
+      "session": "morning",
+      "detector": "TC2",
+      "condition": "background",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc2(morn)\\background"
+    },
+    {
+      "case_id": "morning_vfd_stop",
+      "session": "morning",
+      "detector": "TC2",
+      "condition": "vfd_stop",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc2(morn)\\VFDbackground"
+    },
+    {
+      "case_id": "morning_30hz",
+      "session": "morning",
+      "detector": "TC2",
+      "condition": "30hz",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc2(morn)\\30"
+    },
+    {
+      "case_id": "morning_50hz",
+      "session": "morning",
+      "detector": "TC2",
+      "condition": "50hz",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc2(morn)\\50"
+    },
+    {
+      "case_id": "afternoon_background",
+      "session": "afternoon",
+      "detector": "TC1",
+      "condition": "background",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc1(afternoon)\\background"
+    },
+    {
+      "case_id": "afternoon_vfd_stop",
+      "session": "afternoon",
+      "detector": "TC1",
+      "condition": "vfd_stop",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc1(afternoon)\\VFDbackground"
+    },
+    {
+      "case_id": "afternoon_30hz",
+      "session": "afternoon",
+      "detector": "TC1",
+      "condition": "30hz",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc1(afternoon)\\30hz"
+    },
+    {
+      "case_id": "afternoon_50hz",
+      "session": "afternoon",
+      "detector": "TC1",
+      "condition": "50hz",
+      "folder": "D:\\Lab\\raw\\26.7.31\\tc1(afternoon)\\50hz"
+    }
+  ]
+}

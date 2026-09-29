@@ -1,0 +1,29 @@
+{
+  "baseline": "results\\thesis_completion_20260908\\detection",
+  "methods": [
+    "absolute_amplitude",
+    "residual_mad_normalized"
+  ],
+  "normalized_statistic": "known-frequency OLS amplitude / (1.4826 * median absolute deviation of OLS residual)",
+  "signal_model": "intercept, centered linear trend, cosine, sine; same old windows/frequencies/channels",
+  "threshold": "95th empirical quantile, equal calibration-record weights; same detector leave whole group out",
+  "normalizer": "Computed on each observed window after fitting target harmonic; exactly invariant to the injected harmonic in this linear model. Not a universal noise estimator.",
+  "selection": "One candidate specified before calculating its results. Report every frequency/window setting; do not select by held-out performance.",
+  "validation_scope": "Exploratory reanalysis of the same two known dates; not fresh independent validation.",
+  "amplitude_grid_uv_peak": [
+    0,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10,
+    30,
+    100,
+    300,
+    1000
+  ],
+  "phase_count": 64,
+  "scale_floor_uv": 1e-12
+}

@@ -1,0 +1,4 @@
+﻿velocity_m_s,B_T,sin_angle,u_cross_B_uV_m,meaning
+0.01,5e-05,1.0,0.5,local_motional_emf_scale_not_remote_observed_field
+0.1,5e-05,1.0,5.0,local_motional_emf_scale_not_remote_observed_field
+1.0,5e-05,1.0,50.0,local_motional_emf_scale_not_remote_observed_field

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "snapshot_entries_sha256_verified": 15,
+  "retired_active_plans": 6,
+  "chapter_outline_nonwhitespace_counts": {
+    "第一章 绪论": 432,
+    "第二章 理论分析与场景映射": 436,
+    "第三章 实验等效与系统标定": 444,
+    "第四章 信号分析与物理归因": 440,
+    "第五章 检测方法与能力验证": 452,
+    "第六章 总结与展望": 462
+  },
+  "chapter_one_han_characters": 6624,
+  "references": 11,
+  "checked_local_links": 26,
+  "pdf_pages": 11,
+  "pdf_sha256": "5702b9e6a0ff8e24e821dcfa8656471d1578190369c19c0a296a4fbce9554dff",
+  "remaining_typesetting_warnings": "Existing template font fallback, underfull vbox, unused figure/table captions, and local TeX version notices; visually reviewed separately."
+}

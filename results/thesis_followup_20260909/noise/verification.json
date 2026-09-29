@@ -1,0 +1,9 @@
+{
+  "baseline_max_probability_error": 6.938893903907228e-17,
+  "checked_source_records": 16,
+  "train_test_overlap": 0,
+  "residual_invariance_max_error_uv": 2.2737367544323206e-13,
+  "harmonic_injection_max_error_uv": 4.973799150320701e-14,
+  "window_count": 217,
+  "script_sha256": "dac024892e1f95960a1f7db389fb1b2c6d66c6721bfc4f60f22d146c6c31a568"
+}

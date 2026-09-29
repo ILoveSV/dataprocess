@@ -1,0 +1,6 @@
+% Model,cathodic_protection_tank_3d_current_sweep_v3.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Sep 8 2026, 14:36"
+% Table,表格 - 
+% gap_mm (1),pair_center_x_mm (1),mesh_auto_size (1),terminal_v_at_10ma (V),resistance_ohm (Ω),power_w (1),power_balance_relative_error (1),water_volume_m3 (1),mean_water_field_v_m (1)
+200,55,5,0.6934112460446108,69.34112460446107,0.006934112460462876,2.418166306710441E-12,0.1662308319691999,0.49473943873940207

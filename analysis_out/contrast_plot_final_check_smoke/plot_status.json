@@ -1,0 +1,23 @@
+{
+  "bandpower_gain_heatmap": {
+    "skipped": false
+  },
+  "cross_channel_support_heatmap": {
+    "skipped": false,
+    "active_channel_count": 12,
+    "row_label": "feature_type: display_label",
+    "wide_band_note": "peak: 10-200 kHz (wide) is a wide peak band, not a default bandpower band",
+    "one_to_ten_khz_note": "bandpower: 1-10 kHz and peak: 1-10 kHz are plotted on separate rows to avoid feature-type label collision"
+  },
+  "pumpfreq_net_contrast_heatmap": {
+    "skipped": false
+  },
+  "distance_decay_after_background": {
+    "skipped_distance_decay": true,
+    "reason": "need at least 2 distances",
+    "available_distance_count": 1
+  },
+  "outlier_channel_overview": {
+    "skipped": false
+  }
+}

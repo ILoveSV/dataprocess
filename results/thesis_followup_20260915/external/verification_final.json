@@ -1,0 +1,45 @@
+{
+  "gap_g010_three_points": true,
+  "gap_g010_ppr_three_points": true,
+  "gap_g020_three_points": true,
+  "gap_g020_ppr_three_points": true,
+  "gap_g050_three_points": true,
+  "gap_g050_ppr_three_points": true,
+  "gap_g100_three_points": true,
+  "gap_g100_ppr_three_points": true,
+  "gap_g200_three_points": true,
+  "gap_g200_ppr_three_points": true,
+  "gap_g300_three_points": true,
+  "gap_g300_ppr_three_points": true,
+  "single_g010_three_points": true,
+  "single_g010_ppr_three_points": true,
+  "single_g300_three_points": true,
+  "single_g300_ppr_three_points": true,
+  "gap_g010_fine_three_points": true,
+  "gap_g010_fine_ppr_three_points": true,
+  "gap_g300_fine_three_points": true,
+  "gap_g300_fine_ppr_three_points": true,
+  "max_norm_component_relative_error": 4.779046082637428e-13,
+  "all_transfer_source_hashes_match": true,
+  "max_source_current_balance_relative": 1.8922816091008896e-06,
+  "minimum_declared_copper_capsule_clearance_mm": 2.757188479502214,
+  "local_mesh_final_ppr": {
+    "maximum_abs_norm_change": 0.0058728735458214,
+    "maximum_vector_difference": 0.0062027689699367,
+    "screen_norm_2pct_pass": true,
+    "screen_vector_2pct_pass": true
+  },
+  "gap_mesh_ppr": {
+    "maximum_abs_norm_change": 0.0127223269464387,
+    "maximum_vector_difference": 0.0149449099736783,
+    "screen_norm_2pct_pass": true,
+    "screen_vector_2pct_pass": true
+  },
+  "domain_final_ppr": {
+    "maximum_abs_norm_change": 0.0081808186946512,
+    "maximum_vector_difference": 0.0122927442995292,
+    "screen_vector_5pct_pass": true
+  },
+  "interpretation": "Adjacent numerical sensitivity, not a bound on exact-solution error or experimental validation. Gap/route changes require their own endpoint mesh checks.",
+  "completed_date": "2026-09-18"
+}

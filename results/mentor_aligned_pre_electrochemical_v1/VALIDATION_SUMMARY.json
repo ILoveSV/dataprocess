@@ -1,0 +1,20 @@
+{
+  "validated_at": "2026-08-29T10:44:13.208357",
+  "status": "pass",
+  "exact_archive_case_count": 49,
+  "channel_health_row_count": 588,
+  "later_run_pair_count": 24,
+  "later_run_signature_count": 24,
+  "stop_control_count": 8,
+  "stop_direction_false_positive_count": 4,
+  "fixed_3p1s_test_count": 40,
+  "fixed_3p1s_pass_count": 0,
+  "blind_period_candidate_count": 200,
+  "blind_period_familywise_pass_count": 0,
+  "cross_detector_test_count": 40,
+  "cross_detector_lag_null_pass_count": 0,
+  "allan_5s_stop_negative_strata": 8,
+  "allan_5s_stop_strata": 8,
+  "legacy_pulse_group_count": 188,
+  "validated_figure_count": 8
+}

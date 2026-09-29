@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-27",
+  "kind": "conditional_theoretical_predictions_no_new_measurements",
+  "reference": {
+    "current_A": 1.0,
+    "separation_m": 10.0,
+    "depth_m": 5.0,
+    "sigma_S_m": 4.0,
+    "air_height_m": 1.0
+  },
+  "geometry": "flat_air_water_interface_horizontal_balanced_pair_broadside_receiver",
+  "air_sigma_S_m": 0.0,
+  "epsilon_r_water_assumed": 80,
+  "epsilon_r_air_assumed": 1,
+  "modulation_depths_are_assumed": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "finite_depth_DC_sensitivity": {
+    "water_depth_m": 20,
+    "bottom_sigma_S_m": 0.5,
+    "image_terms_each_side": 80
+  },
+  "EQS_prescreen": "L/delta<=0.1; L=max(d,max_source_receiver_distance); not an accuracy guarantee",
+  "no_detection_limit_or_range": true,
+  "no_new_COMSOL_solution": true,
+  "inputs_sha256": {
+    "scripts\\background_field_reference_20260927.py": "531d44f7bab385d56e03b5e1ea7769c7b75ab87c1689e2f47f380e9d0fd396c9",
+    "calculation and paper\\ship_efield_theory\\src\\propagation.py": "c80e443570117ea61c0e86c7c46989ef2a3ec339c2d31829a83d4b84091cad39"
+  },
+  "outputs_sha256": {
+    "00_reference_geometry.png": "b2ba789d0f5bddc0e36fa2dc853ca6ef508480e2e5e91c20358d5b83b1565b9a",
+    "00_reference_geometry.svg": "fa4c147b44668b8905c74d0be86325eccca273da99d2705d695230f2342da2d9",
+    "01_distance_and_boundary.png": "c9a61c15fd8ba1a9acd769b4e78cedb466f2ff1d74f60c228e4d72358d7e7cc8",
+    "01_distance_and_boundary.svg": "6176961adcf419c06e4de768a0be1faebcc4ce3cc2e59eb70cf3747f72f5ec42",
+    "02_modulated_field_with_validity.png": "d543e28419e79a87ec6d7b795ed14a863f7c04ac4ea1bf66a4ad8da0df44acfb",
+    "02_modulated_field_with_validity.svg": "2126c286d56a6416142d5f662cf45f506375b0ab70763c0d4aec5df6bb6deda0",
+    "03_depth_and_conductivity.png": "261a2dc1bc078dd4e40d06f1e41d3f777151031febbe2320372a82cd14fc7965",
+    "03_depth_and_conductivity.svg": "03d8bda63773c7bbdc39097fe48e2e704a4a153155a43d805a220840ba7005e9",
+    "frequency_validity.csv": "1df1e097ff931f1415a196210831ae791113a6b90ae2345ddbb81c56cb8e5428",
+    "modulation_with_validity.csv": "ed09dabc6adcfaff3f97510e66e279a65d0aae16b161663fcf2f45cd298f524b",
+    "net_source_cancellation.csv": "e3a212b594baaad7be1860f70d76f664fc1579b95b68f6200cd8df56fc229bc3",
+    "parameter_sensitivity.csv": "e799345ca2f6b7b8bb00e7984e08f5d4cf3d0044ef6f2e7b3fbb6473d73d3f79",
+    "reference_distance_dc.csv": "ea734d7faa2f40cc01f2ac773b4e4126c5573ab59c5d9d76206802749caa2b39",
+    "small_source_ideal_reference.csv": "8bd3333e443031357c84ec4be1a4852e4c05e3f363d6baafeba9ae76eb3a4e4c"
+  }
+}

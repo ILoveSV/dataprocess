@@ -1,0 +1,13 @@
+{
+  "analysis": "full_raw_highfrequency_completion",
+  "case_count": 49,
+  "raw_root": "E:\\Lab\\raw",
+  "window_count_per_file": 96,
+  "window_samples": 16384,
+  "sampling_strategy": "uniform windows across complete stable interval",
+  "dynamic_bad_channel_source": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\results\\mentor_aligned_pre_electrochemical_v1\\channel_health_dynamic.csv",
+  "limitations": [
+    "Uniform windows cover the full interval but are not every raw sample.",
+    "Bicoherence uses a coarse 3.125 kHz interaction grid for tractability."
+  ]
+}

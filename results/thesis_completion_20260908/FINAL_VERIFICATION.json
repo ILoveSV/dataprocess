@@ -1,0 +1,17 @@
+{
+  "registry_rows": 50,
+  "registry_sources_hash_verified": true,
+  "noise_sources_hash_verified": 16,
+  "xlsx_sheet_row_counts_with_headers": [
+    51,
+    33,
+    9,
+    7,
+    17
+  ],
+  "xlsx_error_cells": 0,
+  "docx_pages": 8,
+  "docx_pages_visually_reviewed": 8,
+  "figures_visually_reviewed": 6,
+  "final_review_date": "2026-09-09"
+}

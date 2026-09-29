@@ -1,0 +1,728 @@
+{
+  "stage": "background_contrast_tables",
+  "created_at": "2026-05-25T14:27:08.031475",
+  "input_dir": "time=D:\\Lab\\process\\26.5.12\\time;nist=D:\\Lab\\results\\26.5.12\\nist_diagnostics",
+  "output_dir": "analysis_out\\background_contrast_2m_complete",
+  "input_files": [
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075011.873184.csv",
+      "mtime": 1779348613.2656405,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075014.573184.csv",
+      "mtime": 1779348613.5577023,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075017.273184.csv",
+      "mtime": 1779348614.6741345,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075019.973184.csv",
+      "mtime": 1779348615.3322437,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075022.673184.csv",
+      "mtime": 1779348615.2768211,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075025.373184.csv",
+      "mtime": 1779348612.6960125,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075028.073184.csv",
+      "mtime": 1779348616.9907675,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075030.773184.csv",
+      "mtime": 1779348614.2391238,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075033.473184.csv",
+      "mtime": 1779348615.4864745,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075036.173184.csv",
+      "mtime": 1779348614.3867307,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075038.873184.csv",
+      "mtime": 1779348615.912895,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075041.573184.csv",
+      "mtime": 1779348613.1755116,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075044.273184.csv",
+      "mtime": 1779348617.0077677,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075046.973184.csv",
+      "mtime": 1779348616.3669064,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075049.673184.csv",
+      "mtime": 1779348613.5111723,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075052.373184.csv",
+      "mtime": 1779348614.6084907,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075055.073184.csv",
+      "mtime": 1779348614.266233,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075057.773184.csv",
+      "mtime": 1779348616.6620915,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075100.473184.csv",
+      "mtime": 1779348616.3253872,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075103.173184.csv",
+      "mtime": 1779348616.1097422,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075105.873184.csv",
+      "mtime": 1779348616.2963834,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075108.573184.csv",
+      "mtime": 1779348618.7864838,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075111.273184.csv",
+      "mtime": 1779348613.467196,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075113.973184.csv",
+      "mtime": 1779348615.034716,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075116.673184.csv",
+      "mtime": 1779348617.4285588,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075119.373184.csv",
+      "mtime": 1779348615.2002919,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075122.073184.csv",
+      "mtime": 1779348615.691116,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075124.773184.csv",
+      "mtime": 1779348616.993765,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075127.473184.csv",
+      "mtime": 1779348655.2794187,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075130.173184.csv",
+      "mtime": 1779348656.1218202,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075132.873184.csv",
+      "mtime": 1779348658.624806,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075135.573184.csv",
+      "mtime": 1779348656.9067953,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075138.273184.csv",
+      "mtime": 1779348652.6967435,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075140.973184.csv",
+      "mtime": 1779348658.4623835,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075143.673184.csv",
+      "mtime": 1779348656.12882,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075146.373184.csv",
+      "mtime": 1779348655.3320339,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075149.073184.csv",
+      "mtime": 1779348655.180741,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075151.773184.csv",
+      "mtime": 1779348655.6702049,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075154.473184.csv",
+      "mtime": 1779348657.449671,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m0hz\\20260512075157.173184.csv",
+      "mtime": 1779348639.0746374,
+      "size": 100480120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075306.473184.csv",
+      "mtime": 1779348659.6951504,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075309.173184.csv",
+      "mtime": 1779348659.3929884,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075311.873184.csv",
+      "mtime": 1779348659.0517912,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075314.573184.csv",
+      "mtime": 1779348657.7321014,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075317.273184.csv",
+      "mtime": 1779348659.1023164,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075319.973184.csv",
+      "mtime": 1779348659.281104,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075322.673184.csv",
+      "mtime": 1779348659.6379614,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075325.373184.csv",
+      "mtime": 1779348659.1023164,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075328.073184.csv",
+      "mtime": 1779348660.7526345,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075330.773184.csv",
+      "mtime": 1779348660.1824539,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075333.473184.csv",
+      "mtime": 1779348660.2252066,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075336.173184.csv",
+      "mtime": 1779348660.8411431,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075338.873184.csv",
+      "mtime": 1779348659.5257895,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075341.573184.csv",
+      "mtime": 1779348661.8331301,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075344.273184.csv",
+      "mtime": 1779348661.4426975,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075346.973184.csv",
+      "mtime": 1779348662.6419353,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075349.673184.csv",
+      "mtime": 1779348684.6166632,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075352.373184.csv",
+      "mtime": 1779348698.6394293,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075355.073184.csv",
+      "mtime": 1779348698.34653,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075357.773184.csv",
+      "mtime": 1779348700.2281506,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075400.473184.csv",
+      "mtime": 1779348698.9082878,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075403.173184.csv",
+      "mtime": 1779348699.3465486,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075405.873184.csv",
+      "mtime": 1779348700.7768128,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075408.573184.csv",
+      "mtime": 1779348700.0581214,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075411.273184.csv",
+      "mtime": 1779348699.5565774,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075413.973184.csv",
+      "mtime": 1779348702.7591567,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075416.673184.csv",
+      "mtime": 1779348702.002693,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075419.373184.csv",
+      "mtime": 1779348704.2824667,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075422.073184.csv",
+      "mtime": 1779348702.8649478,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075424.773184.csv",
+      "mtime": 1779348702.980165,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075427.473184.csv",
+      "mtime": 1779348699.7898216,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075430.173184.csv",
+      "mtime": 1779348702.7437768,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075432.873184.csv",
+      "mtime": 1779348703.1429443,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075435.573184.csv",
+      "mtime": 1779348701.6016364,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075438.273184.csv",
+      "mtime": 1779348706.3166738,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075440.973184.csv",
+      "mtime": 1779348703.433567,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075443.673184.csv",
+      "mtime": 1779348702.5413764,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075446.373184.csv",
+      "mtime": 1779348705.3507364,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075449.073184.csv",
+      "mtime": 1779348704.810737,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m30hz\\20260512075451.773184.csv",
+      "mtime": 1779348672.42684,
+      "size": 43960120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075559.973184.csv",
+      "mtime": 1779348703.1283834,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075602.673184.csv",
+      "mtime": 1779348708.126636,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075605.373184.csv",
+      "mtime": 1779348709.3166504,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075608.073184.csv",
+      "mtime": 1779348708.041939,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075610.773184.csv",
+      "mtime": 1779348716.2069597,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075613.473184.csv",
+      "mtime": 1779348732.0413446,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075616.173184.csv",
+      "mtime": 1779348739.3739576,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075618.873184.csv",
+      "mtime": 1779348739.9512708,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075621.573184.csv",
+      "mtime": 1779348740.6935587,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075624.273184.csv",
+      "mtime": 1779348740.6312032,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075626.973184.csv",
+      "mtime": 1779348740.1124513,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075629.673184.csv",
+      "mtime": 1779348742.336789,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075632.373184.csv",
+      "mtime": 1779348739.2351203,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075635.073184.csv",
+      "mtime": 1779348740.8747308,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075637.773184.csv",
+      "mtime": 1779348743.2971125,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075640.473184.csv",
+      "mtime": 1779348743.606967,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075643.173184.csv",
+      "mtime": 1779348742.4165647,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075645.873184.csv",
+      "mtime": 1779348743.4145663,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075648.573184.csv",
+      "mtime": 1779348741.6980364,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075651.273184.csv",
+      "mtime": 1779348744.3032317,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075653.973184.csv",
+      "mtime": 1779348743.5538032,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075656.673184.csv",
+      "mtime": 1779348744.1685178,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075659.373184.csv",
+      "mtime": 1779348743.8221695,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075702.073184.csv",
+      "mtime": 1779348744.2505434,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075704.773184.csv",
+      "mtime": 1779348744.681783,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075707.473184.csv",
+      "mtime": 1779348745.9050179,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075710.173184.csv",
+      "mtime": 1779348743.782103,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075712.873184.csv",
+      "mtime": 1779348744.5533597,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075715.573184.csv",
+      "mtime": 1779348746.27327,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075718.273184.csv",
+      "mtime": 1779348747.6047003,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075720.973184.csv",
+      "mtime": 1779348746.7357843,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075723.673184.csv",
+      "mtime": 1779348748.0820007,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075726.373184.csv",
+      "mtime": 1779348751.1524029,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075729.073184.csv",
+      "mtime": 1779348759.53244,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075731.773184.csv",
+      "mtime": 1779348765.3237503,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075734.473184.csv",
+      "mtime": 1779348765.0888636,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075737.173184.csv",
+      "mtime": 1779348766.0932612,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075739.873184.csv",
+      "mtime": 1779348766.3584213,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075742.573184.csv",
+      "mtime": 1779348767.5655572,
+      "size": 169560120
+    },
+    {
+      "path": "D:\\Lab\\process\\26.5.12\\time\\2m50hz\\20260512075745.273184.csv",
+      "mtime": 1779348751.0138342,
+      "size": 69080120
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m0hz\\acf_group_summary.xlsx",
+      "mtime": 1779351471.9899447,
+      "size": 65613
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m0hz\\psd_group_summary.xlsx",
+      "mtime": 1779351472.0014665,
+      "size": 13193
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m0hz\\psd_peaks_long.xlsx",
+      "mtime": 1779351472.047364,
+      "size": 9520
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m30hz\\acf_group_summary.xlsx",
+      "mtime": 1779352361.561715,
+      "size": 65468
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m30hz\\psd_group_summary.xlsx",
+      "mtime": 1779352361.5738993,
+      "size": 13237
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m30hz\\psd_peaks_long.xlsx",
+      "mtime": 1779352361.6242874,
+      "size": 9541
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m50hz\\acf_group_summary.xlsx",
+      "mtime": 1779353205.6006029,
+      "size": 64625
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m50hz\\psd_group_summary.xlsx",
+      "mtime": 1779353205.62881,
+      "size": 13195
+    },
+    {
+      "path": "D:\\Lab\\results\\26.5.12\\nist_diagnostics\\2m50hz\\psd_peaks_long.xlsx",
+      "mtime": 1779353205.7438476,
+      "size": 9520
+    }
+  ],
+  "expected_outputs": [
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\background_acf_contrast.xlsx",
+      "mtime": 1779690427.9798777,
+      "size": 8864
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\background_bandpower_contrast.xlsx",
+      "mtime": 1779690427.9529595,
+      "size": 28874
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\background_peak_contrast.xlsx",
+      "mtime": 1779690427.9708996,
+      "size": 15911
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\background_psd_diff_curves.csv",
+      "mtime": 1779690427.9180758,
+      "size": 41956803
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\contrast_run_log.txt",
+      "mtime": 1779690428.0305107,
+      "size": 873
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\contrast_summary_report.md",
+      "mtime": 1779690428.0305107,
+      "size": 6118
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\cross_channel_background_contrast.xlsx",
+      "mtime": 1779690427.9885046,
+      "size": 7206
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\distance_decay_after_background.xlsx",
+      "mtime": 1779690428.0059512,
+      "size": 5044
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\pumpfreq_net_contrast.xlsx",
+      "mtime": 1779690428.002026,
+      "size": 15325
+    },
+    {
+      "path": "analysis_out\\background_contrast_2m_complete\\qc_outlier_channels.xlsx",
+      "mtime": 1779690428.0125647,
+      "size": 7605
+    }
+  ],
+  "params": {
+    "stage": "background_contrast_tables",
+    "groups": [
+      "2m0hz",
+      "2m30hz",
+      "2m50hz"
+    ],
+    "channel_batch_size": 3,
+    "bands": "        band_name  band_low_hz  band_high_hz\n0         0-100Hz          0.0         100.0\n1      100Hz-1kHz        100.0        1000.0\n2      1kHz-10kHz       1000.0       10000.0\n3     10kHz-50kHz      10000.0       50000.0\n4    50kHz-100kHz      50000.0      100000.0\n5   100kHz-200kHz     100000.0      200000.0\n6        30Hz±2Hz         28.0          32.0\n7        50Hz±2Hz         48.0          52.0\n8        60Hz±2Hz         58.0          62.0\n9    8.5kHz±300Hz       8200.0        8800.0\n10     50kHz±1kHz      49000.0       51000.0\n11   59.5kHz±1kHz      58500.0       60500.0",
+    "output_schema": [
+      "background_psd_diff_curves.csv",
+      "background_bandpower_contrast.xlsx",
+      "background_peak_contrast.xlsx",
+      "background_acf_contrast.xlsx",
+      "cross_channel_background_contrast.xlsx",
+      "pumpfreq_net_contrast.xlsx",
+      "distance_decay_after_background.xlsx",
+      "qc_outlier_channels.xlsx",
+      "contrast_summary_report.md",
+      "contrast_run_log.txt"
+    ]
+  },
+  "param_signature": "4cac79ff6f66bb4f7d1e8bd2ea8e359c06dc6d2405f19cb96d5b207555f6b601"
+}

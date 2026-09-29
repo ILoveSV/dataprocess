@@ -1,0 +1,21 @@
+method,status,evidence_file,scope_or_limit
+PSD/narrow-line/band,complete,C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\results\mentor_aligned_pre_electrochemical_v1\run_manifest.json,full archived PSD and local contrasts
+ACF/AR1/Allan/lag/coherence,complete,C:\Users\17584\Documents\ALearning\Project\tools\DataProcess\results\mentor_aligned_pre_electrochemical_v1\run_manifest.json,full 4 kHz or 10 Hz archived time series
+Morlet CWT + COI + red-noise,complete,results\mentor_aligned_methods_v2\wavelet_relaxation\cwt_case_features.csv,0.05-2 Hz full slow records
+cross-wavelet coherence,complete,results\mentor_aligned_methods_v2\wavelet_relaxation\cross_wavelet_coherence.csv,slow common mode versus energy-envelope PCs
+synchrosqueezed CWT,complete,results\mentor_aligned_methods_v2\wavelet_relaxation\synchrosqueezed_case_features.csv,0.05-2 Hz ridge concentration
+PELT + event alignment,complete,results\mentor_aligned_methods_v2\wavelet_relaxation\changepoint_event_details.csv,unlabelled steady-state changes only
+single/double/damped relaxation,complete,results\mentor_aligned_methods_v2\event_shape_models\event_shape_model_details.csv,AICc model comparison at PELT events
+matrix pencil,complete_exploratory,results\mentor_aligned_methods_v2\event_shape_models\event_shape_model_details.csv,candidate poles only; requires repeated supported events
+DFA/MF-DFA,complete,results\mentor_aligned_methods_v2\modes_complexity_network\complexity_case_features.csv,full slow common-mode signals
+multiscale entropy/RQA,complete,results\mentor_aligned_methods_v2\modes_complexity_network\complexity_case_features.csv,short records may be underpowered
+EMD/EEMD/VMD,complete,results\mentor_aligned_methods_v2\modes_complexity_network\adaptive_mode_case_features.csv,VMD K/alpha and EEMD sensitivity included
+strict projection MEMD,data_or_implementation_limited,results\mentor_aligned_methods_v2\modes_complexity_network\aligned_multichannel_emd_case_features.csv,channelwise EMD band alignment used; not labelled MEMD
+Robust PCA + state space,complete,results\mentor_aligned_methods_v2\modes_complexity_network\network_state_case_features.csv,common/sparse network and local-trend variance
+conditional VAR Granger,complete_exploratory,results\mentor_aligned_methods_v2\modes_complexity_network\granger_channel_edges.csv,"predictive direction, not physical causation"
+phase-amplitude coupling,complete,results\mentor_aligned_methods_v2\nonlinear_highfreq\phase_amplitude_coupling.csv,0.05-0.5 Hz phase to 0.5-2 Hz envelopes
+high-frequency CWT,short_window_only,results\mentor_aligned_methods_v2\nonlinear_highfreq\short_high_frequency_cwt.csv,three 1 s snippets per file; no full-record persistence claim
+bispectrum/bicoherence,short_window_only,results\mentor_aligned_methods_v2\nonlinear_highfreq\short_high_frequency_bicoherence.csv,three 1 s snippets with phase-surrogate null
+filter sensitivity/injection,complete,results\mentor_aligned_methods_v2\wavelet_relaxation\filter_injection_recovery.csv,"unfiltered, SG, zero-phase, wavelet shrinkage, Kalman"
+grouped multimethod identifiability,complete_exploratory,results\mentor_aligned_methods_v2\identifiability\grouped_identifiability_summary.csv,leave-one date-arrangement-detector stratum out plus label permutation
+full 400 kHz time-frequency/coherence,archive_limited,results\mentor_aligned_methods_v2\nonlinear_highfreq\run_manifest.json,full raw waveform was not archived

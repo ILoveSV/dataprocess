@@ -1,0 +1,13 @@
+{
+  "source": "g111_r2",
+  "training_ids": [
+    "g111_r1",
+    "g111_r3",
+    "g111_r4",
+    "g111_r5",
+    "g222_r1",
+    "g222_r2",
+    "g222_r3"
+  ],
+  "mode": "nested training-only health fusion"
+}

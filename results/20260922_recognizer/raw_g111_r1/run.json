@@ -1,0 +1,42 @@
+{
+  "source": "E:\\Lab\\raw\\9.21\\111\\20260921104403.351724-1.tdms",
+  "model": "C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess\\results\\20260922_recognizer\\g111_r1_heldout.joblib",
+  "in_training_set": false,
+  "mode": "raw TDMS causal replay",
+  "training_ids": [
+    "g111_r2",
+    "g111_r3",
+    "g111_r4",
+    "g111_r5",
+    "g222_r1",
+    "g222_r2",
+    "g222_r3"
+  ],
+  "timing_scope": "TDMS read + extraction + inference; excludes output writing",
+  "baseline_condition": "user confirmed initial 20s pump off",
+  "channel_names": [
+    "cDAQ9188-1B5105DMod1/ai0",
+    "cDAQ9188-1B5105DMod1/ai1",
+    "cDAQ9188-1B5105DMod1/ai2",
+    "cDAQ9188-1B5105DMod1/ai3",
+    "cDAQ9188-1B5105DMod2/ai0",
+    "cDAQ9188-1B5105DMod2/ai1",
+    "cDAQ9188-1B5105DMod2/ai2",
+    "cDAQ9188-1B5105DMod2/ai3",
+    "cDAQ9188-1B5105DMod3/ai0",
+    "cDAQ9188-1B5105DMod3/ai1",
+    "cDAQ9188-1B5105DMod3/ai2",
+    "cDAQ9188-1B5105DMod3/ai3"
+  ],
+  "sample_count": 47631444,
+  "fs": 400000,
+  "duration_s": 119.07861,
+  "samples_read": 47631444,
+  "tail_without_prediction_s": 0.07861,
+  "processing_mean_s": 0.41162916638654296,
+  "processing_p95_s": 0.4224012200000743,
+  "processing_max_s": 0.5491133999998965,
+  "seconds_processed": 119,
+  "confirmed_event_count": 1,
+  "wall_s_excluding_output": 48.99014810000017
+}

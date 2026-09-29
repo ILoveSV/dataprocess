@@ -1,0 +1,16 @@
+{
+  "successful_cases": 11,
+  "failed_cases": [
+    "g010_x055_m6",
+    "g300_x055_m6"
+  ],
+  "failure_reason": "Coarse mesh geometry meshing failure; retained as failures",
+  "max_power_balance_relative_error": 2.306087502510165e-11,
+  "water_volume_relative_span": 4.607951035484844e-06,
+  "resistance_300_to_10_main": 2.62700727449334,
+  "uniform_water_dipole_fixed_i_gain": 5.0,
+  "uniform_water_dipole_fixed_v_gain": 1.9033064919716787,
+  "air_field_computed": false,
+  "source_model": "comsol/models/cathodic_protection_tank_3d_current_sweep_v3.mph",
+  "source_model_sha256": "d296984375b5c376dbe286259d1de6aaa6729f5045c40379c4f34b4c0eddd35d"
+}

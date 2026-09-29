@@ -1,0 +1,6 @@
+config,positive_strata,median_difference,wilcoxon_p,epoch_positive_strata,epoch_positive_files
+center64_then32_original,8,0.011714661726728082,0.0078125,7,22
+full64_common,8,0.011714698639801692,0.0078125,7,22
+full64_original,8,0.011714698639801692,0.0078125,7,22
+full64_strict,8,0.009765320352090691,0.0078125,7,20
+legacy32_original,8,0.0117209127638489,0.0078125,7,22

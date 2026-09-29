@@ -1,0 +1,12 @@
+﻿case_id,error,window_start_s,window_end_s,seconds,true,mean_prob_on,raw_prediction_already_correct_seconds,top_features,top_channel_counterfactuals
+g111_r1,false_on,97,117,20,off,0.7243382509141216,0,line50_q90:+1.076; slow_mean_q90:+0.705; line100_q90:+0.557; carrier4k_q90:-0.393; b100_1k_q90:-0.329,ch3:+1.293; ch2:+0.638; ch4:+0.577
+g111_r2,miss_on,43,48,5,on,0.3992708535528961,2,line50_q90:-0.548; carrier4k_q90:+0.366; carrier8k_q90:+0.268; b100_1k_q90:+0.250; line50_median:-0.233,ch8:+1.544; ch4:+1.138; ch9:+0.236
+g111_r2,miss_on,53,57,4,on,0.591848403902779,2,carrier4k_q90:+0.748; carrier12k_q90:+0.517; carrier8k_q90:+0.368; line50_q90:-0.176; line50_median:-0.173,ch4:+0.870; ch8:+0.813; ch2:+0.189
+g111_r2,false_on,97,99,2,off,0.020169779375387074,2,carrier4k_q90:-0.886; carrier12k_q90:-0.813; line50_q90:-0.578; carrier8k_q90:-0.436; b100_1k_q90:+0.284,ch4:-0.231; ch2:-0.228; ch7:+0.145
+g111_r3,false_on,97,98,1,off,0.06665888406414178,1,carrier12k_q90:-0.741; carrier4k_q90:-0.704; carrier8k_q90:-0.553; b100_1k_q90:+0.239; line50_q90:-0.234,ch5:+0.238; ch6:+0.070; ch10:+0.037
+g111_r4,false_on,97,98,1,off,0.075173041017272,1,carrier4k_q90:-0.980; carrier12k_q90:-0.707; carrier8k_q90:-0.668; line50_q90:-0.349; b100_1k_q90:+0.313,ch1:+0.391; ch4:+0.329; ch7:-0.067
+g111_r5,false_on,97,98,1,off,0.05095831865742807,1,carrier4k_q90:-0.969; carrier8k_q90:-0.636; carrier12k_q90:-0.536; line50_q90:-0.344; b100_1k_q90:+0.332,ch3:+0.124; ch12:+0.096; ch8:+0.060
+g222_r1,miss_on,53,59,6,on,0.5171793752215809,2,carrier12k_q90:+0.306; carrier4k_q90:+0.273; slow_mean_q90:-0.225; b1_20k_q90:-0.201; slow_mean_median:+0.198,ch8:+2.465; ch4:+2.363; ch2:+0.058
+g222_r1,false_on,87,94,7,off,0.7197649910721253,2,carrier4k_q90:+0.754; carrier8k_q90:+0.555; carrier12k_q90:+0.533; slow_mean_q90:+0.280; b1_20k_q90:+0.279,ch4:+2.284; ch8:+2.227; ch3:+0.242
+g222_r2,false_on,87,94,7,off,0.6867299759556709,2,carrier4k_q90:+0.911; carrier8k_q90:+0.736; slow_mean_median:-0.735; carrier12k_q90:+0.636; near100k_median:-0.489,ch8:+0.111; ch4:+0.064; ch7:-0.034
+g222_r3,false_on,87,92,5,off,0.5402555873075505,2,slow_mean_median:-0.789; carrier4k_q90:+0.535; b100_1k_median:-0.520; carrier8k_q90:+0.490; near100k_median:-0.484,ch10:-0.114; ch2:-0.114; ch11:-0.106
