@@ -10,7 +10,7 @@ import re
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MANIFEST = "docs/repository/sync_manifest_20260928.json"
+DEFAULT_MANIFEST = "docs/repository/sync_manifest_20260929.json"
 BLOCKED_SUFFIXES = {
     ".tdms", ".tdms_index", ".npy", ".npz", ".pkl", ".pickle", ".joblib",
     ".h5", ".hdf5", ".mph", ".class", ".pptx", ".ppt", ".docx", ".doc",
@@ -36,17 +36,19 @@ def git_paths(*args: str) -> list[str]:
 
 
 def path_errors(path: str, size: int) -> list[str]:
-    p = Path(path)
+    normalized = path.replace("\\", "/")
+    parts = tuple(part for part in normalized.split("/") if part)
+    p = Path(normalized)
     reasons = []
     if p.suffix.lower() in BLOCKED_SUFFIXES or ".mph." in p.name:
         reasons.append("local-only artifact")
     if p.name == ".env" or (p.name.startswith(".env.") and p.name != ".env.example"):
         reasons.append("environment file")
-    if {".ssh", ".cache", "__pycache__", "build", "tmp", ".codex_tmp"}.intersection(p.parts):
+    if {".ssh", ".cache", "__pycache__", "build", "tmp", ".codex_tmp", "local"}.intersection(parts):
         reasons.append("private/cache/build directory")
-    if p.name == "COMPLETE" and p.parts[0] == "results":
+    if p.name == "COMPLETE" and parts and parts[0] in {"analysis", "experiments", "archive"}:
         reasons.append("partial archive must not claim completeness")
-    limit = 2 * 1024**2 if p.parts[0] == "analysis_out" else 25 * 1024**2
+    limit = 2 * 1024**2 if parts[:2] == ("analysis", "legacy_pipeline") else 25 * 1024**2
     if size > limit:
         reasons.append(f"file exceeds {limit // 1024**2} MiB review limit")
     return reasons
@@ -82,7 +84,7 @@ def audit(include_untracked: bool) -> dict:
     return {
         "scope": "current working-tree content of indexed files" + (" plus unignored new files" if include_untracked else ""),
         "manifest_self_excluded": DEFAULT_MANIFEST,
-        "limits": "25 MiB per file; 2 MiB under analysis_out; raw/binary archives excluded",
+        "limits": "25 MiB per file; 2 MiB under analysis/legacy_pipeline; raw/binary archives excluded",
         "security_limit": "High-confidence credential-pattern scan only; not a guarantee of absence of sensitive content.",
         "file_count": len(rows), "total_bytes": sum(r["bytes"] for r in rows),
         "groups": groups, "issues": issues, "files": rows,

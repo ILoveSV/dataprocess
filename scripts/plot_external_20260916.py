@@ -13,8 +13,8 @@ from reportlab.lib.colors import HexColor
 import pypdfium2 as pdfium
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "results/thesis_followup_20260915/external"
-OUT = ROOT / "results/thesis_followup_20260915/figures"
+DATA = ROOT / 'analysis/thesis_followup_20260915/external'
+OUT = ROOT / 'analysis/thesis_followup_20260915/figures'
 OUT.mkdir(parents=True, exist_ok=True)
 BLUE, ORANGE, GREEN = "#2166AC", "#D55E00", "#27805B"
 INK, MUTED, GRID = "#202B35", "#566470", "#DDE3E8"

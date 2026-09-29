@@ -27,17 +27,17 @@ DEFAULT_DATASETS = (
     Dataset(
         "20260617",
         Path(r"D:\Lab\raw\26.6.17"),
-        Path("results") / "experiment_20260617" / "exact_archive",
+        Path('experiments/20260617/exact_archive'),
     ),
     Dataset(
         "20260731",
         Path(r"D:\Lab\raw\26.7.31"),
-        Path("results") / "experiment_20260731" / "tdms" / "exact_archive",
+        Path('experiments/20260731/tdms/exact_archive'),
     ),
     Dataset(
         "20260806",
         Path(r"D:\Lab\raw\26.8.6"),
-        Path("results") / "experiment_20260806" / "exact_archive",
+        Path('experiments/20260806/exact_archive'),
     ),
 )
 MEDIA_SUFFIXES = {".mp4", ".m4a", ".wav", ".jpg", ".jpeg", ".png", ".mov"}
@@ -109,8 +109,8 @@ def package_code(project_root: Path, output: Path) -> list[dict[str, object]]:
 
 def inventory_analysis_outputs(project_root: Path) -> list[dict[str, object]]:
     rows = []
-    results_root = project_root / "results"
-    for path in sorted(results_root.glob("experiment_2026*/**/*")):
+    results_root = project_root / "experiments"
+    for path in sorted(results_root.glob("2026*/**/*")):
         if not path.is_file() or path.suffix.lower() not in REPORT_SUFFIXES:
             continue
         if "exact_archive" in path.parts:
@@ -136,7 +136,7 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("results") / "preservation_20260808",
+        default=Path('archive/preservation_20260808'),
     )
     parser.add_argument(
         "--copy-media",

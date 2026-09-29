@@ -8,14 +8,14 @@ from pathlib import Path
 import pandas as pd
 
 
-DEFAULT_ANALYSIS_ROOT = Path("analysis_out")
+DEFAULT_ANALYSIS_ROOT = Path('analysis/legacy_pipeline')
 DOC_PATH = Path("docs/ML_FEATURE_PIPELINE_INTEGRATION_V1.md")
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="ML Feature Pipeline Integration v1 orchestrator.")
-    parser.add_argument("--output", default="analysis_out/ml_feature_pipeline_integration_v1")
-    parser.add_argument("--analysis-root", default="analysis_out")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/ml_feature_pipeline_integration_v1")
+    parser.add_argument("--analysis-root", default="analysis/legacy_pipeline")
     parser.add_argument("--time-root", default="D:/Lab/process/26.5.12/time")
     parser.add_argument("--fft-root", default="D:/Lab/process/26.5.12/frequency")
     parser.add_argument("--background-output", default="D:/Lab/results/26.5.12/background_contrast_v1")
@@ -433,13 +433,13 @@ def write_report(path, manifest):
         "Default reuse/inspection run:",
         "",
         "```powershell",
-        "python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --output analysis_out/ml_feature_pipeline_integration_v1",
+        "python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --output analysis/legacy_pipeline/ml_feature_pipeline_integration_v1",
         "```",
         "",
         "Run only missing artifacts:",
         "",
         "```powershell",
-        "python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --time-root D:/Lab/process/NEW/time --fft-root D:/Lab/process/NEW/frequency --background-output D:/Lab/results/NEW/background_contrast_v1 --analysis-root analysis_out/NEW_ml_features --run-missing",
+        "python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --time-root D:/Lab/process/NEW/time --fft-root D:/Lab/process/NEW/frequency --background-output D:/Lab/results/NEW/background_contrast_v1 --analysis-root analysis/legacy_pipeline/NEW_ml_features --run-missing",
         "```",
         "",
         "Use `--force-run` only when intentionally recomputing existing artifacts.",

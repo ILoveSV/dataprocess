@@ -3,7 +3,7 @@ from pathlib import Path
 import sys,os,json,hashlib,ast,time,argparse,itertools,warnings
 from collections import Counter
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT/'tmp/research_validation_20260908/deps'))
+sys.path.insert(0,str(ROOT / 'local/tmp/research_validation_20260908/deps'))
 os.environ.setdefault('OMP_NUM_THREADS','1')
 import numpy as np
 import pandas as pd
@@ -18,8 +18,8 @@ from sklearn.model_selection import LeaveOneGroupOut
 from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 import sklearn,nptdms
-OUT=ROOT/'results/coherence_precision_audit_20260908'
-OLD=ROOT/'results/mentor_aligned_raw_completion_v3'
+OUT=ROOT / 'analysis/coherence_precision_audit_20260908'
+OLD=ROOT / 'analysis/mentor_aligned_raw_completion_v3'
 META=['dataset','case_id','arrangement','detector','condition','distance','carrier_khz','output_hz']
 INDEX_COLUMNS=META+['reference_case_id','reference_condition']
 KEYS=['pair_coherence_80_200khz_median','pair_coherence_80_200khz_epoch_median']
@@ -38,12 +38,12 @@ def setup():
     old=pd.read_csv(OLD/'full_raw_highfrequency/full_raw_highfrequency_features.csv')
     old=old[old.dataset.isin([20260731,20260806])].copy().reset_index(drop=True)
     assert len(old)==40
-    h=pd.read_csv(ROOT/'results/mentor_aligned_pre_electrochemical_v1/channel_health_dynamic.csv')
+    h=pd.read_csv(ROOT / 'analysis/mentor_aligned_pre_electrochemical_v1/channel_health_dynamic.csv')
     raw={}
     for p in Path('D:/Lab/raw/raw').rglob('*.tdms'):raw.setdefault(p.name,[]).append(p)
     records=[]
     for _,r in old.iterrows():
-        archive=ROOT/('results/experiment_20260731/tdms/exact_archive' if r.dataset==20260731 else 'results/experiment_20260806/exact_archive')/r.case_id
+        archive=ROOT/('experiments/20260731/tdms/exact_archive' if r.dataset==20260731 else 'experiments/20260806/exact_archive')/r.case_id
         m=json.loads((archive/'metadata.json').read_text(encoding='utf8'))
         name=Path(m.get('source_tdms_path',m.get('source_path'))).name
         candidates=raw.get(name,[])

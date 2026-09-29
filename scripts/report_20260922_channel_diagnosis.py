@@ -7,10 +7,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from scripts.analyze_20260921_switching import load,nominal
-OUT=ROOT/'results/20260922_channel_diagnosis'
+OUT=ROOT / 'analysis/20260922_channel_diagnosis'
 def read(n):return pd.read_csv(OUT/(n+'.csv'))
 def table(d):return d.to_markdown(index=False,floatfmt='.3f')
-summary=read('channel_ablation_summary');folds=read('channel_ablation_by_trial');errors=read('error_intervals');pred=read('diagnostic_predictions');state=read('channel_state_statistics');quality=pd.read_csv(ROOT/'results/20260921_switching/channel_health.csv');raw=read('raw_targeted_audit')
+summary=read('channel_ablation_summary');folds=read('channel_ablation_by_trial');errors=read('error_intervals');pred=read('diagnostic_predictions');state=read('channel_state_statistics');quality=pd.read_csv(ROOT / 'experiments/20260921_switching/channel_health.csv');raw=read('raw_targeted_audit')
 plt.rcParams.update({'font.sans-serif':['Microsoft YaHei','SimHei','DejaVu Sans'],'axes.unicode_minus':False})
 fig,axes=plt.subplots(3,1,figsize=(12,8),sharex=True)
 for ax,cid in zip(axes,['g111_r1','g111_r2','g222_r1']):

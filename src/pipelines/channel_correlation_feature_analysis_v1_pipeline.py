@@ -20,7 +20,7 @@ EPS = 1e-30
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Channel Correlation Feature Analysis v1.")
     parser.add_argument("--time-root", default="D:/Lab/process/26.5.12/time")
-    parser.add_argument("--output", default="analysis_out/channel_correlation_features_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/channel_correlation_features_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 
@@ -355,8 +355,8 @@ def build_redundancy(matrix):
 
 
 def compare_existing(sep):
-    tf_path = Path("analysis_out/time_frequency_feature_comparison_v1/combined_feature_separability_summary.csv")
-    acf_path = Path("analysis_out/acf_features_v1/acf_feature_separability_summary_v1.csv")
+    tf_path = Path('analysis/legacy_pipeline/time_frequency_feature_comparison_v1/combined_feature_separability_summary.csv')
+    acf_path = Path('analysis/legacy_pipeline/acf_features_v1/acf_feature_separability_summary_v1.csv')
     if not tf_path.exists() or not acf_path.exists():
         return pd.DataFrame([{"skipped_reason": "existing time/frequency or ACF comparison files not found"}])
     tf = pd.read_csv(tf_path)
@@ -426,9 +426,9 @@ def build_sets(roles):
 
 
 def maybe_combined_sets(output_dir, sets):
-    path = Path("analysis_out/acf_features_v1/recommended_feature_sets_with_acf_v1.json")
+    path = Path('analysis/legacy_pipeline/acf_features_v1/recommended_feature_sets_with_acf_v1.json')
     if not path.exists():
-        path = Path("analysis_out/time_frequency_feature_comparison_v1/recommended_feature_sets_v1.json")
+        path = Path('analysis/legacy_pipeline/time_frequency_feature_comparison_v1/recommended_feature_sets_v1.json')
     if not path.exists():
         return
     base = read_json(path)

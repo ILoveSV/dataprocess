@@ -11,7 +11,7 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_BASE = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3"
+DEFAULT_BASE = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3'
 
 
 def validate(base: Path) -> dict[str, object]:

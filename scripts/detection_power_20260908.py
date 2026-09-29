@@ -4,7 +4,7 @@ import json, hashlib
 import numpy as np
 import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'results/thesis_completion_20260908/detection'; OUT.mkdir(exist_ok=True)
+OUT=ROOT / 'analysis/thesis_completion_20260908/detection'; OUT.mkdir(exist_ok=True)
 protocol=dict(version=1,frequencies_hz=[1/3.1,.1,.05],durations_s=[20,40,60],minimum_cycles=2,
  amplitudes_uv_peak=[0,.01,.03,.1,.3,1,3,10,30,100,300,1000],phase_count=64,
  maximum_nonoverlapping_windows_per_record=6,threshold_quantile=.95,
@@ -14,13 +14,13 @@ protocol=dict(version=1,frequencies_hz=[1/3.1,.1,.05],durations_s=[20,40,60],min
  aggregation='Equal records, then equal windows and 64 equally spaced phases; no independent-experiment CI',
  scope='16 archived pump BG/STOP records, 2 dates; does not calibrate cathodic field strength or raw-input transfer')
 (OUT/'protocol.json').write_text(json.dumps(protocol,indent=2,ensure_ascii=False),encoding='utf8')
-f=pd.read_csv(ROOT/'results/coherence_precision_audit_20260908/features.csv')
+f=pd.read_csv(ROOT / 'analysis/coherence_precision_audit_20260908/features.csv')
 f=f[f.config.eq('full64_common') & f.condition.isin(['background','vfd_stop'])].copy()
 assert len(f)==16, f[['case_id','condition']]
-ch=pd.read_csv(ROOT/'results/coherence_precision_audit_20260908/channel_sets.csv').set_index('case_id')
+ch=pd.read_csv(ROOT / 'analysis/coherence_precision_audit_20260908/channel_sets.csv').set_index('case_id')
 manifest=[]; windows=[]; signals={}; checks=[]
 for r in f.itertuples():
- base=ROOT/('results/experiment_20260731/tdms/exact_archive' if str(r.dataset)=='20260731' else 'results/experiment_20260806/exact_archive')/r.case_id
+ base=ROOT/('experiments/20260731/tdms/exact_archive' if str(r.dataset)=='20260731' else 'experiments/20260806/exact_archive')/r.case_id
  m=json.loads((base/'metadata.json').read_text(encoding='utf8'))
  z=np.load(base/'envelopes.npz'); fs=float(z['envelope_rate_hz']); x=z['slow_mean']; channels=[c-1 for c in json.loads(ch.loc[r.case_id,'common'])]
  assert x.dtype==np.float64 and x.shape[1]==12 and max(channels)<12

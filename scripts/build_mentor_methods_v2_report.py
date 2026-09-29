@@ -249,7 +249,7 @@ def summarize_significance(base: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def method_coverage(base: Path) -> pd.DataFrame:
-    prior = PROJECT_ROOT / "results" / "mentor_aligned_pre_electrochemical_v1"
+    prior = PROJECT_ROOT / 'analysis/mentor_aligned_pre_electrochemical_v1'
     rows = [
         ("PSD/narrow-line/band", "complete", prior / "run_manifest.json", "full archived PSD and local contrasts"),
         ("ACF/AR1/Allan/lag/coherence", "complete", prior / "run_manifest.json", "full 4 kHz or 10 Hz archived time series"),

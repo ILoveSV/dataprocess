@@ -1,0 +1,197 @@
+{
+  "common_keys_with_candidate_feature_dataset_v2": [
+    "group",
+    "distance",
+    "rpm",
+    "file_id",
+    "channel"
+  ],
+  "can_enter_separability_analysis": true,
+  "features": [
+    {
+      "feature_name": "mean",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "median",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "dc_offset",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "min",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "max",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "peak_to_peak",
+      "feature_type": "amplitude",
+      "unit": "V"
+    },
+    {
+      "feature_name": "std",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "rms",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "ac_rms",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "robust_sigma",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "mad",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "iqr",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "q05_q95_range",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "q10_q90_range",
+      "feature_type": "variation",
+      "unit": "V"
+    },
+    {
+      "feature_name": "skewness",
+      "feature_type": "distribution_shape",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "kurtosis",
+      "feature_type": "distribution_shape",
+      "unit": "unitless_fisher"
+    },
+    {
+      "feature_name": "crest_factor",
+      "feature_type": "distribution_shape",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "impulse_factor",
+      "feature_type": "distribution_shape",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "shape_factor",
+      "feature_type": "distribution_shape",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "tail_ratio",
+      "feature_type": "distribution_shape",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "linear_slope",
+      "feature_type": "drift",
+      "unit": "V/s"
+    },
+    {
+      "feature_name": "drift_span",
+      "feature_type": "drift",
+      "unit": "V"
+    },
+    {
+      "feature_name": "drift_ratio_robust",
+      "feature_type": "drift",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "start_end_delta",
+      "feature_type": "drift",
+      "unit": "V"
+    },
+    {
+      "feature_name": "start_end_delta_ratio",
+      "feature_type": "drift",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "spike_count_3sigma",
+      "feature_type": "spike",
+      "unit": "count"
+    },
+    {
+      "feature_name": "spike_rate_3sigma",
+      "feature_type": "spike",
+      "unit": "count/s"
+    },
+    {
+      "feature_name": "spike_count_5sigma",
+      "feature_type": "spike",
+      "unit": "count"
+    },
+    {
+      "feature_name": "max_abs_z_robust",
+      "feature_type": "spike",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "clipping_flag",
+      "feature_type": "spike",
+      "unit": "boolean"
+    },
+    {
+      "feature_name": "rolling_rms_median",
+      "feature_type": "local_stability",
+      "unit": "V"
+    },
+    {
+      "feature_name": "rolling_rms_iqr",
+      "feature_type": "local_stability",
+      "unit": "V"
+    },
+    {
+      "feature_name": "rolling_rms_cv",
+      "feature_type": "local_stability",
+      "unit": "unitless"
+    },
+    {
+      "feature_name": "rolling_mean_range",
+      "feature_type": "local_stability",
+      "unit": "V"
+    },
+    {
+      "feature_name": "stable_window_ratio",
+      "feature_type": "local_stability",
+      "unit": "fraction"
+    },
+    {
+      "feature_name": "longest_stable_duration",
+      "feature_type": "local_stability",
+      "unit": "s"
+    }
+  ],
+  "fields": {
+    "sample_id": "unique group + file stem + channel identifier",
+    "qc_flag": "semicolon-separated QC flags; OK when no warning was detected",
+    "window_mode": "non-overlapping rolling window mode used for local stability features"
+  }
+}

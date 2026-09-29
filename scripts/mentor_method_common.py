@@ -26,9 +26,9 @@ from scripts.analyze_pre_electrochemical_dynamics import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-METHOD_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_methods_v2"
-BASE_ANALYSIS = PROJECT_ROOT / "results/mentor_aligned_pre_electrochemical_v1"
-LOCAL_DEPENDENCIES = PROJECT_ROOT / ".codex_tmp/mentor_method_deps"
+METHOD_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_methods_v2'
+BASE_ANALYSIS = PROJECT_ROOT / 'analysis/mentor_aligned_pre_electrochemical_v1'
+LOCAL_DEPENDENCIES = PROJECT_ROOT / 'local/workbench/mentor_method_deps'
 
 
 def enable_local_dependencies() -> None:

@@ -1,8 +1,0 @@
-{
-  "freq_strict_key_count": 4212,
-  "time_key_count": 4320,
-  "common_key_count": 4212,
-  "freq_only_key_count": 0,
-  "time_only_key_count": 108,
-  "note": "Frequency file_id uses FFT_ prefix; normalized_file_key removes only the FFT_ prefix and keeps .csv suffix for alignment."
-}

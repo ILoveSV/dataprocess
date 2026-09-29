@@ -11,11 +11,11 @@ PSD/bandpower features describe frequency-domain energy. Time-domain statistics 
 
 ## Outputs
 
-- `analysis_out\time_domain_features_v1\time_domain_feature_dataset_v1.csv`
-- `analysis_out\time_domain_features_v1\time_domain_feature_stability_summary_v1.csv`
-- `analysis_out\time_domain_features_v1\time_domain_feature_schema.json`
-- `analysis_out\time_domain_features_v1\time_domain_feature_run_config.json`
-- `analysis_out\time_domain_features_v1\time_domain_feature_input_audit.json`
+- `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_dataset_v1.csv`
+- `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_stability_summary_v1.csv`
+- `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_schema.json`
+- `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_run_config.json`
+- `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_input_audit.json`
 
 ## Feature Groups
 

@@ -1,0 +1,61 @@
+{
+  "per_channel_output": "analysis_out\\background_subtracted_psd_response_consistency_per_channel_first39_v1",
+  "source_index": "analysis_out\\background_subtracted_psd_response_consistency_per_channel_first39_v1\\psd_response_review_figure_index_per_channel_v1.csv",
+  "output": "analysis_out\\psd_response_montage_review_v1",
+  "montage_types": [
+    "by_window",
+    "by_channel"
+  ],
+  "active_conditions": [
+    "30Hz_minus_0Hz",
+    "50Hz_minus_0Hz"
+  ],
+  "distance_sets": [
+    "2m3m",
+    "2m3m5m"
+  ],
+  "frequency_windows_hz": [
+    [
+      0,
+      20000
+    ],
+    [
+      20000,
+      40000
+    ],
+    [
+      40000,
+      60000
+    ],
+    [
+      60000,
+      80000
+    ],
+    [
+      80000,
+      100000
+    ],
+    [
+      100000,
+      120000
+    ],
+    [
+      120000,
+      140000
+    ],
+    [
+      140000,
+      160000
+    ],
+    [
+      160000,
+      180000
+    ],
+    [
+      180000,
+      200000
+    ]
+  ],
+  "mask_name": "none_per_channel_review",
+  "source_scope": "Uses existing per-channel PSD response PNG files; no FFT/TDMS/background recomputation."
+}

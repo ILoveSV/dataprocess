@@ -16,12 +16,12 @@ CORE_MASKS = ["mask_all", "mask_no_ch9_global", "mask_no_ch9_ch5_global"]
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Zero-State Background Consistency v1.")
-    parser.add_argument("--mask-matrix", default="analysis_out/channel_mask_sensitivity_v1/masked_feature_matrix_file_agg_v1.csv")
-    parser.add_argument("--mask-config", default="analysis_out/channel_mask_sensitivity_v1/channel_mask_config_v1.json")
-    parser.add_argument("--recommended-after-mask", default="analysis_out/channel_mask_sensitivity_v1/recommended_feature_sets_after_channel_mask_v1.json")
-    parser.add_argument("--channel-correlation-matrix", default="analysis_out/channel_correlation_features_v1/channel_correlation_feature_matrix_file_v1.csv")
-    parser.add_argument("--channel-correlation-roles", default="analysis_out/channel_correlation_features_v1/channel_correlation_feature_role_assignment_v1.csv")
-    parser.add_argument("--output", default="analysis_out/zero_state_background_consistency_v1")
+    parser.add_argument("--mask-matrix", default="analysis/legacy_pipeline/channel_mask_sensitivity_v1/masked_feature_matrix_file_agg_v1.csv")
+    parser.add_argument("--mask-config", default="analysis/legacy_pipeline/channel_mask_sensitivity_v1/channel_mask_config_v1.json")
+    parser.add_argument("--recommended-after-mask", default="analysis/legacy_pipeline/channel_mask_sensitivity_v1/recommended_feature_sets_after_channel_mask_v1.json")
+    parser.add_argument("--channel-correlation-matrix", default="analysis/legacy_pipeline/channel_correlation_features_v1/channel_correlation_feature_matrix_file_v1.csv")
+    parser.add_argument("--channel-correlation-roles", default="analysis/legacy_pipeline/channel_correlation_features_v1/channel_correlation_feature_role_assignment_v1.csv")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/zero_state_background_consistency_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

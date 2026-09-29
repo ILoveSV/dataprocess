@@ -3,10 +3,10 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import hashlib,json
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/thesis_followup_20260915/external'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/thesis_followup_20260915/external'
 rows=[]
 columns=['frequency_hz','v_re','v_im','ex_re','ex_im','ey_re','ey_im','ez_re','ez_im','norm_e_v_m_per_v']
-for directory in [ROOT/'results/thesis_followup_20260909/external',OUT]:
+for directory in [ROOT / 'analysis/thesis_followup_20260909/external',OUT]:
  for p in sorted(directory.glob('*_[234]m.csv')):
   a=pd.read_csv(p,comment='%',header=None)
   if a.shape[1]==11:a=a.drop(columns=1)

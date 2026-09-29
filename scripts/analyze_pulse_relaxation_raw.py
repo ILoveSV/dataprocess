@@ -24,7 +24,7 @@ from scripts.analyze_mentor_event_shape_models import information_criteria, matr
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = Path(r"E:\Lab\process\44.6.9")
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3/pulse_relaxation"
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/pulse_relaxation'
 CHANNEL_COLUMNS = [f"channel{index}" for index in range(1, 13)]
 
 

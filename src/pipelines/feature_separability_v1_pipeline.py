@@ -45,11 +45,11 @@ CORE_PLOT_TASKS = ["Task A active vs 0Hz", "Task B 30Hz vs 50Hz", "Task C distan
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Feature Separability v1 gate from Feature Extraction v2 outputs.")
-    parser.add_argument("--feature-dataset", default="analysis_out/feature_extraction_v2/candidate_feature_dataset_v2.csv")
-    parser.add_argument("--stability", default="analysis_out/feature_extraction_v2/feature_stability_summary_v2.csv")
-    parser.add_argument("--channel-summary", default="analysis_out/feature_extraction_v2/channel_feature_summary_v2.csv")
-    parser.add_argument("--strict-delta", default="analysis_out/feature_extraction_v2/all_vs_strict_feature_delta_v2.csv")
-    parser.add_argument("--output", default="analysis_out/feature_separability_v1")
+    parser.add_argument("--feature-dataset", default="analysis/legacy_pipeline/feature_extraction_v2/candidate_feature_dataset_v2.csv")
+    parser.add_argument("--stability", default="analysis/legacy_pipeline/feature_extraction_v2/feature_stability_summary_v2.csv")
+    parser.add_argument("--channel-summary", default="analysis/legacy_pipeline/feature_extraction_v2/channel_feature_summary_v2.csv")
+    parser.add_argument("--strict-delta", default="analysis/legacy_pipeline/feature_extraction_v2/all_vs_strict_feature_delta_v2.csv")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/feature_separability_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

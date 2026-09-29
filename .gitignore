@@ -68,41 +68,33 @@ build/
 *.inspect.ndjson
 *.validation.json
 ~$*
-/output/
-/outputs/
-/local_archive/
+/deliverables/*
+!/deliverables/README.md
 
-# Disposable working directories; some older scripts still import local deps.
-/.codex_tmp/
-/.codex-finalizer-*/
-/$build/
-/tmp/
-/logs/
-/third_party/
+# Local dependencies, temporary outputs, and full relocation manifests.
+/local/
 /.agents/
-/module_timing_summary.json
 
 # Historical material copies are indexed, not uploaded twice.
-/research_materials/90_material_snapshot/*
-!/research_materials/90_material_snapshot/资料导航.md
-/snapshots/V1_candidate_*/
+/archive/material_snapshot_20260927/*
+!/archive/material_snapshot_20260927/资料导航.md
+/archive/snapshots/V1_candidate_*/
+/archive/legacy_packages/
+/archive/scratch_build/
 
 # Earlier bulk output: compact artifacts only (see its own .gitignore).
-/analysis_out/*
-!/analysis_out/README.md
-!/analysis_out/.gitignore
-!/analysis_out/*/
+/analysis/legacy_pipeline/*
+!/analysis/legacy_pipeline/README.md
+!/analysis/legacy_pipeline/.gitignore
+!/analysis/legacy_pipeline/*/
 
 # Research outputs: keep reports/tables/figures, not smoke runs or raw caches.
-/results/*smoke*/
-/results/exact_smoke/
-/results/retry/
-/results/2025.11.11/
-/results/**/cache/
-/results/**/raw/
-/results/**/media/
-/results/**/audio/
-/results/**/preservation/
-/results/**/frames/
-/results/**/extracted_frames/
-/results/**/COMPLETE
+**/cache/
+**/media/
+**/audio/
+**/frames/
+**/extracted_frames/
+**/COMPLETE
+/experiments/**/raw/
+/analysis/**/raw/
+/analysis/**/preservation/

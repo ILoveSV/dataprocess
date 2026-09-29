@@ -1,5 +1,5 @@
 # 全目录与研究材料核查清单
-> 历史文件审计，非当前总纲（2026-09-26标注）。本文件引用的9月6日旧全局复审已归入[规划清理快照](../snapshots/thesis_planning_20260926/README.md)，按ZIP内原路径查阅；当前方向见[论文总体判断与写作主线](论文总体判断与写作主线.md)。
+> 历史文件审计，非当前总纲（2026-09-26标注）。本文件引用的9月6日旧全局复审已归入[规划清理快照](../archive/snapshots/thesis_planning_20260926/README.md)，按ZIP内原路径查阅；当前方向见[论文总体判断与写作主线](论文总体判断与写作主线.md)。
 日期：2026年9月6日
 
 本清单记录材料覆盖范围和版本问题。全目录清点不等于逐个阅读原始波形、每张图片和每个依赖文件。主汇报只使用可追溯的关键证据。
@@ -10,26 +10,26 @@
 |---|---:|---|
 | [$build](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/$build>) | 16 | LaTeX/PDF构建副本，非独立研究成果。 |
 | [.git](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/.git>) | 11381 | 版本存储；不作研究内容逐对象读取。 |
-| [.pytest_cache](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/.pytest_cache>) | 6 | 测试缓存。 |
+| [.pytest_cache](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/test_cache/pre_migration>) | 6 | 测试缓存。 |
 | [26.8.12汇报_加图_PSD对比_颜色还原](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/26.8.12汇报_加图_PSD对比_颜色还原>) | 47 | 旧PPT渲染页，不能仅凭页图日期判断所对应最新版本。 |
 | [26.8.12汇报_阴极保护实验补充](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/26.8.12汇报_阴极保护实验补充>) | 6 | 阴极补充PPT渲染页。 |
-| [analysis_out](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis_out>) | 7424 | 早期特征、QC、背景和大量图表；阅读总报告，抽查与最新结论的差异。 |
+| [analysis_out](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis/legacy_pipeline>) | 7424 | 早期特征、QC、背景和大量图表；阅读总报告，抽查与最新结论的差异。 |
 | [analysis_package_44_6_9_non_vac_minimal](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis_package_44_6_9_non_vac_minimal>) | 192 | 非真空脉冲早期可交付包；目录/说明索引，不能替代后期完整复核。 |
 | [analysis_package_44_6_9_vac_first3_minimal](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis_package_44_6_9_vac_first3_minimal>) | 410 | 真空脉冲早期包；first3代表早期范围，不能当全部数据。 |
-| [calculation and paper](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/calculation and paper>) | 219 | 论文Word/LaTeX、源项理论包与PDF；检查章节实质完成度与理论边界。 |
-| [comsol](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/comsol>) | 374 | 模型、建模脚本、参数说明、CSV/图片及现场照片；重点V10/V13/V14与阴极V4。未重新求解mph。 |
+| [calculation and paper](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/archive/legacy_theory>) | 219 | 论文Word/LaTeX、源项理论包与PDF；检查章节实质完成度与理论边界。 |
+| [comsol](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/simulation>) | 374 | 模型、建模脚本、参数说明、CSV/图片及现场照片；重点V10/V13/V14与阴极V4。未重新求解mph。 |
 | [config](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/config>) | 4 | 运行参数与路径配置；属于复现基础，不直接提供研究结论。 |
 | [docs](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/docs>) | 23 | 上下文、方法、计划与交接；今天交接并非所有数值的最终依据。 |
-| [logs](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/logs>) | 45 | 运行记录，不当科学结果。 |
-| [results](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/results>) | 2081 | 主要专题证据区；重点核对原始补全v3、旧阴极、8月6日数表、历史与近似报告。 |
+| [logs](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/logs>) | 45 | 运行记录，不当科学结果。 |
+| [results](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis>) | 2081 | 主要专题证据区；重点核对原始补全v3、旧阴极、8月6日数表、历史与近似报告。 |
 | [scripts](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/scripts>) | 84 | 专题精确归档、原始补全及阴极方法；核对关键相干采样与识别逻辑。 |
 | [src](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/src>) | 201 | 通用采集转换、特征、质检、流水线与导出；检查结构及入口，未逐行审计全部代码。 |
 | [tests](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/tests>) | 52 | 单元/冒烟测试；仅清点，本轮未重跑。 |
-| [__pycache__](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/__pycache__>) | 1 | Python缓存。 |
-| [.codex_tmp](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/.codex_tmp>) | 17844 | 工具运行缓存。 |
-| [articles](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/articles>) | 22 | 11篇PDF与11份逐段摘要；属于文献基础，未将文献结果作为本人实验成果。 |
-| [third_party](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/third_party>) | 351 | 第三方UVM代码等，未发现其直接支持本课题物理结论。 |
-| [tmp](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/tmp>) | 47970 | 历史PPT修改、渲染、依赖及本轮审阅中间件；大量文件为重复产物。 |
+| [__pycache__](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/python_cache/pre_migration>) | 1 | Python缓存。 |
+| [.codex_tmp](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/workbench>) | 17844 | 工具运行缓存。 |
+| [articles](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/research/literature>) | 22 | 11篇PDF与11份逐段摘要；属于文献基础，未将文献结果作为本人实验成果。 |
+| [third_party](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/third_party>) | 351 | 第三方UVM代码等，未发现其直接支持本课题物理结论。 |
+| [tmp](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/local/tmp>) | 47970 | 历史PPT修改、渲染、依赖及本轮审阅中间件；大量文件为重复产物。 |
 
 计数来自本轮开始时的递归清点，包含构建/依赖/缓存；不能用文件数量衡量工作量。
 
@@ -106,5 +106,5 @@
 执行了rg文件搜索、递归目录/类型清点、OOXML文本抽取、PDF文本提取及关键页面渲染、局部图像查看、同名稿哈希比对、CSV与脚本核对。未重跑全量分析、未重求COMSOL、未修改论文/PPT/旧报告/原始数据。
 - 新书面汇报：[RESEARCH_PROGRESS_REVIEW_20260906.md](<C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/docs/RESEARCH_PROGRESS_REVIEW_20260906.md>)
 - 本核查清单：`RESEARCH_REVIEW_FILE_AUDIT_20260906.md`。
-- 审阅脚本、文本索引与中间图片在`tmp/research_review_20260906/`，不作为研究新数据。
+- 审阅脚本、文本索引与中间图片在`local/tmp/research_review_20260906/`，不作为研究新数据。
 - 尚待解决：外场标定、真实采集独立性、不同模型几何/I–V一致性、新间隙数据、论文结果章节补写。

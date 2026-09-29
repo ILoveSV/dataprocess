@@ -2,7 +2,7 @@ import com.comsol.model.Model;
 import com.comsol.model.util.ModelUtil;
 /** Radial finite-shell benchmark for the same electroquasistatic interface. */
 public class ExternalSphereBenchmark20260909 {
- static final String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/results/thesis_followup_20260909/external";
+ static final String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis/thesis_followup_20260909/external";
  public static void main(String[] args) throws Exception {
   Model m=ModelUtil.create("Sphere");m.component().create("comp1",true);m.component("comp1").geom().create("geom1",3);
   for(String tag:new String[]{"outer","inner"}){m.component("comp1").geom("geom1").create(tag,"Sphere");m.component("comp1").geom("geom1").feature(tag).set("r",tag.equals("outer")?5:1);m.component("comp1").geom("geom1").feature(tag).set("selresult",true);}

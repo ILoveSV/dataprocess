@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import hashlib,json
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/thesis_followup_20260915/external'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/thesis_followup_20260915/external'
 t=pd.read_csv(OUT/'all_transfers.csv');c=pd.read_csv(OUT/'comparisons.csv')
 expected=[f'gap_g{g:03d}' for g in [10,20,50,100,200,300]]+['single_g010','single_g300','gap_g010_fine','gap_g300_fine']
 checks={}

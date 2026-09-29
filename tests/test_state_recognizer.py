@@ -7,13 +7,13 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from scripts.state_recognizer import Baseline,raw_blocks,cache_blocks,matrix,Decisions,OUT
 
 def test_real_feature_predictions_match_previous_analysis():
- old=pd.read_csv(ROOT/'results/20260921_switching/exploratory_clipped_predictions.csv')
- for path in (ROOT/'results/20260921_switching/cache').glob('*.npz'):
+ old=pd.read_csv(ROOT / 'experiments/20260921_switching/exploratory_clipped_predictions.csv')
+ for path in (ROOT / 'experiments/20260921_switching/cache').glob('*.npz'):
   cid=path.stem;new=pd.read_csv(OUT/cid/'predictions.csv');expected=old[(old.case_id==cid)&(old.method=='clipped_binary')].sort_values('time_end_s')
   assert list(new.raw_binary.iloc[20:])==list(expected.prediction.iloc[20:])
 
 def test_baseline_future_causality_and_rejection():
- with np.load(ROOT/'results/20260921_switching/cache/g111_r1.npz') as z:c={k:z[k] for k in z.files if k!='meta'}
+ with np.load(ROOT / 'experiments/20260921_switching/cache/g111_r1.npz') as z:c={k:z[k] for k in z.files if k!='meta'}
  blocks=list(cache_blocks(c));b=Baseline(blocks[:20]);before=b.transform(blocks[20]);blocks[30]['slow_mean'][:]=1e6
  np.testing.assert_array_equal(before,b.transform(blocks[20]))
  broken=[{k:v.copy() for k,v in x.items()} for x in blocks[:20]]

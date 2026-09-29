@@ -27,9 +27,9 @@ from scripts.exact_tdms_archive import load_exact_archive
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-FIRST_ARCHIVE_ROOT = PROJECT_ROOT / "results/experiment_20260811/exact_archive"
-SECOND_ARCHIVE_ROOT = PROJECT_ROOT / "results/experiment_20260811_2/exact_archive"
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/cathodic_mentor_methods_v1/high_frequency"
+FIRST_ARCHIVE_ROOT = PROJECT_ROOT / 'experiments/20260811/exact_archive'
+SECOND_ARCHIVE_ROOT = PROJECT_ROOT / 'experiments/20260811_2/exact_archive'
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/cathodic_mentor_methods_v1/high_frequency'
 BANDS = {
     "2_20khz": (2_000.0, 20_000.0),
     "20_80khz": (20_000.0, 80_000.0),

@@ -985,7 +985,7 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT)
     parser.add_argument(
         "--output", type=Path,
-        default=Path("results") / "experiment_20260806",
+        default=Path('experiments/20260806'),
     )
     parser.add_argument(
         "--exact",

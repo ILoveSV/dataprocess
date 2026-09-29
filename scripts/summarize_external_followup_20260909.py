@@ -2,7 +2,7 @@ from pathlib import Path
 import json,hashlib
 import pandas as pd
 import numpy as np
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/thesis_followup_20260909/external'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/thesis_followup_20260909/external'
 cols=['frequency_hz','v_re','v_im','ex_re','ex_im','ey_re','ey_im','ez_re','ez_im','norm_e_v_m_per_v']
 rows=[]
 for p in sorted(OUT.glob('*_[234]m.csv')):

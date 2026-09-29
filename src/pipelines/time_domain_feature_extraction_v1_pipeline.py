@@ -61,7 +61,7 @@ EPS = 1e-30
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Time-Domain Feature Extraction v1 from existing time CSV files.")
     parser.add_argument("--time-root", default="D:/Lab/process/26.5.12/time")
-    parser.add_argument("--output", default="analysis_out/time_domain_features_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/time_domain_features_v1")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--rolling-window-sec", type=float, default=0.2)
     args = parser.parse_args(argv)

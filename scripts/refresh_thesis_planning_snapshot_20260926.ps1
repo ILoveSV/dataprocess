@@ -2,7 +2,7 @@ param([switch]$RemoveRetired)
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $prefix = $root.TrimEnd('\') + '\'
-$destination = Join-Path $root 'snapshots\thesis_planning_20260926'
+$destination = Join-Path $root 'archive\\snapshots\thesis_planning_20260926'
 $retired = @(
     'docs/PROJECT_CONTEXT_FOR_CONTINUATION.md',
     'docs/PROJECT_HANDOFF_TO_GPT6_20260906.md',
@@ -16,10 +16,10 @@ $preserved = @(
     'docs/导师组会意见与当前任务_20260920.md',
     'docs/RESEARCH_REVIEW_FILE_AUDIT_20260906.md',
     'docs/COMSOL仿真执行计划书_20260908.md',
-    'calculation and paper/舰艇电场纯理论计算任务说明_v0.1.md',
-    'calculation and paper/biyelunwen/thesis_latex/README.md',
-    'calculation and paper/biyelunwen/thesis_latex/chapters/chapter01_introduction.tex',
-    'calculation and paper/biyelunwen/thesis_latex/references.tex'
+    'archive/legacy_theory/舰艇电场纯理论计算任务说明_v0.1.md',
+    'thesis/thesis_latex/README.md',
+    'thesis/thesis_latex/chapters/chapter01_introduction.tex',
+    'thesis/thesis_latex/references.tex'
 )
 function Get-CheckedPath([string]$relative) {
     $path = [IO.Path]::GetFullPath((Join-Path $root $relative))

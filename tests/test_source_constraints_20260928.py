@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(
-    "source_constraints", ROOT / "research_materials/01_vessel_background/source_constraints/audit_source_constraints.py")
+    "source_constraints", ROOT / 'research/01_vessel_background/source_constraints/audit_source_constraints.py')
 audit = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(audit)
 

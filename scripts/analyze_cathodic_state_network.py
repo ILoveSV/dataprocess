@@ -27,7 +27,7 @@ from scripts.exact_tdms_archive import load_exact_archive
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = ROOT / "results/cathodic_mentor_methods_v1/state_network"
+DEFAULT_OUTPUT = ROOT / 'analysis/cathodic_mentor_methods_v1/state_network'
 TIMING_OFFSETS_S = (-1.0, 0.0, 1.0)
 GROUPS = (*FEATURES, "combined")
 

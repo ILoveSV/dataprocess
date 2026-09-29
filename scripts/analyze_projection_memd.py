@@ -27,7 +27,7 @@ from scripts.mentor_method_common import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3/projection_memd"
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/projection_memd'
 SIGNALS = ("slow_pc1", "fast_residual_rms_pc1")
 BANDS = {
     "0p05_0p15hz": (0.05, 0.15),

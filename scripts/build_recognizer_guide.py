@@ -3,7 +3,7 @@ from pathlib import Path
 import json,html
 import pandas as pd
 import markdown
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/20260922_recognizer'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/20260922_recognizer'
 s=pd.read_csv(OUT/'validation.csv');e=pd.read_csv(OUT/'event_validation.csv');f=pd.read_csv(OUT/'frequency_validation.csv');b=json.loads((OUT/'raw_g111_r1/run.json').read_text(encoding='utf-8'))
 guide=f'''# 工况识别原型：使用说明与验证结果
 
@@ -19,7 +19,7 @@ guide=f'''# 工况识别原型：使用说明与验证结果
 Set-Location 'C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess'
 $env:OPENBLAS_NUM_THREADS='2'
 $env:PYTHONIOENCODING='utf-8'
-D:\\Anaconda\\python.exe scripts/state_recognizer.py predict 'E:\\实际路径\\新数据.tdms' --model results/20260922_recognizer/model.joblib --output results/20260922_recognizer/new_run --initial-off-confirmed
+D:\\Anaconda\\python.exe scripts/state_recognizer.py predict 'E:\\实际路径\\新数据.tdms' --model analysis/20260922_recognizer/model.joblib --output analysis/20260922_recognizer/new_run --initial-off-confirmed
 ```
 
 --initial-off-confirmed是数据条件声明；没有20秒初始停泵段就不要使用该参数。程序不会自己猜测初始状态。如果输出目录重复，当前同名预测文件会更新，建议每次指定新目录。
@@ -83,7 +83,7 @@ D:\\Anaconda\\python.exe scripts/state_recognizer.py predict 'E:\\实际路径\\
 ```powershell
 D:\\Anaconda\\python.exe scripts/state_recognizer.py train-validate
 D:\\Anaconda\\python.exe -m pytest tests/test_state_recognizer.py -q
-D:\\Anaconda\\python.exe scripts/state_recognizer.py predict 'E:\\Lab\\raw\\9.21\\111\\20260921104403.351724-1.tdms' --model results/20260922_recognizer/g111_r1_heldout.joblib --output results/20260922_recognizer/raw_g111_r1 --initial-off-confirmed
+D:\\Anaconda\\python.exe scripts/state_recognizer.py predict 'E:\\Lab\\raw\\9.21\\111\\20260921104403.351724-1.tdms' --model analysis/20260922_recognizer/g111_r1_heldout.joblib --output analysis/20260922_recognizer/raw_g111_r1 --initial-off-confirmed
 D:\\Anaconda\\python.exe scripts/build_recognizer_guide.py
 ```
 

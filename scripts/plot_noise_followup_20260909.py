@@ -5,7 +5,7 @@ import pandas as pd
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor
 import pypdfium2 as pdfium
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/thesis_followup_20260909/noise'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/thesis_followup_20260909/noise'
 BLUE='#2166AC';RED='#B2182B'
 def text(c,x,y,s,size=10,color='#222222'):
  c.setFillColor(HexColor(color));c.setFont('Helvetica',size);c.drawString(x,y,s)
@@ -32,7 +32,7 @@ c.setStrokeColor(HexColor('#777777'));c.setDash(3,3);c.line(sx(-.5),sy(.05),sx(1
 text(c,65,360,'Null false-alarm fraction');text(c,65,50,'Blue: absolute amplitude    Red: residual-MAD normalized    Dashed: 5% reference',10)
 text(c,65,27,'Settings 0-7: TC1; 8-15: TC2. See summary.csv for frequency and duration.',9);end(c,p)
 c,p=begin('noise_trace_comparison','TC1 background traces from the archived slow-mean output','First 60 s of the archived stable interval; each displayed trace is demeaned, not normalized.')
-manifest=pd.read_csv(ROOT/'results/thesis_completion_20260908/detection/noise_manifest.csv').set_index('case_id')
+manifest=pd.read_csv(ROOT / 'analysis/thesis_completion_20260908/detection/noise_manifest.csv').set_index('case_id')
 for j,case in enumerate(['afternoon_background','afternoon_vfd_stop','duo1_tc1_background','duo1_tc1_vfd_stop']):
  r=manifest.loc[case];b=(ROOT/r.source).parent;m=json.loads((b/'metadata.json').read_text(encoding='utf8'));z=np.load(b/'envelopes.npz');fs=float(z['envelope_rate_hz']);tt=m['lowpass_filter']['analysis_rate_first_sample_time_s']+np.arange(len(z['slow_mean']))/fs;yy=z['slow_mean'][:,json.loads(r.channels)].mean(axis=1)*1e6;yy=yy[tt>=m['config']['trim_start_seconds']][:round(fs*60)];yy-=yy.mean();t=np.arange(len(yy))/fs
  x=65+(j%2)*370;y=245-(j//2)*175;sx,sy=axes(c,x,y,295,110,0,60,-300,300)

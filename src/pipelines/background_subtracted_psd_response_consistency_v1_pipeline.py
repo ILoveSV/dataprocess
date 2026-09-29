@@ -20,9 +20,9 @@ EPS = 1e-30
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Background-Subtracted PSD Response Consistency v1.")
-    parser.add_argument("--mask-matrix", default="analysis_out/channel_mask_sensitivity_v1/masked_feature_matrix_file_agg_v1.csv")
+    parser.add_argument("--mask-matrix", default="analysis/legacy_pipeline/channel_mask_sensitivity_v1/masked_feature_matrix_file_agg_v1.csv")
     parser.add_argument("--background-psd-curves", default="D:/Lab/results/26.5.12/background_contrast_v1/background_psd_diff_curves.csv")
-    parser.add_argument("--output", default="analysis_out/background_subtracted_psd_response_consistency_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/background_subtracted_psd_response_consistency_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

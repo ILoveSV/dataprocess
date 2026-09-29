@@ -4,8 +4,8 @@ import numpy as np,pandas as pd,markdown
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/20260922_health_fusion'
-old=pd.read_csv(ROOT/'results/20260922_recognizer/validation.csv');new=pd.read_csv(OUT/'validation.csv');events=pd.read_csv(OUT/'events.csv');weights=pd.read_csv(OUT/'training_only_weights.csv')
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/20260922_health_fusion'
+old=pd.read_csv(ROOT / 'analysis/20260922_recognizer/validation.csv');new=pd.read_csv(OUT/'validation.csv');events=pd.read_csv(OUT/'events.csv');weights=pd.read_csv(OUT/'training_only_weights.csv')
 table=old[['case_id','confirmed_binary_BA','off_false_positive','on_miss','unmatched_events']].merge(new,on='case_id',suffixes=('_old','_new'));table.to_csv(OUT/'原版与候选版对比.csv',index=False,encoding='utf-8-sig')
 plt.rcParams.update({'font.sans-serif':['Microsoft YaHei','SimHei','DejaVu Sans'],'axes.unicode_minus':False});fig,ax=plt.subplots(figsize=(11,5));x=np.arange(8);ax.bar(x-.18,old.confirmed_binary_BA*100,.36,label='原版');ax.bar(x+.18,new.confirmed_BA*100,.36,label='逐路融合候选');ax.set(xticks=x,xticklabels=new.case_id,ylim=(0,105),ylabel='确认状态平衡准确率 / %',title='20秒校准结束后评分，逐次独立留出');ax.tick_params(axis='x',rotation=25);ax.legend();fig.tight_layout();fig.savefig(OUT/'comparison.png',dpi=140);plt.close(fig)
 allhealth=pd.concat([pd.read_csv(OUT/cid/'channel_health.csv') for cid in new.case_id]);badcount=int((allhealth.health!='healthy').sum())
@@ -74,7 +74,7 @@ HTML页面显示当前12路健康状态、参与融合与否、权重和各自�
 ```powershell
 Set-Location 'C:\\Users\\17584\\Documents\\ALearning\\Project\\tools\\DataProcess'
 $env:OPENBLAS_NUM_THREADS='2'
-D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py --predict 'E:\\实际路径\\新数据.tdms' --output results/20260922_health_fusion/new_run --initial-off-confirmed
+D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py --predict 'E:\\实际路径\\新数据.tdms' --output analysis/20260922_health_fusion/new_run --initial-off-confirmed
 ```
 
 新文件仍须首20秒为停泵校准、变频器保持通电、同12路接线、400 kHz电压数据。默认model.joblib用8次训练，不能在这8次上冒充独立测试。已知训练路径会拒绝；应使用相应heldout模型验证历史记录。新输出目录不要与先前结果重名。
@@ -86,7 +86,7 @@ D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py --predict 'E:\\实�
 ```powershell
 D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py
 D:\\Anaconda\\python.exe -m pytest tests/test_health_fusion.py tests/test_state_recognizer.py -q
-D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py --predict 'E:\\Lab\\raw\\9.21\\111\\20260921104403.351724-1.tdms' --model results/20260922_health_fusion/g111_r1_heldout.joblib --output results/20260922_health_fusion/raw_g111_r1 --initial-off-confirmed
+D:\\Anaconda\\python.exe scripts/health_fusion_recognizer.py --predict 'E:\\Lab\\raw\\9.21\\111\\20260921104403.351724-1.tdms' --model analysis/20260922_health_fusion/g111_r1_heldout.joblib --output analysis/20260922_health_fusion/raw_g111_r1 --initial-off-confirmed
 D:\\Anaconda\\python.exe scripts/report_health_fusion.py
 ```
 

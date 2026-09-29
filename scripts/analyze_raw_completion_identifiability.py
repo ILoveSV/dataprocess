@@ -16,12 +16,11 @@ from scripts.analyze_mentor_multimethod_identifiability import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_V2 = PROJECT_ROOT / "results/mentor_aligned_methods_v2"
+DEFAULT_V2 = PROJECT_ROOT / 'analysis/mentor_aligned_methods_v2'
 DEFAULT_RAW = (
-    PROJECT_ROOT
-    / "results/mentor_aligned_raw_completion_v3/full_raw_highfrequency/full_raw_highfrequency_matched_contrasts.csv"
+    PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/full_raw_highfrequency/full_raw_highfrequency_matched_contrasts.csv'
 )
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3/identifiability"
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/identifiability'
 
 
 def full_raw_matrix(path: Path) -> pd.DataFrame:

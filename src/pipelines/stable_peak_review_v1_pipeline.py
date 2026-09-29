@@ -26,7 +26,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Stable Peak Review v1: 0Hz background PSD 20 kHz segmented review plots.")
     parser.add_argument("--input", default=None, help="Path to background_psd_diff_curves.csv")
     parser.add_argument("--background-output", default="D:/Lab/results/26.5.12/background_contrast_v1")
-    parser.add_argument("--output", default="analysis_out/stable_peak_review_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/stable_peak_review_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

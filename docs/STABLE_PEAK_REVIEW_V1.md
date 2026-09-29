@@ -21,7 +21,7 @@ This step generates manual-review PSD plots for 0Hz backgrounds. The 0-200 kHz r
 
 ## Outputs
 
-- Output directory: `analysis_out\stable_peak_review_v1`
+- Output directory: `analysis/legacy_pipeline\stable_peak_review_v1`
 - Plot count: 360
 - Groups covered: 2m0hz, 3m0hz, 5m0hz
 - Channels covered: channel1, channel2, channel3, channel4, channel5, channel6, channel7, channel8, channel9, channel10, channel11, channel12

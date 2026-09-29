@@ -350,7 +350,7 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("results") / "experiment_20260731" / "media",
+        default=Path('experiments/20260731/media'),
     )
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)

@@ -35,7 +35,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Feature Extraction v2: file-level/channel-level candidate features from FFT CSV files.")
     parser.add_argument("--fft-root", default="D:/Lab/process/26.5.12/frequency")
     parser.add_argument("--background-output", default="D:/Lab/results/26.5.12/background_contrast_v1")
-    parser.add_argument("--output", default="analysis_out/feature_extraction_v2")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/feature_extraction_v2")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--chunksize", type=int, default=120_000)
     args = parser.parse_args(argv)

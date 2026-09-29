@@ -13,7 +13,7 @@ import os
 from datetime import datetime
 
 def setup_logging(default_path='config/logging.yaml', default_level=logging.INFO):
-    log_dir = 'logs'
+    log_dir = os.path.join("local", "logs")
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     

@@ -1,0 +1,7 @@
+﻿feature_a,feature_b,spearman_corr,redundant_flag,suggested_keep,notes
+band_100_200k,subband_100_120k,0.9697263847263847,True,subband_100_120k,high absolute correlation; do not auto-delete
+band_100_200k,subband_120_140k,0.9753207903207903,True,subband_120_140k,high absolute correlation; do not auto-delete
+band_100_200k,subband_160_180k,0.9761377511377511,True,subband_160_180k,high absolute correlation; do not auto-delete
+subband_100_120k,subband_120_140k,0.9732248307248307,True,subband_100_120k,high absolute correlation; do not auto-delete
+subband_100_120k,subband_160_180k,0.976465478965479,True,subband_100_120k,high absolute correlation; do not auto-delete
+subband_120_140k,subband_160_180k,0.9883250083250084,True,subband_160_180k,high absolute correlation; do not auto-delete

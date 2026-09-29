@@ -52,9 +52,9 @@ def resolve_processed_scan_folder(input_root, raw_data_dir, data_folder=None):
 
 
 def derive_output_path(input_path, config):
-    """Map process/time input paths to the configured results/time folder."""
+    """Map process/time input paths to the configured analysis/time folder."""
     input_path = Path(input_path)
-    results_dir = Path(config.get('time_series_results_dir', 'results/time'))
+    results_dir = Path(config.get('time_series_results_dir', 'analysis/time'))
     process_dir = Path(config.get('tdms_reader_time_output_dir', '')).parent
 
     source_dir = input_path.parent if input_path.is_file() else input_path
@@ -75,10 +75,10 @@ def derive_summary_path(metrics_output_path):
 
 
 def derive_nist_diagnostics_output_dir(input_path, config):
-    """Map process/time input paths to results/<date>/nist_diagnostics/<relative_group>."""
+    """Map process/time input paths to analysis/<date>/nist_diagnostics/<relative_group>."""
     input_path = Path(input_path)
     time_root = Path(config.get('tdms_reader_time_output_dir', ''))
-    time_results_dir = Path(config.get('time_series_results_dir', 'results/time'))
+    time_results_dir = Path(config.get('time_series_results_dir', 'analysis/time'))
     nist_root = time_results_dir.parent / 'nist_diagnostics'
 
     source_dir = input_path.parent if input_path.is_file() else input_path

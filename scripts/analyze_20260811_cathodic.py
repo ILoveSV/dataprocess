@@ -787,10 +787,10 @@ def main() -> None:
     parser.add_argument(
         "--archive-root",
         type=Path,
-        default=Path("results/experiment_20260811/exact_archive"),
+        default=Path('experiments/20260811/exact_archive'),
     )
     parser.add_argument(
-        "--output", type=Path, default=Path("results/experiment_20260811")
+        "--output", type=Path, default=Path('experiments/20260811')
     )
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)

@@ -4,7 +4,7 @@ $bundle = Join-Path $root 'research_materials'
 $snapshot = Join-Path $bundle '90_material_snapshot'
 New-Item -ItemType Directory -Path $snapshot -Force | Out-Null
 $extensions = @('.md', '.pdf', '.tex', '.bib', '.py', '.java', '.json', '.csv', '.png', '.svg', '.yaml', '.yml', '.ps1')
-$trees = @('articles', 'calculation and paper', 'comsol/docs', 'comsol/scripts', 'docs', 'results/background_field_reference_20260927', 'results/source_scale_groundwork_20260925')
+$trees = @('articles', 'calculation and paper', 'simulation/docs', 'simulation/scripts', 'docs', 'analysis/background_field_reference_20260927', 'analysis/source_scale_groundwork_20260925')
 $files = foreach ($tree in $trees) {
     Get-ChildItem -LiteralPath (Join-Path $root $tree) -File -Recurse | Where-Object {
         $_.Extension -in $extensions -and $_.FullName -notmatch '[\\/](build|__pycache__|\.pytest_cache|docx_analysis)[\\/]'
@@ -28,7 +28,7 @@ $manifest = foreach ($file in ($files | Sort-Object FullName -Unique)) {
     [pscustomobject]@{source=$file.FullName; copy=$target; bytes=$file.Length; sha256=$hash}
 }
 $manifest | Export-Csv -LiteralPath (Join-Path $bundle 'material_manifest.csv') -NoTypeInformation -Encoding utf8
-$modelManifest = Get-ChildItem -LiteralPath (Join-Path $root 'comsol/models') -File -Filter '*.mph' | ForEach-Object {
+$modelManifest = Get-ChildItem -LiteralPath (Join-Path $root 'simulation/models') -File -Filter '*.mph' | ForEach-Object {
     [pscustomobject]@{path=$_.FullName; bytes=$_.Length; modified=$_.LastWriteTime.ToString('s'); handling='original retained; indexed, not copied'}
 }
 $modelManifest | Export-Csv -LiteralPath (Join-Path $bundle 'existing_comsol_model_index.csv') -NoTypeInformation -Encoding utf8

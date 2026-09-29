@@ -272,7 +272,7 @@ def main(argv: list[str] | None = None) -> Path:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=Path(r"D:\Lab\results\44.6.9"))
     parser.add_argument("--output", type=Path,
-                        default=Path("results/mentor_aligned_pre_electrochemical_v1/legacy_pulse"))
+                        default=Path('analysis/mentor_aligned_pre_electrochemical_v1/legacy_pulse'))
     args = parser.parse_args(argv)
     project_root = Path(__file__).resolve().parents[1]
     output = args.output if args.output.is_absolute() else project_root / args.output

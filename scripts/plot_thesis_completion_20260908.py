@@ -6,7 +6,7 @@ import pandas as pd
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor
 import pypdfium2 as pdfium
-ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'results/thesis_completion_20260908'
+ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT / 'analysis/thesis_completion_20260908'
 BLUE='#2166AC'; RED='#B2182B'; GREEN='#1B7837'; GREY='#777777'
 def begin(path,title,subtitle='',h=420):
  c=canvas.Canvas(str(path.with_suffix('.pdf')),pagesize=(720,h)); c.setFont('Helvetica-Bold',16);c.drawString(32,h-28,title)

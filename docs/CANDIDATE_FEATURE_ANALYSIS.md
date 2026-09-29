@@ -62,7 +62,7 @@ Inputs:
 
 - Background contrast output: `D:\Lab\results\26.5.12\background_contrast_v1`
 - PSD zoom output: `D:\Lab\results\26.5.12\background_contrast_v1\psd_zoom`
-- Output directory: `analysis_out\candidate_feature_validation_v1`
+- Output directory: `analysis/legacy_pipeline\candidate_feature_validation_v1`
 
 Scope guard:
 

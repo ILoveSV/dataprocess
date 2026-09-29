@@ -35,7 +35,7 @@ from scripts.mentor_method_common import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3/full_raw_highfrequency"
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/full_raw_highfrequency'
 DEFAULT_RAW_ROOT = Path(r"E:\Lab\raw")
 BANDS = {
     "2_20khz": (2_000.0, 20_000.0),
@@ -565,7 +565,7 @@ def main() -> None:
         "window_samples": args.window_samples,
         "sampling_strategy": "uniform windows across complete stable interval",
         "dynamic_bad_channel_source": str(
-            PROJECT_ROOT / "results/mentor_aligned_pre_electrochemical_v1/channel_health_dynamic.csv"
+            PROJECT_ROOT / 'analysis/mentor_aligned_pre_electrochemical_v1/channel_health_dynamic.csv'
         ),
         "limitations": [
             "Uniform windows cover the full interval but are not every raw sample.",

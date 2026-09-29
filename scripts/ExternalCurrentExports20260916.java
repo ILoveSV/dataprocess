@@ -1,7 +1,7 @@
 import com.comsol.model.*;
 import com.comsol.model.util.*;
 public class ExternalCurrentExports20260916 {
- static String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/results/thesis_followup_20260915/external";
+ static String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis/thesis_followup_20260915/external";
  public static void main(String[] args) throws Exception {
   for(String id:new String[]{"gap_g010_fine","gap_g300_fine"}){
    Model m=ModelUtil.load("Model",OUT+"/"+id+".mph");

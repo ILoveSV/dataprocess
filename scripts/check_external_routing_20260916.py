@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'results/thesis_followup_20260915/external'
+OUT=ROOT / 'analysis/thesis_followup_20260915/external'
 def distance(p,q,r,s):
  p,q,r,s=map(lambda x:np.array(x,float),(p,q,r,s));u=q-p;v=s-r;w=p-r
  candidates=[]

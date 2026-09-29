@@ -12,6 +12,7 @@
 *.mph binary
 
 # Preserve exported research evidence exactly, including line endings.
-/results/** -text
-/comsol/results/** -text
-/research_materials/** -text
+/experiments/** -text
+/analysis/** -text
+/simulation/results/** -text
+/research/** -text

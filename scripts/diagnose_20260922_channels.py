@@ -13,8 +13,8 @@ from nptdms import TdmsFile
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from scripts.analyze_20260921_switching import load,stable_labels,nominal,intervals
 from scripts.state_recognizer import Baseline,cache_blocks,KEYS,BANDS
-OUT=ROOT/'results/20260922_channel_diagnosis';OUT.mkdir(exist_ok=True);(OUT/'figures').mkdir(exist_ok=True)
-REC=ROOT/'results/20260922_recognizer'
+OUT=ROOT / 'analysis/20260922_channel_diagnosis';OUT.mkdir(exist_ok=True);(OUT/'figures').mkdir(exist_ok=True)
+REC=ROOT / 'analysis/20260922_recognizer'
 plt.rcParams.update({'font.sans-serif':['Microsoft YaHei','SimHei','DejaVu Sans'],'axes.unicode_minus':False})
 NAMES=[k+'_'+q for k in KEYS for q in ['median','q90']]+[b+'_'+q for q in ['median','q90'] for b in BANDS]
 

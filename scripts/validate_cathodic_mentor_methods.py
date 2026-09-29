@@ -10,7 +10,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "results/cathodic_mentor_methods_v1"
+OUTPUT = ROOT / 'analysis/cathodic_mentor_methods_v1'
 
 
 def main() -> None:

@@ -2,10 +2,10 @@
 
 ## Inputs
 
-- Frequency feature table: `analysis_out/feature_extraction_v2/candidate_feature_dataset_v2.csv`
-- Frequency stability table: `analysis_out/feature_extraction_v2/feature_stability_summary_v2.csv`
-- Time feature table: `analysis_out/time_domain_features_v1/time_domain_feature_dataset_v1.csv`
-- Time stability table: `analysis_out/time_domain_features_v1/time_domain_feature_stability_summary_v1.csv`
+- Frequency feature table: `analysis/legacy_pipeline/feature_extraction_v2/candidate_feature_dataset_v2.csv`
+- Frequency stability table: `analysis/legacy_pipeline/feature_extraction_v2/feature_stability_summary_v2.csv`
+- Time feature table: `analysis/legacy_pipeline/time_domain_features_v1/time_domain_feature_dataset_v1.csv`
+- Time stability table: `analysis/legacy_pipeline/time_domain_features_v1/time_domain_feature_stability_summary_v1.csv`
 
 ## Scope
 

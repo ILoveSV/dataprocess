@@ -9,7 +9,7 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
-$LogRoot = Join-Path $RepoRoot ("logs\vac_first3_" + $RunId)
+$LogRoot = Join-Path $RepoRoot ("local\\logs\vac_first3_" + $RunId)
 $RunLog = Join-Path $LogRoot "run.log"
 $StatusFile = Join-Path $LogRoot "status.txt"
 

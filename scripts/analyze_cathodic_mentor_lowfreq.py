@@ -33,9 +33,9 @@ from scripts.mentor_method_common import stable_seed
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-FIRST_ARCHIVE = PROJECT_ROOT / "results/experiment_20260811/exact_archive"
-SECOND_ARCHIVE = PROJECT_ROOT / "results/experiment_20260811_2/exact_archive"
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/cathodic_mentor_methods_v1/low_frequency"
+FIRST_ARCHIVE = PROJECT_ROOT / 'experiments/20260811/exact_archive'
+SECOND_ARCHIVE = PROJECT_ROOT / 'experiments/20260811_2/exact_archive'
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/cathodic_mentor_methods_v1/low_frequency'
 FEATURES = (
     "slow_mean",
     "broadband_rms",

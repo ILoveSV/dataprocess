@@ -10,8 +10,8 @@ from sklearn.metrics import balanced_accuracy_score,confusion_matrix
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.append(str(ROOT/'.codex_tmp/mentor_method_deps'))
-OUT=ROOT/'results/20260921_switching';(OUT/'figures').mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.append(str(ROOT / 'local/workbench/mentor_method_deps'))
+OUT=ROOT / 'experiments/20260921_switching';(OUT/'figures').mkdir(exist_ok=True)
 plt.rcParams.update({'font.sans-serif':['Microsoft YaHei','SimHei','DejaVu Sans'],'axes.unicode_minus':False,'figure.dpi':140})
 RNG=np.random.default_rng(20260921)
 FEATURES=['slow_mean','broadband_rms','subkhz_rms','fast_residual_rms','difference_rms']

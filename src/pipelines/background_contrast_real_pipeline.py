@@ -420,7 +420,7 @@ def _has_distance_triplet(groups):
 
 def check_smoke_coverage():
     test_path = Path("tests/test_background_contrast_smoke.py")
-    report_path = Path("analysis_out/contrast_v1_smoke/smoke_report.md")
+    report_path = Path('analysis/legacy_pipeline/contrast_v1_smoke/smoke_report.md')
     test_text = test_path.read_text(encoding="utf-8", errors="ignore") if test_path.exists() else ""
     report_text = report_path.read_text(encoding="utf-8", errors="ignore") if report_path.exists() else ""
     checks = {

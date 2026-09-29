@@ -11,7 +11,7 @@ from sklearn.metrics import balanced_accuracy_score
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from scripts.analyze_20260921_switching import load,stable_labels,nominal
 from scripts.state_recognizer import KEYS,BANDS,raw_blocks,cache_blocks,save_result
-OUT=ROOT/'results/20260922_health_fusion'
+OUT=ROOT / 'analysis/20260922_health_fusion'
 
 def calibration(blocks):
  refs={k:np.median(np.concatenate([b[k] for b in blocks[5:20]]),axis=0) for k in KEYS}

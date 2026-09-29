@@ -6,10 +6,10 @@ Channel9 is treated as a confirmed bad/suspect channel in 5m groups, and channel
 
 ## Inputs
 
-- frequency: `analysis_out\feature_extraction_v2\candidate_feature_dataset_v2.csv` rows=63180 features=15
-- time: `analysis_out\time_domain_features_v1\time_domain_feature_dataset_v1.csv` rows=155520 features=36
-- acf: `analysis_out\acf_features_v1\acf_feature_dataset_v1.csv` rows=168480 features=39
-- tf: `analysis_out\time_frequency_stability_features_v1\tf_stability_feature_dataset_v1.csv` rows=1879200 features=435
+- frequency: `analysis/legacy_pipeline\feature_extraction_v2\candidate_feature_dataset_v2.csv` rows=63180 features=15
+- time: `analysis/legacy_pipeline\time_domain_features_v1\time_domain_feature_dataset_v1.csv` rows=155520 features=36
+- acf: `analysis/legacy_pipeline\acf_features_v1\acf_feature_dataset_v1.csv` rows=168480 features=39
+- tf: `analysis/legacy_pipeline\time_frequency_stability_features_v1\tf_stability_feature_dataset_v1.csv` rows=1879200 features=435
 
 ## Masks
 

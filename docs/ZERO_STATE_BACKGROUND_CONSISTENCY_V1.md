@@ -14,8 +14,8 @@ No 30Hz or 50Hz active groups are included in the main analysis.
 
 ## Inputs
 
-- Mask matrix: `analysis_out\channel_mask_sensitivity_v1\masked_feature_matrix_file_agg_v1.csv`
-- Channel-structure reference: `analysis_out\channel_correlation_features_v1\channel_correlation_feature_matrix_file_v1.csv`
+- Mask matrix: `analysis/legacy_pipeline\channel_mask_sensitivity_v1\masked_feature_matrix_file_agg_v1.csv`
+- Channel-structure reference: `analysis/legacy_pipeline\channel_correlation_features_v1\channel_correlation_feature_matrix_file_v1.csv`
 
 ## Mask Strategy
 

@@ -22,7 +22,7 @@ from src.summaries.background_contrast_summary import (
 )
 
 
-SMOKE_OUTPUT_DIR = Path("analysis_out") / "contrast_v1_smoke"
+SMOKE_OUTPUT_DIR = Path('analysis/legacy_pipeline/contrast_v1_smoke')
 
 
 def build_smoke_outputs():

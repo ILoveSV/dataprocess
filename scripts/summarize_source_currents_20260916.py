@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/thesis_followup_20260915/external'
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT / 'analysis/thesis_followup_20260915/external'
 rows=[]
 for p in sorted(OUT.glob('*_current_pos.csv')):
  case=p.name.removesuffix('_current_pos.csv');row={'case':case}

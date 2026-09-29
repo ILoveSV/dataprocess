@@ -1,0 +1,159 @@
+{
+  "bytes": 36392721278.0,
+  "all_moved_hashes_verified": true,
+  "files_and_links": 36146,
+  "baseline_commit": "90af79a",
+  "junction_targets_untouched": true,
+  "moves": [
+    {
+      "from": "research_materials/90_material_snapshot",
+      "to": "archive/material_snapshot_20260927"
+    },
+    {
+      "from": "research_materials",
+      "to": "research"
+    },
+    {
+      "from": "articles",
+      "to": "research/literature"
+    },
+    {
+      "from": "calculation and paper/ship_efield_theory",
+      "to": "research/theory"
+    },
+    {
+      "from": "calculation and paper/biyelunwen",
+      "to": "thesis"
+    },
+    {
+      "from": "calculation and paper",
+      "to": "archive/legacy_theory"
+    },
+    {
+      "from": "comsol",
+      "to": "simulation"
+    },
+    {
+      "from": "results/experiment_20260617",
+      "to": "experiments/20260617"
+    },
+    {
+      "from": "results/experiment_20260731",
+      "to": "experiments/20260731"
+    },
+    {
+      "from": "results/experiment_20260806",
+      "to": "experiments/20260806"
+    },
+    {
+      "from": "results/experiment_20260811",
+      "to": "experiments/20260811"
+    },
+    {
+      "from": "results/experiment_20260811_2",
+      "to": "experiments/20260811_2"
+    },
+    {
+      "from": "results/20260921_switching",
+      "to": "experiments/20260921_switching"
+    },
+    {
+      "from": "results/preservation_20260808",
+      "to": "archive/preservation_20260808"
+    },
+    {
+      "from": "results/2025.11.11",
+      "to": "local/validation/2025.11.11"
+    },
+    {
+      "from": "results/retry",
+      "to": "local/validation/retry"
+    },
+    {
+      "from": "results/exact_smoke",
+      "to": "local/validation/exact_smoke"
+    },
+    {
+      "from": "results/mentor_raw_smoke",
+      "to": "local/validation/mentor_raw_smoke"
+    },
+    {
+      "from": "results/mentor_aligned_methods_v2_smoke",
+      "to": "local/validation/mentor_aligned_methods_v2_smoke"
+    },
+    {
+      "from": "results/comsol",
+      "to": "archive/empty_result_placeholders/comsol"
+    },
+    {
+      "from": "results",
+      "to": "analysis"
+    },
+    {
+      "from": "analysis_out",
+      "to": "analysis/legacy_pipeline"
+    },
+    {
+      "from": "output",
+      "to": "deliverables"
+    },
+    {
+      "from": "outputs/presentations",
+      "to": "deliverables/presentations"
+    },
+    {
+      "from": "outputs/thesis_completion_20260908",
+      "to": "deliverables/spreadsheets/thesis_completion_20260908"
+    },
+    {
+      "from": "outputs",
+      "to": "deliverables/presentations"
+    },
+    {
+      "from": "local_archive",
+      "to": "archive"
+    },
+    {
+      "from": "snapshots",
+      "to": "archive/snapshots"
+    },
+    {
+      "from": ".codex_tmp",
+      "to": "local/workbench"
+    },
+    {
+      "from": ".codex-finalizer-cathodic-gap",
+      "to": "local/finalizers/cathodic_gap"
+    },
+    {
+      "from": "tmp",
+      "to": "local/tmp"
+    },
+    {
+      "from": "logs",
+      "to": "local/logs"
+    },
+    {
+      "from": "third_party",
+      "to": "local/third_party"
+    },
+    {
+      "from": ".pytest_cache",
+      "to": "local/test_cache/pre_migration"
+    },
+    {
+      "from": "__pycache__",
+      "to": "local/python_cache/pre_migration"
+    },
+    {
+      "from": "information.md",
+      "to": "docs/history/information.md"
+    },
+    {
+      "from": "module_timing_summary.json",
+      "to": "local/logs/module_timing_summary.json"
+    }
+  ],
+  "full_manifest": "local/migration_20260929/manifest.json",
+  "date": "2026-09-29"
+}

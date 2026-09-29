@@ -1,7 +1,7 @@
 """Isolated continuation of the September 9 COMSOL verification branch."""
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'results/thesis_followup_20260915/external';OUT.mkdir(parents=True,exist_ok=True)
+OUT=ROOT / 'analysis/thesis_followup_20260915/external';OUT.mkdir(parents=True,exist_ok=True)
 s=(ROOT/'scripts/ExternalRecoveredField20260909.java').read_text(encoding='utf8')
 s=s.replace('public class ExternalRecoveredField20260909','public class PostprocessLocal20260915')
 s=s.replace('static final String OUT=ROOT+"/results/thesis_followup_20260909/external";', 'static final String SOURCE=ROOT+"/results/thesis_followup_20260909/external";\n static final String OUT=ROOT+"/results/thesis_followup_20260915/external";')

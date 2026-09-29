@@ -1,6 +1,0 @@
-﻿feature_name,feature_type,distance_trend_flag,monotonic_flag,support_channel_count,stable_file_ratio,peak_dominated_flag,broadband_lift_flag,channel_dominance_risk,frequency_axis_risk,ml_ready_flag,priority,reason
-band_50_100k,bandpower,2m>=3m>=5m,True,12,,False,True,True,True,False,medium,support_channel_count=12; frequency_axis_risk; channel dominance sensitivity; distance-relevant candidate
-band_100_200k,bandpower,2m>=3m>=5m,True,12,,False,True,True,True,False,medium,support_channel_count=12; frequency_axis_risk; channel dominance sensitivity; distance-relevant candidate
-peak_54k,peak,not_monotonic_or_mixed,False,0,,True,False,True,True,False,reject,support_channel_count=0; frequency_axis_risk; channel dominance sensitivity; peak-dominated
-peak_138k,peak,2m>=3m>=5m,True,0,,True,False,True,True,False,reject,support_channel_count=0; frequency_axis_risk; channel dominance sensitivity; peak-dominated; distance-relevant candidate
-peak_178k,peak,2m>=3m>=5m,True,0,,True,True,True,True,False,reject,support_channel_count=0; frequency_axis_risk; channel dominance sensitivity; peak-dominated; distance-relevant candidate

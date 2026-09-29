@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from scripts.health_fusion_recognizer import infer,save_candidate,OUT,cache_blocks
 
 def inputs():
- with np.load(ROOT/'results/20260921_switching/cache/g111_r3.npz') as z:c={k:z[k] for k in z.files if k!='meta'}
+ with np.load(ROOT / 'experiments/20260921_switching/cache/g111_r3.npz') as z:c={k:z[k] for k in z.files if k!='meta'}
  return [{k:v.copy() for k,v in b.items()} for b in cache_blocks(c)],joblib.load(OUT/'g111_r3_heldout.joblib')
 
 def test_channel_failure_and_recovery_are_causal():

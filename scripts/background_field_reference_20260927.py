@@ -19,7 +19,7 @@ import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[1]
-THEORY = ROOT / "calculation and paper/ship_efield_theory"
+THEORY = ROOT / 'research/theory'
 # The historical theory project also names its package "src". Load it under
 # a private name so importing it cannot replace the main processing package.
 _THEORY_PACKAGE = "_dataprocess_ship_theory"
@@ -35,7 +35,7 @@ _propagation = importlib.import_module(f"{_THEORY_PACKAGE}.propagation")
 point_current_electric_field = _propagation.point_current_electric_field
 skin_depth = _propagation.skin_depth
 
-OUT = ROOT / "results/background_field_reference_20260927"
+OUT = ROOT / 'analysis/background_field_reference_20260927'
 EPS0 = 8.8541878128e-12
 MU0 = 4 * math.pi * 1e-7
 REFERENCE = dict(current_A=1.0, separation_m=10.0, depth_m=5.0, sigma_S_m=4.0, air_height_m=1.0)

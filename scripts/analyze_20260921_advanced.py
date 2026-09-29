@@ -2,7 +2,7 @@
 from pathlib import Path
 import os,sys,json,time,warnings
 os.environ['SSQ_PARALLEL']='0';os.environ['NUMBA_NUM_THREADS']='2';os.environ['OMP_NUM_THREADS']='2'
-ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.append(str(ROOT/'.codex_tmp/mentor_method_deps'))
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.append(str(ROOT / 'local/workbench/mentor_method_deps'))
 import numpy as np,pandas as pd
 from scipy import signal
 import matplotlib

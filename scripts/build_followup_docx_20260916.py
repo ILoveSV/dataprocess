@@ -7,8 +7,8 @@ from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 ROOT=Path(__file__).resolve().parents[1]
-src=ROOT/'results/thesis_followup_20260915/研究进展与间隙检出分析报告_20260918.md'
-out=ROOT/'output/documents/研究进展与间隙检出分析报告_20260918.docx'
+src=ROOT / 'analysis/thesis_followup_20260915/研究进展与间隙检出分析报告_20260918.md'
+out=ROOT / 'deliverables/documents/研究进展与间隙检出分析报告_20260918.docx'
 doc=Document();sec=doc.sections[0]
 sec.page_width=Inches(8.5);sec.page_height=Inches(11)
 sec.top_margin=Inches(.67);sec.bottom_margin=Inches(.67);sec.left_margin=Inches(.75);sec.right_margin=Inches(.75)
@@ -78,6 +78,6 @@ while i<len(lines):
  if line.startswith('- '):rich(doc.add_paragraph(style='List Bullet'),line[2:]);continue
  rich(doc.add_paragraph(),line)
 out.parent.mkdir(parents=True,exist_ok=True);doc.save(out)
-qa=ROOT/'tmp/thesis_followup_20260916';qa.mkdir(exist_ok=True,parents=True)
+qa=ROOT / 'local/tmp/thesis_followup_20260916';qa.mkdir(exist_ok=True,parents=True)
 (qa/'build.json').write_text(json.dumps({'source':str(src),'output':str(out),'tables':tables,'images':len(doc.inline_shapes),'paragraphs':len(doc.paragraphs)},ensure_ascii=False,indent=2),encoding='utf8')
 print(out)

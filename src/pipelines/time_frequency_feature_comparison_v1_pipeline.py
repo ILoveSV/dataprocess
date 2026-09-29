@@ -17,11 +17,11 @@ QC_FEATURE_TYPES = {"drift", "spike", "local_stability"}
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Time + Frequency Feature Comparison v1.")
-    parser.add_argument("--frequency-dataset", default="analysis_out/feature_extraction_v2/candidate_feature_dataset_v2.csv")
-    parser.add_argument("--frequency-stability", default="analysis_out/feature_extraction_v2/feature_stability_summary_v2.csv")
-    parser.add_argument("--time-dataset", default="analysis_out/time_domain_features_v1/time_domain_feature_dataset_v1.csv")
-    parser.add_argument("--time-stability", default="analysis_out/time_domain_features_v1/time_domain_feature_stability_summary_v1.csv")
-    parser.add_argument("--output", default="analysis_out/time_frequency_feature_comparison_v1")
+    parser.add_argument("--frequency-dataset", default="analysis/legacy_pipeline/feature_extraction_v2/candidate_feature_dataset_v2.csv")
+    parser.add_argument("--frequency-stability", default="analysis/legacy_pipeline/feature_extraction_v2/feature_stability_summary_v2.csv")
+    parser.add_argument("--time-dataset", default="analysis/legacy_pipeline/time_domain_features_v1/time_domain_feature_dataset_v1.csv")
+    parser.add_argument("--time-stability", default="analysis/legacy_pipeline/time_domain_features_v1/time_domain_feature_stability_summary_v1.csv")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/time_frequency_feature_comparison_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

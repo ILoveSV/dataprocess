@@ -21,11 +21,11 @@ PLOT_BIN_HZ = 25.0
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Per-channel Background-Subtracted PSD Response Consistency v1.")
-    parser.add_argument("--frequency-dataset", default="analysis_out/feature_extraction_v2/candidate_feature_dataset_v2.csv")
+    parser.add_argument("--frequency-dataset", default="analysis/legacy_pipeline/feature_extraction_v2/candidate_feature_dataset_v2.csv")
     parser.add_argument("--background-psd-curves", default="D:/Lab/results/26.5.12/background_contrast_v1/background_psd_diff_curves.csv")
     parser.add_argument("--fft-root", default="D:/Lab/process/26.5.12/frequency")
     parser.add_argument("--plot-source", choices=["existing_curves", "fft_current"], default="existing_curves")
-    parser.add_argument("--output", default="analysis_out/background_subtracted_psd_response_consistency_per_channel_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/background_subtracted_psd_response_consistency_per_channel_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

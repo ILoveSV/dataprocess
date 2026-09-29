@@ -4,7 +4,7 @@ import sys,json,time
 import numpy as np
 from scipy import fft,signal
 from nptdms import TdmsFile
-ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'results/20260921_switching'; (OUT/'cache').mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT / 'experiments/20260921_switching'; (OUT/'cache').mkdir(exist_ok=True)
 sys.path.insert(0,str(ROOT/'scripts'))
 from channel_quality import assess_channel_quality
 BANDS={'line30':(28,32),'line50':(48,52),'line100':(98,102),'low5_100':(5,100),'b100_1k':(100,1000),'b1_20k':(1000,20000),'b20_80k':(20000,80000),'b80_200k':(80000,199900),'carrier4k':(3950,4050),'carrier8k':(7950,8050),'carrier12k':(11950,12050),'near100k':(99000,101000)}

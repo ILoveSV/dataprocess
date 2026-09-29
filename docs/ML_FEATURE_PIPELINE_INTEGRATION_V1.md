@@ -20,14 +20,14 @@ Consumes feature CSV/JSON artifacts and computes stability, separability, redund
 
 ## Integrated Modules
 
-- `frequency_feature_extraction_v2`: layer=`feature_computation`, status=`complete`, output=`analysis_out\feature_extraction_v2`, runnable
-- `time_domain_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis_out\time_domain_features_v1`, runnable
-- `acf_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis_out\acf_features_v1`, runnable
-- `time_frequency_stability_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis_out\time_frequency_stability_features_v1`, runnable
-- `channel_correlation_features_v1`: layer=`qc_and_channel_structure`, status=`complete`, output=`analysis_out\channel_correlation_features_v1`, runnable
-- `frequency_feature_separability_v1`: layer=`feature_validation_and_selection`, status=`complete`, output=`analysis_out\feature_separability_v1`, artifact-only; not run by this orchestrator
-- `time_frequency_comparison_v1`: layer=`feature_validation_and_selection`, status=`complete`, output=`analysis_out\time_frequency_feature_comparison_v1`, runnable
-- `channel_mask_sensitivity_v1`: layer=`qc_and_channel_structure`, status=`complete`, output=`analysis_out\channel_mask_sensitivity_v1`, runnable
+- `frequency_feature_extraction_v2`: layer=`feature_computation`, status=`complete`, output=`analysis/legacy_pipeline\feature_extraction_v2`, runnable
+- `time_domain_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis/legacy_pipeline\time_domain_features_v1`, runnable
+- `acf_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis/legacy_pipeline\acf_features_v1`, runnable
+- `time_frequency_stability_features_v1`: layer=`feature_computation`, status=`complete`, output=`analysis/legacy_pipeline\time_frequency_stability_features_v1`, runnable
+- `channel_correlation_features_v1`: layer=`qc_and_channel_structure`, status=`complete`, output=`analysis/legacy_pipeline\channel_correlation_features_v1`, runnable
+- `frequency_feature_separability_v1`: layer=`feature_validation_and_selection`, status=`complete`, output=`analysis/legacy_pipeline\feature_separability_v1`, artifact-only; not run by this orchestrator
+- `time_frequency_comparison_v1`: layer=`feature_validation_and_selection`, status=`complete`, output=`analysis/legacy_pipeline\time_frequency_feature_comparison_v1`, runnable
+- `channel_mask_sensitivity_v1`: layer=`qc_and_channel_structure`, status=`complete`, output=`analysis/legacy_pipeline\channel_mask_sensitivity_v1`, runnable
 
 ## Artifact Connections
 
@@ -41,13 +41,13 @@ Consumes feature CSV/JSON artifacts and computes stability, separability, redund
 Default reuse/inspection run:
 
 ```powershell
-python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --output analysis_out/ml_feature_pipeline_integration_v1
+python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --output analysis/legacy_pipeline/ml_feature_pipeline_integration_v1
 ```
 
 Run only missing artifacts:
 
 ```powershell
-python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --time-root D:/Lab/process/NEW/time --fft-root D:/Lab/process/NEW/frequency --background-output D:/Lab/results/NEW/background_contrast_v1 --analysis-root analysis_out/NEW_ml_features --run-missing
+python -m src.pipelines.ml_feature_pipeline_integration_v1_pipeline --time-root D:/Lab/process/NEW/time --fft-root D:/Lab/process/NEW/frequency --background-output D:/Lab/results/NEW/background_contrast_v1 --analysis-root analysis/legacy_pipeline/NEW_ml_features --run-missing
 ```
 
 Use `--force-run` only when intentionally recomputing existing artifacts.

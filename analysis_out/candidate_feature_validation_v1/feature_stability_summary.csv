@@ -1,2 +1,0 @@
-﻿feature_name,group,median,mean,std,iqr,cv,p10,p90,stable_file_ratio,outlier_file_count,notes
-,,,,,,,,,,,"SKIPPED: current background_psd_diff_curves.csv stores group/channel median PSD curves and file_count=1 group_median rows, not per-file PSD curves."

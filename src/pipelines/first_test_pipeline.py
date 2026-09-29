@@ -31,7 +31,7 @@ def main(argv=None):
         description="first-test-pipeline: quick 4-plot, PSD, and median bandpower gain dB figures."
     )
     parser.add_argument("--input", "-i", default=None, help="Input process/time CSV root, group folder, or CSV file.")
-    parser.add_argument("--output", "-o", default="analysis_out/first_test_pipeline")
+    parser.add_argument("--output", "-o", default="analysis/legacy_pipeline/first_test_pipeline")
     parser.add_argument("--max-files", type=int, default=3, help="Max CSV files per group for quick screening; use 0 for all.")
     parser.add_argument("--max-channels", type=int, default=0, help="Max channels per group; use 0 for all.")
     parser.add_argument("--welch-nperseg", type=int, default=None)

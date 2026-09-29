@@ -30,7 +30,7 @@ EPS = 1e-30
 def main(argv=None):
     parser = argparse.ArgumentParser(description="ACF Feature Analysis v1 from time CSV files.")
     parser.add_argument("--time-root", default="D:/Lab/process/26.5.12/time")
-    parser.add_argument("--output", default="analysis_out/acf_features_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/acf_features_v1")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--max-lag-sec", type=float, default=0.05)
     parser.add_argument("--preprocessing-mode", choices=["ac_centered", "ac_detrended"], default="ac_centered")
@@ -478,7 +478,7 @@ def suggest_keep(a, b):
 
 
 def compare_with_existing(acf_sep):
-    path = Path("analysis_out/time_frequency_feature_comparison_v1/combined_feature_separability_summary.csv")
+    path = Path('analysis/legacy_pipeline/time_frequency_feature_comparison_v1/combined_feature_separability_summary.csv')
     if not path.exists():
         return pd.DataFrame([{"skipped_reason": "existing time+frequency comparison not found"}])
     existing = pd.read_csv(path)
@@ -586,7 +586,7 @@ def build_feature_sets(roles):
 
 
 def maybe_write_combined_sets(output_dir, acf_sets):
-    path = Path("analysis_out/time_frequency_feature_comparison_v1/recommended_feature_sets_v1.json")
+    path = Path('analysis/legacy_pipeline/time_frequency_feature_comparison_v1/recommended_feature_sets_v1.json')
     if not path.exists():
         return
     base = read_json(path)

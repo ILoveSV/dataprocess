@@ -231,7 +231,7 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("results") / "archived_background_comparison",
+        default=Path('analysis/archived_background_comparison'),
     )
     args = parser.parse_args()
 

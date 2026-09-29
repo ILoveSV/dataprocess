@@ -16,7 +16,7 @@ from scipy import stats
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_BASE = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3"
+DEFAULT_BASE = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3'
 
 
 def bh_adjust(values: np.ndarray) -> np.ndarray:
@@ -413,7 +413,7 @@ def build_report(base: Path) -> dict[str, object]:
 
 ## 7. 文件索引
 
-- 导师方法全覆盖的上一阶段总报告：`results/mentor_aligned_methods_v2/MENTOR_METHOD_EXPLORATION_REPORT.md`；其中包含CWT/交叉小波/SST、EMD/EEMD/VMD、复杂性、网络、非线性与滤波审计。本报告只记录原始数据到位后新增或被修正的结果。
+- 导师方法全覆盖的上一阶段总报告：`analysis/mentor_aligned_methods_v2/MENTOR_METHOD_EXPLORATION_REPORT.md`；其中包含CWT/交叉小波/SST、EMD/EEMD/VMD、复杂性、网络、非线性与滤波审计。本报告只记录原始数据到位后新增或被修正的结果。
 - `RAW_COMPLETION_METHOD_COVERAGE.csv`：新增原始数据方法覆盖。
 - `RAW_COMPLETION_RESULT_MATRIX.csv`：结果层级矩阵。
 - `FULL_RAW_STRATIFIED_SIGNIFICANCE.csv`：整段高频层级检验。

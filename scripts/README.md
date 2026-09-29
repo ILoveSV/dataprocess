@@ -15,6 +15,6 @@
 | 报告与结果检查 | `build_*`、`report_*`、`validate_*`、`verify_*` | 先检查各自输入文件和本机路径 |
 | 资料保存 | `archive_tdms_tree.py`、`build_preservation_manifest.py`、`collect_research_materials_20260927.ps1` | 不与 Git 同步混同，不自动删除原始数据 |
 
-最新源强/输入一致性程序在 [source_constraints](../research_materials/01_vessel_background/source_constraints/)，链条核验在 [00_chain_review](../research_materials/00_chain_review/)。
+最新源强/输入一致性程序在 [source_constraints](../research/01_vessel_background/source_constraints)，链条核验在 [00_chain_review](../research/00_chain_review)。
 
 部分旧脚本含 `D:/Lab`、`E:/Lab` 或本地依赖路径。新机器应先核对路径、依赖和数据版本。此轮只整理和同步，未重新运行全量分析。

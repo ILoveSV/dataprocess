@@ -8,7 +8,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(
-    "chain_audit", ROOT / "research_materials/00_chain_review/chain_audit.py")
+    "chain_audit", ROOT / 'research/00_chain_review/chain_audit.py')
 audit = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(audit)
 

@@ -1,0 +1,5 @@
+item,latex,meaning,unit
+quasi_static_conduction_equation,\nabla\cdot(\sigma\nabla\varphi)=-\rho_I,导电海水准静态控制方程,A/m^3 source density with sigma in S/m
+electric_field,\mathbf E=-\nabla\varphi,电场由电势梯度给出,V/m
+current_density,\mathbf J=\sigma\mathbf E,欧姆导电电流密度,A/m^2
+uniform_seawater_poisson,\nabla^2\varphi=-\rho_I/\sigma,均匀各向同性海水中的泊松形式,V/m^2

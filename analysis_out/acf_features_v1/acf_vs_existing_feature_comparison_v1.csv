@@ -1,5 +1,0 @@
-﻿task_name,best_frequency_auc,best_time_auc,best_acf_auc,best_frequency_feature,best_time_feature,best_acf_feature,acf_additional_value,reason
-Task A active vs 0Hz,1.0,1.0,1.0,freq__peakwin_177_179k,time__ac_rms,acf_abs_integral_0_0p1ms,high,ACF top AUC close to existing top domains
-Task B 30Hz vs 50Hz,1.0,1.0,1.0,freq__band_100_200k,time__ac_rms,acf_abs_integral_0_0p1ms,high,ACF top AUC close to existing top domains
-Task C distance,0.8333333333333334,0.8333333333333334,0.8333333333333334,freq__band_100_200k,time__ac_rms,acf_abs_integral_0_0p1ms,high,ACF top AUC close to existing top domains
-Task D rpm 3-class,0.6622470596829572,0.674957995470816,0.6849305555555555,freq__subband_90_100k,time__iqr,acf_lag1,low,ACF below existing feature domains or below 0.75 AUC gate

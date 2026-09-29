@@ -19,10 +19,10 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="PSD response montage review figures v1.")
     parser.add_argument(
         "--per-channel-output",
-        default="analysis_out/background_subtracted_psd_response_consistency_per_channel_first39_v1",
+        default="analysis/legacy_pipeline/background_subtracted_psd_response_consistency_per_channel_first39_v1",
         help="Existing per-channel PSD response output directory.",
     )
-    parser.add_argument("--output", default="analysis_out/psd_response_montage_review_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/psd_response_montage_review_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

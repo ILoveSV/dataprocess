@@ -40,7 +40,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Candidate Feature Validation v1 from existing background contrast and PSD zoom outputs.")
     parser.add_argument("--background-output", required=True)
     parser.add_argument("--psd-zoom-output", required=True)
-    parser.add_argument("--output", default="analysis_out/candidate_feature_validation_v1")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/candidate_feature_validation_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 

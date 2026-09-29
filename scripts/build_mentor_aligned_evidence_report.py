@@ -659,7 +659,7 @@ def write_report(base: Path, spectral: pd.DataFrame, pairing: pd.DataFrame,
 def main(argv: list[str] | None = None) -> Path:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path,
-                        default=Path("results/mentor_aligned_pre_electrochemical_v1"))
+                        default=Path('analysis/mentor_aligned_pre_electrochemical_v1'))
     args = parser.parse_args(argv)
     root = Path(__file__).resolve().parents[1]
     base = args.input if args.input.is_absolute() else root / args.input

@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];OLD=ROOT/'results/thesis_completion_20260908/detection';OUT=ROOT/'results/thesis_followup_20260909/noise'
+ROOT=Path(__file__).resolve().parents[1];OLD=ROOT / 'analysis/thesis_completion_20260908/detection';OUT=ROOT / 'analysis/thesis_followup_20260909/noise'
 OUT.mkdir(exist_ok=True,parents=True)
 protocol={'baseline':str(OLD.relative_to(ROOT)),'methods':['absolute_amplitude','residual_mad_normalized'],
  'normalized_statistic':'known-frequency OLS amplitude / (1.4826 * median absolute deviation of OLS residual)',

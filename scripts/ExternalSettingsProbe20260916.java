@@ -1,7 +1,7 @@
 import com.comsol.model.*;
 import com.comsol.model.util.*;
 public class ExternalSettingsProbe20260916 {
- static String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/results/thesis_followup_20260915/external";
+ static String OUT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess/analysis/thesis_followup_20260915/external";
  public static void main(String[] args) throws Exception {
   for(String id:new String[]{"local_r20_h9","local_r30_h15"}){
    Model m=ModelUtil.load("Model",OUT+"/"+id+".mph");

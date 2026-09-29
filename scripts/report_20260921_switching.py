@@ -209,7 +209,7 @@ Granger边、MFDFA宽度、递归确定性等保留在表中作为探索，不�
 
 实际执行了全量提取、基础分组分析、高级方法复算、原始数据核查及探索特征验证、补充稳定性/事件模型、报告生成。8份记录全部样本读取检查通过；RMS方差分解一致性误差不超过1.1×10⁻¹⁴ V²。状态空间1次未收敛如上明确保留，未把有限结果当作全部成功。
 
-新增脚本均位于scripts/，名称如下；原始TDMS及历史分析脚本未修改，本轮文件独立写入results/20260921_switching/。Python环境为D:/Anaconda/python.exe，历史补充依赖来自.codex_tmp/mentor_method_deps。输出CSV使用UTF-8 BOM。
+新增脚本均位于scripts/，名称如下；原始TDMS及历史分析脚本未修改，本轮文件独立写入experiments/20260921_switching/。Python环境为D:/Anaconda/python.exe，历史补充依赖现位于local/workbench/mentor_method_deps。输出CSV使用UTF-8 BOM。
 
 ```powershell
 $env:PYTHONIOENCODING='utf-8'

@@ -1,9 +1,0 @@
-{
-  "time_root": "D:\\Lab\\process\\26.5.12\\time",
-  "max_lag_sec": 0.05,
-  "preprocessing_mode": "ac_centered",
-  "acf_method": "FFT-based autocorrelation per file/channel",
-  "normalization": "divide by lag-0 autocorrelation so acf[0]=1",
-  "first_below_threshold_consecutive_lags": 5,
-  "periodicity_score": "max_peak_value * peak_count_above_0p1 / (1 + peak_spacing_cv)"
-}

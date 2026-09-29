@@ -52,11 +52,11 @@ MASKS = {
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Channel Mask Sensitivity v1 from existing file/channel feature tables.")
-    parser.add_argument("--frequency", default="analysis_out/feature_extraction_v2/candidate_feature_dataset_v2.csv")
-    parser.add_argument("--time", default="analysis_out/time_domain_features_v1/time_domain_feature_dataset_v1.csv")
-    parser.add_argument("--acf", default="analysis_out/acf_features_v1/acf_feature_dataset_v1.csv")
-    parser.add_argument("--tf", default="analysis_out/time_frequency_stability_features_v1/tf_stability_feature_dataset_v1.csv")
-    parser.add_argument("--output", default="analysis_out/channel_mask_sensitivity_v1")
+    parser.add_argument("--frequency", default="analysis/legacy_pipeline/feature_extraction_v2/candidate_feature_dataset_v2.csv")
+    parser.add_argument("--time", default="analysis/legacy_pipeline/time_domain_features_v1/time_domain_feature_dataset_v1.csv")
+    parser.add_argument("--acf", default="analysis/legacy_pipeline/acf_features_v1/acf_feature_dataset_v1.csv")
+    parser.add_argument("--tf", default="analysis/legacy_pipeline/time_frequency_stability_features_v1/tf_stability_feature_dataset_v1.csv")
+    parser.add_argument("--output", default="analysis/legacy_pipeline/channel_mask_sensitivity_v1")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 
@@ -434,9 +434,9 @@ def recommended_sets(robustness, roles):
 def load_feature_roles():
     roles = {}
     paths = [
-        Path("analysis_out/time_frequency_feature_comparison_v1/feature_role_assignment_v1.csv"),
-        Path("analysis_out/acf_features_v1/acf_feature_role_assignment_v1.csv"),
-        Path("analysis_out/time_frequency_stability_features_v1/tf_stability_feature_role_assignment_v1.csv"),
+        Path('analysis/legacy_pipeline/time_frequency_feature_comparison_v1/feature_role_assignment_v1.csv'),
+        Path('analysis/legacy_pipeline/acf_features_v1/acf_feature_role_assignment_v1.csv'),
+        Path('analysis/legacy_pipeline/time_frequency_stability_features_v1/tf_stability_feature_role_assignment_v1.csv'),
     ]
     for path in paths:
         if not path.exists():

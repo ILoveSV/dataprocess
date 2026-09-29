@@ -1,0 +1,190 @@
+[
+  {
+    "module_id": "frequency_feature_extraction_v2",
+    "layer": "feature_computation",
+    "purpose": "Extract file_id x channel PSD/bandpower/subband/peak-window features from FFT CSV files.",
+    "module": "src.pipelines.candidate_feature_extraction_v2_pipeline",
+    "output_dir": "analysis_out\\feature_extraction_v2",
+    "required_artifacts": [
+      "analysis_out\\feature_extraction_v2\\candidate_feature_dataset_v2.csv",
+      "analysis_out\\feature_extraction_v2\\feature_stability_summary_v2.csv",
+      "analysis_out\\feature_extraction_v2\\channel_feature_summary_v2.csv",
+      "analysis_out\\feature_extraction_v2\\all_vs_strict_feature_delta_v2.csv"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.candidate_feature_extraction_v2_pipeline",
+      "--fft-root",
+      "D:/Lab/process/26.5.12/frequency",
+      "--background-output",
+      "D:/Lab/results/26.5.12/background_contrast_v1",
+      "--output",
+      "analysis_out\\feature_extraction_v2"
+    ],
+    "heavy": true,
+    "notes": "Uses strict/all-data mode from existing frequency-axis audit; no ML."
+  },
+  {
+    "module_id": "time_domain_features_v1",
+    "layer": "feature_computation",
+    "purpose": "Extract file_id x channel time-domain statistics and QC indicators.",
+    "module": "src.pipelines.time_domain_feature_extraction_v1_pipeline",
+    "output_dir": "analysis_out\\time_domain_features_v1",
+    "required_artifacts": [
+      "analysis_out\\time_domain_features_v1\\time_domain_feature_dataset_v1.csv",
+      "analysis_out\\time_domain_features_v1\\time_domain_feature_stability_summary_v1.csv",
+      "analysis_out\\time_domain_features_v1\\time_domain_feature_input_audit.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.time_domain_feature_extraction_v1_pipeline",
+      "--time-root",
+      "D:/Lab/process/26.5.12/time",
+      "--output",
+      "analysis_out\\time_domain_features_v1"
+    ],
+    "heavy": true,
+    "notes": "No plots or ML; produces time-stat feature table."
+  },
+  {
+    "module_id": "acf_features_v1",
+    "layer": "feature_computation",
+    "purpose": "Extract ACF/autocorrelation features from time CSV files.",
+    "module": "src.pipelines.acf_feature_analysis_v1_pipeline",
+    "output_dir": "analysis_out\\acf_features_v1",
+    "required_artifacts": [
+      "analysis_out\\acf_features_v1\\acf_feature_dataset_v1.csv",
+      "analysis_out\\acf_features_v1\\acf_feature_stability_summary_v1.csv",
+      "analysis_out\\acf_features_v1\\acf_feature_separability_summary_v1.csv",
+      "analysis_out\\acf_features_v1\\recommended_acf_feature_sets_v1.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.acf_feature_analysis_v1_pipeline",
+      "--time-root",
+      "D:/Lab/process/26.5.12/time",
+      "--output",
+      "analysis_out\\acf_features_v1"
+    ],
+    "heavy": true,
+    "notes": "ACF near high-frequency lags remains auxiliary/risk-marked."
+  },
+  {
+    "module_id": "time_frequency_stability_features_v1",
+    "layer": "feature_computation",
+    "purpose": "Extract rolling FFT / window-level TF stability features from time CSV files.",
+    "module": "src.pipelines.time_frequency_stability_feature_analysis_v1_pipeline",
+    "output_dir": "analysis_out\\time_frequency_stability_features_v1",
+    "required_artifacts": [
+      "analysis_out\\time_frequency_stability_features_v1\\tf_window_feature_dataset_v1.csv",
+      "analysis_out\\time_frequency_stability_features_v1\\tf_stability_feature_dataset_v1.csv",
+      "analysis_out\\time_frequency_stability_features_v1\\tf_stability_feature_separability_summary_v1.csv",
+      "analysis_out\\time_frequency_stability_features_v1\\recommended_tf_stability_feature_sets_v1.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.time_frequency_stability_feature_analysis_v1_pipeline",
+      "--time-root",
+      "D:/Lab/process/26.5.12/time",
+      "--output",
+      "analysis_out\\time_frequency_stability_features_v1"
+    ],
+    "heavy": true,
+    "notes": "No full STFT matrices; no spectrogram export by default."
+  },
+  {
+    "module_id": "channel_correlation_features_v1",
+    "layer": "qc_and_channel_structure",
+    "purpose": "Extract file-level channel correlation, common-mode, PCA, and dominant-channel risk features.",
+    "module": "src.pipelines.channel_correlation_feature_analysis_v1_pipeline",
+    "output_dir": "analysis_out\\channel_correlation_features_v1",
+    "required_artifacts": [
+      "analysis_out\\channel_correlation_features_v1\\channel_pair_correlation_dataset_v1.csv",
+      "analysis_out\\channel_correlation_features_v1\\channel_correlation_feature_dataset_v1.csv",
+      "analysis_out\\channel_correlation_features_v1\\channel_correlation_feature_role_assignment_v1.csv",
+      "analysis_out\\channel_correlation_features_v1\\recommended_channel_correlation_feature_sets_v1.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.channel_correlation_feature_analysis_v1_pipeline",
+      "--time-root",
+      "D:/Lab/process/26.5.12/time",
+      "--output",
+      "analysis_out\\channel_correlation_features_v1"
+    ],
+    "heavy": true,
+    "notes": "QC/structure layer; does not delete channels."
+  },
+  {
+    "module_id": "frequency_feature_separability_v1",
+    "layer": "feature_validation_and_selection",
+    "purpose": "Validate frequency features with separability, redundancy, pilot baseline artifacts, and ML readiness gates.",
+    "module": "src.pipelines.feature_separability_v1_pipeline",
+    "output_dir": "analysis_out\\feature_separability_v1",
+    "required_artifacts": [
+      "analysis_out\\feature_separability_v1\\feature_matrix_file_agg.csv",
+      "analysis_out\\feature_separability_v1\\feature_separability_summary.csv",
+      "analysis_out\\feature_separability_v1\\ml_readiness_gate_summary.csv"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.feature_separability_v1_pipeline",
+      "--output",
+      "analysis_out\\feature_separability_v1"
+    ],
+    "heavy": false,
+    "run_allowed": false,
+    "run_blocked_reason": "This historical module includes pilot baseline model code; this integration pipeline reuses its artifacts but will not run it.",
+    "notes": "Artifact-only in this integration because it contains pilot baseline outputs from a prior step; integration does not train ML."
+  },
+  {
+    "module_id": "time_frequency_comparison_v1",
+    "layer": "feature_validation_and_selection",
+    "purpose": "Compare time and frequency features, assign roles, and recommend feature sets.",
+    "module": "src.pipelines.time_frequency_feature_comparison_v1_pipeline",
+    "output_dir": "analysis_out\\time_frequency_feature_comparison_v1",
+    "required_artifacts": [
+      "analysis_out\\time_frequency_feature_comparison_v1\\combined_feature_dataset_v1.csv",
+      "analysis_out\\time_frequency_feature_comparison_v1\\combined_feature_matrix_file_agg.csv",
+      "analysis_out\\time_frequency_feature_comparison_v1\\feature_role_assignment_v1.csv",
+      "analysis_out\\time_frequency_feature_comparison_v1\\recommended_feature_sets_v1.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.time_frequency_feature_comparison_v1_pipeline",
+      "--output",
+      "analysis_out\\time_frequency_feature_comparison_v1"
+    ],
+    "heavy": false,
+    "notes": "Validation layer; does not recompute raw features."
+  },
+  {
+    "module_id": "channel_mask_sensitivity_v1",
+    "layer": "qc_and_channel_structure",
+    "purpose": "Re-aggregate existing channel-level features under channel masks and test channel dependency.",
+    "module": "src.pipelines.channel_mask_sensitivity_v1_pipeline",
+    "output_dir": "analysis_out\\channel_mask_sensitivity_v1",
+    "required_artifacts": [
+      "analysis_out\\channel_mask_sensitivity_v1\\channel_mask_config_v1.json",
+      "analysis_out\\channel_mask_sensitivity_v1\\masked_feature_matrix_file_agg_v1.csv",
+      "analysis_out\\channel_mask_sensitivity_v1\\feature_robustness_by_mask_v1.csv",
+      "analysis_out\\channel_mask_sensitivity_v1\\recommended_feature_sets_after_channel_mask_v1.json"
+    ],
+    "command": [
+      "D:\\Anaconda\\python.exe",
+      "-m",
+      "src.pipelines.channel_mask_sensitivity_v1_pipeline",
+      "--output",
+      "analysis_out\\channel_mask_sensitivity_v1"
+    ],
+    "heavy": false,
+    "notes": "Current pilot mask config is an artifact, not a permanent bad-channel rule."
+  }
+]

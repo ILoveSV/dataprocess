@@ -14,7 +14,7 @@ This review artifact rearranges the latest per-channel first39 background-subtra
 
 ## Outputs
 
-- Output directory: `analysis_out\psd_response_montage_review_v1`
+- Output directory: `analysis/legacy_pipeline\psd_response_montage_review_v1`
 - Montage count by type: {'by_channel': 48, 'by_window': 40}
 - `montage_by_window/`: one figure per active condition, distance set, and 20 kHz window; each figure contains all 12 channels.
 - `montage_by_channel/`: one figure per channel, active condition, and distance set; each figure contains all 10 frequency windows.

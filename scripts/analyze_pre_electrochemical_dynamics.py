@@ -100,9 +100,9 @@ def parse_case(dataset: str, archive: Path) -> Case:
 
 def discover_cases(project_root: Path) -> list[Case]:
     roots = {
-        "20260617": project_root / "results/experiment_20260617/exact_archive",
-        "20260731": project_root / "results/experiment_20260731/tdms/exact_archive",
-        "20260806": project_root / "results/experiment_20260806/exact_archive",
+        "20260617": project_root / 'experiments/20260617/exact_archive',
+        "20260731": project_root / 'experiments/20260731/tdms/exact_archive',
+        "20260806": project_root / 'experiments/20260806/exact_archive',
     }
     cases: list[Case] = []
     for dataset, root in roots.items():
@@ -1586,7 +1586,7 @@ def main(argv: list[str] | None = None) -> Path:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--output", type=Path,
-                        default=Path("results/mentor_aligned_pre_electrochemical_v1"))
+                        default=Path('analysis/mentor_aligned_pre_electrochemical_v1'))
     parser.add_argument("--datasets", nargs="*",
                         default=["20260617", "20260731", "20260806"])
     args = parser.parse_args(argv)

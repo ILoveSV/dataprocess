@@ -28,7 +28,7 @@ from scripts.analyze_pulse_relaxation_raw import dynamic_healthy_channels
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = Path(r"E:\Lab\process\26.5.12\time")
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/mentor_aligned_raw_completion_v3/batch_20260512"
+DEFAULT_OUTPUT = PROJECT_ROOT / 'analysis/mentor_aligned_raw_completion_v3/batch_20260512'
 CHANNELS = [f"channel{index}" for index in range(1, 13)]
 BANDS = {
     "5_100hz": (5.0, 100.0),
@@ -333,7 +333,7 @@ def recognition_rows(groups: pd.DataFrame, permutations: int = 999) -> pd.DataFr
 
 def cross_batch_direction(contrasts: pd.DataFrame) -> pd.DataFrame:
     old = pd.read_csv(
-        PROJECT_ROOT / "results/mentor_aligned_pre_electrochemical_v1/matched_band_contrasts.csv"
+        PROJECT_ROOT / 'analysis/mentor_aligned_pre_electrochemical_v1/matched_band_contrasts.csv'
     )
     old = old[
         (old["dataset"].astype(str) == "20260617")

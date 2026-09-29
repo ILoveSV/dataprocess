@@ -15,11 +15,11 @@ from scipy import stats
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "results/cathodic_mentor_methods_v1"
+OUTPUT = ROOT / 'analysis/cathodic_mentor_methods_v1'
 LOW = OUTPUT / "low_frequency"
 HIGH = OUTPUT / "high_frequency"
-FIRST = ROOT / "results/experiment_20260811"
-SECOND = ROOT / "results/experiment_20260811_2"
+FIRST = ROOT / 'experiments/20260811'
+SECOND = ROOT / 'experiments/20260811_2'
 
 
 def bh_adjust(values: np.ndarray) -> np.ndarray:

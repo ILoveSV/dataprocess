@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULT = ROOT / "results" / "experiment_20260806"
+RESULT = ROOT / 'experiments/20260806'
 ARCHIVE = RESULT / "exact_archive"
 HEALTH = RESULT / "channel_health.csv"
 

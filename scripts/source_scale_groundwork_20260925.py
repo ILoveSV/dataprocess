@@ -13,7 +13,7 @@ import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[1]
-THEORY = ROOT / "calculation and paper" / "ship_efield_theory"
+THEORY = ROOT / 'research/theory'
 sys.path.insert(0, str(THEORY))
 from src.propagation import (  # noqa: E402
     point_current_electric_field,
@@ -21,8 +21,8 @@ from src.propagation import (  # noqa: E402
     static_dipole_field,
 )
 
-OUT = ROOT / "results" / "source_scale_groundwork_20260925"
-SOURCE = ROOT / "results/thesis_followup_20260915/external/gap_current_scaled.csv"
+OUT = ROOT / 'analysis/source_scale_groundwork_20260925'
+SOURCE = ROOT / 'analysis/thesis_followup_20260915/external/gap_current_scaled.csv'
 
 
 def save_csv(name, rows):
