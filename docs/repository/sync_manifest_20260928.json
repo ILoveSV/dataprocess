@@ -3,16 +3,16 @@
   "manifest_self_excluded": "docs/repository/sync_manifest_20260928.json",
   "limits": "25 MiB per file; 2 MiB under analysis_out; raw/binary archives excluded",
   "security_limit": "High-confidence credential-pattern scan only; not a guarantee of absence of sensitive content.",
-  "file_count": 2574,
-  "total_bytes": 209035448,
+  "file_count": 2550,
+  "total_bytes": 208219297,
   "groups": {
     "(root)": {
       "files": 9,
-      "bytes": 45629
+      "bytes": 45637
     },
     "analysis_out": {
-      "files": 214,
-      "bytes": 25211929
+      "files": 190,
+      "bytes": 24395760
     },
     "articles": {
       "files": 23,
@@ -60,7 +60,7 @@
     },
     "tools": {
       "files": 2,
-      "bytes": 8963
+      "bytes": 8973
     }
   },
   "issues": [],
@@ -72,8 +72,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 1659,
-      "sha256": "e3638ec3c455208f6d7bafd8532e771f9993e308ba0e285e41eb412f65483a5a"
+      "bytes": 1667,
+      "sha256": "ebc38b38c9b8743ea6630bc14e660504b7ceb034ed1c5ae4018a5e76d5f4d3ea"
     },
     {
       "path": "AGENT.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "analysis_out/.gitignore",
-      "bytes": 1919,
-      "sha256": "638e0fbda102bae86e5770225ad4cb4abe9891adc8f6367f8fa99f590ec3c631"
+      "bytes": 1937,
+      "sha256": "ae42dcde51591e05337465f873c9ba3b8b5a390b221fd28b0417a20e60e32256"
     },
     {
       "path": "analysis_out/README.md",
@@ -166,24 +166,9 @@
       "sha256": "05f69faa1acee52a35c9786a816ec4ffd4f3a2a55b3aca79ec63034aed18a7cc"
     },
     {
-      "path": "analysis_out/background_contrast_2m_complete/.cache/background_contrast_figures_cache.json",
-      "bytes": 2473,
-      "sha256": "01e0094d22f862cd05ae72e3bdd930d30778a2964ac19fe393169f654a6fa0ac"
-    },
-    {
-      "path": "analysis_out/background_contrast_2m_complete/.cache/background_contrast_tables_cache.json",
-      "bytes": 24017,
-      "sha256": "8bd5f0834d2432d19f74073b6f78f83733b38ca35754633538d6c410f3f781c4"
-    },
-    {
       "path": "analysis_out/background_contrast_2m_complete/contrast_summary_report.md",
       "bytes": 6118,
       "sha256": "1c40425dcd7660c31a759b65118a51f9c33c1aa3682751bfb102aa8e2e5c51ec"
-    },
-    {
-      "path": "analysis_out/background_contrast_figures_smoke/.cache/background_contrast_figures_cache.json",
-      "bytes": 2493,
-      "sha256": "5f453eee5a609187de65c4c7e5d7f85e7bf26608ea9dd1ef1802ec890436c431"
     },
     {
       "path": "analysis_out/background_subtracted_psd_response_consistency_per_channel_first39_v1/psd_response_candidate_features_per_channel_v1.csv",
@@ -394,111 +379,6 @@
       "path": "analysis_out/channel_mask_sensitivity_v1/recommended_feature_sets_after_channel_mask_v1.json",
       "bytes": 32723,
       "sha256": "cbe5fb8efe2a0e499f5c6e80fa0ff181813c155706f06b9b0c4887fbc65c50bc"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/.cache/background_contrast_figures_cache.json",
-      "bytes": 2546,
-      "sha256": "9bb3e5cccfa18208bab47943f7dfe615181919506a642d26c35e5fcaf981d161"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/.cache/background_contrast_tables_cache.json",
-      "bytes": 24584,
-      "sha256": "970d86d547f65ecb69f7e14618fa7405833b8345f532078980800ec09ea818a2"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/active_channels.json",
-      "bytes": 298,
-      "sha256": "a21eba3a2b354632c76abd823e572379db6f40d71294bf846fa608c4f88d2fec"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/band_mapping_debug.csv",
-      "bytes": 628,
-      "sha256": "e0322fe68be7ab512203e3c96e02f5e0c566b31d1df055396f6befd064edc18e"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/contrast_summary_report.md",
-      "bytes": 6257,
-      "sha256": "d7a5ce32aa199dabea332b762ce052285baba1ee656987d85a7d48a75628f0dd"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/fft_group_input_audit.csv",
-      "bytes": 68290,
-      "sha256": "c9fff359f3886cfcaf8e229f81f2144e916761ed6e1d4055f8e0ac93cf793a89"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/fft_group_input_audit.json",
-      "bytes": 110536,
-      "sha256": "6a25297dbfcc037a145d1336145db5defc0f1087b75c9452d70373a8bd6e328e"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/outlier_channel_overview.csv",
-      "bytes": 292,
-      "sha256": "b0915892ce0cd0b4847257265efd0f88caafd54be1866b18a0d9bcb415d016c9"
-    },
-    {
-      "path": "analysis_out/contrast_plot_cleanup_smoke/plot_status.json",
-      "bytes": 450,
-      "sha256": "2fb89f2d02e4424d5d4e5905351c5c3e3b74dbd7226d0191d766c8984b46327c"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/.cache/background_contrast_figures_cache.json",
-      "bytes": 2602,
-      "sha256": "8d25a28fe349a6b48b8243e55417489e56e1442b97bdf1968581b855e1674792"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/.cache/background_contrast_tables_cache.json",
-      "bytes": 24639,
-      "sha256": "ecc78d69fc2024eb8bbb3c75839c15c98378258ba67278a82a6b998700ee73eb"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/active_channels.json",
-      "bytes": 349,
-      "sha256": "a2d8523529110164e40e722947f75e47c3e958cee7c074a2c0d7020dec0600a8"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/band_mapping_debug.csv",
-      "bytes": 635,
-      "sha256": "0a6d642f1d6d5188c1b6c863b3ddd6b88e5c5b448a755b4ad1c1c190ebbf4b1a"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/contrast_summary_report.md",
-      "bytes": 6540,
-      "sha256": "34e413dbe8fb0be61063a5826362543d110b7c3d31c0880fcd5ecd89a5bf9059"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/fft_group_input_audit.csv",
-      "bytes": 204650,
-      "sha256": "bbdc15b5a3fa09c51ad7b5611a8d9c9a667c0c5bd9c97197a808f1914e7f1d09"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/fft_group_input_audit.json",
-      "bytes": 331464,
-      "sha256": "1b91510c6290d1256e8bb437b13a81f59a3c4cc5f16cb8b982aa5619271ee1ed"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/figures/bandpower_gain_heatmap_matrix.csv",
-      "bytes": 564,
-      "sha256": "f72aaa0584af9c250f77a2bc8b907857fe391f700cd94b9674b3aa0fd0910871"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/figures/cross_channel_support_heatmap_matrix.csv",
-      "bytes": 485,
-      "sha256": "f99e82eebfe4e625c435b002009aacd5c58a992baaf62c0ec04763cb9f9e79c8"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/figures/pumpfreq_net_contrast_heatmap_matrix.csv",
-      "bytes": 367,
-      "sha256": "343db04a8641d4edc0ee0491f797ea195f7d527fe3184d6b37f55eae3b1ef90c"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/outlier_channel_overview.csv",
-      "bytes": 292,
-      "sha256": "b0915892ce0cd0b4847257265efd0f88caafd54be1866b18a0d9bcb415d016c9"
-    },
-    {
-      "path": "analysis_out/contrast_plot_final_check_smoke/plot_status.json",
-      "bytes": 736,
-      "sha256": "dd2a7eaed7ece05a9c90edb0d6f9bf6e4f9125ebb3d866d3a72ed6020ed4e5f8"
     },
     {
       "path": "analysis_out/csv/acf_group_summary.csv",
@@ -12932,8 +12812,8 @@
     },
     {
       "path": "tools/repository_audit.py",
-      "bytes": 4747,
-      "sha256": "a436a9cfaef293dc86c7db350d857e46c0b88e515e408bd89fd8fb6f99cf1949"
+      "bytes": 4757,
+      "sha256": "43548c62a2f158ff61e2317a6922796f69b001b81310c12694db77e1d0b4a383"
     }
   ]
 }

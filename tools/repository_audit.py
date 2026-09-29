@@ -42,7 +42,7 @@ def path_errors(path: str, size: int) -> list[str]:
         reasons.append("local-only artifact")
     if p.name == ".env" or (p.name.startswith(".env.") and p.name != ".env.example"):
         reasons.append("environment file")
-    if {".ssh", "__pycache__", "build", "tmp", ".codex_tmp"}.intersection(p.parts):
+    if {".ssh", ".cache", "__pycache__", "build", "tmp", ".codex_tmp"}.intersection(p.parts):
         reasons.append("private/cache/build directory")
     if p.name == "COMPLETE" and p.parts[0] == "results":
         reasons.append("partial archive must not claim completeness")
