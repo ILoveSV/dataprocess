@@ -1,0 +1,308 @@
+{
+  "scope": "Existing log audit; no hardware actions or new output tests",
+  "official_sources": [
+    "https://www.fnirsi.com/products/dps-150",
+    "https://www.fnirsi.com/pages/software-downloads"
+  ],
+  "official_software_documented_sweep_delay_s": [
+    1,
+    86400
+  ],
+  "official_documentation_checked_date": "2026-11-04",
+  "interpretation": "200/s is a tested short-duration SET-current + GET-current-setpoint pattern, not analog bandwidth or a uniform output update rate",
+  "independently_measured_output_step_response": null,
+  "independently_measured_modulation_bandwidth": null,
+  "official_sweep_delay_is_hardware_speed_limit": false,
+  "raw_input_hashes": [
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142720\\commands.csv",
+      "sha256": "b143150ca9e9c548bb8718059ce785708264eed7546d6cd1019966a8bf36f503"
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142720\\telemetry.csv",
+      "sha256": "5e8bdff3386af629c2f1fa717d5460fcfb57ccbb815ab0515403e10e599d6044"
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142720\\summary.json",
+      "sha256": "996752f08a1a6454a06f0ff188e4c4cadd191323f2f6143927ade1ceaef403a3"
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142833\\commands.csv",
+      "sha256": "d89f53ca40b56eadc3b688ff6db734760dbf94f07a9d77de55f29234d54f23a1"
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142833\\telemetry.csv",
+      "sha256": "b6520a63e31ef1d20dbb3cde142db610149d3b12f18f57363bb4f9c96fd2b744"
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142833\\summary.json",
+      "sha256": "a7256c72eb74d8d966c7d1c3eb01b96b85c896ab783be24d03ce58a11bcdc7e6"
+    }
+  ],
+  "stages": [
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_2hz",
+      "requested_updates_per_s": 2,
+      "points": 12,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 499.71179999920423,
+        "p01": 499.7348499991858,
+        "p50": 500.0006999998732,
+        "p95": 500.23460000011255,
+        "p99": 500.2766800003883,
+        "max": 500.28720000045723
+      },
+      "host_lateness_p95_ms": 0.2427600002192775,
+      "host_lateness_max_ms": 0.3004000009241281,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 12,
+      "output_telemetry_interval_median_ms": 492.0019000001048
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_5hz",
+      "requested_updates_per_s": 5,
+      "points": 15,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 199.70909999938158,
+        "p01": 199.72581799946056,
+        "p50": 199.99929999994492,
+        "p95": 200.21152999988772,
+        "p99": 200.28318599974227,
+        "max": 200.3010999997059
+      },
+      "host_lateness_p95_ms": 0.3068300009545055,
+      "host_lateness_max_ms": 0.3139000000373926,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 5,
+      "output_telemetry_interval_median_ms": 492.0666500001971
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_10hz",
+      "requested_updates_per_s": 10,
+      "points": 30,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 88.18000000064785,
+        "p01": 91.47518000027048,
+        "p50": 100.00020000006771,
+        "p95": 100.03780000042752,
+        "p99": 108.5254719997465,
+        "max": 111.82039999948756
+      },
+      "host_lateness_p95_ms": 0.04845500070587139,
+      "host_lateness_max_ms": 11.834499999167747,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 6,
+      "output_telemetry_interval_median_ms": 491.811099998813
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_20hz",
+      "requested_updates_per_s": 20,
+      "points": 60,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 49.55519999930402,
+        "p01": 49.610937999605085,
+        "p50": 50.00090000066848,
+        "p95": 50.180209999962244,
+        "p99": 50.305228000943316,
+        "max": 50.32460000074934
+      },
+      "host_lateness_p95_ms": 0.25065499958145665,
+      "host_lateness_max_ms": 0.45620000128110405,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 6,
+      "output_telemetry_interval_median_ms": 492.1205999999074
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_40hz",
+      "requested_updates_per_s": 40,
+      "points": 120,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 24.716399999306304,
+        "p01": 24.855692000710405,
+        "p50": 25.00000000145519,
+        "p95": 25.045759999738948,
+        "p99": 25.150348000461236,
+        "max": 25.2835999999661
+      },
+      "host_lateness_p95_ms": 0.06542999853991198,
+      "host_lateness_max_ms": 0.29379999978118576,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 6,
+      "output_telemetry_interval_median_ms": 491.4558999989822
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_80hz",
+      "requested_updates_per_s": 80,
+      "points": 240,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 11.883299999681185,
+        "p01": 12.096438000153285,
+        "p50": 12.500199998612516,
+        "p95": 12.631670000700979,
+        "p99": 12.855111999597284,
+        "max": 13.068800000837655
+      },
+      "host_lateness_p95_ms": 0.14246499840737667,
+      "host_lateness_max_ms": 0.630899998213863,
+      "late_by_more_than_one_slot_count": 0,
+      "interval_over_two_slots_count": 0,
+      "output_telemetry_frame_count": 7,
+      "output_telemetry_interval_median_ms": 492.313450000438
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_160hz",
+      "requested_updates_per_s": 160,
+      "points": 480,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 2.4474000001646345,
+        "p01": 2.6702899996962515,
+        "p50": 6.2498999996023485,
+        "p95": 6.278830000701419,
+        "p99": 8.97185200017698,
+        "max": 16.003699998691445
+      },
+      "host_lateness_p95_ms": 0.06090999986554379,
+      "host_lateness_max_ms": 9.762499998032581,
+      "late_by_more_than_one_slot_count": 3,
+      "interval_over_two_slots_count": 3,
+      "output_telemetry_frame_count": 6,
+      "output_telemetry_interval_median_ms": 492.3233999998047
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "sweep_320hz",
+      "requested_updates_per_s": 320,
+      "points": 960,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": false,
+      "send_interval_quantiles_ms": {
+        "min": 2.242300000943942,
+        "p01": 2.260757999611087,
+        "p50": 3.1219000011333264,
+        "p95": 3.1351100014944677,
+        "p99": 3.4256520000417336,
+        "max": 54.0805000000546
+      },
+      "host_lateness_p95_ms": 44.44171499817457,
+      "host_lateness_max_ms": 50.96119999871007,
+      "late_by_more_than_one_slot_count": 316,
+      "interval_over_two_slots_count": 6,
+      "output_telemetry_frame_count": 6,
+      "output_telemetry_interval_median_ms": 534.4105000003765
+    },
+    {
+      "log": "dps150_rate_20261104_142720",
+      "stage": "repeat_160hz",
+      "requested_updates_per_s": 160,
+      "points": 2400,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 2.2826000003988156,
+        "p01": 2.709611999162007,
+        "p50": 6.2498999996023485,
+        "p95": 6.337609999900451,
+        "p99": 12.41271200000483,
+        "max": 19.26640000056068
+      },
+      "host_lateness_p95_ms": 0.2236350002021896,
+      "host_lateness_max_ms": 13.02410000062082,
+      "late_by_more_than_one_slot_count": 26,
+      "interval_over_two_slots_count": 23,
+      "output_telemetry_frame_count": 30,
+      "output_telemetry_interval_median_ms": 493.73889999878884
+    },
+    {
+      "log": "dps150_rate_20261104_142833",
+      "stage": "sweep_200hz",
+      "requested_updates_per_s": 200,
+      "points": 1600,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 2.2611000003962545,
+        "p01": 2.6417839997520787,
+        "p50": 4.9997000005532755,
+        "p95": 5.046700000093551,
+        "p99": 6.008622000263032,
+        "max": 12.986899999305024
+      },
+      "host_lateness_p95_ms": 0.17640000105529888,
+      "host_lateness_max_ms": 7.994300000063959,
+      "late_by_more_than_one_slot_count": 25,
+      "interval_over_two_slots_count": 16,
+      "output_telemetry_frame_count": 16,
+      "output_telemetry_interval_median_ms": 492.1876999997039
+    },
+    {
+      "log": "dps150_rate_20261104_142833",
+      "stage": "sweep_240hz",
+      "requested_updates_per_s": 240,
+      "points": 1920,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": false,
+      "send_interval_quantiles_ms": {
+        "min": 2.2355000000970904,
+        "p01": 2.334472000329697,
+        "p50": 4.16629999926954,
+        "p95": 4.232059999412741,
+        "p99": 5.903227999515359,
+        "max": 51.94130000018049
+      },
+      "host_lateness_p95_ms": 1.7845766647042134,
+      "host_lateness_max_ms": 47.780999999304186,
+      "late_by_more_than_one_slot_count": 66,
+      "interval_over_two_slots_count": 16,
+      "output_telemetry_frame_count": 16,
+      "output_telemetry_interval_median_ms": 492.0055999991746
+    },
+    {
+      "log": "dps150_rate_20261104_142833",
+      "stage": "repeat_200hz",
+      "requested_updates_per_s": 200,
+      "points": 3000,
+      "all_setpoint_readbacks_match": true,
+      "scheduling_rule_pass": true,
+      "send_interval_quantiles_ms": {
+        "min": 2.2647000005235896,
+        "p01": 2.617743999689992,
+        "p50": 4.999799999495735,
+        "p95": 5.0894300007712445,
+        "p99": 11.457653998695605,
+        "max": 17.8288999995857
+      },
+      "host_lateness_p95_ms": 0.3405799997381072,
+      "host_lateness_max_ms": 12.841600000683684,
+      "late_by_more_than_one_slot_count": 56,
+      "interval_over_two_slots_count": 32,
+      "output_telemetry_frame_count": 31,
+      "output_telemetry_interval_median_ms": 492.53269999917393
+    }
+  ]
+}

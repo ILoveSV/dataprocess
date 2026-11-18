@@ -1,0 +1,10 @@
+﻿folder,rate,seconds,kind,ack,explicit_baud,no_rtscts,closed_session,read_only,reader_thread,transactions,skipped_slots,max_os_write_ms,max_transaction_ms,last_setting_matches
+local\logs\dps150_pause_20261105_161041,200,5,193,True,False,False,False,False,False,916,84,0.5657000001519918,49.73919999974896,
+local\logs\dps150_pause_20261105_161058,200,5,193,False,False,False,False,False,False,937,63,39.29559999960475,,
+local\logs\dps150_pause_20261105_161119,200,5,194,True,False,False,False,False,False,917,83,0.5365999986679526,46.805899999526446,
+local\logs\dps150_pause_20261105_161211,200,5,193,False,True,False,False,False,False,930,70,39.339600001767394,,
+local\logs\dps150_pause_20261105_161257,200,5,193,False,False,False,True,False,False,932,68,38.72929999852204,,False
+local\logs\dps150_pause_20261105_161317,200,5,193,False,False,False,False,True,False,931,69,39.40569999940635,,
+local\logs\dps150_pause_20261105_161554,200,5,193,False,False,True,False,False,True,930,70,39.23500000018976,,True
+local\logs\dps150_pause_20261105_161748,200,30,193,False,False,False,False,False,False,5595,405,39.52920000119775,,True
+local\logs\dps150_pause_20261105_161855,20,10,193,True,False,False,False,False,False,200,0,1.4430999999603955,46.49349999999686,True

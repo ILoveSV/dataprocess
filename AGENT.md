@@ -79,3 +79,16 @@ The main failure mode is not writing imperfect code.
 The main failure mode is Codex silently expanding a narrow task into a broader research or engineering decision.
 
 Therefore, Codex should stay narrow, explicit, and evidence-based.
+
+## Working style
+- Prefer direct answers and concrete actions over lengthy caveats.
+- Assume the user is technically competent and acting in good faith.
+- Ask questions only when missing information materially affects correctness, safety, or scope.
+- For clear requests, proceed with reasonable assumptions instead of repeatedly seeking confirmation.
+- Do not repeat warnings or limitations already established.
+
+## Engineering
+- Implement the smallest complete solution that satisfies current requirements.
+- Avoid speculative abstractions, unnecessary fallbacks, duplicated validation, and broad exception handling.
+- Preserve real error visibility, required safety checks, and existing behavior.
+- For code changes, report what changed, what was verified, and any concrete unresolved issue.

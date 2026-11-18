@@ -39,7 +39,7 @@
   "reported_lab_points": [
     {
       "id": "earlier_four_point_record",
-      "source": "simulation/docs/阴极保护四档恒流与外部电场V4说明.md, section 1; based on earlier user-reported values",
+      "source": "research/simulation/docs/阴极保护四档恒流与外部电场V4说明.md, section 1; based on earlier user-reported values",
       "precision": "Approximate operating-point recollections, no uncertainty or synchronized waveform. 1.20V is the legacy report's value for an originally approximate description.",
       "points": [
         {"I_A": 0.01, "V_V": 0.20},

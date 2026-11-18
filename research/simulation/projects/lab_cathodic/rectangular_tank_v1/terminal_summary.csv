@@ -1,0 +1,6 @@
+% Model,Untitled.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Nov 10 2026, 20:35"
+% Table,表格 - 
+% Imposed current (A),Graphite-to-steel ohmic voltage (V),Water-path resistance (ohm),Terminal power (W),Integrated water Joule heating (W),Water volume (L),Water depth (mm),Water margin above window (mm),Wetted steel window (cm^2),Wetted graphite (cm^2),Electrode net gap (mm)
+0.01,1.3313055643671703,133.13055643671703,0.013313055643671703,0.01331305564367766,11.584236960919183,104.10195429836133,3.0000000000000027,239.99992367423425,166.88624641956773,153.54918421507634

@@ -9,15 +9,15 @@
 | 内容 | 位置 | 使用方式 |
 |---|---|---|
 | 当前方向、导师要求、论文定位 | [docs](docs/README.md) | 先读当前主线，再查历史方法说明 |
-| 背景源、传播、实验输入与接收链核验 | [research](research/README.md) | 当前研究主入口 |
+| 文献、理论计算、COMSOL 与实验映射 | [research](research/README.md) | 理论和仿真的统一入口，与数据分析分开 |
 | 按日期组织的实验批次 | [experiments](experiments/README.md) | 工况、批次报告与批次级结果 |
 | 跨实验分析与验证证据 | [analysis](analysis/README.md) | 精简报告、表、图；大缓存保留本地 |
 | 数据处理基础模块 | [src](src) | 保持原有模块和流水线结构 |
 | 分批分析、归档、建模与报告脚本 | [scripts](scripts/README.md) | 按任务选择，不全量自动执行 |
 | 单元测试和轻量验证 | [tests](tests) | 不替代真实实验有效性验证 |
-| COMSOL 建模与轻量结果 | [simulation](simulation/README.md) | Java 源程序、说明、导出表；MPH 留本地 |
+| COMSOL 建模与轻量结果 | [research/simulation](research/simulation/README.md) | Java 源程序、说明、导出表；MPH 留本地 |
 | 文献及阅读笔记 | [research/literature](research/literature/README.md) | 来源材料与本文结论分开 |
-| 论文工程 | [thesis](thesis/README.md) | 当前论文源文件与章节材料 |
+| 论文工程 | [thesis](thesis/README.md) | 当前写作在 `论文终稿/`，旧工程与章节稿在 `history/` |
 | 历史分析汇总 | [analysis/legacy_pipeline](analysis/legacy_pipeline/README.md) | 小型报告与表；不上传全量特征矩阵 |
 | 汇报与交付文件 | [deliverables](deliverables/README.md) | Office 原稿和渲染产物默认仅保留本地 |
 | 冻结历史与快照 | [archive](archive/README.md) | 追溯用，不作为当前结论入口 |

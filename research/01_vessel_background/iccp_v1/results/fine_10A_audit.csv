@@ -1,0 +1,6 @@
+% Model,Untitled.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Oct 18 2026, 17:49"
+% Table,表格 - 
+% Vm_V_AgAgCl (V),I_ICCP_A (A),steel_net_anodic_A (A),prop_net_anodic_A (A),circuit_residual_A (A),far_gradient_flux_A (A),steel_gradient_residual_A (A),prop_gradient_residual_A (A),steel_wet_area_m2 (m^2),prop_wet_area_m2 (m^2),anode1_area_m2 (m^2),anode2_area_m2 (m^2),anode3_area_m2 (m^2),anode4_area_m2 (m^2),steel_eta_min_V (V),steel_eta_max_V (V),steel_fraction_below_minus_0_8V (1),prop_eta_min_V (V),prop_eta_max_V (V),steel_extrapolated_area_fraction (1),prop_extrapolated_area_fraction (1)
+-0.5178037065992444,10,-6.142933820271626,-3.8570661797863477,-5.7973181810666574E-11,-3.678938470678267E-5,-0.14377469269080204,-0.18385172010238324,840.8963316756251,8.859286543616497,0.32197312031927616,0.32197312031927605,0.3219731203192765,0.3219731203192763,-0.5632241076224694,-0.4308200166257989,0,-0.43888086108957963,-0.4157678958590936,0,0

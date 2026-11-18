@@ -1,0 +1,14 @@
+% !TeX program = xelatex
+\input{thesis-preamble}
+\usepackage[backend=biber,style=gb7714-2015,sorting=none,url=true]{biblatex}
+\addbibresource{references.bib}
+\AtBeginBibliography{\zihao{5}\linespread{1.23}\selectfont\interlinepenalty=10000}
+
+\begin{document}
+\frontmatter
+\frontplain
+\input{frontmatter}
+
+\input{manuscript}
+
+\end{document}

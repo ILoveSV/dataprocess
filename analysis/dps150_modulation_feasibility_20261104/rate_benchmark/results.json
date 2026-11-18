@@ -1,0 +1,279 @@
+{
+  "evidence": [
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142720\\summary.json",
+      "sha256": "996752f08a1a6454a06f0ff188e4c4cadd191323f2f6143927ade1ceaef403a3",
+      "content": {
+        "results": [
+          {
+            "stage": "sweep_2hz",
+            "requested_rate_hz": 2,
+            "requested_count": 12,
+            "acknowledged_count": 12,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 2.0,
+            "roundtrip_median_ms": 2.341750000596221,
+            "roundtrip_p95_ms": 2.3880600005213637,
+            "roundtrip_max_ms": 2.4028000007092487,
+            "send_interval_median_ms": 500.0006999998732,
+            "lateness_p95_ms": 0.2427600002192775,
+            "lateness_max_ms": 0.3004000009241281,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_5hz",
+            "requested_rate_hz": 5,
+            "requested_count": 15,
+            "acknowledged_count": 15,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 5.0,
+            "roundtrip_median_ms": 2.3461000000679633,
+            "roundtrip_p95_ms": 3.435089999584303,
+            "roundtrip_max_ms": 5.5661000005784445,
+            "send_interval_median_ms": 199.99929999994492,
+            "lateness_p95_ms": 0.3068300009545055,
+            "lateness_max_ms": 0.3139000000373926,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_10hz",
+            "requested_rate_hz": 10,
+            "requested_count": 30,
+            "acknowledged_count": 30,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 10.0,
+            "roundtrip_median_ms": 2.3434499998984393,
+            "roundtrip_p95_ms": 2.5070749994483776,
+            "roundtrip_max_ms": 5.4335999993782025,
+            "send_interval_median_ms": 100.00020000006771,
+            "lateness_p95_ms": 0.048455000705871394,
+            "lateness_max_ms": 11.834499999167747,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_20hz",
+            "requested_rate_hz": 20,
+            "requested_count": 60,
+            "acknowledged_count": 60,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 20.0,
+            "roundtrip_median_ms": 2.341100000194274,
+            "roundtrip_p95_ms": 2.4856100009856164,
+            "roundtrip_max_ms": 6.875200000649784,
+            "send_interval_median_ms": 50.00090000066848,
+            "lateness_p95_ms": 0.2506549995814566,
+            "lateness_max_ms": 0.45620000128110405,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_40hz",
+            "requested_rate_hz": 40,
+            "requested_count": 120,
+            "acknowledged_count": 120,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 40.0,
+            "roundtrip_median_ms": 2.3435500006598886,
+            "roundtrip_p95_ms": 2.557150000393449,
+            "roundtrip_max_ms": 12.485199998991448,
+            "send_interval_median_ms": 25.00000000145519,
+            "lateness_p95_ms": 0.06542999853991198,
+            "lateness_max_ms": 0.29379999978118576,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_80hz",
+            "requested_rate_hz": 80,
+            "requested_count": 240,
+            "acknowledged_count": 240,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 80.0,
+            "roundtrip_median_ms": 2.2720999995726743,
+            "roundtrip_p95_ms": 2.507170001081249,
+            "roundtrip_max_ms": 12.670500000240281,
+            "send_interval_median_ms": 12.500199998612516,
+            "lateness_p95_ms": 0.14246499840737667,
+            "lateness_max_ms": 0.630899998213863,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_160hz",
+            "requested_rate_hz": 160,
+            "requested_count": 480,
+            "acknowledged_count": 480,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 160.0,
+            "roundtrip_median_ms": 2.2517000006700982,
+            "roundtrip_p95_ms": 2.4147100002664956,
+            "roundtrip_max_ms": 15.63009999881615,
+            "send_interval_median_ms": 6.2498999996023485,
+            "lateness_p95_ms": 0.06090999986554378,
+            "lateness_max_ms": 9.762499998032581,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_320hz",
+            "requested_rate_hz": 320,
+            "requested_count": 960,
+            "acknowledged_count": 960,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 315.2788256968992,
+            "roundtrip_median_ms": 2.2552999998879386,
+            "roundtrip_p95_ms": 2.4163099990801125,
+            "roundtrip_max_ms": 53.588099999615224,
+            "send_interval_median_ms": 3.1219000011333264,
+            "lateness_p95_ms": 44.44171499817457,
+            "lateness_max_ms": 50.96119999871007,
+            "schedule_pass": false
+          },
+          {
+            "stage": "repeat_160hz",
+            "requested_rate_hz": 160,
+            "requested_count": 2400,
+            "acknowledged_count": 2400,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 160.0,
+            "roundtrip_median_ms": 2.2555999994438025,
+            "roundtrip_p95_ms": 2.4620100003630796,
+            "roundtrip_max_ms": 15.502199999900768,
+            "send_interval_median_ms": 6.2498999996023485,
+            "lateness_p95_ms": 0.2236350002021896,
+            "lateness_max_ms": 13.02410000062082,
+            "schedule_pass": true
+          }
+        ],
+        "actual_current_bandwidth_hz": null,
+        "independent_current_measurement": false,
+        "pass_criterion": "all requested points read back, achieved rate >=95% requested, p95 host lateness <=25% interval",
+        "interpretation": "Host + protocol + firmware register timing; does not validate current waveform at these rates"
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_rate_20261104_142833\\summary.json",
+      "sha256": "a7256c72eb74d8d966c7d1c3eb01b96b85c896ab783be24d03ce58a11bcdc7e6",
+      "content": {
+        "results": [
+          {
+            "stage": "sweep_200hz",
+            "requested_rate_hz": 200,
+            "requested_count": 1600,
+            "acknowledged_count": 1600,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 200.0,
+            "roundtrip_median_ms": 2.2443999996539787,
+            "roundtrip_p95_ms": 2.3982250002518413,
+            "roundtrip_max_ms": 12.648500000068452,
+            "send_interval_median_ms": 4.9997000005532755,
+            "lateness_p95_ms": 0.1764000010552989,
+            "lateness_max_ms": 7.994300000063959,
+            "schedule_pass": true
+          },
+          {
+            "stage": "sweep_240hz",
+            "requested_rate_hz": 240,
+            "requested_count": 1920,
+            "acknowledged_count": 1920,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 240.0,
+            "roundtrip_median_ms": 2.262400000290654,
+            "roundtrip_p95_ms": 2.4329500006388116,
+            "roundtrip_max_ms": 51.923299999543815,
+            "send_interval_median_ms": 4.16629999926954,
+            "lateness_p95_ms": 1.7845766647042134,
+            "lateness_max_ms": 47.780999999304186,
+            "schedule_pass": false
+          },
+          {
+            "stage": "repeat_200hz",
+            "requested_rate_hz": 200,
+            "requested_count": 3000,
+            "acknowledged_count": 3000,
+            "all_register_values_matched": true,
+            "failure": null,
+            "achieved_rate_hz": 200.0,
+            "roundtrip_median_ms": 2.2504999997181585,
+            "roundtrip_p95_ms": 2.419605001250602,
+            "roundtrip_max_ms": 12.705700000879006,
+            "send_interval_median_ms": 4.999799999495735,
+            "lateness_p95_ms": 0.3405799997381072,
+            "lateness_max_ms": 12.841600000683684,
+            "schedule_pass": true
+          }
+        ],
+        "actual_current_bandwidth_hz": null,
+        "independent_current_measurement": false,
+        "pass_criterion": "all requested points read back, achieved rate >=95% requested, p95 host lateness <=25% interval",
+        "interpretation": "Host + protocol + firmware register timing; does not validate current waveform at these rates"
+      }
+    }
+  ],
+  "highest_tested_passing_rate_hz": 200,
+  "highest_tested_passing_repeat_s": 15,
+  "highest_tested_passing_repeat_points": 3000,
+  "rates_failing_timing_criterion_hz": [
+    240,
+    320
+  ],
+  "interpretation": "Conservative tested rate for this host/software/SET+GET pattern, not fixed hardware maximum.",
+  "actual_current_bandwidth_hz": null,
+  "actual_electrochemical_current_thd_percent": null,
+  "target_modulation_frequency_for_ideal_thd_5percent_hz": 5.405405405405405,
+  "target_modulation_frequency_for_ideal_thd_2percent_hz": 2.197802197802198,
+  "predictions": [
+    {
+      "target_hz": 1,
+      "points_per_cycle": 200,
+      "update_hz": 200,
+      "fundamental_loss_percent": 0.00411228443352174,
+      "ideal_full_spectrum_thd_percent": 0.9069220595705894,
+      "assumed_1ma_quantum_4ma_peak_thd_percent": 9.349156478065938,
+      "assumed_1ma_quantum_50ma_peak_thd_percent": 1.2528139138566792,
+      "illustrative_first_order_tau_max_ms_for_5percent_gain_loss": 52.31170005495252
+    },
+    {
+      "target_hz": 2,
+      "points_per_cycle": 100,
+      "update_hz": 200,
+      "fundamental_loss_percent": 0.01644852894514548,
+      "ideal_full_spectrum_thd_percent": 1.8139783982695268,
+      "assumed_1ma_quantum_4ma_peak_thd_percent": 9.451559828789845,
+      "assumed_1ma_quantum_50ma_peak_thd_percent": 2.0258200676397964,
+      "illustrative_first_order_tau_max_ms_for_5percent_gain_loss": 26.15585002747626
+    },
+    {
+      "target_hz": 5,
+      "points_per_cycle": 40,
+      "update_hz": 200,
+      "fundamental_loss_percent": 0.10277667514615452,
+      "ideal_full_spectrum_thd_percent": 4.537297394411876,
+      "assumed_1ma_quantum_4ma_peak_thd_percent": 9.84015179882531,
+      "assumed_1ma_quantum_50ma_peak_thd_percent": 4.653513453463359,
+      "illustrative_first_order_tau_max_ms_for_5percent_gain_loss": 10.462340010990504
+    },
+    {
+      "target_hz": 7,
+      "points_per_cycle": 28,
+      "update_hz": 196,
+      "fundamental_loss_percent": 0.2096809937993105,
+      "ideal_full_spectrum_thd_percent": 6.4860208788343074,
+      "assumed_1ma_quantum_4ma_peak_thd_percent": 11.369443331830844,
+      "assumed_1ma_quantum_50ma_peak_thd_percent": 6.50456705227869,
+      "illustrative_first_order_tau_max_ms_for_5percent_gain_loss": 7.473100007850359
+    }
+  ],
+  "assumptions": "Fixed geometry, uniform zero-order hold, stable timing, no analog dynamics. Quantization columns use nearest 1 mA with 200 mA DC bias, purely synthetic.",
+  "sources": [
+    "https://www.analog.com/en/resources/technical-articles/equalizing-techniques-flatten-dac-frequency-response.html",
+    "https://www.metrohm.com/en/applications/application-notes/autolab-applikationen-anautolab/an-eis-002.html"
+  ]
+}

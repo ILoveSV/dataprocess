@@ -2,6 +2,8 @@
 
 更新：2026-09-29（研究内容截至9月28日，本轮为目录整理与Git同步）。
 
+2026-11-12目录更新：COMSOL 已移至 [research/simulation](research/simulation/README.md)，与 [理论计算](research/theory/README.md) 同属研究目录；实测数据分析继续在 [analysis](analysis/README.md)。当前论文从 [thesis](thesis/README.md) 进入，旧稿仅作历史参考。下文研究进度与迁移统计仍是 9 月记录。
+
 ## 当前专项优先级
 
 研究方向：暂不按论文章节写，先研究真实水下舰艇（首先潜艇）的源机制、理论场强与小型COMSOL模型，随后才映射到现有实验。统一资料入口见[研究资料汇总](research/README.md)。原通用源推演保留作实验映射/解析核验，不再替代舰艇背景。PPT内容不修改；最新目录结构及搬移记录见[迁移说明](docs/repository/本地目录归档整理_20260929.md)。
@@ -25,7 +27,7 @@
 ## 本轮交付
 
 - 全局判断与六章方向已重新落档。
-- 第一章按新主线写初稿，沿用[已有论文工程](thesis/thesis_latex/README.md)，附文献依据和待确认项。
+- 第一章按新主线写初稿，沿用[当时的论文工程](thesis/history/thesis_latex/README.md)，附文献依据和待确认项。
 - 6份过时全局规划从活动目录删除，原件与被修改材料在[核验快照](archive/snapshots/thesis_planning_20260926/README.md)。
 - 数据、PPT、COMSOL模型、分析程序及历史Word稿不做清理；旧第二至五章与整篇PDF尚未按新结构更新。
 

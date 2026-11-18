@@ -1,0 +1,21 @@
+{
+  "source": "Thiel et al., JMSE 2020, 8, 105, Fig. 3b,d; DOI 10.3390/jmse8020105",
+  "pdf_sha256": "4a6f4ddb40182ede755428afe19adcd1e9d9a7740f2d2e219860d7cf40119bc1",
+  "reference": "Ag/AgCl as published in Thiel 2020",
+  "sign": "positive = net anodic current from metal into water",
+  "caution": "Digitized curves; linear interpolation and endpoint linear extrapolation. Near-zero turn bridged through zero. Branch labels in the source figure are inconsistent with the usual net-anodic sign convention; sign follows potential relative to corrosion potential.",
+  "hy80": {
+    "equilibrium_V_AgAgCl": -0.5046388554063461,
+    "min_V": -0.9638295799874371,
+    "max_V": -0.35571579546033316,
+    "points": 287,
+    "max_monotonic_correction_A_m2": 0.0
+  },
+  "nab": {
+    "equilibrium_V_AgAgCl": -0.36736593432152664,
+    "min_V": -0.9198510749192303,
+    "max_V": -0.02695065201410411,
+    "points": 424,
+    "max_monotonic_correction_A_m2": 0.0024579733843190787
+  }
+}

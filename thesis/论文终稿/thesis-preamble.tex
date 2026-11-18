@@ -1,0 +1,23 @@
+\documentclass[UTF8,a4paper,11pt,oneside,openany,fontset=windows]{ctexbook}
+\input{thesis-format}
+
+\newcommand{\thesistitlezh}{极化带效应水下目标探测感知}
+\newcommand{\thesistitleen}{Underwater Target Detection and Sensing Based on the Polarization Band Effect}
+\hypersetup{pdftitle={\thesistitlezh}}
+\pdfstringdefDisableCommands{\def\quad{ }}
+
+\makeatletter
+\newcommand{\thesiscontents}{%
+  \chapter*{\contentsname}%
+  \begingroup
+    \zihao{-4}\setlength{\baselineskip}{20bp}%
+    \@starttoc{toc}%
+  \endgroup
+}
+\makeatother
+
+\newcommand{\backsection}[1]{%
+  \chapter*{#1}%
+  \markboth{#1}{}%
+  \addcontentsline{toc}{chapter}{#1}%
+}

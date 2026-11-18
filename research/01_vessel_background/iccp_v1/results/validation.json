@@ -1,0 +1,44 @@
+{
+  "base_0A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  },
+  "base_10A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  },
+  "base_20A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  },
+  "base_5A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  },
+  "fine_10A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  },
+  "wide_10A": {
+    "circuit_balance_pass": true,
+    "finite_field_values_pass": true,
+    "field_vector_norm_pass": true,
+    "steel_extrapolated_area_fraction": 0.0,
+    "prop_extrapolated_area_fraction": 0.0
+  }
+}

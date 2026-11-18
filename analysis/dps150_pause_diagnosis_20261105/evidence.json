@@ -1,0 +1,1630 @@
+{
+  "summary": {
+    "baseline": "local\\logs\\dps150_pause_20261105_161748\\summary.json",
+    "long_write_count": 58,
+    "long_write_min_ms": 5.887799999982235,
+    "long_write_max_ms": 39.52920000119775,
+    "long_write_median_ms": 37.8185499994288,
+    "spike_period_median_s": 0.5250025000004825,
+    "telemetry_period_median_s": 0.5268427999999403,
+    "completion_minus_nearest_telemetry_median_ms": 3.404449999834469,
+    "host_lateness_max_ms": 10.56830000015907,
+    "write_call_max_ms": 0.41310000051453244,
+    "inferred_cause": "Periodic device/USB communication-service unavailability; firmware task is a leading hypothesis, not proven independently of USB stack",
+    "actual_analog_output_measured": false,
+    "periodic_pause_eliminated": false
+  },
+  "runs": [
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161041\\summary.json",
+      "sha256": "79ca07bbc0e6787cdfed2faf984bccb5fdc5e45510b99bf653a045bc72cb04d0",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": true,
+        "explicit_baud": false,
+        "no_rtscts": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.022603988647461,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.911556243896484,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.026203155517578,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.592336654663086,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.027804374694824,
+          "set_v": 1.840000033378601,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.935802459716797,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.02340316772461,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.21237564086914,
+          "protection": 0
+        }
+      ],
+      "transactions": 916,
+      "skipped_slots": 84,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 5.421768599999268,
+          "duration_ms": 0.6529000002046814
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.53801249999924,
+          "duration_ms": 0.5579000007855939
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.7094000011420576,
+          "median": 0.0017000020307023078,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.17500000103609636,
+          "median": 0.010800000382005237,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 0.5657000001519918,
+          "median": 0.10370000018156134,
+          "over_5ms": 0
+        },
+        "query_write_ms": {
+          "max": 47.371900000143796,
+          "median": 0.09469999895372894,
+          "over_5ms": 6
+        },
+        "reply_after_query_ms": {
+          "max": 49.55320000044594,
+          "median": 2.183099999456317,
+          "over_5ms": 12
+        },
+        "transaction_ms": {
+          "max": 49.73919999974896,
+          "median": 2.3130999998102197,
+          "over_5ms": 12
+        }
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161058\\summary.json",
+      "sha256": "8455b21be92239f9bed9b4b7ce6d9dba99153e3cc37320942b7d8a9e0394076b",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": false,
+        "no_rtscts": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.024600982666016,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.471437454223633,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.018404006958008,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.265033721923828,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.020206451416016,
+          "set_v": 1.840000033378601,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.390159606933594,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.025403022766113,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.54396629333496,
+          "protection": 0
+        }
+      ],
+      "transactions": 937,
+      "skipped_slots": 63,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 0.45321700000022247,
+          "duration_ms": 0.7648999999219086
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 2.703342700000576,
+          "duration_ms": 0.617799998508417
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.453397900000709,
+          "duration_ms": 0.7353000000875909
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.803433299999597,
+          "duration_ms": 0.583500001084758
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.7197999984782655,
+          "median": 0.0017000002117129043,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.1247000000148546,
+          "median": 0.012700000297627412,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 39.29559999960475,
+          "median": 0.05899999996472616,
+          "over_5ms": 9
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161119\\summary.json",
+      "sha256": "99c4eebb5f141f80d5b9f2b60298a7fdeb19a4b604d977186d43c7a87a8b46b1",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 194,
+        "ack": true,
+        "explicit_baud": false,
+        "no_rtscts": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.015203475952148,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.324291229248047,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.02060317993164,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.324291229248047,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.022002220153809,
+          "set_v": 0.0,
+          "set_i": 0.004000000189989805,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.31111717224121,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.018004417419434,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.31111717224121,
+          "protection": 0
+        }
+      ],
+      "transactions": 917,
+      "skipped_slots": 83,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 0.7540970999998535,
+          "duration_ms": 0.9388999988004798
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.9031000008690171,
+          "median": 0.0017000002117129043,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.13629999921249691,
+          "median": 0.011899999663000926,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 0.5365999986679526,
+          "median": 0.05599999894911889,
+          "over_5ms": 0
+        },
+        "query_write_ms": {
+          "max": 43.874599999981,
+          "median": 0.049899999794433825,
+          "over_5ms": 5
+        },
+        "reply_after_query_ms": {
+          "max": 46.651399999973364,
+          "median": 2.1784000000479864,
+          "over_5ms": 12
+        },
+        "transaction_ms": {
+          "max": 46.805899999526446,
+          "median": 2.2475000005215406,
+          "over_5ms": 12
+        }
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161211\\summary.json",
+      "sha256": "0528188eb0250a604dffe45ae6baaa565d658ba4f45c05443655c6ca9186a034",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": true,
+        "no_rtscts": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.024604797363281,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.221155166625977,
+          "protection": 0
+        },
+        {
+          "label": "baud_115200",
+          "output_on": false,
+          "input_v": 9.020203590393066,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.221155166625977,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.024604797363281,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.221155166625977,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.024803161621094,
+          "set_v": 1.840000033378601,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.5197811126709,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.026805877685547,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.5197811126709,
+          "protection": 0
+        }
+      ],
+      "transactions": 930,
+      "skipped_slots": 70,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 1.8091191999992589,
+          "duration_ms": 0.5848000000696629
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 2.192105999998603,
+          "duration_ms": 0.7908000006864313
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 2.859020199999577,
+          "duration_ms": 0.5271999998512911
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.259408699999767,
+          "duration_ms": 0.5992999995214632
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.292116899998291,
+          "duration_ms": 0.6807000008848263
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.293005300000004,
+          "duration_ms": 0.7385999997495674
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.164162599998235,
+          "duration_ms": 0.53700000171375
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.642677499999991,
+          "duration_ms": 0.6654999997408595
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.758728899998459,
+          "duration_ms": 1.0070000007544877
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.33370000164723024,
+          "median": 0.0017000002117129043,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.14460000056715216,
+          "median": 0.012599999536178075,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 39.339600001767394,
+          "median": 0.055100001191021875,
+          "over_5ms": 10
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161257\\summary.json",
+      "sha256": "32f6b58670e6bd947a16d13b803ad49778ca78e5b5535838e51123a6f5a94aaf",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": false,
+        "no_rtscts": false,
+        "closed_session": true,
+        "read_only": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "last_setting_matches": false,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.022403717041016,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.647323608398438,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.024803161621094,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.647323608398438,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.028404235839844,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.359411239624023,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.027603149414062,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.70673370361328,
+          "protection": 0,
+          "last_setting_matches": false
+        }
+      ],
+      "transactions": 932,
+      "skipped_slots": 68,
+      "slow_calls": [
+        {
+          "operation": "out_waiting",
+          "t_s": 0.5233034000011685,
+          "duration_ms": 0.6309000000328524
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 0.8233030999999755,
+          "duration_ms": 0.5445000006147893
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.289903300001242,
+          "duration_ms": 0.6655999986833194
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 4.306636799999978,
+          "duration_ms": 0.6831999999121763
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.706609000000753,
+          "duration_ms": 1.0068999999930384
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.023253299999851,
+          "duration_ms": 0.553300000319723
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.7650000006833579,
+          "median": 0.0017000020307023078,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.12559999959194101,
+          "median": 0.012900000001536682,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 38.72929999852204,
+          "median": 0.05990000136080198,
+          "over_5ms": 10
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161317\\summary.json",
+      "sha256": "cf55d2bfcb751351165a2a62a9a0bb67dbac6bd4625da6a05d3e5e34ed8f2054",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": false,
+        "no_rtscts": false,
+        "closed_session": false,
+        "read_only": true
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "last_setting_matches": null,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.018202781677246,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.962255477905273,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.025003433227539,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.962255477905273,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.025405883789062,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.57254409790039,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.025403022766113,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.57254409790039,
+          "protection": 0
+        }
+      ],
+      "transactions": 931,
+      "skipped_slots": 69,
+      "slow_calls": [
+        {
+          "operation": "out_waiting",
+          "t_s": 0.5272502999996505,
+          "duration_ms": 0.7222000003821449
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 1.5771464999997988,
+          "duration_ms": 0.5832000006193994
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.0775376000001415,
+          "duration_ms": 0.5744000009144656
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 3.6771552999998676,
+          "duration_ms": 0.5404000003181864
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.810747999999876,
+          "duration_ms": 0.8764000012888573
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.9104888000001665,
+          "duration_ms": 0.6513999996968778
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.9440247000002273,
+          "duration_ms": 0.5577000010816846
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.602730100001281,
+          "duration_ms": 1.3650999990204582
+        },
+        {
+          "operation": "read",
+          "t_s": 4.604098699999668,
+          "duration_ms": 1.7933000017364975
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 4.727323700000852,
+          "duration_ms": 2.001699998800177
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 4.743825700001253,
+          "duration_ms": 0.7435999996232567
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 1.6852000007929746,
+          "median": 0.0018000009731622413,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.137400000312482,
+          "median": 0.01300000076298602,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 39.40569999940635,
+          "median": 0.056200000472017564,
+          "over_5ms": 10
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161554\\summary.json",
+      "sha256": "51944df85d2b131029c29b376f010e733fe711af4561714f1ab3bffc2d3107d2",
+      "arguments": {
+        "rate": 200,
+        "seconds": 5,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": false,
+        "no_rtscts": true,
+        "closed_session": false,
+        "read_only": false,
+        "reader_thread": true
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "last_setting_matches": true,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.019601821899414,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.81020736694336,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.021805763244629,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.81020736694336,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.021805763244629,
+          "set_v": 1.840000033378601,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.96005630493164,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.0180025100708,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.96005630493164,
+          "protection": 0,
+          "last_setting_matches": true
+        }
+      ],
+      "transactions": 930,
+      "skipped_slots": 70,
+      "slow_calls": [],
+      "latencies": {
+        "host_late_ms": {
+          "max": 0.37940000038361177,
+          "median": 0.00030000046535860747,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.1869000006990973,
+          "median": 0.018999999156221747,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 39.23500000018976,
+          "median": 0.13840000065101776,
+          "over_5ms": 10
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161748\\summary.json",
+      "sha256": "70b46e17e36a5c1817d72c0c2fbbf38f3ec096914a9e7cb8929b9fd4c9e60a0d",
+      "arguments": {
+        "rate": 200,
+        "seconds": 30,
+        "kind": 193,
+        "ack": false,
+        "explicit_baud": false,
+        "no_rtscts": false,
+        "closed_session": false,
+        "read_only": false,
+        "reader_thread": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "last_setting_matches": true,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.021602630615234,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.559350967407227,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.022403717041016,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.559350967407227,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.02160358428955,
+          "set_v": 1.840000033378601,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.995332717895508,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.023604393005371,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.995332717895508,
+          "protection": 0,
+          "last_setting_matches": true
+        }
+      ],
+      "transactions": 5595,
+      "skipped_slots": 405,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 0.12181609999970533,
+          "duration_ms": 0.6138000007922528
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.5027090000003227,
+          "duration_ms": 0.7261999999172986
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.7027108000002045,
+          "duration_ms": 0.706200000422541
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.8576795999997557,
+          "duration_ms": 0.5352999996830476
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.9193771999998717,
+          "duration_ms": 0.6819000009272713
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 1.3032461000002513,
+          "duration_ms": 2.1450999993248843
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 1.4027141999995365,
+          "duration_ms": 0.5034000005252892
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 1.852709999999206,
+          "duration_ms": 0.6078000005800277
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 1.9026940000003378,
+          "duration_ms": 1.722900000459049
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 2.019382599999517,
+          "duration_ms": 0.7041000008030096
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 2.4027033999991545,
+          "duration_ms": 0.6241000010049902
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 2.702713799999401,
+          "duration_ms": 0.6436000003304798
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 2.7784059999994497,
+          "duration_ms": 0.5113000006531365
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 2.8193797999992967,
+          "duration_ms": 0.7230000010167714
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.502723400000832,
+          "duration_ms": 0.5059999984950991
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.519379299999855,
+          "duration_ms": 0.5810000002384186
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.802711000000272,
+          "duration_ms": 0.5973000006633811
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 3.8527207000006456,
+          "duration_ms": 1.045999999405467
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.002713600000789,
+          "duration_ms": 0.6143999999039806
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.1027267999998,
+          "duration_ms": 0.6837000000814442
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.16939420000017,
+          "duration_ms": 0.5968000004941132
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.906645099999878,
+          "duration_ms": 0.5328999995981576
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.4027313999995386,
+          "duration_ms": 0.5098000001453329
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.502733499999522,
+          "duration_ms": 0.7697000000916887
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.702733100000842,
+          "duration_ms": 0.5007999989175005
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 5.719399400000839,
+          "duration_ms": 0.6080999992263969
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.347982799999954,
+          "duration_ms": 0.5225000004429603
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.402724899999157,
+          "duration_ms": 0.6969000005483394
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.702737100000377,
+          "duration_ms": 0.5529999998543644
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.876127900000938,
+          "duration_ms": 0.5145999984961236
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.888356400000703,
+          "duration_ms": 0.9653999986767303
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 7.152736399999412,
+          "duration_ms": 0.5507000005309237
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 7.302741600000445,
+          "duration_ms": 0.6486999991466291
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 7.319407799999681,
+          "duration_ms": 0.6365999997797189
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 7.702732300000207,
+          "duration_ms": 0.5144000006112037
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 8.102734699999928,
+          "duration_ms": 0.6709000008413568
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 8.46940849999919,
+          "duration_ms": 0.5294000002322719
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 8.502736700000241,
+          "duration_ms": 0.5975000003672903
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 10.19693449999977,
+          "duration_ms": 0.524799999766401
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 11.987629400000515,
+          "duration_ms": 0.6221000003279187
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 12.402763399999458,
+          "duration_ms": 1.166699999885168
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 15.47177449999981,
+          "duration_ms": 1.0165000003325986
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 15.472966400000587,
+          "duration_ms": 0.6099999991420191
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 15.503028099999938,
+          "duration_ms": 0.7660999999643536
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.073000300000786,
+          "duration_ms": 0.5197999998927116
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.087507500000356,
+          "duration_ms": 1.5280999996321043
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.10303170000043,
+          "duration_ms": 1.0855999989871634
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.352782100000695,
+          "duration_ms": 0.5526999993890058
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.602988200000254,
+          "duration_ms": 1.520100000561797
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 16.613059699999212,
+          "duration_ms": 0.656100000924198
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 17.942317200000616,
+          "duration_ms": 1.2169999990874203
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 18.70279169999958,
+          "duration_ms": 0.8921999997255625
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 18.953020499999184,
+          "duration_ms": 0.6451000008382834
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.00279380000029,
+          "duration_ms": 0.6539000005432172
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.052793400000155,
+          "duration_ms": 1.4081999997870298
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.15302630000042,
+          "duration_ms": 0.7891999994171783
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.202917399999933,
+          "duration_ms": 0.860399999510264
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.352794500000527,
+          "duration_ms": 0.9743999999045627
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.40279670000018,
+          "duration_ms": 0.8665000004839385
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.45323869999993,
+          "duration_ms": 0.5569000004470581
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.80302760000086,
+          "duration_ms": 0.8304999992105877
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.852943899999445,
+          "duration_ms": 0.6387000012182398
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.903027000000293,
+          "duration_ms": 0.6751000000804197
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 19.937190500000725,
+          "duration_ms": 0.9197999988828087
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 20.202799900000173,
+          "duration_ms": 0.8087999995041173
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 20.302853099999993,
+          "duration_ms": 0.7076000001688953
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 20.353021900000385,
+          "duration_ms": 0.5005999992135912
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 20.453026600000157,
+          "duration_ms": 0.7485999994969461
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 20.502861299999495,
+          "duration_ms": 0.6441000004997477
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 21.15280410000014,
+          "duration_ms": 0.8603000005678041
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 21.552806100000453,
+          "duration_ms": 0.740100000257371
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 22.670199399999547,
+          "duration_ms": 0.79840000034892
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 23.636835499999506,
+          "duration_ms": 0.6474000001617242
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 23.76737580000008,
+          "duration_ms": 1.1331000005156966
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 23.772197599999345,
+          "duration_ms": 0.7514000008086441
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 23.85303439999916,
+          "duration_ms": 0.517000000400003
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 23.9780623000006,
+          "duration_ms": 1.6536999992240453
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 24.10299490000034,
+          "duration_ms": 1.0545000004640315
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 24.17492409999977,
+          "duration_ms": 1.0105000001203734
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 24.453040399999736,
+          "duration_ms": 0.592500000493601
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 24.686326799999733,
+          "duration_ms": 0.6394000010914169
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 24.81947930000024,
+          "duration_ms": 0.5168000006960938
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 24.852768200000355,
+          "duration_ms": 0.5210999988776166
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.003046100000574,
+          "duration_ms": 1.4449999998760177
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.0530447000001,
+          "duration_ms": 1.19769999946584
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.302943400000004,
+          "duration_ms": 0.7846000007702969
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.452823899999203,
+          "duration_ms": 1.81210000118881
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.537380600000688,
+          "duration_ms": 0.7617999999638414
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.55282360000092,
+          "duration_ms": 1.7050999995262828
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 25.769491000000926,
+          "duration_ms": 0.5436999999801628
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.063221700000213,
+          "duration_ms": 0.501599999552127
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.20282749999933,
+          "duration_ms": 1.147000000855769
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.236107299999276,
+          "duration_ms": 1.0368000002927147
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 26.28615969999919,
+          "duration_ms": 0.8804000008240109
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.30282740000075,
+          "duration_ms": 0.614099999438622
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.31949379999969,
+          "duration_ms": 0.8256000000983477
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.386110699999335,
+          "duration_ms": 0.9896999999909895
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.45305279999957,
+          "duration_ms": 0.5418000000645407
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.75289800000064,
+          "duration_ms": 0.554599999304628
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.85282980000011,
+          "duration_ms": 0.5985000007058261
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 26.902815999999802,
+          "duration_ms": 0.9509000010439195
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 27.052829800000836,
+          "duration_ms": 0.746299998354516
+        },
+        {
+          "operation": "out_waiting",
+          "t_s": 27.8528325999996,
+          "duration_ms": 0.9033000005729264
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 28.40319180000006,
+          "duration_ms": 0.8252000006905291
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 29.237910699999702,
+          "duration_ms": 0.7248000001709443
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 29.252840900000592,
+          "duration_ms": 1.1722999988705851
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 29.84809680000035,
+          "duration_ms": 0.6610999989788979
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 30.15284480000082,
+          "duration_ms": 0.7441999987349845
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 10.56830000015907,
+          "median": 0.0019000017346115783,
+          "over_5ms": 4
+        },
+        "write_call_ms": {
+          "max": 0.41310000051453244,
+          "median": 0.01340000017080456,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 39.52920000119775,
+          "median": 0.1346000008197734,
+          "over_5ms": 58
+        },
+        "query_write_ms": null,
+        "reply_after_query_ms": null,
+        "transaction_ms": null
+      }
+    },
+    {
+      "path": "local\\logs\\dps150_pause_20261105_161855\\summary.json",
+      "sha256": "926ae763e74b9b636375750219dd25e1cbd03cafaeb5a8b910c649ee9acc3511",
+      "arguments": {
+        "rate": 20,
+        "seconds": 10,
+        "kind": 193,
+        "ack": true,
+        "explicit_baud": false,
+        "no_rtscts": false,
+        "closed_session": false,
+        "read_only": false,
+        "reader_thread": false
+      },
+      "failure": null,
+      "output_enabled_by_test": false,
+      "last_setting_matches": true,
+      "snapshots": [
+        {
+          "label": "initial",
+          "output_on": false,
+          "input_v": 9.029202461242676,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.330873489379883,
+          "protection": 0
+        },
+        {
+          "label": "configured",
+          "output_on": false,
+          "input_v": 9.021203994750977,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.330873489379883,
+          "protection": 0
+        },
+        {
+          "label": "after_test",
+          "output_on": false,
+          "input_v": 9.024602890014648,
+          "set_v": 1.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 25.251863479614258,
+          "protection": 0
+        },
+        {
+          "label": "final_off_zero",
+          "output_on": false,
+          "input_v": 9.029202461242676,
+          "set_v": 0.0,
+          "set_i": 0.004999999888241291,
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "temp": 26.024002075195312,
+          "protection": 0,
+          "last_setting_matches": true
+        }
+      ],
+      "transactions": 200,
+      "skipped_slots": 0,
+      "slow_calls": [
+        {
+          "operation": "in_waiting",
+          "t_s": 0.5632114999989426,
+          "duration_ms": 2.2282000008999603
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.5656373000001622,
+          "duration_ms": 0.5834000003233086
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 0.7129052000000229,
+          "duration_ms": 1.0124999989784556
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 4.9128813999996055,
+          "duration_ms": 1.0008000008383533
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 5.363456099999894,
+          "duration_ms": 0.5187999995541759
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.113282700000127,
+          "duration_ms": 1.7417999988538213
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 6.1628381999998965,
+          "duration_ms": 0.5118000008224044
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 7.312855500000296,
+          "duration_ms": 1.092399999834015
+        },
+        {
+          "operation": "in_waiting",
+          "t_s": 7.613152699999773,
+          "duration_ms": 0.602699999944889
+        }
+      ],
+      "latencies": {
+        "host_late_ms": {
+          "max": 1.2129999995522667,
+          "median": 0.002200000380980782,
+          "over_5ms": 0
+        },
+        "write_call_ms": {
+          "max": 0.152900000102818,
+          "median": 0.02409999979136046,
+          "over_5ms": 0
+        },
+        "os_complete_ms": {
+          "max": 1.4430999999603955,
+          "median": 0.07929999992484227,
+          "over_5ms": 0
+        },
+        "query_write_ms": {
+          "max": 38.66630000084115,
+          "median": 0.05760000021837186,
+          "over_5ms": 15
+        },
+        "reply_after_query_ms": {
+          "max": 46.41319999973348,
+          "median": 2.1885999994992744,
+          "over_5ms": 18
+        },
+        "transaction_ms": {
+          "max": 46.49349999999686,
+          "median": 2.290000000357395,
+          "over_5ms": 18
+        }
+      }
+    }
+  ]
+}

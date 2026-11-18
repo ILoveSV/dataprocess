@@ -1,0 +1,6 @@
+% Model,rectangular_tank_20V_external_v2.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Nov 11 2026, 15:00"
+% Table,表格 - 
+% freq (Hz),Differential voltage (V),Ohmic current from dissipation (A),DC-equivalent water power (not phasor cycle average) (W),Water volume (L),Water depth (mm),Steel window area (cm^2),Graphite wetted area (cm^2),Clear gap (mm)
+0.001,20,0.34950461991676685,6.990092398335337,6.5873446102589295,104.10195429836133,239.99992436816103,166.88375555469048,50

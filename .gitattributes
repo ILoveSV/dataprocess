@@ -14,5 +14,5 @@
 # Preserve exported research evidence exactly, including line endings.
 /experiments/** -text
 /analysis/** -text
-/simulation/results/** -text
+/research/simulation/results/** -text
 /research/** -text

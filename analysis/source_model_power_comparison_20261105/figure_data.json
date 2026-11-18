@@ -1,0 +1,86 @@
+{
+  "scope": "No COMSOL solve and no hardware command; source wave arbitrary illustration; power wave hypothetical setpoints",
+  "actual_comsol_steady_points": [
+    {
+      "iccp_a": 0.0,
+      "propeller_net_incoming_a": 3.487297960634059
+    },
+    {
+      "iccp_a": 5.0,
+      "propeller_net_incoming_a": 3.6074915086262256
+    },
+    {
+      "iccp_a": 10.0,
+      "propeller_net_incoming_a": 3.860883631047505
+    },
+    {
+      "iccp_a": 20.0,
+      "propeller_net_incoming_a": 4.424915340024631
+    }
+  ],
+  "synthetic_command_assumptions": {
+    "frequency_hz": 2,
+    "uniform_update_per_s": 200,
+    "dc_ma": 6,
+    "ac_peak_ma": 4,
+    "quantum_ma": 1
+  },
+  "synthetic_spectrum": {
+    "理想阶梯": {
+      "base_peak_ma": 3.9993421246287353,
+      "full_band_synthetic_thd_pct": 1.8138876851465104,
+      "harmonics_hz": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "harmonic_peak_ma": [
+        3.9993421246287353,
+        1.5014124416218427e-16,
+        4.135803522866677e-16,
+        4.1355835300008295e-17,
+        3.8530909540007604e-16,
+        6.868323783464751e-17,
+        4.741731532028802e-16,
+        8.703162966166509e-17,
+        5.874320092643712e-16,
+        9.746671409092567e-17
+      ]
+    },
+    "1 mA取整阶梯": {
+      "base_peak_ma": 4.090298680302824,
+      "full_band_synthetic_thd_pct": 9.451542269464829,
+      "harmonics_hz": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "harmonic_peak_ma": [
+        4.090298680302824,
+        1.1060624622174293e-17,
+        0.04143242840823077,
+        2.1103139205422875e-17,
+        0.024619832505683902,
+        8.088161962957034e-17,
+        0.054173910976299984,
+        4.683383152825721e-18,
+        0.035949451111995566,
+        9.01653841721662e-19
+      ]
+    }
+  }
+}

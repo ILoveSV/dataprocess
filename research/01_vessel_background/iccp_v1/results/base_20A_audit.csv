@@ -1,0 +1,6 @@
+% Model,submarine_iccp_base_10A.mph
+% Version,COMSOL 6.4.0.293
+% Date,"Oct 18 2026, 17:48"
+% Table,表格 - 
+% Vm_V_AgAgCl (V),I_ICCP_A (A),steel_net_anodic_A (A),prop_net_anodic_A (A),circuit_residual_A (A),far_gradient_flux_A (A),steel_gradient_residual_A (A),prop_gradient_residual_A (A),steel_wet_area_m2 (m^2),prop_wet_area_m2 (m^2),anode1_area_m2 (m^2),anode2_area_m2 (m^2),anode3_area_m2 (m^2),anode4_area_m2 (m^2),steel_eta_min_V (V),steel_eta_max_V (V),steel_fraction_below_minus_0_8V (1),prop_eta_min_V (V),prop_eta_max_V (V),steel_extrapolated_area_fraction (1),prop_extrapolated_area_fraction (1)
+-0.5420036757402686,20,-15.57508465997542,-4.424915340024631,-4.973799150320701E-14,-1.1831319956745467E-5,-0.4502194106919232,-0.3458648444548208,840.883840076883,8.85922981994908,0.3219731203192759,0.3219731203192764,0.321973120319276,0.3219731203192758,-0.6296217996414257,-0.43275037612884765,0,-0.44631613187241836,-0.4195276773812239,0,0

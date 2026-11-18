@@ -1,7 +1,7 @@
 """Generate isolated COMSOL builder from retained V4 source; never edit historical model."""
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-s=(ROOT / 'simulation/scripts/models/CathodicProtectionExternalFieldV4.java').read_text(encoding='utf8')
+s=(ROOT / 'research/simulation/scripts/models/CathodicProtectionExternalFieldV4.java').read_text(encoding='utf8')
 s=s.replace('public class CathodicProtectionExternalFieldV4','public class ExternalFieldFollowup20260909')
 a=s.index('  private static final String ROOT =');b=s.index('  private static void color',a)
 s=s[:a]+'''  private static final String ROOT="C:/Users/17584/Documents/ALearning/Project/tools/DataProcess";

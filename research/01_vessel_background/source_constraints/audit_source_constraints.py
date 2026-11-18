@@ -104,7 +104,7 @@ def main():
     files = [input_path, current_path, HERE / "Gijsel-2026-Implementation.pdf",
              ROOT / 'research/literature/raw/schaefer2019.pdf', ROOT / 'research/literature/raw/wang2018.pdf',
              ROOT / 'research/literature/raw/thiel2020.pdf',
-             ROOT / 'simulation/docs/阴极保护四档恒流与外部电场V4说明.md',
+             ROOT / 'research/simulation/docs/阴极保护四档恒流与外部电场V4说明.md',
              ROOT / 'analysis/20260922_channel_diagnosis/逐通道贡献与漏判诊断.md']
     result = dict(
         scope=data["scope"], new_measurement=False, fitted_conductivity=False,

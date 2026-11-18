@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "raw_root": "D:/Lab/raw/raw/11.11",
+  "time_zone": "Asia/Hong_Kong",
+  "distance_reference": "sensor_to_pump",
+  "schedule_label_source": "operator_plan",
+  "actual_state_intervals_verified": false,
+  "protocols": {
+    "A": [
+      {"t_start_s": 0, "t_end_s": 20, "state": "STOP"},
+      {"t_start_s": 20, "t_end_s": 30, "state": "TRANSITION"},
+      {"t_start_s": 30, "t_end_s": 50, "state": "RUN50"},
+      {"t_start_s": 50, "t_end_s": 60, "state": "TRANSITION"},
+      {"t_start_s": 60, "t_end_s": 80, "state": "RUN30"},
+      {"t_start_s": 80, "t_end_s": 90, "state": "TRANSITION"},
+      {"t_start_s": 90, "t_end_s": 120, "state": "STOP"}
+    ],
+    "B": [
+      {"t_start_s": 0, "t_end_s": 20, "state": "STOP"},
+      {"t_start_s": 20, "t_end_s": 30, "state": "TRANSITION"},
+      {"t_start_s": 30, "t_end_s": 50, "state": "RUN50"},
+      {"t_start_s": 50, "t_end_s": 60, "state": "TRANSITION"},
+      {"t_start_s": 60, "t_end_s": 80, "state": "STOP"},
+      {"t_start_s": 80, "t_end_s": 90, "state": "TRANSITION"},
+      {"t_start_s": 90, "t_end_s": 120, "state": "RUN50"}
+    ]
+  },
+  "records": [
+    {"record_id": "20261111_PUMP_TC2_R01", "name": "20261111_PUMP_TC2_D02M_A_R01", "case": "2", "detector": "TC2", "mode": "A", "distance_nominal_m": 2, "distance_m": 2, "distance_status": "confirmed", "source": "2/20261111225746.551020-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R02", "name": "20261111_PUMP_TC2_D03M_A_R02", "case": "3", "detector": "TC2", "mode": "A", "distance_nominal_m": 3, "distance_m": 3, "distance_status": "confirmed", "source": "3/20261111230202.359528-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R03", "name": "20261111_PUMP_TC2_D04M_A_R03", "case": "4", "detector": "TC2", "mode": "A", "distance_nominal_m": 4, "distance_m": 4, "distance_status": "confirmed", "source": "4/20261111230554.121203-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R04", "name": "20261111_PUMP_TC2_DUNK_B_R04", "case": "4-2", "detector": "TC2", "mode": "B", "distance_nominal_m": 4, "distance_m": null, "distance_status": "unconfirmed", "source": "4-2/20261111231418.937784-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R05", "name": "20261111_PUMP_TC2_DUNK_B_R05", "case": "3-2_early", "detector": "TC2", "mode": "B", "distance_nominal_m": 3, "distance_m": null, "distance_status": "unconfirmed", "source": "3-2/20261111231719.019080-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R06", "name": "20261111_PUMP_TC2_D03M_B_R06", "case": "3-2_late", "detector": "TC2", "mode": "B", "distance_nominal_m": 3, "distance_m": 3, "distance_status": "confirmed", "source": "3-2/20261111231950.978456-1.tdms"},
+    {"record_id": "20261111_PUMP_TC2_R07", "name": "20261111_PUMP_TC2_DUNK_B_R07", "case": "2-2", "detector": "TC2", "mode": "B", "distance_nominal_m": 2, "distance_m": null, "distance_status": "unconfirmed", "source": "2-2/20261111232455.979167-1.tdms"}
+  ]
+}

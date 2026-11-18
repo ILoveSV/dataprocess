@@ -1,0 +1,508 @@
+{
+  "kind": "analytical_and_synthetic_only",
+  "ideal": [
+    {
+      "points_per_cycle": 10,
+      "step_upper_bound_percent_of_modulation_peak": 61.803398874989476,
+      "fundamental_loss_percent": 1.6368356916534044,
+      "fundamental_delay_degree": 18.0,
+      "thd_all_harmonics_percent": 18.318949506644625,
+      "first_unwanted_harmonic_order": 9,
+      "thd_harmonics_2_to_10_percent": 11.11111111111111
+    },
+    {
+      "points_per_cycle": 20,
+      "step_upper_bound_percent_of_modulation_peak": 31.286893008046174,
+      "fundamental_loss_percent": 0.41072647564386333,
+      "fundamental_delay_degree": 9.0,
+      "thd_all_harmonics_percent": 9.091433861734146,
+      "first_unwanted_harmonic_order": 19,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 37,
+      "step_upper_bound_percent_of_modulation_peak": 16.961184895101837,
+      "fundamental_loss_percent": 0.12011258021121796,
+      "fundamental_delay_degree": 4.864864864864865,
+      "thd_all_harmonics_percent": 4.9056973568453355,
+      "first_unwanted_harmonic_order": 36,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 40,
+      "step_upper_bound_percent_of_modulation_peak": 15.691819145568989,
+      "fundamental_loss_percent": 0.10277667514615452,
+      "fundamental_delay_degree": 4.5,
+      "thd_all_harmonics_percent": 4.537297394411876,
+      "first_unwanted_harmonic_order": 39,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 50,
+      "step_upper_bound_percent_of_modulation_peak": 12.558103905862675,
+      "fundamental_loss_percent": 0.06578437601587606,
+      "fundamental_delay_degree": 3.6,
+      "thd_all_harmonics_percent": 3.6290314620332746,
+      "first_unwanted_harmonic_order": 49,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 91,
+      "step_upper_bound_percent_of_modulation_peak": 6.903227793941626,
+      "fundamental_loss_percent": 0.019862770739564883,
+      "fundamental_delay_degree": 1.978021978021978,
+      "thd_all_harmonics_percent": 1.993423700680174,
+      "first_unwanted_harmonic_order": 90,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 100,
+      "step_upper_bound_percent_of_modulation_peak": 6.282151815625658,
+      "fundamental_loss_percent": 0.01644852894514548,
+      "fundamental_delay_degree": 1.8,
+      "thd_all_harmonics_percent": 1.8139783982695268,
+      "first_unwanted_harmonic_order": 99,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 182,
+      "step_upper_bound_percent_of_modulation_peak": 3.4521281810776996,
+      "fundamental_loss_percent": 0.00496591462639806,
+      "fundamental_delay_degree": 0.989010989010989,
+      "thd_all_harmonics_percent": 0.9966227526509344,
+      "first_unwanted_harmonic_order": 181,
+      "thd_harmonics_2_to_10_percent": 0.0
+    },
+    {
+      "points_per_cycle": 200,
+      "step_upper_bound_percent_of_modulation_peak": 3.141463462364135,
+      "fundamental_loss_percent": 0.00411228443352174,
+      "fundamental_delay_degree": 0.9,
+      "thd_all_harmonics_percent": 0.9069220595705894,
+      "first_unwanted_harmonic_order": 199,
+      "thd_harmonics_2_to_10_percent": 0.0
+    }
+  ],
+  "thresholds": [
+    {
+      "thd_budget_percent_design_example": 10,
+      "minimum_integer_N": 19,
+      "actual_ideal_thd_percent": 9.572489508747697
+    },
+    {
+      "thd_budget_percent_design_example": 5,
+      "minimum_integer_N": 37,
+      "actual_ideal_thd_percent": 4.9056973568453355
+    },
+    {
+      "thd_budget_percent_design_example": 2,
+      "minimum_integer_N": 91,
+      "actual_ideal_thd_percent": 1.993423700680174
+    },
+    {
+      "thd_budget_percent_design_example": 1,
+      "minimum_integer_N": 182,
+      "actual_ideal_thd_percent": 0.9966227526509344
+    }
+  ],
+  "required_rates": [
+    {
+      "target_frequency_hz_example": 0.01,
+      "period_s": 100.0,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 0.4,
+      "required_interval_s": 2.5,
+      "phase_timing_error_1deg_s": 0.2777777777777778,
+      "first_image_frequency_hz": 0.39
+    },
+    {
+      "target_frequency_hz_example": 0.01,
+      "period_s": 100.0,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 1.0,
+      "required_interval_s": 1.0,
+      "phase_timing_error_1deg_s": 0.2777777777777778,
+      "first_image_frequency_hz": 0.99
+    },
+    {
+      "target_frequency_hz_example": 0.05,
+      "period_s": 20.0,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 2.0,
+      "required_interval_s": 0.5,
+      "phase_timing_error_1deg_s": 0.05555555555555555,
+      "first_image_frequency_hz": 1.9500000000000002
+    },
+    {
+      "target_frequency_hz_example": 0.05,
+      "period_s": 20.0,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 5.0,
+      "required_interval_s": 0.2,
+      "phase_timing_error_1deg_s": 0.05555555555555555,
+      "first_image_frequency_hz": 4.95
+    },
+    {
+      "target_frequency_hz_example": 0.1,
+      "period_s": 10.0,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 4.0,
+      "required_interval_s": 0.25,
+      "phase_timing_error_1deg_s": 0.027777777777777776,
+      "first_image_frequency_hz": 3.9000000000000004
+    },
+    {
+      "target_frequency_hz_example": 0.1,
+      "period_s": 10.0,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 10.0,
+      "required_interval_s": 0.1,
+      "phase_timing_error_1deg_s": 0.027777777777777776,
+      "first_image_frequency_hz": 9.9
+    },
+    {
+      "target_frequency_hz_example": 0.3225806451612903,
+      "period_s": 3.1,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 12.903225806451612,
+      "required_interval_s": 0.0775,
+      "phase_timing_error_1deg_s": 0.008611111111111111,
+      "first_image_frequency_hz": 12.580645161290322
+    },
+    {
+      "target_frequency_hz_example": 0.3225806451612903,
+      "period_s": 3.1,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 32.25806451612903,
+      "required_interval_s": 0.031,
+      "phase_timing_error_1deg_s": 0.008611111111111111,
+      "first_image_frequency_hz": 31.93548387096774
+    },
+    {
+      "target_frequency_hz_example": 1.0,
+      "period_s": 1.0,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 40.0,
+      "required_interval_s": 0.025,
+      "phase_timing_error_1deg_s": 0.002777777777777778,
+      "first_image_frequency_hz": 39.0
+    },
+    {
+      "target_frequency_hz_example": 1.0,
+      "period_s": 1.0,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 100.0,
+      "required_interval_s": 0.01,
+      "phase_timing_error_1deg_s": 0.002777777777777778,
+      "first_image_frequency_hz": 99.0
+    },
+    {
+      "target_frequency_hz_example": 5.0,
+      "period_s": 0.2,
+      "points_per_cycle": 40,
+      "required_update_rate_hz": 200.0,
+      "required_interval_s": 0.005,
+      "phase_timing_error_1deg_s": 0.0005555555555555556,
+      "first_image_frequency_hz": 195.0
+    },
+    {
+      "target_frequency_hz_example": 5.0,
+      "period_s": 0.2,
+      "points_per_cycle": 100,
+      "required_update_rate_hz": 500.0,
+      "required_interval_s": 0.002,
+      "phase_timing_error_1deg_s": 0.0005555555555555556,
+      "first_image_frequency_hz": 495.0
+    }
+  ],
+  "quantization_examples": [
+    {
+      "points_per_cycle": 40,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 5.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 10.0,
+      "actual_sample_error_max_percent": 9.289321881345245,
+      "fundamental_amplitude_error_percent": 0.968324124881681,
+      "thd_all_harmonics_percent": 9.152452636964489,
+      "thd_harmonics_2_to_10_percent": 4.034188242593486
+    },
+    {
+      "points_per_cycle": 40,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 10.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 5.0,
+      "actual_sample_error_max_percent": 4.894348370484636,
+      "fundamental_amplitude_error_percent": 1.625394611634312,
+      "thd_all_harmonics_percent": 5.590606624382812,
+      "thd_harmonics_2_to_10_percent": 2.080345526248828
+    },
+    {
+      "points_per_cycle": 40,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 50.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 1.0,
+      "actual_sample_error_max_percent": 0.9016994374947558,
+      "fundamental_amplitude_error_percent": -0.2520484516306598,
+      "thd_all_harmonics_percent": 4.653513453463359,
+      "thd_harmonics_2_to_10_percent": 0.7052991549318094
+    },
+    {
+      "points_per_cycle": 40,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 100.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 0.5,
+      "actual_sample_error_max_percent": 0.3990499739547033,
+      "fundamental_amplitude_error_percent": -0.031363333288125794,
+      "thd_all_harmonics_percent": 4.54803867170648,
+      "thd_harmonics_2_to_10_percent": 0.20345415714369858
+    },
+    {
+      "points_per_cycle": 100,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 5.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 10.0,
+      "actual_sample_error_max_percent": 9.517294753397891,
+      "fundamental_amplitude_error_percent": 1.2911703537346053,
+      "thd_all_harmonics_percent": 7.6535221130841675,
+      "thd_harmonics_2_to_10_percent": 2.0677716399602573
+    },
+    {
+      "points_per_cycle": 100,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 10.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 5.0,
+      "actual_sample_error_max_percent": 4.894348370484636,
+      "fundamental_amplitude_error_percent": 0.14867734067194327,
+      "thd_all_harmonics_percent": 4.264774664455306,
+      "thd_harmonics_2_to_10_percent": 1.1959573195639441
+    },
+    {
+      "points_per_cycle": 100,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 50.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 1.0,
+      "actual_sample_error_max_percent": 0.9776485888251614,
+      "fundamental_amplitude_error_percent": -0.255942364230477,
+      "thd_all_harmonics_percent": 2.0258200676397964,
+      "thd_harmonics_2_to_10_percent": 0.5124319906371517
+    },
+    {
+      "points_per_cycle": 100,
+      "bias_ma_example": 200.0,
+      "modulation_peak_ma_example": 100.0,
+      "quantum_ma_assumed": 1.0,
+      "sample_error_upper_bound_percent_of_modulation_peak": 0.5,
+      "actual_sample_error_max_percent": 0.482705246601995,
+      "fundamental_amplitude_error_percent": -0.017999801947599092,
+      "thd_all_harmonics_percent": 1.8549595646626202,
+      "thd_harmonics_2_to_10_percent": 0.17672756504060755
+    }
+  ],
+  "numerical_checks": [
+    {
+      "N": 10,
+      "dense_gain_error": 1.0112558568309282e-09,
+      "dense_thd_error_percentage_points": 5.800467448580093e-07
+    },
+    {
+      "N": 20,
+      "dense_gain_error": 2.559652489964037e-10,
+      "dense_thd_error_percentage_points": 2.8504358162706467e-07
+    },
+    {
+      "N": 40,
+      "dense_gain_error": 6.418932052554283e-11,
+      "dense_thd_error_percentage_points": 1.419071553598883e-07
+    },
+    {
+      "N": 100,
+      "dense_gain_error": 1.02793329403994e-11,
+      "dense_thd_error_percentage_points": 5.669365776839186e-08
+    }
+  ],
+  "existing_hardware_evidence": {
+    "measured_update_rate_limit_hz": null,
+    "physical_output_settling_time_s": null,
+    "loaded_current_waveform_thd_percent": null,
+    "log_path": "local\\logs\\dps150_20261104_130536.jsonl",
+    "log_sha256": "d96ef913316edcb115115e94cc45219641fd391218eb6ae90d506bb3b83c7abe",
+    "snapshots": [
+      {
+        "elapsed_s": 1.6662,
+        "event": "snapshot",
+        "label": "initial",
+        "state": {
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.038997650146484,
+          "set_v": 0.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.130220413208008,
+          "output_on": false,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 2.9348,
+        "event": "snapshot",
+        "label": "disabled_before_test",
+        "state": {
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.026798248291016,
+          "set_v": 0.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.053939819335938,
+          "output_on": false,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 4.2301,
+        "event": "snapshot",
+        "label": "configured_1v_50ma",
+        "state": {
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.033796310424805,
+          "set_v": 1.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.181842803955078,
+          "output_on": false,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 7.6105,
+        "event": "snapshot",
+        "label": "enabled_1v",
+        "state": {
+          "out_v": 1.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.035396575927734,
+          "set_v": 1.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.170618057250977,
+          "output_on": true,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 9.912,
+        "event": "snapshot",
+        "label": "enabled_2v",
+        "state": {
+          "out_v": 2.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.033997535705566,
+          "set_v": 2.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.11450958251953,
+          "output_on": true,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 12.2297,
+        "event": "snapshot",
+        "label": "enabled_1v",
+        "state": {
+          "out_v": 1.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.033596992492676,
+          "set_v": 1.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.23349380493164,
+          "output_on": true,
+          "protection": 0,
+          "mode": "CV"
+        }
+      },
+      {
+        "elapsed_s": 13.6578,
+        "event": "snapshot",
+        "label": "final_output_off_zero_v",
+        "state": {
+          "out_v": 0.0,
+          "out_i": 0.0,
+          "out_w": 0.0,
+          "model": "DPS-150",
+          "hardware": "V1.0",
+          "firmware": "V1.2",
+          "input_v": 9.019397735595703,
+          "set_v": 0.0,
+          "set_i": 0.05000000074505806,
+          "temp_c": 28.17510986328125,
+          "output_on": false,
+          "protection": 0,
+          "mode": "CV"
+        }
+      }
+    ],
+    "voltage_commands_host_timestamps": [
+      {
+        "elapsed_s": 3.121,
+        "set_voltage_v": 1.0
+      },
+      {
+        "elapsed_s": 5.288,
+        "set_voltage_v": 1.0
+      },
+      {
+        "elapsed_s": 7.6112,
+        "set_voltage_v": 2.0
+      },
+      {
+        "elapsed_s": 9.9122,
+        "set_voltage_v": 1.0
+      },
+      {
+        "elapsed_s": 12.5401,
+        "set_voltage_v": 0.0
+      }
+    ],
+    "timing_interpretation": "Prior script deliberately waited; timestamps are not maximum throughput or analog response."
+  },
+  "sources": [
+    "https://www.analog.com/en/resources/technical-articles/equalizing-techniques-flatten-dac-frequency-response.html",
+    "https://www.fnirsi.com.cn/product/41.html",
+    "https://www.gamry.com/application-notes/eis/basics-of-electrochemical-impedance-spectroscopy/"
+  ],
+  "script_sha256": "3d5b72b585a15cadf2d9d98c29a2d08c86c6815980c23114fdd136ac7b5cebd6"
+}

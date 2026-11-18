@@ -1,0 +1,135 @@
+{
+  "acquisition": {
+    "source": "E:\\scope_1.csv",
+    "sha256": "4737a07c48863d9332409001e78892e0211ee577e19fdb4cd02818ceff79857f",
+    "points": 50000,
+    "sample_rate_hz": 100000.00000000407,
+    "time_start_s": -0.25,
+    "time_end_s": 0.24999,
+    "duration_with_final_sample_s": 0.4999999999999796,
+    "cycles_at_commanded_5hz": 2.4999999999998983,
+    "source_file_date_not_trusted": true,
+    "approximate_voltage_level_step_v": 0.04020100000000004,
+    "source_units": [
+      "second",
+      "Volt"
+    ]
+  },
+  "measured": {
+    "raw_mean_v": 1.8079565551460002,
+    "raw_min_v": 0.241206,
+    "raw_max_v": 3.6984924,
+    "raw_q01_q99_v": [
+      0.9648241,
+      2.9748743
+    ],
+    "smoothed_guard_min_v": 0.9975325003896642,
+    "smoothed_guard_max_v": 2.973583830719777,
+    "smoothed_peak_intervals_s": [
+      0.1799999999999927
+    ],
+    "smoothed_trough_intervals_s": [
+      0.1979999999999919
+    ]
+  },
+  "free_single_sine_fit": {
+    "frequency_hz": 5.173442167007153,
+    "dc_v": 1.8355727662796204,
+    "amplitudes_v": [
+      0.8591144656092365
+    ],
+    "residual_rms_v": 0.26220380180508845,
+    "residual_relative_to_base_rms_pct": 43.162138162297566,
+    "fitted_2to5_harmonic_ratio_pct": null
+  },
+  "fixed_5hz_full_raw_fit": {
+    "dc_v": 1.8405901474202997,
+    "amplitudes_v": [
+      0.8618457956879804
+    ],
+    "residual_rms_v": 0.28369805941109905,
+    "residual_relative_to_base_rms_pct": 46.552369953587025,
+    "fitted_2to5_harmonic_ratio_pct": null
+  },
+  "fixed_5hz_full_raw_low_order_harmonic_fit": {
+    "dc_v": 1.8417369037056537,
+    "amplitudes_v": [
+      0.8522494035715705,
+      0.16634713743270144,
+      0.07541813833926242,
+      0.020896569210543267,
+      0.007941720752367706
+    ],
+    "residual_rms_v": 0.2561695720462704,
+    "residual_relative_to_base_rms_pct": 42.508505319795596,
+    "fitted_2to5_harmonic_ratio_pct": 21.590881738296392
+  },
+  "fit_sensitivity_1khz_resampled_guarded": {
+    "nominal_5hz_h1_trend0": {
+      "dc_v": 1.8369656010383981,
+      "amplitudes_v": [
+        0.8611325383452574
+      ],
+      "residual_rms_v": 0.27824581589692793,
+      "residual_relative_to_base_rms_pct": 45.69552176847784,
+      "fitted_2to5_harmonic_ratio_pct": null
+    },
+    "nominal_5hz_h5_trend0": {
+      "dc_v": 1.8411284307261404,
+      "amplitudes_v": [
+        0.8531220169686505,
+        0.16522380230337058,
+        0.07607824654809227,
+        0.02130354500247982,
+        0.00778536026986475
+      ],
+      "residual_rms_v": 0.2505747249958645,
+      "residual_relative_to_base_rms_pct": 41.537572284936346,
+      "fitted_2to5_harmonic_ratio_pct": 21.48654632201856
+    },
+    "nominal_5hz_h5_trend1": {
+      "dc_v": 1.8411284307261415,
+      "amplitudes_v": [
+        0.8469230971541095,
+        0.17183262377389172,
+        0.07276584108509654,
+        0.013815742917972544,
+        0.010895865605092002
+      ],
+      "residual_rms_v": 0.23181654068119734,
+      "residual_relative_to_base_rms_pct": 38.70931102426988,
+      "fitted_2to5_harmonic_ratio_pct": 22.130984826025713
+    }
+  },
+  "current_conversion_assuming_measured_resistor_815ohm": {
+    "base_peak_ma": 1.0574795039116323,
+    "fitted_dc_ma": 2.2583928189206133,
+    "note": "Derived from scope voltage, not independent current-probe data"
+  },
+  "command_context": {
+    "source": "local\\logs\\dps150_pipe_20261105_151639\\commands.csv",
+    "sha256": "820f8c9100a178db280e7ff984078933f4fb30e71af0d80637826c22279e5380",
+    "points": 6000,
+    "intended_interval_ms": 5,
+    "interval_quantiles_ms": {
+      "min": 0.0562999994144775,
+      "median": 2.056799999991199,
+      "p95": 15.599940000174682,
+      "p99": 19.04878799989073,
+      "max": 60.67329999859794
+    },
+    "host_lateness_p95_ms": 36.67321499915489,
+    "host_lateness_max_ms": 62.043799998718896,
+    "intervals_over_10ms": 1513
+  },
+  "limitations": [
+    "Only 0.5 s; no reliable long-run repeatability or bandwidth limit",
+    "Single-sine residual includes harmonics, jitter, drift, pickup and noise, not THD",
+    "Harmonic ratio covers orders 2-5 only, assumes stationarity, and has few cycles; not standardized full-band THD",
+    "DC and frequency estimates depend on short-record model; raw average is phase-window dependent",
+    "Scope timing has no synchronized wall-clock marker with host log; causal point-by-point matching unavailable",
+    "Host send timestamps are not device execution timestamps",
+    "Cannot uniquely separate power supply, program scheduling, probe pickup and contact effects",
+    "This is a resistor voltage test, not electrochemical load or TC electric-field calibration"
+  ]
+}

@@ -1,0 +1,7 @@
+case,source,duration_s,full_blocks,detector,role,suspect
+4m1,D:\Lab\raw\raw\11.12\4m1\20261112221636.655241-1.tdms,125.7334475,25,TC2,scheduled,2;8;11
+3m1,D:\Lab\raw\raw\11.12\3m1\20261112222044.502692-1.tdms,121.6875975,24,TC2,scheduled,8;11
+2m1,D:\Lab\raw\raw\11.12\2m1\20261112222709.198418-1.tdms,130.3916525,26,TC2,scheduled,8;10;11
+back2,D:\Lab\raw\raw\11.12\back2\20261112220349.118017-1.tdms,137.37307,27,TC2,powered_stop,8;11
+back3,D:\Lab\raw\raw\11.12\back3\20261112220828.559891-1.tdms,111.73235,22,TC2,powered_stop,8;11
+back4,D:\Lab\raw\raw\11.12\back4\20261112221116.485990-1.tdms,161.603185,32,TC2,powered_stop,4;8;11

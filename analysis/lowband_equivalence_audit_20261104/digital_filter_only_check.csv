@@ -1,0 +1,4 @@
+﻿frequency_hz,points_per_cycle,predicted_continuous_hold_gain,predicted_continuous_hold_phase_deg,ideal_continuous_hold_thd_pct,numerical_lowpass_base_gain_ratio,numerical_grid_phase_deg,lowpassed_unaligned_nrmse_pct,lowpassed_grid_delay_aligned_nrmse_pct,scope
+1.0,200.0,0.9999588771556648,-0.9,0.9069220595705894,0.9999589799598602,-0.8549999999976019,1.4922176964863043,0.004102004026524589,SYNTHETIC voltage-output-domain; no hardware/field validation
+2.0,100.0,0.9998355147105485,-1.8,1.8139783982695268,0.9998359258765643,-1.7099999999956368,2.984202518857987,0.01640741234102969,SYNTHETIC voltage-output-domain; no hardware/field validation
+5.0,40.0,0.9989722332485385,-4.5,4.537297394411876,0.9989748008210672,-4.274999999991472,7.4564320156574615,0.10251991789108976,SYNTHETIC voltage-output-domain; no hardware/field validation

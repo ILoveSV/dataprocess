@@ -1,0 +1,58 @@
+{
+  "model": {
+    "length_m": 50,
+    "beam_m": 6,
+    "depth_m": 20,
+    "sigma_s_m": 4,
+    "iccp_dc_a": 10.0,
+    "steel_wet_area_m2": 840.8836689122004,
+    "coating_active_fraction": 0.02,
+    "steel_net_cathodic_a": 6.1391163689845705,
+    "rotation_and_ac_not_solved": true
+  },
+  "experimental_steel_area_m2": 0.020000000000000004,
+  "model_effective_steel_area_m2": 16.81767337824401,
+  "average_exposed_net_current_density_a_m2": 0.36503957657581626,
+  "experimental_current_at_same_mean_j_ma": 7.300791531516326,
+  "practical_starting_design": {
+    "sigma_s_m": 0.1,
+    "conductivity_us_cm": 1000,
+    "sigma_sensitivity_s_m": [
+      0.05,
+      0.2
+    ],
+    "effective_centroid_separation_m": 0.3,
+    "graphite_wetted_area_unknown": true,
+    "status": "Engineering starting point, NOT a uniquely derived scale model"
+  },
+  "hypothetical_exact_1to100_psm": {
+    "requires_same_geometry_material_polarization_and_boundaries": true,
+    "length_scale": 0.01,
+    "water_sigma_s_m": 0.04,
+    "dc_iccp_ma": 1,
+    "corresponding_E_scale": 100,
+    "note": "Steady electrochemical scaling only, not a dynamic similarity claim"
+  },
+  "caveats": [
+    "The two-electrode setup does not reproduce distributed hull/propeller/ICCP return currents",
+    "Steel and graphite area alone cannot uniquely determine conductivity or separation",
+    "1% and 10% are hypothetical field AC fractions, not computed propeller modulation",
+    "The measured TC output is not a calibrated water electric field",
+    "Historical TC receivers are in air; infinite-water values are not their inputs",
+    "A finite tank, surface, feed wires, common mode and electrode impedance require a dedicated model"
+  ],
+  "inputs": [
+    {
+      "path": "research\\01_vessel_background\\iccp_v1\\results\\base_10A_audit.csv",
+      "sha256": "fee6f56591947c7991274a192d9eb9ec67c80bc2af3f13f4012a66d2cd151aef"
+    },
+    {
+      "path": "research\\01_vessel_background\\iccp_v1\\parameters.properties",
+      "sha256": "3bb9b0a03dd8bab5b44a1f7940cd588fb35c8e3554462b20e04beea98de33273"
+    },
+    {
+      "path": "research\\01_vessel_background\\iccp_v1\\results\\base_10A_side_tidy.csv",
+      "sha256": "97c1609a597c59d3df38304945dba556a3ff2c9a10fdb8440de18945864280ac"
+    }
+  ]
+}

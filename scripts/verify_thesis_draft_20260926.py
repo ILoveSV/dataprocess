@@ -12,7 +12,7 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
-THESIS = ROOT / 'thesis/thesis_latex'
+THESIS = ROOT / 'thesis/history/thesis_latex'
 SNAPSHOT = ROOT / 'archive/snapshots/thesis_planning_20260926'
 
 
@@ -75,7 +75,7 @@ def main():
     log = (ROOT / 'local/tmp/pdfs/chapter01_20260926/chapter01_preview.log').read_text(encoding="utf-8", errors="replace")
     for token in ["Overfull \\hbox", "Overfull \\vbox", "Missing character:", "There were undefined references", "! LaTeX Error"]:
         assert token not in log, token
-    pdf = ROOT / 'deliverables/pdf/第一章_绪论_初稿_20260926.pdf'
+    pdf = ROOT / 'thesis/history/exports/第一章_绪论_初稿_20260926.pdf'
     reader = PdfReader(pdf)
     assert len(reader.pages) == 11
     assert all(len(page.extract_text().strip()) > 100 for page in reader.pages)

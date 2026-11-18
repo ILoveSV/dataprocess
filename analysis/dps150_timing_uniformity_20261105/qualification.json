@@ -1,0 +1,83 @@
+{
+  "qualified_rate_per_s": 20,
+  "qualification_date": "2026-11-05",
+  "qualification_kind": "Output-OFF empirical host/OS-write timing; not real-time guarantee",
+  "per_interval_tolerance_fraction": 0.1,
+  "abort_on_violation": true,
+  "no_catchup": true,
+  "output_enabled_by_tests": false,
+  "all_passed_stage_interval_min_ms": 49.53719999866735,
+  "all_passed_stage_interval_max_ms": 50.46330000004673,
+  "latest_60s_result": {
+    "rate_per_s": 20,
+    "expected_count": 1200,
+    "actual_count": 1200,
+    "complete": true,
+    "duration_between_first_last_s": 59.94997229999899,
+    "interval_min_ms": 49.53719999866735,
+    "interval_max_ms": 50.46330000004673,
+    "lateness_max_ms": 0.47360000098706223,
+    "write_duration_max_ms": 0.20430000040505547,
+    "duration_s": 60,
+    "failure": null,
+    "os_completed_writes": 1200,
+    "pass_all": true,
+    "ack_every_point": false,
+    "final_setpoint_readback_matches": true
+  },
+  "device_execution_time_verified": false,
+  "powered_waveform_not_tested_this_turn": true,
+  "rtscts": true,
+  "ack_every_point": false,
+  "quiet_session": false,
+  "evidence": [
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_153628\\summary.json",
+      "sha256": "227dc37c06a83569449fbab95a436645cbb6c8e3862faa3f3530b9d75bb866bb"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_153854\\summary.json",
+      "sha256": "51a98cfb1dd496156eed2c4658f367761653982f31a5cced0ae5e6ea88657815"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_154147\\summary.json",
+      "sha256": "bf754c31c06aab6163666133b45dd1bf1c06d37bbc3e4a7a04bf3778d5b1bfaf"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_154426\\summary.json",
+      "sha256": "4236b3945db4916abd4812224d3f415d28a33b31aaede231eaf32bf26d4e8007"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_154649\\summary.json",
+      "sha256": "f2ed48b4f973ad245db77970a30538332bdaaf9aa02cb05d97d96e08ac2d0f4e"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155025\\summary.json",
+      "sha256": "c7cbe1909526228c4d036ae175426a205d4f335a90533751128afd5b9c825294"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155203\\summary.json",
+      "sha256": "8f4a333e6ea8354a0fce04aecc65ee4ba139dd18dabdf457c597d94838537f3e"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155303\\summary.json",
+      "sha256": "f50f6836299f105bb94574cb8a1d0cfa20598efd0c1e6fd3030aae903c98edd5"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155409\\summary.json",
+      "sha256": "b1d5fa6bfb1a83b40173b627ba4aecd0915ef75bc503580449b15f9fe0db0872"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155521\\summary.json",
+      "sha256": "f41e923ca8691aa0df55a0753c8327d04ab94eaf7de989db07aea7e226ea346c"
+    },
+    {
+      "path": "local\\logs\\dps150_uniform_off_20261105_155633\\summary.json",
+      "sha256": "f1e4857a2f3a43cae5c0d04bb486941b9f7da9d4d4ae9322b5103e2728dde60b"
+    }
+  ],
+  "periodic_communication_pause_eliminated": false,
+  "known_write_completion_delay_max_ms": 39.52920000119775,
+  "diagnosis_path": "analysis\\dps150_pause_diagnosis_20261105\\evidence.json",
+  "qualification_does_not_establish_device_execution_uniformity": true
+}

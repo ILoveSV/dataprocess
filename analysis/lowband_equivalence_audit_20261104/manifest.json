@@ -1,0 +1,104 @@
+{
+  "real_data_scope": "Five archived records, per-file health; no classification or sensitivity calibration",
+  "synthetic_scope": "Ideal uniform ZOH-like voltage added at output-domain; not a physical electric field",
+  "processing": "4 kHz retained voltage -> 6th order 10 Hz Butterworth forward/backward -> polyphase 100 Hz; stable interval per metadata; PSD 0.1-10 Hz",
+  "caveats": [
+    "2 Hz fits in historical recordings are descriptive, not target detections",
+    "Whole-record raw STD and stable lowband PSD RMS use different intervals and bandwidths",
+    "100 Hz output is numerical processing, not a measured sensor bandwidth",
+    "No DPS150 sinusoidal-load TC acquisition exists among these inspected files",
+    "Digital grid hold is one 4kHz sample shorter in phase than continuous hold"
+  ],
+  "inputs": [
+    {
+      "case": "TC1_VFD_background",
+      "source_archive": "experiments/20260806/exact_archive/vfd_tc1_background",
+      "low_rate_sha256": "e4d08b2de57c85871469e1423ad887d7e0723dd85becbbaa20fa96ed00b9dc57",
+      "sample_rate_hz": 4000.0,
+      "archive_filter_frequencies_hz": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "archive_filter_gain": [
+        1.0057732147651317,
+        1.0057736700407114,
+        1.0057768563187401,
+        1.005788226743954
+      ]
+    },
+    {
+      "case": "TC2_VFD_background",
+      "source_archive": "experiments/20260806/exact_archive/vfd_tc2_background",
+      "low_rate_sha256": "31addbc8199641e75673c90a3c7ab1070063a1270e8d6ef4a527e1bcdf7fc293",
+      "sample_rate_hz": 4000.0,
+      "archive_filter_frequencies_hz": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "archive_filter_gain": [
+        1.0057732147651317,
+        1.0057736700407114,
+        1.0057768563187401,
+        1.005788226743954
+      ]
+    },
+    {
+      "case": "TC2_VFD_4k_50Hz",
+      "source_archive": "experiments/20260806/exact_archive/vfd_tc2_4k_50hz",
+      "low_rate_sha256": "14b653f32a36ba1bde42d9b2c32a5a2c021fdf8ee30f9b104ed9cef11649ea44",
+      "sample_rate_hz": 4000.0,
+      "archive_filter_frequencies_hz": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "archive_filter_gain": [
+        1.0057732147651317,
+        1.0057736700407114,
+        1.0057768563187401,
+        1.005788226743954
+      ]
+    },
+    {
+      "case": "TC2_CP_background",
+      "source_archive": "experiments/20260811_2/exact_archive/bkg__20260811201213.087736-1",
+      "low_rate_sha256": "9ca294a4857cc1a45c11ca294aa4d7a70e3c27c14a3e124c994a9df70be1f816",
+      "sample_rate_hz": 4000.0,
+      "archive_filter_frequencies_hz": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "archive_filter_gain": [
+        1.0057732147651317,
+        1.0057736700407114,
+        1.0057768563187401,
+        1.005788226743954
+      ]
+    },
+    {
+      "case": "TC2_CP_3000mA_label",
+      "source_archive": "experiments/20260811_2/exact_archive/cp3000near__20260811203210.252604-1",
+      "low_rate_sha256": "9544ad6845d1a056613e6277355daf8ce173ddac6d080ef60dcbe2d3fbeb976f",
+      "sample_rate_hz": 4000.0,
+      "archive_filter_frequencies_hz": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "archive_filter_gain": [
+        1.0057732147651317,
+        1.0057736700407114,
+        1.0057768563187401,
+        1.005788226743954
+      ]
+    }
+  ]
+}

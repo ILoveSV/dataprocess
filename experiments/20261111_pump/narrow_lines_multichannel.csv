@@ -1,0 +1,5 @@
+case,stage,state,frequency_hz,supporting_channels
+3-2_early,3,50Hz,139612,3
+3-2_early,3,50Hz,139613,4
+3-2_early,3,50Hz,139614,4
+3-2_early,3,50Hz,139615,3
